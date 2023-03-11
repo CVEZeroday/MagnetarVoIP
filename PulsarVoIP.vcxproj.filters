@@ -13,10 +13,88 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="Source Files\init">
+      <UniqueIdentifier>{d3b04c5a-038f-43df-9604-bfc08f404424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\networking">
+      <UniqueIdentifier>{8296c2e3-b450-494a-abcc-e8616b8f6f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ux">
+      <UniqueIdentifier>{bdab7845-6d22-48fa-9025-d627c2a6592a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\networking\audio">
+      <UniqueIdentifier>{4cd99cd1-0c24-43c8-8917-687bfb81ec4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\networking\chat">
+      <UniqueIdentifier>{b5d720c4-9c99-47d8-aece-2522e1c478df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ux\cli">
+      <UniqueIdentifier>{a5065c40-e0a6-4506-b444-66d389160755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ux\tui">
+      <UniqueIdentifier>{e0cd6c4b-f698-41aa-a62f-7f90726ae403}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\init\init.cc">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\init</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init\init_cppserver.cc">
+      <Filter>Source Files\init</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init\init_opus.cc">
+      <Filter>Source Files\init</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init\init_soundio.cc">
+      <Filter>Source Files\init</Filter>
+    </ClCompile>
+    <ClCompile Include="src\networking\nw_configure.cc">
+      <Filter>Source Files\networking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\networking\nw_interface.cc">
+      <Filter>Source Files\networking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\networking\nw_server.cc">
+      <Filter>Source Files\networking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\networking\nw_client.cc">
+      <Filter>Source Files\networking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\networking\audio\aio_micio.cc">
+      <Filter>Source Files\networking\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\networking\audio\aio_opus.cc">
+      <Filter>Source Files\networking\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\networking\audio\aio_configure.cc">
+      <Filter>Source Files\networking\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\networking\chat\cht_packing.cc">
+      <Filter>Source Files\networking\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\networking\chat\cht_unpacking.cc">
+      <Filter>Source Files\networking\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ux\tui\tui_interface.cc">
+      <Filter>Source Files\ux\tui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ux\tui\tui_interpret.cc">
+      <Filter>Source Files\ux\tui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ux\tui\tui_update.cc">
+      <Filter>Source Files\ux\tui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ux\tui\tui_init.cc">
+      <Filter>Source Files\ux\tui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ux\cli\cli_interface.cc">
+      <Filter>Source Files\ux\cli</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ux\cli\cli_interpret.cc">
+      <Filter>Source Files\ux\cli</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ux\cli\cli_init.cc">
+      <Filter>Source Files\ux\cli</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
