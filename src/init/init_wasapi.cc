@@ -4,7 +4,7 @@
 /*     Copyrights (C) 2023 CVE_zeroday.    */
 /*          All rights reserved            */
 /*******************************************/
-/*       File Name: init_soundio.cc        */
+/*       File Name: init_wasapi.cc        */
 /*   Created by CVE_zeroday on 12.03.2023  */
 /*               (T.Y.Kim)                 */
 /*******************************************/

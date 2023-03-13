@@ -1,30 +1,37 @@
-/*******************************************/
-/* This source code is part of PulsarVoIP  */
-/*******************************************/
-/*     Copyrights (C) 2023 CVE_zeroday.    */
-/*          All rights reserved            */
-/*******************************************/
-/*           File Name: init.cc            */
-/*   Created by CVE_zeroday on 09.03.2023  */
-/*               (T.Y.Kim)                 */
-/*******************************************/
+/********************************************/
+/* This source code is part of MagnetarVoIP */
+/********************************************/
+/*     Copyrights (C) 2023 CVE_zeroday.     */
+/*          All rights reserved             */
+/********************************************/
+/*           File Name: init.cc             */
+/*   Created by CVE_zeroday on 09.03.2023   */
+/*               (T.Y.Kim)                  */
+/********************************************/
 
+#ifdef _MSC_VER
 #pragma comment(lib, "asio.lib")
 #pragma comment(lib, "cppbenchmark.lib")
 #pragma comment(lib, "cpp-optparse.lib")
 #pragma comment(lib, "cppserver.lib")
 #pragma comment(lib, "libsoundio.lib")
 #pragma comment(lib, "opus.lib")
+#else
+#ifdef __GNUC__
+
+#endif
+#endif
 
 #include <thread>
 #include <iostream>
 
+#include <magnetarvoip/init.h>
 #include <optparse/OptionParser.h>
-
-
 
 int main(int argc, char** argv)
 {
+	int n = 10;
+	printf("%d", n);
 	auto parser = optparse::OptionParser().version("1.0.0.0");
 
 	parser.add_option("-a", "--address").dest("address").set_default("127.0.0.1").help("Destination Address. Default: %default");
