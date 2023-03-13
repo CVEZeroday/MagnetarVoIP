@@ -1,1 +1,1 @@
-# PulsarVoIP
+# MagnetarVoIP
