@@ -25,7 +25,7 @@
 #include <thread>
 #include <iostream>
 
-#include <magnetarvoip/init.h>
+#include <magnetarvoip/magnetar.h>
 #include <optparse/OptionParser.h>
 
 int main(int argc, char** argv)
@@ -45,4 +45,6 @@ int main(int argc, char** argv)
 		parser.print_help();
 		return 0;
 	}
+
+	cli_init();
 }
