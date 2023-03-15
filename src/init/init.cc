@@ -13,6 +13,7 @@
 #include <iostream>
 
 #include <magnetar.h>
+#include <include_all.h>
 #include <optparse/OptionParser.h>
 
 void returnError(int err)
