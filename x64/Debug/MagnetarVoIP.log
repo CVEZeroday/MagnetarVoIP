@@ -1,23 +1,5 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (PulsarVoIP.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  init.cc
-  init_cppserver.cc
-  init_opus.cc
-  init_wasapi.cc
-  aio_configure.cc
-  aio_micio.cc
-  aio_opus.cc
-  cht_packing.cc
-  cht_unpacking.cc
-  nw_client.cc
-  nw_configure.cc
-  nw_interface.cc
-  nw_server.cc
-  cli_init.cc
-  cli_interface.cc
-  cli_interpret.cc
-  tui_init.cc
-  tui_interface.cc
-  tui_interpret.cc
-  tui_update.cc
-  Generating Code...
+  init_audiograph.cc
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wingdi.h(118,1): warning C4005: 'ERROR': macro redefinition
+D:\MagnetarVoIP\include\magnetarvoip\macros.h(13,1): message : see previous definition of 'ERROR'
   MagnetarVoIP.vcxproj -> D:\MagnetarVoIP\x64\Debug\MagnetarVoIP.exe

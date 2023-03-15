@@ -21,10 +21,7 @@
     <ClCompile Include="src\init\init_cppserver.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\init\init_opus.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\init\init_wasapi.cc">
+    <ClCompile Include="src\init\init_opus.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\networking\nw_client.cc">
@@ -39,40 +36,43 @@
     <ClCompile Include="src\networking\nw_server.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\networking\audio\aio_configure.cc">
+    <ClCompile Include="src\networking\audio\aio_configure.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\networking\audio\aio_micio.cc">
+    <ClCompile Include="src\networking\audio\aio_micio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\networking\audio\aio_opus.cc">
+    <ClCompile Include="src\networking\audio\aio_opus.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\networking\chat\cht_packing.cc">
+    <ClCompile Include="src\networking\chat\cht_packing.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\networking\chat\cht_unpacking.cc">
+    <ClCompile Include="src\networking\chat\cht_unpacking.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ux\cli\cli_init.cc">
+    <ClCompile Include="src\ux\cli\cli_interface.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ux\cli\cli_interface.cc">
+    <ClCompile Include="src\ux\cli\cli_interpret.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ux\cli\cli_interpret.cc">
+    <ClCompile Include="src\ux\tui\tui_interface.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ux\tui\tui_init.cc">
+    <ClCompile Include="src\ux\tui\tui_interpret.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ux\tui\tui_interface.cc">
+    <ClCompile Include="src\ux\tui\tui_update.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ux\tui\tui_interpret.cc">
+    <ClCompile Include="src\init\init_miniaudio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ux\tui\tui_update.cc">
+    <ClCompile Include="src\init\init_cli.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init\init_tui.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -173,9 +173,6 @@
     <ClInclude Include="include\cppserver\ws\ws_session.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\cli_init.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\magnetarvoip\init.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -201,6 +198,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\opus\opus_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magnetarvoip\include_all.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magnetarvoip\init_cli.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magnetarvoip\init_miniaudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magnetarvoip\init_cppserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magnetarvoip\macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magnetarvoip\settings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

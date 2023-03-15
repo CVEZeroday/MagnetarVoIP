@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\init"
   ],
+  "SelectedNode": "\\MagnetarVoIP.sln",
   "PreviewInSolutionExplorer": false
 }

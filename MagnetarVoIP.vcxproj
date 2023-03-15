@@ -105,7 +105,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Link>
       <AdditionalLibraryDirectories>D:\MagnetarVoIP\lib\windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>asio.lib;cppbenchmark.lib;cpp-optparse.lib;cppserver.lib;opus.lib;cppwinrt_fast_forwarder.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>asio.lib;cppbenchmark.lib;cpp-optparse.lib;cppserver.lib;opus.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ClCompile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -113,25 +113,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\init\init.cc" />
+    <ClCompile Include="src\init\init_cli.c" />
     <ClCompile Include="src\init\init_cppserver.cc" />
-    <ClCompile Include="src\init\init_opus.cc" />
-    <ClCompile Include="src\init\init_audiograph.cc" />
-    <ClCompile Include="src\networking\audio\aio_configure.cc" />
-    <ClCompile Include="src\networking\audio\aio_micio.cc" />
-    <ClCompile Include="src\networking\audio\aio_opus.cc" />
-    <ClCompile Include="src\networking\chat\cht_packing.cc" />
-    <ClCompile Include="src\networking\chat\cht_unpacking.cc" />
+    <ClCompile Include="src\init\init_opus.c" />
+    <ClCompile Include="src\init\init_miniaudio.c" />
+    <ClCompile Include="src\init\init_tui.c" />
+    <ClCompile Include="src\networking\audio\aio_configure.c" />
+    <ClCompile Include="src\networking\audio\aio_micio.c" />
+    <ClCompile Include="src\networking\audio\aio_opus.c" />
+    <ClCompile Include="src\networking\chat\cht_packing.c" />
+    <ClCompile Include="src\networking\chat\cht_unpacking.c" />
     <ClCompile Include="src\networking\nw_client.cc" />
     <ClCompile Include="src\networking\nw_configure.cc" />
     <ClCompile Include="src\networking\nw_interface.cc" />
     <ClCompile Include="src\networking\nw_server.cc" />
-    <ClCompile Include="src\ux\cli\init_cli.cc" />
-    <ClCompile Include="src\ux\cli\cli_interface.cc" />
-    <ClCompile Include="src\ux\cli\cli_interpret.cc" />
-    <ClCompile Include="src\ux\tui\init_tui.cc" />
-    <ClCompile Include="src\ux\tui\tui_interface.cc" />
-    <ClCompile Include="src\ux\tui\tui_interpret.cc" />
-    <ClCompile Include="src\ux\tui\tui_update.cc" />
+    <ClCompile Include="src\ux\cli\cli_interface.c" />
+    <ClCompile Include="src\ux\cli\cli_interpret.c" />
+    <ClCompile Include="src\ux\tui\tui_interface.c" />
+    <ClCompile Include="src\ux\tui\tui_interpret.c" />
+    <ClCompile Include="src\ux\tui\tui_update.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\cppserver\asio\asio.h" />
@@ -169,7 +169,7 @@
     <ClInclude Include="include\magnetarvoip\include_all.h" />
     <ClInclude Include="include\magnetarvoip\init_cli.h" />
     <ClInclude Include="include\magnetarvoip\init.h" />
-    <ClInclude Include="include\magnetarvoip\init_audiograph.h" />
+    <ClInclude Include="include\magnetarvoip\init_miniaudio.h" />
     <ClInclude Include="include\magnetarvoip\init_cppserver.h" />
     <ClInclude Include="include\magnetarvoip\macros.h" />
     <ClInclude Include="include\magnetarvoip\magnetar.h" />

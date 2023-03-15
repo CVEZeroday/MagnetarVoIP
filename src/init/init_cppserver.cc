@@ -14,4 +14,5 @@
 int init_cppserver()
 {
 
+	return 0;
 }
