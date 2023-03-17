@@ -18,9 +18,9 @@
 
 void returnError(int err)
 {
-	if (err == INIT_MINIAUDIO_ERROR)
+	if (err == INIT_AUDIOGRAPH_ERROR)
 	{
-		printf("audio io module error occured: initiating");
+		printf("audiograph error occured: initiating");
 		return;
 	}
 }
@@ -43,9 +43,9 @@ int main(int argc, char** argv)
 		return 0;
 	}
 
-	if (init_miniaudio() == ERROR)
+	if (init_audiograph() == ERROR)
 	{
-		returnError(INIT_MINIAUDIO_ERROR);
+		returnError(INIT_AUDIOGRAPH_ERROR);
 		return 1;
 	}
 	if (init_cppserver() == ERROR)

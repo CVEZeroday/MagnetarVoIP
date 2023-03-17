@@ -20,3 +20,11 @@
 *.exe
 *.out
 *.app
+
+# Exclude .git/
+.git/*
+!.git/.placeholder
+
+# Exclude .vs/
+.vs/*
+!.vs/.placeholder

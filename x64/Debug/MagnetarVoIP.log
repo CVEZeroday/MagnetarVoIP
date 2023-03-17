@@ -1,5 +1,93 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (PulsarVoIP.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  init_audiograph.cc
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wingdi.h(118,1): warning C4005: 'ERROR': macro redefinition
-D:\MagnetarVoIP\include\magnetarvoip\macros.h(13,1): message : see previous definition of 'ERROR'
-  MagnetarVoIP.vcxproj -> D:\MagnetarVoIP\x64\Debug\MagnetarVoIP.exe
+  nw_client.cc
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+D:\MagnetarVoIP\include\errors\exceptions.inl(11,62): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\sstream(20,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(40,36): error C2039: 'wstring_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(40,49): error C2061: syntax error: identifier 'wstring_view'
+D:\MagnetarVoIP\include\string\encoding.h(49,39): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(49,51): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\string\encoding.h(56,44): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(56,56): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\string\encoding.h(62,44): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(62,56): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\string\encoding.h(69,41): error C2039: 'u16string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(69,56): error C2061: syntax error: identifier 'u16string_view'
+D:\MagnetarVoIP\include\string\encoding.h(75,45): error C2039: 'u16string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(75,60): error C2061: syntax error: identifier 'u16string_view'
+D:\MagnetarVoIP\include\string\encoding.h(82,41): error C2039: 'u32string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(82,56): error C2061: syntax error: identifier 'u32string_view'
+D:\MagnetarVoIP\include\string\encoding.h(88,45): error C2039: 'u32string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(88,60): error C2061: syntax error: identifier 'u32string_view'
+D:\MagnetarVoIP\include\string\encoding.h(95,42): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(95,54): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\string\encoding.h(101,42): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(101,54): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\string\encoding.h(108,42): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(108,54): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\string\encoding.h(114,42): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(114,54): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\string\encoding.h(121,42): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(121,54): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\string\encoding.h(127,42): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(127,54): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\string\encoding.h(134,39): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(134,51): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\string\encoding.h(140,39): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\string\encoding.h(140,51): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\filesystem\path.h(108,49): error C2660: 'CppCommon::Encoding::ToUTF8': function does not take 1 arguments
+D:\MagnetarVoIP\include\string\encoding.h(40,24): message : see declaration of 'CppCommon::Encoding::ToUTF8'
+D:\MagnetarVoIP\include\filesystem\path.h(108,49): message : while trying to match the argument list '(const wchar_t *)'
+D:\MagnetarVoIP\include\filesystem\path.h(113,54): error C2660: 'CppCommon::Encoding::ToUTF8': function does not take 1 arguments
+D:\MagnetarVoIP\include\string\encoding.h(40,24): message : see declaration of 'CppCommon::Encoding::ToUTF8'
+D:\MagnetarVoIP\include\filesystem\path.h(113,54): message : while trying to match the argument list '(const std::wstring)'
+D:\MagnetarVoIP\include\filesystem\path.h(153,53): error C2660: 'CppCommon::Encoding::FromUTF8': function does not take 1 arguments
+D:\MagnetarVoIP\include\string\encoding.h(49,25): message : see declaration of 'CppCommon::Encoding::FromUTF8'
+D:\MagnetarVoIP\include\filesystem\path.h(153,53): message : while trying to match the argument list '(const std::string)'
+D:\MagnetarVoIP\include\filesystem\path.inl(47,57): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\string_view(13): warning STL4038: The contents of <string_view> are available only with C++17 or later.
+D:\MagnetarVoIP\include\system\uuid.inl(26,57): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(165,30): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(165,42): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(181,30): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(181,42): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(181,20): error C2535: 'size_t CppServer::Asio::TCPClient::Send(void)': member function already defined or declared
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(165,20): message : see declaration of 'CppServer::Asio::TCPClient::Send'
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(195,33): error C2039: 'string_view': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\bitset(22,1): message : see declaration of 'std'
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(195,45): error C2061: syntax error: identifier 'string_view'
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(165,62): error C2065: 'text': undeclared identifier
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(165,75): error C2065: 'text': undeclared identifier
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(165,57): error C2661: 'CppServer::Asio::TCPClient::Send': no overloaded function takes 1 arguments
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(165,57): message : while trying to match the argument list '()'
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(181,98): error C2065: 'text': undeclared identifier
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(181,111): error C2065: 'text': undeclared identifier
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(181,124): error C2065: 'timeout': undeclared identifier
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(195,70): error C2065: 'text': undeclared identifier
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(195,83): error C2065: 'text': undeclared identifier
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(195,60): error C2661: 'CppServer::Asio::TCPClient::SendAsync': no overloaded function takes 1 arguments
+D:\MagnetarVoIP\include\cppserver\asio\tcp_client.h(195,60): message : while trying to match the argument list '()'
+D:\MagnetarVoIP\src\networking\nw_client.cc(27,7): error C3668: 'NetworkingClient::onCreated': method with override specifier 'override' did not override any base class methods

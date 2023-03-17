@@ -11,12 +11,21 @@
 
 #include "magnetar.h"
 #include "init_miniaudio.h"
+<<<<<<< HEAD
 #include "aio.h"
-
-#include <threads.h>
+=======
+>>>>>>> parent of f6cab97 (2023.3.16)
 
 int init_miniaudio()
 {
 	
 	return 0;
+}
+
+void init_miniaudio_playback()
+{
+	ma_device_config playback_config = ma_device_config_init(ma_device_type_playback);
+	playback_config.playback.format = ma_format_s32;
+	playback_config.playback.channels = 0;
+	playback_config.wasapi.noAutoConvertSRC = MA_TRUE;
 }

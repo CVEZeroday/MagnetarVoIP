@@ -11,7 +11,7 @@
 /********************************************/
 
 #define ERROR -1
-#define INIT_MINIAUDIO_ERROR 5000
+#define INIT_AUDIOGRAPH_ERROR 5000
 #define INIT_CPPSERVER_ERROR 5001
 #define INIT_CLI_ERROR 5002
 #define INIT_TUI_ERROR 5003

@@ -10,10 +10,15 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#define MA_NO_DECODING
-#define MA_NO_ENCODING
-#define MINIAUDIO_IMPLEMENTATION
-#include <miniaudio/miniaudio.h>
+#ifdef __cplusplus
+extern "C" {
+#endif
+/********************************************/
 
 int init_miniaudio_capture();
 int init_miniaudio_playback();
+
+/********************************************/
+#ifdef __cplusplus
+}
+#endif

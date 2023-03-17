@@ -15,13 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\audio\aio_capture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\aio_configure.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio\aio_playback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chat\cht_packing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chat\cht_unpacking.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="src\init\init.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init\init_cli.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\init\init_cppserver.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\init\init_miniaudio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="src\init\init_opus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init\init_tui.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miniaudio\miniaudio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\networking\nw_client.cc">
@@ -34,21 +61,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\networking\nw_server.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\networking\audio\aio_configure.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\networking\audio\aio_micio.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\networking\audio\aio_opus.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\networking\chat\cht_packing.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\networking\chat\cht_unpacking.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\ux\cli\cli_interface.c">
@@ -66,20 +78,8 @@
     <ClCompile Include="src\ux\tui\tui_update.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\init\init_miniaudio.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\init\init_cli.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\init\init_tui.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\cppserver\version.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\cppserver\asio\asio.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -128,15 +128,6 @@
     <ClInclude Include="include\cppserver\http\http.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\cppserver\http\https_client.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\cppserver\http\https_server.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\cppserver\http\https_session.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\cppserver\http\http_client.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -152,16 +143,16 @@
     <ClInclude Include="include\cppserver\http\http_session.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\cppserver\http\https_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cppserver\http\https_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cppserver\http\https_session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="include\cppserver\ws\ws.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\cppserver\ws\wss_client.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\cppserver\ws\wss_server.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\cppserver\ws\wss_session.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\cppserver\ws\ws_client.h">
@@ -173,49 +164,49 @@
     <ClInclude Include="include\cppserver\ws\ws_session.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\init.h">
+    <ClInclude Include="include\cppserver\ws\wss_client.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\magnetar.h">
+    <ClInclude Include="include\cppserver\ws\wss_server.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\optparse\OptionParser.h">
+    <ClInclude Include="include\cppserver\ws\wss_session.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\opus\opus.h">
+    <ClInclude Include="include\cppserver\version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\opus\opus_custom.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\opus\opus_defines.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\opus\opus_multistream.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\opus\opus_projection.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\opus\opus_types.h">
+    <ClInclude Include="include\magnetarvoip\aio.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\magnetarvoip\include_all.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\init_cli.h">
+    <ClInclude Include="include\magnetarvoip\init.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\init_miniaudio.h">
+    <ClInclude Include="include\magnetarvoip\init_cli.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\magnetarvoip\init_cppserver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\magnetarvoip\init_miniaudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="include\magnetarvoip\macros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\magnetarvoip\magnetar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="include\magnetarvoip\settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\miniaudio\miniaudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\optparse\OptionParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

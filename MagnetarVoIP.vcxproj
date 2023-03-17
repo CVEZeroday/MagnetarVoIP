@@ -18,6 +18,80 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\audio\aio_capture.c" />
+    <ClCompile Include="src\audio\aio_configure.c" />
+    <ClCompile Include="src\audio\aio_playback.c" />
+    <ClCompile Include="src\chat\cht_packing.c" />
+    <ClCompile Include="src\chat\cht_unpacking.c" />
+    <ClCompile Include="src\init\init.cc" />
+    <ClCompile Include="src\init\init_cli.c" />
+    <ClCompile Include="src\init\init_cppserver.cc" />
+    <ClCompile Include="src\init\init_miniaudio.c" />
+    <ClCompile Include="src\init\init_opus.c" />
+    <ClCompile Include="src\init\init_tui.c" />
+    <ClCompile Include="src\miniaudio\miniaudio.c" />
+    <ClCompile Include="src\networking\nw_client.cc" />
+    <ClCompile Include="src\networking\nw_configure.cc" />
+    <ClCompile Include="src\networking\nw_interface.cc" />
+    <ClCompile Include="src\networking\nw_server.cc" />
+    <ClCompile Include="src\ux\cli\cli_interface.c" />
+    <ClCompile Include="src\ux\cli\cli_interpret.c" />
+    <ClCompile Include="src\ux\tui\tui_interface.c" />
+    <ClCompile Include="src\ux\tui\tui_interpret.c" />
+    <ClCompile Include="src\ux\tui\tui_update.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\cppserver\asio\asio.h" />
+    <ClInclude Include="include\cppserver\asio\memory.h" />
+    <ClInclude Include="include\cppserver\asio\service.h" />
+    <ClInclude Include="include\cppserver\asio\ssl_client.h" />
+    <ClInclude Include="include\cppserver\asio\ssl_context.h" />
+    <ClInclude Include="include\cppserver\asio\ssl_server.h" />
+    <ClInclude Include="include\cppserver\asio\ssl_session.h" />
+    <ClInclude Include="include\cppserver\asio\tcp_client.h" />
+    <ClInclude Include="include\cppserver\asio\tcp_resolver.h" />
+    <ClInclude Include="include\cppserver\asio\tcp_server.h" />
+    <ClInclude Include="include\cppserver\asio\tcp_session.h" />
+    <ClInclude Include="include\cppserver\asio\timer.h" />
+    <ClInclude Include="include\cppserver\asio\udp_client.h" />
+    <ClInclude Include="include\cppserver\asio\udp_resolver.h" />
+    <ClInclude Include="include\cppserver\asio\udp_server.h" />
+    <ClInclude Include="include\cppserver\http\http.h" />
+    <ClInclude Include="include\cppserver\http\https_client.h" />
+    <ClInclude Include="include\cppserver\http\https_server.h" />
+    <ClInclude Include="include\cppserver\http\https_session.h" />
+    <ClInclude Include="include\cppserver\http\http_client.h" />
+    <ClInclude Include="include\cppserver\http\http_request.h" />
+    <ClInclude Include="include\cppserver\http\http_response.h" />
+    <ClInclude Include="include\cppserver\http\http_server.h" />
+    <ClInclude Include="include\cppserver\http\http_session.h" />
+    <ClInclude Include="include\cppserver\version.h" />
+    <ClInclude Include="include\cppserver\ws\ws.h" />
+    <ClInclude Include="include\cppserver\ws\wss_client.h" />
+    <ClInclude Include="include\cppserver\ws\wss_server.h" />
+    <ClInclude Include="include\cppserver\ws\wss_session.h" />
+    <ClInclude Include="include\cppserver\ws\ws_client.h" />
+    <ClInclude Include="include\cppserver\ws\ws_server.h" />
+    <ClInclude Include="include\cppserver\ws\ws_session.h" />
+    <ClInclude Include="include\magnetarvoip\aio.h" />
+    <ClInclude Include="include\magnetarvoip\include_all.h" />
+    <ClInclude Include="include\magnetarvoip\init.h" />
+    <ClInclude Include="include\magnetarvoip\init_cli.h" />
+    <ClInclude Include="include\magnetarvoip\init_cppserver.h" />
+    <ClInclude Include="include\magnetarvoip\init_miniaudio.h" />
+    <ClInclude Include="include\magnetarvoip\macros.h" />
+    <ClInclude Include="include\magnetarvoip\magnetar.h" />
+    <ClInclude Include="include\magnetarvoip\settings.h" />
+    <ClInclude Include="include\miniaudio\miniaudio.h" />
+    <ClInclude Include="include\optparse\OptionParser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\cppserver\asio\asio.inl" />
+    <None Include="include\cppserver\asio\memory.inl" />
+    <None Include="include\cppserver\http\http_request.inl" />
+    <None Include="include\cppserver\http\http_response.inl" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <ProjectGuid>{65619911-089D-40D1-9AAC-28FAF9B3A4CB}</ProjectGuid>
@@ -105,89 +179,12 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Link>
       <AdditionalLibraryDirectories>D:\MagnetarVoIP\lib\windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>asio.lib;cppbenchmark.lib;cpp-optparse.lib;cppserver.lib;opus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>asio.lib;cppbenchmark.lib;cpp-optparse.lib;cppserver.lib;opus.lib;proto.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ClCompile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="src\init\init.cc" />
-    <ClCompile Include="src\init\init_cli.c" />
-    <ClCompile Include="src\init\init_cppserver.cc" />
-    <ClCompile Include="src\init\init_opus.c" />
-    <ClCompile Include="src\init\init_miniaudio.c" />
-    <ClCompile Include="src\init\init_tui.c" />
-    <ClCompile Include="src\networking\audio\aio_configure.c" />
-    <ClCompile Include="src\networking\audio\aio_micio.c" />
-    <ClCompile Include="src\networking\audio\aio_opus.c" />
-    <ClCompile Include="src\networking\chat\cht_packing.c" />
-    <ClCompile Include="src\networking\chat\cht_unpacking.c" />
-    <ClCompile Include="src\networking\nw_client.cc" />
-    <ClCompile Include="src\networking\nw_configure.cc" />
-    <ClCompile Include="src\networking\nw_interface.cc" />
-    <ClCompile Include="src\networking\nw_server.cc" />
-    <ClCompile Include="src\ux\cli\cli_interface.c" />
-    <ClCompile Include="src\ux\cli\cli_interpret.c" />
-    <ClCompile Include="src\ux\tui\tui_interface.c" />
-    <ClCompile Include="src\ux\tui\tui_interpret.c" />
-    <ClCompile Include="src\ux\tui\tui_update.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="include\cppserver\asio\asio.h" />
-    <ClInclude Include="include\cppserver\asio\memory.h" />
-    <ClInclude Include="include\cppserver\asio\service.h" />
-    <ClInclude Include="include\cppserver\asio\ssl_client.h" />
-    <ClInclude Include="include\cppserver\asio\ssl_context.h" />
-    <ClInclude Include="include\cppserver\asio\ssl_server.h" />
-    <ClInclude Include="include\cppserver\asio\ssl_session.h" />
-    <ClInclude Include="include\cppserver\asio\tcp_client.h" />
-    <ClInclude Include="include\cppserver\asio\tcp_resolver.h" />
-    <ClInclude Include="include\cppserver\asio\tcp_server.h" />
-    <ClInclude Include="include\cppserver\asio\tcp_session.h" />
-    <ClInclude Include="include\cppserver\asio\timer.h" />
-    <ClInclude Include="include\cppserver\asio\udp_client.h" />
-    <ClInclude Include="include\cppserver\asio\udp_resolver.h" />
-    <ClInclude Include="include\cppserver\asio\udp_server.h" />
-    <ClInclude Include="include\cppserver\http\http.h" />
-    <ClInclude Include="include\cppserver\http\https_client.h" />
-    <ClInclude Include="include\cppserver\http\https_server.h" />
-    <ClInclude Include="include\cppserver\http\https_session.h" />
-    <ClInclude Include="include\cppserver\http\http_client.h" />
-    <ClInclude Include="include\cppserver\http\http_request.h" />
-    <ClInclude Include="include\cppserver\http\http_response.h" />
-    <ClInclude Include="include\cppserver\http\http_server.h" />
-    <ClInclude Include="include\cppserver\http\http_session.h" />
-    <ClInclude Include="include\cppserver\version.h" />
-    <ClInclude Include="include\cppserver\ws\ws.h" />
-    <ClInclude Include="include\cppserver\ws\wss_client.h" />
-    <ClInclude Include="include\cppserver\ws\wss_server.h" />
-    <ClInclude Include="include\cppserver\ws\wss_session.h" />
-    <ClInclude Include="include\cppserver\ws\ws_client.h" />
-    <ClInclude Include="include\cppserver\ws\ws_server.h" />
-    <ClInclude Include="include\cppserver\ws\ws_session.h" />
-    <ClInclude Include="include\magnetarvoip\include_all.h" />
-    <ClInclude Include="include\magnetarvoip\init_cli.h" />
-    <ClInclude Include="include\magnetarvoip\init.h" />
-    <ClInclude Include="include\magnetarvoip\init_miniaudio.h" />
-    <ClInclude Include="include\magnetarvoip\init_cppserver.h" />
-    <ClInclude Include="include\magnetarvoip\macros.h" />
-    <ClInclude Include="include\magnetarvoip\magnetar.h" />
-    <ClInclude Include="include\magnetarvoip\settings.h" />
-    <ClInclude Include="include\optparse\OptionParser.h" />
-    <ClInclude Include="include\opus\opus.h" />
-    <ClInclude Include="include\opus\opus_custom.h" />
-    <ClInclude Include="include\opus\opus_defines.h" />
-    <ClInclude Include="include\opus\opus_multistream.h" />
-    <ClInclude Include="include\opus\opus_projection.h" />
-    <ClInclude Include="include\opus\opus_types.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="include\cppserver\asio\asio.inl" />
-    <None Include="include\cppserver\asio\memory.inl" />
-    <None Include="include\cppserver\http\http_request.inl" />
-    <None Include="include\cppserver\http\http_response.inl" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
