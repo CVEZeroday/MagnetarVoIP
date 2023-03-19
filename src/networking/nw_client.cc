@@ -24,10 +24,6 @@ public:
 	}
 
 protected:
-	void onCreated() override
-	{
-
-	}
 
 private:
 	std::atomic<bool> _stop;

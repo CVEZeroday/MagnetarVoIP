@@ -12,6 +12,8 @@
 #include "magnetar.h"
 #include "aio.h"
 
+#include <miniaudio/miniaudio.h>
+
 int init_miniaudio_capture()
 {
 	ma_device_config capture_config = ma_device_config_init(ma_device_type_capture);

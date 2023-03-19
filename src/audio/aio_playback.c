@@ -7,11 +7,12 @@
 /*       File Name: aio_playback.c          */
 /*   Created by CVE_zeroday on 12.03.2023   */
 /*               (T.Y.Kim)                  */
-<<<<<<< HEAD:src/audio/aio_playback.c
 /********************************************/
 
 #include "magnetar.h"
 #include "aio.h"
+
+#include <miniaudio/miniaudio.h>
 
 int init_miniaudio_playback()
 {
@@ -22,6 +23,3 @@ int init_miniaudio_playback()
 
 	return 0;
 }
-=======
-/********************************************/
->>>>>>> parent of f6cab97 (2023.3.16):src/networking/audio/aio_configure.c

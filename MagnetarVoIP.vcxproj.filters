@@ -48,9 +48,6 @@
     <ClCompile Include="src\init\init_tui.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\miniaudio\miniaudio.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\networking\nw_client.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -76,6 +73,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\ux\tui\tui_update.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miniaudio\miniaudio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

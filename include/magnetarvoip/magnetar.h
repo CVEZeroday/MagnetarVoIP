@@ -14,7 +14,6 @@
 #pragma comment(lib, "asio.lib")
 #pragma comment(lib, "cppbenchmark.lib")
 #pragma comment(lib, "cpp-optparse.lib")
-#pragma comment(lib, "opus.lib")
 #pragma comment(lib, "windowsapp")
 #pragma comment(lib, "cppserver.lib")
 #else

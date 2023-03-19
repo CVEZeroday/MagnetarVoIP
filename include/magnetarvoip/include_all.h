@@ -12,7 +12,7 @@
 
 #include "init.h"
 #include "init_cli.h"
-#include "init_audiograph.h"
+#include "init_miniaudio.h"
 #include "init_cppserver.h"
 #include "macros.h"
 #include "settings.h"
