@@ -28,3 +28,6 @@
 # Exclude .vs/
 .vs/*
 !.vs/.placeholder
+!.vs/ProjectSettings.json
+!.vs/VSWorkspaceState.json
+!.vs/sinx.sqlite
