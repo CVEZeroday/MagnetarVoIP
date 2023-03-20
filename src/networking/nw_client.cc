@@ -11,6 +11,7 @@
 
 #include "cppserver/asio/service.h"
 #include "cppserver/asio/tcp_client.h"
+#include "threads/thread.h"
 
 #include <atomic>
 
@@ -24,6 +25,28 @@ public:
 	}
 
 protected:
+	void onConnected() override
+	{
+		//onConnected
+	}
+	
+	void onDisconnected() override
+	{
+
+		CppCommon::Thread::Sleep(100);
+		if (!_stop)
+			ConnectAsync();
+	}
+
+	void onReceived(const void* buffer, size_t size) override
+	{
+
+	}
+
+	void onError(int error, const std::string& category, const std::string& message) override
+	{
+
+	}
 
 private:
 	std::atomic<bool> _stop;
