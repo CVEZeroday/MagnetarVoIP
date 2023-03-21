@@ -18,6 +18,8 @@ extern "C" {
 int init_miniaudio_capture();
 int init_miniaudio_playback();
 
+int stop_miniaudio_capture();
+
 /********************************************/
 #ifdef __cplusplus
 }
