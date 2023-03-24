@@ -15,7 +15,7 @@
 
 #include <miniaudio/miniaudio.h>
 
-ma_device device;
+ma_device capture_device;
 ma_device_config capture_config;
 
 void capture_data_callback(ma_device* pDevice, void* pOutput, const void* pInput, ma_uint32 frameCount)
@@ -32,12 +32,12 @@ int init_miniaudio_capture()
 	capture_config.wasapi.noAutoConvertSRC = MA_TRUE;
 	capture_config.dataCallback = capture_data_callback;
 
-	if (ma_device_init(NULL, &capture_config, &device) != MA_SUCCESS)
+	if (ma_device_init(NULL, &capture_config, &capture_device) != MA_SUCCESS)
 		return FAILED_TO_INITIALIZE_CAPTURE_DEVICE;
 
-	if (ma_device_start(&device) != MA_SUCCESS)
+	if (ma_device_start(&capture_device) != MA_SUCCESS)
 	{
-		ma_device_uninit(&device);
+		ma_device_uninit(&capture_device);
 		return FAILED_TO_START_CAPTURE_DEVICE;
 	}
 
@@ -46,7 +46,6 @@ int init_miniaudio_capture()
 
 int stop_miniaudio_capture()
 {
-	ma_device_uninit(&device);
-
+	ma_device_uninit(&capture_device);
 	return 0;	
 }
