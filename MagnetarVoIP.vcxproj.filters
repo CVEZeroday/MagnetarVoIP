@@ -18,9 +18,6 @@
     <ClCompile Include="src\audio\aio_capture.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\audio\aio_configure.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\audio\aio_playback.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -207,6 +204,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\optparse\OptionParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magnetarvoip\nw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

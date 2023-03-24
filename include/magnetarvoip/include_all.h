@@ -16,3 +16,4 @@
 #include "init_cppserver.h"
 #include "macros.h"
 #include "settings.h"
+#include "aio.h"

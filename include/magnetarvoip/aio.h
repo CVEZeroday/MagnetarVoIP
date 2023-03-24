@@ -13,12 +13,14 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+#include <miniaudio/miniaudio.h>
 /********************************************/
 
 int init_miniaudio_capture();
 int init_miniaudio_playback();
 
 int stop_miniaudio_capture();
+int stop_miniaudio_playback();
 
 /********************************************/
 #ifdef __cplusplus

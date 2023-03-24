@@ -32,7 +32,24 @@ int init_miniaudio_playback()
 	playback_config.wasapi.noAutoConvertSRC = MA_TRUE;
 	playback_config.dataCallback = playback_data_callback;
 
-	//if (ma_device_init(NULL, &))
+	if (ma_device_init(NULL, &playback_config, &playback_device) != MA_SUCCESS)
+	{
+		error_type = FAILED_TO_INITIALIZE_PLAYBACK_DEVICE;
+		return ERROR;
+	}
 
+	if (ma_device_start(&playback_device) != MA_SUCCESS)
+	{
+		ma_device_uninit(&playback_device);
+		error_type = FAILED_TO_START_PLAYBACK_DEVICE;
+		return ERROR;
+	}
+
+	return 0;
+}
+
+int stop_miniaudio_playback()
+{
+	ma_device_uninit(&playback_device);
 	return 0;
 }

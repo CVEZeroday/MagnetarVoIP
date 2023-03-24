@@ -24,3 +24,5 @@
 
 #include "settings.h"
 #include "macros.h"
+
+static int error_type = -1;

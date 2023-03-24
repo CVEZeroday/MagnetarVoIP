@@ -9,9 +9,8 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include "cppserver/asio/service.h"
 #include "cppserver/asio/tcp_client.h"
-#include "threads/thread.h"
+#include "nw.h"
 
 #include <atomic>
 
@@ -22,17 +21,26 @@ public:
 		: CppServer::Asio::TCPClient(service, address, port)
 	{
 		_stop = false;
+		SetupNoDelay(true);
+	}
+
+	void DisconnectAndStop()
+	{
+		_stop = true;
+		DisconnectAsync();
+		while (IsConnected())
+			CppCommon::Thread::Yield();
 	}
 
 protected:
 	void onConnected() override
 	{
-		//onConnected
+		printf("Connected!\n");
 	}
 	
 	void onDisconnected() override
 	{
-
+		printf("Disconnected.\n");
 		CppCommon::Thread::Sleep(100);
 		if (!_stop)
 			ConnectAsync();
@@ -40,12 +48,12 @@ protected:
 
 	void onReceived(const void* buffer, size_t size) override
 	{
-
+		// onReceived는 여기서 바로 처리
 	}
 
 	void onError(int error, const std::string& category, const std::string& message) override
 	{
-
+		printf("Error ocurred: error code %d, %s: %s\n", error, category.c_str(), message.c_str());
 	}
 
 private:
