@@ -17,6 +17,13 @@
 
 int init_miniaudio()
 {
-	
+	printf("Initializing miniaudio capture module...\n");
+	if (init_miniaudio_capture() == ERROR)
+		return ERROR;
+
+	printf("Initializing miniaudio playback module...\n");
+	if (init_miniaudio_playback() == ERROR)
+		return ERROR;
+
 	return 0;
 }

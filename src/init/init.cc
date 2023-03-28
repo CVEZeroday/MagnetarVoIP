@@ -16,19 +16,8 @@
 #include <include_all.h>
 #include <optparse/OptionParser.h>
 
-void returnError(int err)
-{
-	if (err == INIT_MINIAUDIO_ERROR)
-	{
-		printf("audiograph error occured: initiating");
-		return;
-	}
-}
-
 int main(int argc, char** argv)
 {
-	int n = 10;
-	printf("%d", n);
 	auto parser = optparse::OptionParser().version("1.0.0.0");
 
 	parser.add_option("-a", "--address").dest("address").set_default("127.0.0.1").help("Destination Address. Default: %default");
@@ -59,5 +48,18 @@ int main(int argc, char** argv)
 		return 1;
 	}
 
+	getchar();
+	stop_miniaudio_playback();
+	stop_miniaudio_capture();
+
 	return 0;
+}
+
+void returnError(int err)
+{
+	if (err == INIT_MINIAUDIO_ERROR)
+	{
+		printf("audiograph error occured: initiating");
+		return;
+	}
 }

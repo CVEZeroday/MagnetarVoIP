@@ -20,7 +20,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\audio\aio_capture.c" />
-    <ClCompile Include="src\audio\aio_configure.c" />
     <ClCompile Include="src\audio\aio_playback.c" />
     <ClCompile Include="src\chat\cht_packing.c" />
     <ClCompile Include="src\chat\cht_unpacking.c" />
@@ -82,6 +81,7 @@
     <ClInclude Include="include\magnetarvoip\init_miniaudio.h" />
     <ClInclude Include="include\magnetarvoip\macros.h" />
     <ClInclude Include="include\magnetarvoip\magnetar.h" />
+    <ClInclude Include="include\magnetarvoip\nw.h" />
     <ClInclude Include="include\magnetarvoip\settings.h" />
     <ClInclude Include="include\miniaudio\miniaudio.h" />
     <ClInclude Include="include\optparse\OptionParser.h" />

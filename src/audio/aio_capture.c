@@ -20,6 +20,7 @@ ma_device_config capture_config;
 
 void capture_data_callback(ma_device* pDevice, void* pOutput, const void* pInput, ma_uint32 frameCount)
 {
+	printf("Capturing...\n");
 	//data callback
 }
 
@@ -33,12 +34,16 @@ int init_miniaudio_capture()
 	capture_config.dataCallback = capture_data_callback;
 
 	if (ma_device_init(NULL, &capture_config, &capture_device) != MA_SUCCESS)
-		return FAILED_TO_INITIALIZE_CAPTURE_DEVICE;
+	{
+		error_type = FAILED_TO_INITIALIZE_CAPTURE_DEVICE;
+		return ERROR;
+	}
 
 	if (ma_device_start(&capture_device) != MA_SUCCESS)
 	{
 		ma_device_uninit(&capture_device);
-		return FAILED_TO_START_CAPTURE_DEVICE;
+		error_type = FAILED_TO_START_CAPTURE_DEVICE;
+		return ERROR;
 	}
 
 	return 0;
