@@ -22,12 +22,13 @@ class NetworkingClient;
 class NetworkingServer;
 class NetworkingSession;
 
-inline void packetReceivedHander(const void* buffer, unsigned long size);
+inline void packetReceivedHandler(const void* buffer, unsigned long size);
 
 typedef struct NW_PACKET {
     unsigned short type;
     void* packet_data;
 } NW_PACKET;
+
 /********************************************/
 #ifdef __cplusplus
 }

@@ -11,7 +11,7 @@
 
 #include "nw.h"
 
-inline void packetReceivedHander(const void* buffer, unsigned long size)
+inline void packetReceivedHandler(const void* buffer, unsigned long size)
 {
     if (((const NW_PACKET*)buffer)->type == PACKETTYPE_CHAT)
     {
