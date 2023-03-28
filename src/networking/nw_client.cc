@@ -13,6 +13,8 @@
 #include "cppserver/asio/tcp_client.h"
 #include "threads/thread.h"
 
+#include "nw.h"
+
 #include <atomic>
 
 class NetworkingClient : public CppServer::Asio::TCPClient
@@ -40,7 +42,7 @@ protected:
 
 	void onReceived(const void* buffer, size_t size) override
 	{
-
+		packetReceivedHandler(buffer, size);
 	}
 
 	void onError(int error, const std::string& category, const std::string& message) override

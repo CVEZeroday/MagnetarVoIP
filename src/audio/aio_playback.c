@@ -21,6 +21,7 @@ ma_device_config playback_config;
 void playback_data_callback(ma_device* pDevice, void* pOutput, const void* pInput, ma_uint32 frameCount)
 {
 	// data_callback
+	
 }
 
 int init_miniaudio_playback()
@@ -32,7 +33,20 @@ int init_miniaudio_playback()
 	playback_config.wasapi.noAutoConvertSRC = MA_TRUE;
 	playback_config.dataCallback = playback_data_callback;
 
-	//if (ma_device_init(NULL, &))
+	if (ma_device_init(NULL, &playback_config, &playback_device) != MA_SUCCESS)
+		return FAILED_TO_INITIALIZE_PLAYBACK_DEVICE;
+	
+	if (ma_device_start(&playback_device) != MA_SUCCESS)
+	{
+		ma_device_uninit(&playback_device);
+		return FAILED_TO_START_PLAYBACK_DEVICE;
+	}
 
+	return 0;
+}
+
+int stop_miniaudio_playback()
+{
+	ma_device_uninit(&playback_device);
 	return 0;
 }

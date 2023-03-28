@@ -5,23 +5,19 @@
 /*     Copyrights (C) 2023 CVE_zeroday.     */
 /*          All rights reserved.            */
 /********************************************/
-/*            File Name: aio.h              */
-/*   Created by CVE_zeroday on 16.03.2023   */
+/*            File Name: nw.h               */
+/*   Created by CVE_zeroday on 28.03.2023   */
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-/********************************************/
+#define PACKETTYPE_CHAT 4000
+#define PACKETTYPE_AUDIO 4001
 
-int init_miniaudio_capture();
-int init_miniaudio_playback();
 
-int stop_miniaudio_capture();
-int stop_miniaudio_playback();
+inline void packetReceivedHander(const void* buffer, unsigned long size);
 
-/********************************************/
-#ifdef __cplusplus
-}
-#endif
+
+typedef struct NW_PACKET {
+    unsigned short type;
+    void* packet_data;
+} NW_PACKET;
