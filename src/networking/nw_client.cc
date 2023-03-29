@@ -16,8 +16,6 @@
 
 #include <atomic>
 
-extern packetReceived
-
 class NetworkingClient : public CppServer::Asio::TCPClient
 {
 public:

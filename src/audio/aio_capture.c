@@ -20,7 +20,6 @@ ma_device_config capture_config;
 
 void capture_data_callback(ma_device* pDevice, void* pOutput, const void* pInput, ma_uint32 frameCount)
 {
-	printf("Capturing...\n");
 	//data callback
 }
 

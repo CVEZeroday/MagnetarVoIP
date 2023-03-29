@@ -21,7 +21,6 @@ ma_device_config playback_config;
 void playback_data_callback(ma_device* pDevice, void* pOutput, const void* pInput, ma_uint32 frameCount)
 {
 	// data_callback
-	
 }
 
 int init_miniaudio_playback()
