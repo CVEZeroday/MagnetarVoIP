@@ -21,8 +21,8 @@
   <ItemGroup>
     <ClCompile Include="src\audio\aio_capture.c" />
     <ClCompile Include="src\audio\aio_playback.c" />
-    <ClCompile Include="src\chat\cht_packing.c" />
-    <ClCompile Include="src\chat\cht_unpacking.c" />
+    <ClCompile Include="src\chat\cht_packing.cc" />
+    <ClCompile Include="src\chat\cht_unpacking.cc" />
     <ClCompile Include="src\init\init.cc" />
     <ClCompile Include="src\init\init_cli.c" />
     <ClCompile Include="src\init\init_cppserver.cc" />

@@ -21,12 +21,6 @@
     <ClCompile Include="src\audio\aio_playback.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\chat\cht_packing.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\chat\cht_unpacking.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\init\init.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -73,6 +67,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\miniaudio\miniaudio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chat\cht_unpacking.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chat\cht_packing.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
