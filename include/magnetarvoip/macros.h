@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __MACROS_H__
+#define __MACROS_H__
 /********************************************/
 /* This source code is part of MagnetarVoIP */
 /********************************************/
@@ -26,3 +27,5 @@
 
 /* Send Packet Error */
 #define FAILED_TO_SEND_PACKET 5008
+
+#endif

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __INCLUDE_ALL_H__
+#define __INCLUDE_ALL_H__
 /********************************************/
 /* This source code is part of MagnetarVoIP */
 /********************************************/
@@ -17,3 +18,6 @@
 #include "macros.h"
 #include "settings.h"
 #include "aio.h"
+
+
+#endif

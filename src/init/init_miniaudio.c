@@ -9,6 +9,8 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+#include <stdio.h>
+
 #include "magnetar.h"
 #include "init_miniaudio.h"
 #include "aio.h"

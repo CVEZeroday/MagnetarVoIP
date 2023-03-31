@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __AIO_H__
+#define __AIO_H__
 /********************************************/
 /* This source code is part of MagnetarVoIP */
 /********************************************/
@@ -25,4 +26,6 @@ int stop_miniaudio_playback();
 /********************************************/
 #ifdef __cplusplus
 }
+#endif
+
 #endif

@@ -13,6 +13,7 @@
 #include "threads/thread.h"
 
 #include "nw.h"
+#include "nw_interface.h"
 
 #include <atomic>
 

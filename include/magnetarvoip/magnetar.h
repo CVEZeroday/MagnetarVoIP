@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __MAGNETAR_H__
+#define __MAGNETAR_H__
 /********************************************/
 /* This source code is part of MagnetarVoIP */
 /********************************************/
@@ -26,3 +27,5 @@
 #include "macros.h"
 
 static int error_type = -1;
+
+#endif

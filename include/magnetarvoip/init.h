@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __INIT_H__
+#define __INIT_H__
 /********************************************/
 /* This header file is part of MagnetarVoIP */
 /********************************************/
@@ -19,4 +20,6 @@ void returnError(int);
 /********************************************/
 #ifdef __cplusplus
 }
+#endif
+
 #endif

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __INIT_MINIAUDIO_H__
+#define __INIT_MINIAUDIO_H__
 /********************************************/
 /* This header file is part of MagnetarVoIP */
 /********************************************/
@@ -20,4 +21,6 @@ int init_miniaudio();
 /********************************************/
 #ifdef __cplusplus
 }
+#endif
+
 #endif

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __NW_H__
+#define __NW_H__
 /********************************************/
 /* This source code is part of MagnetarVoIP */
 /********************************************/
@@ -22,8 +23,6 @@ class NetworkingClient;
 class NetworkingServer;
 class NetworkingSession;
 
-inline void packetReceivedHandler(const void* buffer, unsigned long size);
-
 typedef struct NW_PACKET {
     unsigned short type;
     void* packet_data;
@@ -32,4 +31,6 @@ typedef struct NW_PACKET {
 /********************************************/
 #ifdef __cplusplus
 }
+#endif
+
 #endif

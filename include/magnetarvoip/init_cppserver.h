@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __INIT_CPPSERVER_H__
+#define __INIT_CPPSERVER_H__
 /********************************************/
 /* This header file is part of MagnetarVoIP */
 /********************************************/
@@ -19,4 +20,6 @@ int init_cppserver();
 /********************************************/
 #ifdef __cplusplus
 }
+#endif
+
 #endif
