@@ -11,6 +11,8 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+#define VERSION "0.0.0.1"
+
 #define ERROR -1
 
 /* Initialization error */

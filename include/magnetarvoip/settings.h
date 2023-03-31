@@ -11,6 +11,11 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-
+enum PROGRAM_MODE {
+	CLI_MODE,
+	GUI_MODE,
+	TUI_MODE
+};
+int ProgramMode = CLI_MODE;
 
 #endif

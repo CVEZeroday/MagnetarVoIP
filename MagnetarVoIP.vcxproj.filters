@@ -24,7 +24,7 @@
     <ClCompile Include="src\init\init.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\init\init_cli.c">
+    <ClCompile Include="src\init\init_ux.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\init\init_cppserver.cc">
@@ -33,19 +33,10 @@
     <ClCompile Include="src\init\init_miniaudio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\init\init_opus.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\init\init_tui.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\networking\nw_client.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\networking\nw_configure.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\networking\nw_interface.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\networking\nw_server.cc">
@@ -73,6 +64,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\chat\cht_packing.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\core.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ux\ux_interface.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\core_thread.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -182,7 +182,7 @@
     <ClInclude Include="include\magnetarvoip\init.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\init_cli.h">
+    <ClInclude Include="include\magnetarvoip\init_ux.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\magnetarvoip\init_cppserver.h">
@@ -207,6 +207,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\magnetarvoip\nw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\networking\nw_interface.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\threads\thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magnetarvoip\core_thread.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

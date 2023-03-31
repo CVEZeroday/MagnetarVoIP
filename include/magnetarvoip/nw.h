@@ -32,5 +32,4 @@ typedef struct NW_PACKET {
 #ifdef __cplusplus
 }
 #endif
-
 #endif

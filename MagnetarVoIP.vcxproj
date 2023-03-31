@@ -23,22 +23,22 @@
     <ClCompile Include="src\audio\aio_playback.c" />
     <ClCompile Include="src\chat\cht_packing.cc" />
     <ClCompile Include="src\chat\cht_unpacking.cc" />
+    <ClCompile Include="src\core\core.c" />
+    <ClCompile Include="src\core\core_thread.cc" />
     <ClCompile Include="src\init\init.cc" />
-    <ClCompile Include="src\init\init_cli.c" />
+    <ClCompile Include="src\init\init_ux.c" />
     <ClCompile Include="src\init\init_cppserver.cc" />
     <ClCompile Include="src\init\init_miniaudio.c" />
-    <ClCompile Include="src\init\init_opus.c" />
-    <ClCompile Include="src\init\init_tui.c" />
     <ClCompile Include="src\miniaudio\miniaudio.c" />
     <ClCompile Include="src\networking\nw_client.cc" />
     <ClCompile Include="src\networking\nw_configure.cc" />
-    <ClCompile Include="src\networking\nw_interface.cc" />
     <ClCompile Include="src\networking\nw_server.cc" />
     <ClCompile Include="src\ux\cli\cli_interface.c" />
     <ClCompile Include="src\ux\cli\cli_interpret.c" />
     <ClCompile Include="src\ux\tui\tui_interface.c" />
     <ClCompile Include="src\ux\tui\tui_interpret.c" />
     <ClCompile Include="src\ux\tui\tui_update.c" />
+    <ClCompile Include="src\ux\ux_interface.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\cppserver\asio\asio.h" />
@@ -74,9 +74,10 @@
     <ClInclude Include="include\cppserver\ws\ws_server.h" />
     <ClInclude Include="include\cppserver\ws\ws_session.h" />
     <ClInclude Include="include\magnetarvoip\aio.h" />
+    <ClInclude Include="include\magnetarvoip\core_thread.h" />
     <ClInclude Include="include\magnetarvoip\include_all.h" />
     <ClInclude Include="include\magnetarvoip\init.h" />
-    <ClInclude Include="include\magnetarvoip\init_cli.h" />
+    <ClInclude Include="include\magnetarvoip\init_ux.h" />
     <ClInclude Include="include\magnetarvoip\init_cppserver.h" />
     <ClInclude Include="include\magnetarvoip\init_miniaudio.h" />
     <ClInclude Include="include\magnetarvoip\macros.h" />
@@ -85,6 +86,8 @@
     <ClInclude Include="include\magnetarvoip\settings.h" />
     <ClInclude Include="include\miniaudio\miniaudio.h" />
     <ClInclude Include="include\optparse\OptionParser.h" />
+    <ClInclude Include="include\threads\thread.h" />
+    <ClInclude Include="src\networking\nw_interface.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="include\cppserver\asio\asio.inl" />
@@ -96,6 +99,7 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <ProjectGuid>{65619911-089D-40D1-9AAC-28FAF9B3A4CB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -184,6 +188,7 @@
     <ClCompile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

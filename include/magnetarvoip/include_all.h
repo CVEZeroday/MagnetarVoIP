@@ -12,12 +12,12 @@
 /********************************************/
 
 #include "init.h"
-#include "init_cli.h"
+#include "init_ux.h"
 #include "init_miniaudio.h"
 #include "init_cppserver.h"
 #include "macros.h"
 #include "settings.h"
 #include "aio.h"
-
+#include "core_thread.h"
 
 #endif

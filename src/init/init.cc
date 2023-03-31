@@ -18,13 +18,16 @@
 
 int main(int argc, char** argv)
 {
-	auto parser = optparse::OptionParser().version("1.0.0.0");
+	auto parser = optparse::OptionParser().version(VERSION);
 
 	parser.add_option("-a", "--address").dest("address").set_default("127.0.0.1").help("Destination Address. Default: %default");
 	parser.add_option("-p", "--port").dest("port").action("store").type("int").set_default(30200).help("Destination Port. Default: %default");
 	parser.add_option("-t", "--test").dest("test").action("store").type("bool").set_default(false).help("Enable Test Environment.");
-
+	parser.add_option("-m", "--mode").dest("mode").action("store").type("int").set_default(CLI_MODE).help("Program Mode. (0: CLI_MODE, 1: GUI_MODE, 2: TUI_MODE). Default: %default");
+	
 	optparse::Values options = parser.parse_args(argc, argv);
+	
+	ProgramMode = (int)options.get("mode");
 
 	if (options.get("help"))
 	{
@@ -34,17 +37,22 @@ int main(int argc, char** argv)
 
 	if (init_miniaudio() == ERROR)
 	{
-		returnError(INIT_MINIAUDIO_ERROR);
+		returnError(error_type);
 		return 1;
 	}
 	if (init_cppserver() == ERROR)
 	{
-		returnError(INIT_CPPSERVER_ERROR);
+		returnError(error_type);
 		return 1;
 	}
-	if (init_cli() == ERROR)
+	if (init_ux() == ERROR)
 	{
-		returnError(INIT_CLI_ERROR);
+		returnError(error_type);
+		return 1;
+	}
+	if (init_threads() == ERROR)
+	{
+		returnError(error_type);
 		return 1;
 	}
 
