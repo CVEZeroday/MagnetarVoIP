@@ -74,6 +74,7 @@
     <ClInclude Include="include\cppserver\ws\ws_server.h" />
     <ClInclude Include="include\cppserver\ws\ws_session.h" />
     <ClInclude Include="include\magnetarvoip\aio.h" />
+    <ClInclude Include="include\magnetarvoip\core.h" />
     <ClInclude Include="include\magnetarvoip\core_thread.h" />
     <ClInclude Include="include\magnetarvoip\include_all.h" />
     <ClInclude Include="include\magnetarvoip\init.h" />

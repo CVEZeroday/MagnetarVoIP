@@ -30,4 +30,16 @@
 /* Send Packet Error */
 #define FAILED_TO_SEND_PACKET 5008
 
+
+/* Initialization Flag */
+int Initialized = 0b00000000; //core, network, chat, audio, ux, cli, tui, gui
+#define CORE_FLAG		0b10000000
+#define NETWORK_FLAG	0b01000000
+#define CHAT_FLAG		0b00100000
+#define AUDIO_FLAG		0b00010000
+#define UX_FLAG			0b00001000
+#define CLI_FLAG		0b00000100
+#define TUI_FLAG		0b00000010
+#define GUI_FLAG		0b00000001
+
 #endif

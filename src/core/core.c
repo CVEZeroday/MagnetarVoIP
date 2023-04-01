@@ -1,24 +1,19 @@
-#ifndef __SETTINGS_H__
-#define __SETTINGS_H__
 /********************************************/
-/* This header file is part of MagnetarVoIP */
+/* This source code is part of MagnetarVoIP */
 /********************************************/
 /*     Copyrights (C) 2023 CVE_zeroday.     */
 /*          All rights reserved.            */
 /********************************************/
-/*         File Name: settings.h            */
-/*   Created by CVE_zeroday on 15.03.2023   */
+/*           File Name: core.c              */
+/*   Created by CVE_zeroday on 01.04.2023   */
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-enum PROGRAM_MODE {
-	CLI_MODE,
-	GUI_MODE,
-	TUI_MODE
-};
-int ProgramMode = CLI_MODE;
+#include "settings.h"
+#include "core.h"
 
-char Address[0x10] = "127.0.0.1";
-int Port = 30200;
+void core_main()
+{
 
-#endif
+	return;
+}
