@@ -9,11 +9,10 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include "settings.h"
 #include "core.h"
+#include "settings.h"
 
 void core_main()
 {
-
-	return;
+    return;
 }

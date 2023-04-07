@@ -23,7 +23,7 @@ int init_cppserver()
 	service->Start();
 
 	auto server = std::make_shared<NetworkingServer>(service, Port);
-	//server->Start();
+	server->Start();
 	Initialized |= NETWORK_FLAG;
 	return 0;
 }

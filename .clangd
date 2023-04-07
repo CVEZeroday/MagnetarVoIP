@@ -1,0 +1,17 @@
+CompileFlags:
+  Add:
+    - "-I/home/tykim050206/projects/PulsarVoIP/include"
+    - "-I/home/tykim050206/projects/PulsarVoIP/include/magnetarvoip"
+    - "-std=c++17"
+---
+If:
+  PathExclude: [.*\.cc, .*\.cpp, .*\.h]
+CompileFlags:
+  Add:
+    - "-std=c++17"
+---
+If:
+  PathMatch: [.*\.c]
+CompileFlags:
+  Add:
+    - "-std=c11"
