@@ -12,7 +12,7 @@
 #include "core.h"
 #include "settings.h"
 
-void core_main()
+int core_main()
 {
-    return;
+    return 0;
 }
