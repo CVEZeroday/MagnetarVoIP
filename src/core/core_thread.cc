@@ -14,6 +14,7 @@
 #include "core_thread.h"
 
 #include "core.h"
+#include "cht_main.h"
 #include "macros.h"
 #include "settings.h"
 
