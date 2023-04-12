@@ -1,7 +1,7 @@
 CompileFlags:
   Add:
-    - "-I/home/tykim050206/projects/PulsarVoIP/include"
-    - "-I/home/tykim050206/projects/PulsarVoIP/include/magnetarvoip"
+    - "-I/data/data/com.termux/files/home/MagnetarVoIP/include"
+    - "-I/data/data/com.termux/files/home/MagnetarVoIP/include/magnetarvoip"
     - "-std=c++17"
 ---
 If:
