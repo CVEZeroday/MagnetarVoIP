@@ -24,6 +24,7 @@
 # Exclude .git/
 .git/*
 !.git/.placeholder
+.clangd
 
 # Exclude .vs/
 .vs/*
