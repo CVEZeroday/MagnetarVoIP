@@ -11,7 +11,7 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include "nw.h"
+#include "nw.hpp"
 
 // inline functions
 
@@ -23,7 +23,7 @@ inline void packetReceivedHandler(const void* buffer, unsigned long size)
     }
     if (((const NW_PACKET*)buffer)->type == PACKETTYPE_AUDIO)
     {
-        
+       // Miniaudio Interface, have to pcm data to audiobuf 
     }
 }
 

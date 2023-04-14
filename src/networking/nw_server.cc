@@ -11,7 +11,7 @@
 
 #include "cppserver/asio/tcp_server.h"
 #include "threads/thread.h"
-#include "nw.h"
+#include "nw.hpp"
 
 #include <atomic>
 

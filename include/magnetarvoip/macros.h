@@ -32,7 +32,7 @@
 
 
 /* Initialization Flag */
-int Initialized = 0b00000000; //core, network, chat, audio, ux, cli, tui, gui
+static int Initialized = 0b00000000; //core, network, chat, audio, ux, cli, tui, gui
 #define CORE_FLAG		0b10000000
 #define NETWORK_FLAG	0b01000000
 #define CHAT_FLAG		0b00100000

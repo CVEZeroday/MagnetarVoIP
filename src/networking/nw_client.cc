@@ -12,7 +12,7 @@
 #include "cppserver/asio/tcp_client.h"
 #include "threads/thread.h"
 
-#include "nw.h"
+#include "nw.hpp"
 #include "nw_interface.h"
 
 #include <atomic>

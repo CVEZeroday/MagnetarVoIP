@@ -9,10 +9,15 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include "cht_main.h"
+#include "cht.h"
+#include "macros.h"
 
 int chat_main()
 {
+  while(1)
+    if (Initialized & CHAT_FLAG)
+      break;
+  // Check if CHAT_FLAG initialized
 
   return 0;
 }
