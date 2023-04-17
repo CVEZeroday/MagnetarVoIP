@@ -23,11 +23,13 @@ int main(int argc, char** argv)
 	parser.add_option("-a", "--address").dest("address").set_default("127.0.0.1").help("Destination Address. Default: %default");
 	parser.add_option("-p", "--port").dest("port").action("store").type("int").set_default(30200).help("Destination Port. Default: %default");
 	parser.add_option("-t", "--test").dest("test").action("store").type("bool").set_default(false).help("Enable Test Environment.");
+  parser.add_option("-s", "--server").dest("server").action("store").type("bool").set_default(false).help("Enable Server Mode. Default: %default");
 	parser.add_option("-m", "--mode").dest("mode").action("store").type("int").set_default(CLI_MODE).help("Program Mode. (0: CLI_MODE, 1: GUI_MODE, 2: TUI_MODE). Default: %default");
 	
 	optparse::Values options = parser.parse_args(argc, argv);
 	
 	ProgramMode = (int)options.get("mode");
+  IsServer = (int)options.get("server");
 
 	if (options.get("help"))
 	{
