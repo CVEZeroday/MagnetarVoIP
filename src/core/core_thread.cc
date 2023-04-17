@@ -19,13 +19,22 @@
 #include "macros.h"
 #include "settings.h"
 
+std::thread core_thread;
+std::thread chat_thread;
+std::thread ux_thread;
+
 int init_threads()
 {
-	auto core_thread = CppCommon::Thread::Start(core_main);
-	auto chat_thread = CppCommon::Thread::Start(chat_main);
-	auto ux_thread = CppCommon::Thread::Start(ux_main);
+	core_thread = CppCommon::Thread::Start(core_main);
+	chat_thread = CppCommon::Thread::Start(chat_main);
+	ux_thread = CppCommon::Thread::Start(ux_main);
 	// nw_thread is managed by cppserver library
 	// audio_thread is managed by miniaudio library
   
+  return 0;
+}
+
+int close_threads()
+{
   return 0;
 }

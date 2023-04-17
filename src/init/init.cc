@@ -9,6 +9,28 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+/*
+* 1. Summary
+*   This file is for initiating MagnetarVoIP.
+*   This file contains a function for interfacing main thread to error processing system.
+*   This file contains main function.
+*
+* 2. Global Variables
+*   <none>
+*
+* 3. Functions
+* int main(int argc, char** argv)
+*   1. Parse the options
+*   2. Save the parsed options
+*   3. initiate modules
+*   4. If initialization failed, call returnError()
+*   5. If program ended (When MAIN_FLAG in Intialized is off), exit the program
+*   
+* void returnError(int err)
+*   1. Process error situations
+* 
+*/
+
 #include <thread>
 #include <iostream>
 

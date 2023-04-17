@@ -30,7 +30,6 @@
 /* Send Packet Error */
 #define FAILED_TO_SEND_PACKET 5008
 
-
 /* Initialization Flag */
 static int Initialized = 0b00000000; //core, network, chat, audio, ux, cli, tui, gui
 #define CORE_FLAG		0b10000000

@@ -9,9 +9,6 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include "cppserver/asio/tcp_client.h"
-#include "threads/thread.h"
-
 #include "nw.hpp"
 #include "nw_interface.h"
 #include "nw_client.hpp"
