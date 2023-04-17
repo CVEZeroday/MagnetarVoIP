@@ -14,7 +14,8 @@
 #include "core_thread.h"
 
 #include "core.h"
-#include "cht_main.h"
+#include "cht.h"
+#include "ux.h"
 #include "macros.h"
 #include "settings.h"
 
@@ -25,4 +26,6 @@ int init_threads()
 	auto ux_thread = CppCommon::Thread::Start(ux_main);
 	// nw_thread is managed by cppserver library
 	// audio_thread is managed by miniaudio library
+  
+  return 0;
 }

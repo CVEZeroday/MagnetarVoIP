@@ -14,51 +14,6 @@
 
 #include "nw.hpp"
 #include "nw_interface.h"
+#include "nw_client.hpp"
 
 #include <atomic>
-
-class NetworkingClient : public CppServer::Asio::TCPClient
-{
-public:
-	NetworkingClient(std::shared_ptr<CppServer::Asio::Service> service, const std::string& address, int port)
-		: CppServer::Asio::TCPClient(service, address, port)
-	{
-		_stop = false;
-		SetupNoDelay(true);
-	}
-
-	void DisconnectAndStop()
-	{
-		_stop = true;
-		DisconnectAsync();
-		while (IsConnected())
-			CppCommon::Thread::Yield();
-	}
-
-protected:
-	void onConnected() override
-	{
-		printf("Connected!\n");
-	}
-	
-	void onDisconnected() override
-	{
-		printf("Disconnected.\n");
-		CppCommon::Thread::Sleep(100);
-		if (!_stop)
-			ConnectAsync();
-	}
-
-	void onReceived(const void* buffer, size_t size) override
-	{
-		packetReceivedHandler(buffer, size);
-	}
-
-	void onError(int error, const std::string& category, const std::string& message) override
-	{
-		printf("Error ocurred: error code %d, %s: %s\n", error, category.c_str(), message.c_str());
-	}
-
-private:
-	std::atomic<bool> _stop;
-};

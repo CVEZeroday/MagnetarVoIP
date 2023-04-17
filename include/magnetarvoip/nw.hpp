@@ -16,11 +16,8 @@
 #include <vector>
 
 void returnError(int);
-class NetworkingClient;
-class NetworkingServer;
-class NetworkingSession;
 
-typedef enum PACKETTYPE : unsigned char {
+typedef enum : unsigned char {
   PACKETTYPE_CHAT,
   PACKETTYPE_AUDIO,
   PACKETTYPE_NETWORK,
@@ -28,19 +25,21 @@ typedef enum PACKETTYPE : unsigned char {
   PACKETTYPE_ETC
 } PACKETTYPE;
 
-typedef struct NW_PACKET {
+typedef struct {
   PACKETTYPE type;
-  unsigned char header1;
-  unsigned char header2;
-  unsigned char header3;
+  unsigned char header[3]; 
   union {
     std::string str;
     std::vector<int> pcm;
     unsigned short int uint8;
-    unsigned int uint16;
+    unsigned long int uint16;
     unsigned long long int uint64;
   } packet_data;
 } NW_PACKET;
+// NW_PACKET struct
+// type : 1 Byte
+// header : 3 Bytes
+// packet_data : 2~ Bytes
 
 /********************************************/
 #endif

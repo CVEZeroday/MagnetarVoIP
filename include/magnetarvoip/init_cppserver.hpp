@@ -10,16 +10,12 @@
 /*   Created by CVE_zeroday on 15.03.2023   */
 /*               (T.Y.Kim)                  */
 /********************************************/
-#ifdef __cplusplus
-extern "C" {
-#endif
-/********************************************/
+
+#include <cppserver/asio/tcp_server.h>
+#include <cppserver/asio/asio.h>
 
 int init_cppserver();
-
-/********************************************/
-#ifdef __cplusplus
-}
-#endif
+int init_networkingServer(std::shared_ptr<CppServer::Asio::Service> service);
+int init_networkingClient(std::shared_ptr<CppServer::Asio::Service> service);
 
 #endif
