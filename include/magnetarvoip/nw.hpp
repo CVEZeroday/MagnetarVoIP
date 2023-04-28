@@ -25,21 +25,23 @@ typedef enum : unsigned char {
   PACKETTYPE_ETC
 } PACKETTYPE;
 
+typedef union {
+  std::string str;
+  std::vector<int> pcm;
+  unsigned short int uint8;
+  unsigned long int uint16;
+  unsigned long long int uint64;
+} PACKETDATA;
+
 typedef struct {
   PACKETTYPE type;
-  unsigned char header[3]; 
-  union {
-    std::string str;
-    std::vector<int> pcm;
-    unsigned short int uint8;
-    unsigned long int uint16;
-    unsigned long long int uint64;
-  } packet_data;
-} NW_PACKET;
+  unsigned char header[3];
+  PACKETDATA data;
+ } NW_PACKET;
 // NW_PACKET struct
 // type : 1 Byte
 // header : 3 Bytes
-// packet_data : 2~ Bytes
+// data : 2~ Bytes
 
 /********************************************/
 #endif

@@ -14,3 +14,9 @@
 #include "nw_client.hpp"
 
 #include <atomic>
+
+int init_nwclient()
+{
+  // NetworkingClient Class Instantiate
+  return 0;
+}

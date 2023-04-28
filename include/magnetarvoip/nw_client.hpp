@@ -18,6 +18,12 @@
 
 #include <atomic>
 
+// Function Definition
+
+int init_nwclient();
+
+// Class Definition
+
 class NetworkingClient : public CppServer::Asio::TCPClient
 {
 public:

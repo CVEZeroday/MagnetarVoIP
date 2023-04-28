@@ -15,7 +15,7 @@
 #include <cppserver/asio/asio.h>
 
 int init_cppserver();
-int init_networkingServer(std::shared_ptr<CppServer::Asio::Service> service);
-int init_networkingClient(std::shared_ptr<CppServer::Asio::Service> service);
+//int init_networkingServer(std::shared_ptr<CppServer::Asio::Service> service);
+//int init_networkingClient(std::shared_ptr<CppServer::Asio::Service> service);
 
 #endif

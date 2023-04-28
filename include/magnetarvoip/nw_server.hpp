@@ -17,6 +17,11 @@
 
 #include <atomic>
 
+// Function Definition
+int init_nwserver();
+
+// Class Definition
+
 class NetworkingSession : public CppServer::Asio::TCPSession
 {
 public:

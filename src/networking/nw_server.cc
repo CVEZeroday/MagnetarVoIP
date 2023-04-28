@@ -14,3 +14,9 @@
 #include "nw_server.hpp"
 
 #include <atomic>
+
+int init_nwserver()
+{
+  // NetworkingServer Class instantiate
+  return 0;
+}
