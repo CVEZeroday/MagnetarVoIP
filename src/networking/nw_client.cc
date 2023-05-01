@@ -10,7 +10,6 @@
 /********************************************/
 
 #include "nw.hpp"
-#include "nw_interface.h"
 #include "nw_client.hpp"
 
 #include <atomic>
