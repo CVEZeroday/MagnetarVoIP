@@ -11,6 +11,9 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+#include <thread>
+#include <mutex>
+
 #include "nw.hpp"
 #include "queue.h"
 
@@ -19,6 +22,9 @@
 static Queue chatPacketQueue;
 static Queue audioPacketQueue;
 
+static std::mutex mutex_chat;
+static std::mutex mutex_aio;
+
 // inline functions
 
 inline void packetReceivedHandler(const void* buffer, unsigned long size)
@@ -26,7 +32,9 @@ inline void packetReceivedHandler(const void* buffer, unsigned long size)
     if (((const NW_PACKET*)buffer)->type == PACKETTYPE_CHAT)
     {
         // Chatting Interface
+        mutex_chat.lock();
         enqueue(&chatPacketQueue, ((const NW_PACKET*)buffer)->data.str, string);
+        mutex_chat.unlock();
     }
     if (((const NW_PACKET*)buffer)->type == PACKETTYPE_AUDIO)
     {

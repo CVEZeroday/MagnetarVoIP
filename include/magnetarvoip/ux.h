@@ -17,6 +17,10 @@ extern "C" {
 
 int ux_main();
 
+int gui_init();
+int tui_init();
+int cli_init();
+
 /********************************************/
 #ifdef __cplusplus
 }

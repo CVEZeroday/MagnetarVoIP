@@ -9,8 +9,13 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+#include <thread>
+#include <mutex>
+
 #include "cht.h"
 #include "macros.h"
+#include "queue.h"
+#include "nw_interface.h"
 
 int chat_main()
 {
@@ -18,6 +23,19 @@ int chat_main()
     if (Initialized & CHAT_FLAG)
       break;
   // Check if CHAT_FLAG initialized
+  
+  std::string dequeuedStr;
+
+  // Main Loop
+  while(1)
+  {
+    if (!isEmptyQueue(&chatPacketQueue))
+    {
+      mutex_chat.lock();
+      dequeuedStr = dequeue(&chatPacketQueue, string);
+      mutex_chat.unlock();
+    }
+  }
 
   return 0;
 }

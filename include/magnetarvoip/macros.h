@@ -41,4 +41,7 @@ static int Initialized = 0b00000000; //core, network, chat, audio, ux, cli, tui,
 #define TUI_FLAG		0b00000010
 #define GUI_FLAG		0b00000001
 
+/* File Paths */
+#define CLI_HISTORY_FILE "./log/cli_history.txt"
+
 #endif

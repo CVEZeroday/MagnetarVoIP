@@ -11,11 +11,31 @@
 
 #include "nw.hpp"
 #include "nw_server.hpp"
+#include "settings.h"
 
 #include <atomic>
+
+// Variable Definition 
+
+std::shared_ptr<CppServer::Asio::Service> service;
+std::shared_ptr<NetworkingServer> server;
 
 int init_nwserver()
 {
   // NetworkingServer Class instantiate
+  service = std::make_shared<CppServer::Asio::Service>();
+  service->Start();
+
+  server = std::make_shared<NetworkingServer>(service, Port);
+  server->Start();
+
+  return 0;
+}
+
+int close_nwserver()
+{
+  server->Stop();
+  service->Stop();
+
   return 0;
 }

@@ -9,6 +9,8 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+#include "nw_client.hpp"
+#include "nw_server.hpp"
 #include "settings.h"
 #include "macros.h"
 #include "queue.h"
