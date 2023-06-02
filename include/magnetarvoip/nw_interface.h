@@ -26,9 +26,7 @@ inline void packetReceivedHandler(const void* buffer, unsigned long size)
     if (((const NW_PACKET*)buffer)->type == PACKETTYPE_CHAT)
     {
         // Chatting Interface
-
-        // Temporary Solution //
-        //enqueue(&chatPacketQueue, ((const NW_PACKET*)buffer)->data.str);
+        enqueue(&chatPacketQueue, ((const NW_PACKET*)buffer)->data.str, string);
     }
     if (((const NW_PACKET*)buffer)->type == PACKETTYPE_AUDIO)
     {

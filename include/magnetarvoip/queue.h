@@ -60,7 +60,7 @@ inline int isEmptyQueue(Queue *q)
 void enqueue_##type(Queue *q, type data_)           \
 {                                                   \
   Node *node = (Node*)malloc(sizeof(Node));         \
-  node->data.t_##type = data_;                                \
+  node->data.t_##type = data_;                      \
   node->next = NULL;                                \
   if (isEmptyQueue(q))                              \
   {                                                 \
@@ -83,7 +83,7 @@ ENQUEUE_FUNC(string);
 #define enqueue(queue, data, type) enqueue_##type(queue, data)
 
 #define DEQUEUE_FUNC(type)                          \
-type dequeue_##type(Queue *q)                              \
+type dequeue_##type(Queue *q)                       \
 {                                                   \
   Node* ptr;                                        \
   type data_;                                       \
