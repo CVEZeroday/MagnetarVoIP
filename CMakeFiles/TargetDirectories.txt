@@ -1,0 +1,3 @@
+/home/cvezeroday/MagnetarVoIP/CMakeFiles/MagnetarVoIP-0.0.1.out.dir
+/home/cvezeroday/MagnetarVoIP/CMakeFiles/edit_cache.dir
+/home/cvezeroday/MagnetarVoIP/CMakeFiles/rebuild_cache.dir
