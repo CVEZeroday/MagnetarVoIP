@@ -19,6 +19,18 @@
 #include "linenoise/linenoise.h"
 #include "macros.h"
 
+int cmd_callback_chatting(int argn, char** args)
+{
+
+  return 0;
+}
+
+int cmd_callback_nocommand(int argn, char** args)
+{
+ 
+  return 0;
+}
+
 int cmd_callback_connect(int argn, char** args)
 {
 
@@ -107,31 +119,40 @@ int cli_loop()
 {
   while(1)
   {
-    int argn;
     char* input = linenoise(prompt_prefix);
-    char** args = parse(input, &argn);
-
     if (input == NULL)
     {
       break;
     }
-    for (int i = 0; commands[i] != NULL; i++)
-    {
-      for (int j = 0; commands[i][j] != NULL; j++)
-      {
-        if (!strncmp(input, commands[i][j], strlen(commands[i][j])))
-        {
-          (*commandsCallback[i])(argn, args);
-          goto ESCAPE_FOR_LOOP_0;
-        }
-      }
-    }
-    ESCAPE_FOR_LOOP_0:
-
     if (*input == '\0')
     {
       free(input);
       break;
+    }
+
+    int argn;
+    char** args = parse(input, &argn);
+
+    if (args[0][0] == '/')
+    {
+      for (int flag = 0, i = 0; commands[i] != NULL; i++)
+      {
+        for (int j = 0; commands[i][j] != NULL; j++)
+        {
+          if (!strncmp(input, commands[i][j], strlen(commands[i][j])))
+          {
+            (*commandsCallback[i])(argn, args);
+            flag = 1;
+          }
+          if (flag) break;
+        }
+        if (flag) break;
+      }
+      cmd_callback_nocommand(argn, args);
+    }
+    else
+    {
+      cmd_callback_chatting(argn, args);
     }
 
     linenoiseHistoryAdd(input);
