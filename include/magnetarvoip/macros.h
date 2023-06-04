@@ -11,9 +11,11 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+#include <stdarg.h>
+
 #define VERSION "0.0.0.1"
 
-#define ERROR -1
+#define MAGNETARVOIP_ERROR -1
 
 /* Initialization error */
 #define INIT_MINIAUDIO_ERROR 5000
@@ -31,6 +33,7 @@
 #define FAILED_TO_SEND_PACKET 5008
 
 /* Initialization Flag */
+/*
 static int Initialized = 0b00000000; //core, network, chat, audio, ux, cli, tui, gui
 #define CORE_FLAG		0b10000000
 #define NETWORK_FLAG	0b01000000
@@ -40,8 +43,13 @@ static int Initialized = 0b00000000; //core, network, chat, audio, ux, cli, tui,
 #define CLI_FLAG		0b00000100
 #define TUI_FLAG		0b00000010
 #define GUI_FLAG		0b00000001
+*/
 
 /* File Paths */
 #define CLI_HISTORY_FILE "./log/cli_history.txt"
+
+/* Debug Macros */
+#define MAGNETARVOIP_DEBUG 1
+#define DEBUG_PRINTF(...) if(MAGNETARVOIP_DEBUG) { printf(__VA_ARGS__); }
 
 #endif

@@ -17,16 +17,16 @@
 
 // Variable Definition 
 
-std::shared_ptr<CppServer::Asio::Service> service;
+std::shared_ptr<CppServer::Asio::Service> service_server;
 std::shared_ptr<NetworkingServer> server;
 
 int init_nwserver()
 {
   // NetworkingServer Class instantiate
-  service = std::make_shared<CppServer::Asio::Service>();
-  service->Start();
+  service_server = std::make_shared<CppServer::Asio::Service>();
+  service_server->Start();
 
-  server = std::make_shared<NetworkingServer>(service, Port);
+  server = std::make_shared<NetworkingServer>(service_server, Port);
   server->Start();
 
   return 0;
@@ -35,7 +35,7 @@ int init_nwserver()
 int close_nwserver()
 {
   server->Stop();
-  service->Stop();
+  service_server->Stop();
 
   return 0;
 }

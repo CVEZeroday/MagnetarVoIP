@@ -35,14 +35,14 @@ int init_miniaudio_capture()
 	if (ma_device_init(NULL, &capture_config, &capture_device) != MA_SUCCESS)
 	{
 		error_type = FAILED_TO_INITIALIZE_CAPTURE_DEVICE;
-		return ERROR;
+		return MAGNETARVOIP_ERROR;
 	}
 
 	if (ma_device_start(&capture_device) != MA_SUCCESS)
 	{
 		ma_device_uninit(&capture_device);
 		error_type = FAILED_TO_START_CAPTURE_DEVICE;
-		return ERROR;
+		return MAGNETARVOIP_ERROR;
 	}
 
 	return 0;

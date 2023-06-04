@@ -14,20 +14,23 @@
 #include <string.h>
 #include <ctype.h>
 
+#include "linenoise/linenoise.h"
+
 #include "cli.h"
 #include "cmd.h"
-#include "linenoise/linenoise.h"
 #include "macros.h"
+#include "settings.h"
+#include "core_thread.h"
 
-int cmd_callback_chatting(int argn, char** args)
+int cmd_callback_chatting(char* input)
 {
-
+  DEBUG_PRINTF("Input: %s\n", input);
   return 0;
 }
 
 int cmd_callback_nocommand(int argn, char** args)
 {
- 
+  DEBUG_PRINTF("No Command: %s\n", args[0]);
   return 0;
 }
 
@@ -93,7 +96,6 @@ int cmd_callback_mute(int argn, char** args)
 
 int cmd_callback_help(int argn, char** args)
 {
-
   return 0;
 }
 
@@ -117,6 +119,7 @@ int cmd_callback_history(int argn, char** args)
 
 int cli_loop()
 {
+  DEBUG_PRINTF("Entering CLI Loop\n");
   while(1)
   {
     char* input = linenoise(prompt_prefix);
@@ -127,15 +130,15 @@ int cli_loop()
     if (*input == '\0')
     {
       free(input);
-      break;
+      continue;
     }
 
-    int argn;
+    int argn, flag = 0;
     char** args = parse(input, &argn);
 
     if (args[0][0] == '/')
     {
-      for (int flag = 0, i = 0; commands[i] != NULL; i++)
+      for (int i = 0; i < sizeof(commands) / sizeof(commands[0]); i++)
       {
         for (int j = 0; commands[i][j] != NULL; j++)
         {
@@ -148,11 +151,11 @@ int cli_loop()
         }
         if (flag) break;
       }
-      cmd_callback_nocommand(argn, args);
+      if(!flag) cmd_callback_nocommand(argn, args);
     }
     else
     {
-      cmd_callback_chatting(argn, args);
+      cmd_callback_chatting(input);
     }
 
     linenoiseHistoryAdd(input);
@@ -197,7 +200,9 @@ char** parse(char* input, int* count)
 {
   int length;
   char** args = NULL;
-  char* token = strtok(input, " ");
+  char* _input = (char*)malloc(strlen(input));
+  memcpy(_input, input, strlen(input));
+  char* token = strtok(_input, " ");
   (*count) = 0;
 
   while (token != NULL)
@@ -210,12 +215,12 @@ char** parse(char* input, int* count)
 
   args = (char**)realloc(args, (*count) * sizeof(char*));
 
-  length = strlen(input);
+  length = strlen(_input);
   int n = 0;
   for (int i = 0; i < (*count); i++)
   {
     length -= strlen(args[i]) + strlen(" ");
-    strncpy(args[i], input + n, strlen(args[i]));
+    strncpy(args[i], _input + n, strlen(args[i]));
     n += strlen(args[i]) + strlen(" ");
     args[i][strlen(args[i])] = '\0';
   }

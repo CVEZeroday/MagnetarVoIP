@@ -11,8 +11,15 @@
 
 #include "core.h"
 #include "settings.h"
+#include "macros.h"
+#include "core_thread.h"
 
 int core_main()
 {
-    return 0;
+  DEBUG_PRINTF("Entering Core Main...\n");
+  while (1)
+  {
+
+  }
+  return 0;
 }

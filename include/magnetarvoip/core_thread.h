@@ -15,7 +15,15 @@ extern "C" {
 #endif
 /********************************************/
 
+#ifdef __cplusplus
+static std::thread core_thread;
+static std::thread chat_thread;
+static std::thread ux_thread;
+#endif
+
 int init_threads();
+
+void packer_yield();
 
 /********************************************/
 #ifdef __cplusplus

@@ -29,7 +29,6 @@ set(SRC_FILES
   ${CMAKE_SOURCE_DIR}/src/core/core_thread.cc
 
   ${CMAKE_SOURCE_DIR}/src/init/init.cc
-  ${CMAKE_SOURCE_DIR}/src/init/init_ux.c
   ${CMAKE_SOURCE_DIR}/src/init/init_miniaudio.c
   ${CMAKE_SOURCE_DIR}/src/init/init_cppserver.cc
 

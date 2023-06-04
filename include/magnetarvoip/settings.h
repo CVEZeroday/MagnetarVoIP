@@ -17,7 +17,7 @@ enum PROGRAM_MODE {
 	TUI_MODE
 };
 static int ProgramMode = CLI_MODE;
-static char IsServer = 0;
+static char IsServer = 1;
 
 static char Address[0x10] = "127.0.0.1";
 static int Port = 30200;

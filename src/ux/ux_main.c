@@ -15,21 +15,19 @@
 
 int ux_main()
 {
-  while(1)
-    if (Initialized & UX_FLAG)
-      break;
-  // Check if UX_FLAG initialized
-  
-  if (ProgramMode & GUI_MODE)
+  DEBUG_PRINTF("Entering UX Main...\n");
+
+  if (ProgramMode == GUI_MODE)
   {
-    gui_init();
+    //gui_init();
   }
-  if (ProgramMode & TUI_MODE)
+  if (ProgramMode == TUI_MODE)
   {
-    tui_init();
+    //tui_init();
   }
-  if (ProgramMode & CLI_MODE)
+  if (ProgramMode == CLI_MODE)
   {
+    DEBUG_PRINTF("Initializing CLI Mode...\n");
     cli_init();
   }
 

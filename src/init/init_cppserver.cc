@@ -23,21 +23,19 @@
 #include "init_cppserver.hpp"
 
 int init_cppserver()
-{
-  Initialized |= NETWORK_FLAG;
-  
+{  
   initQueue(&chatPacketQueue);
   initQueue(&audioPacketQueue);
 
   if (IsServer)
   {
-    if (init_nwserver() == ERROR)
-      return ERROR;
+    if (init_nwserver() == MAGNETARVOIP_ERROR)
+      return MAGNETARVOIP_ERROR;
   }
   else
   {
-    if (init_nwclient() == ERROR)
-      return ERROR;
+    if (init_nwclient() == MAGNETARVOIP_ERROR)
+      return MAGNETARVOIP_ERROR;
   }
 
   return 0;

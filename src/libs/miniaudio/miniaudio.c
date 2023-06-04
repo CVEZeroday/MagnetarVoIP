@@ -8865,7 +8865,8 @@ static HRESULT STDMETHODCALLTYPE ma_IMMNotificationClient_OnDeviceStateChanged(m
 #endif
 
     /*
-    There have been reports of a hang when a playback device is disconnected. The idea with this code is to explicitly stop the device if we detect
+    There have been reports of a hang when a playback device is 
+    ed. The idea with this code is to explicitly stop the device if we detect
     that the device is disabled or has been unplugged.
     */
     if (pThis->pDevice->wasapi.allowCaptureAutoStreamRouting && (pThis->pDevice->type == ma_device_type_capture || pThis->pDevice->type == ma_device_type_duplex || pThis->pDevice->type == ma_device_type_loopback)) {

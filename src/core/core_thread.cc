@@ -19,19 +19,25 @@
 #include "macros.h"
 #include "settings.h"
 
-std::thread core_thread;
-std::thread chat_thread;
-std::thread ux_thread;
-
 int init_threads()
 {
-	core_thread = CppCommon::Thread::Start(core_main);
-	chat_thread = CppCommon::Thread::Start(chat_main);
-	ux_thread = CppCommon::Thread::Start(ux_main);
-	// nw_thread is managed by cppserver library
-	// audio_thread is managed by miniaudio library
-  
+  DEBUG_PRINTF("Initializing Threads...\n");
+  core_thread = CppCommon::Thread::Start(core_main);
+  chat_thread = CppCommon::Thread::Start(chat_main);
+  ux_thread = CppCommon::Thread::Start(ux_main);
+  // nw_thread is managed by cppserver library
+  // audio_thread is managed by miniaudio library
+
+  core_thread.join();
+  chat_thread.join();
+  ux_thread.join();
+
   return 0;
+}
+
+void packer_yield()
+{
+  CppCommon::Thread::Yield();
 }
 
 int close_threads()

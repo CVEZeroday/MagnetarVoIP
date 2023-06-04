@@ -56,51 +56,18 @@ inline int isEmptyQueue(Queue *q)
   return q->count == 0;
 }
 
-#define ENQUEUE_FUNC(type)                          \
-void enqueue_##type(Queue *q, type data_)           \
-{                                                   \
-  Node *node = (Node*)malloc(sizeof(Node));         \
-  node->data.t_##type = data_;                      \
-  node->next = NULL;                                \
-  if (isEmptyQueue(q))                              \
-  {                                                 \
-    q->front = node;                                \
-  }                                                 \
-  else                                              \
-  {                                                 \
-    q->rear->next = node;                           \
-  }                                                 \
-  q->rear = node;                                   \
-  q->count++;                                       \
-}                                                   
-
-ENQUEUE_FUNC(int);
-//ENQUEUE_FUNC(float);
+void enqueue_int(Queue* q, int data_);
+//void enqueue_float(Queue* q, float data_);
 #ifdef __cplusplus
-ENQUEUE_FUNC(string);
+void enqueue_string(Queue* q, std::string data_);
 #endif
-
 #define enqueue(queue, data, type) enqueue_##type(queue, data)
 
-#define DEQUEUE_FUNC(type)                          \
-type dequeue_##type(Queue *q)                       \
-{                                                   \
-  Node* ptr;                                        \
-  type data_;                                       \
-  ptr = q->front;                                   \
-  q->front = ptr->next;                             \
-  data_ = ptr->data.t_##type;                       \
-  free(ptr);                                        \
-  q->count--;                                       \
-  return data_;                                     \
-}
-
-DEQUEUE_FUNC(int);
-//DEQUEUE_FUNC(float);
+int dequeue_int(Queue *q);
+//float dequeue_float(Queue* q);
 #ifdef __cplusplus
-DEQUEUE_FUNC(string);
+std::string dequeue_string(Queue* q);
 #endif
-
 #define dequeue(queue, type) dequeue_##type(queue)
 
 

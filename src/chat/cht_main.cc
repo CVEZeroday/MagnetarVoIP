@@ -16,14 +16,12 @@
 #include "macros.h"
 #include "queue.h"
 #include "nw_interface.h"
+#include "core_thread.h"
 
 int chat_main()
-{
-  while(1)
-    if (Initialized & CHAT_FLAG)
-      break;
-  // Check if CHAT_FLAG initialized
-  
+{  
+  DEBUG_PRINTF("Entering Chat Main...\n");
+
   std::string dequeuedStr;
 
   // Main Loop

@@ -19,15 +19,13 @@
 
 int init_miniaudio()
 {
-	Initialized |= AUDIO_FLAG;
+	DEBUG_PRINTF("Initializing miniaudio capture module...\n");
+	if (init_miniaudio_capture() == MAGNETARVOIP_ERROR)
+		return MAGNETARVOIP_ERROR;
 
-	printf("Initializing miniaudio capture module...\n");
-	if (init_miniaudio_capture() == ERROR)
-		return ERROR;
-
-	printf("Initializing miniaudio playback module...\n");
-	if (init_miniaudio_playback() == ERROR)
-		return ERROR;
+	DEBUG_PRINTF("Initializing miniaudio playback module...\n");
+	if (init_miniaudio_playback() == MAGNETARVOIP_ERROR)
+		return MAGNETARVOIP_ERROR;
 
 	return 0;
 }

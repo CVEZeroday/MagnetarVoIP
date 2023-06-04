@@ -17,16 +17,16 @@
 
 // Variable Definition
 
-std::shared_ptr<CppServer::Asio::Service> service;
+std::shared_ptr<CppServer::Asio::Service> service_client;
 std::shared_ptr<NetworkingClient> client;
 
 int init_nwclient()
 {
   // NetworkingClient Class Instantiate
-  service = std::make_shared<CppServer::Asio::Service>();
-  service->Start();
+  service_client = std::make_shared<CppServer::Asio::Service>();
+  service_client->Start();
 
-  client = std::make_shared<NetworkingClient>(service, Address, Port);
+  client = std::make_shared<NetworkingClient>(service_client, Address, Port);
   client->ConnectAsync();
 
   return 0;
@@ -35,7 +35,7 @@ int init_nwclient()
 int close_nwclient()
 {
   client->DisconnectAndStop();
-  service->Stop();
+  service_client->Stop();
 
   return 0;
 }
