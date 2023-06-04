@@ -122,21 +122,12 @@ int cli_loop()
         if (!strncmp(input, commands[i][j], strlen(commands[i][j])))
         {
           (*commandsCallback[i])(argn, args);
-          goto ESCAPE_LOOP_1;
+          goto ESCAPE_FOR_LOOP_0;
         }
       }
     }
-    ESCAPE_LOOP_1:
+    ESCAPE_FOR_LOOP_0:
 
-    {
-      for (int i = 0; ; i++)
-      {
-        char* history = linenoiseHistoryLine(i);
-        if (history == NULL) break;
-        printf("%4d: %s\n", i, history);
-        free(history);
-      }
-    }
     if (*input == '\0')
     {
       free(input);
@@ -175,34 +166,6 @@ int cli_init()
   linenoiseSetCompletionCallback(completionHook);
 
   cli_loop();
-
-  while(1)
-  {
-    char* result = linenoise(prompt_prefix);
-    
-    if (result == NULL)
-    {
-      break;
-    }
-    else if (!strncmp(result, "/history", 8))
-    {
-      for (int i = 0; ; i++)
-      {
-        char* history = linenoiseHistoryLine(i);
-        if (history == NULL) break;
-        printf("%4d: %s\n", i, history);
-        free(history);
-      }
-    }
-    if (*result == '\0')
-    {
-      free(result);
-      break;
-    }
-
-    linenoiseHistoryAdd(result);
-    free(result);
-  }
   
   linenoiseHistorySave(file);
   linenoiseHistoryFree();
