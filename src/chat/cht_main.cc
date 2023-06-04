@@ -30,7 +30,7 @@ int chat_main()
     if (!isEmptyQueue(&chatPacketQueue))
     {
       mutex_chat.lock();
-      dequeuedStr = dequeue(&chatPacketQueue, string);
+      dequeuedStr = dequeue_string(&chatPacketQueue);
       mutex_chat.unlock();
     }
   }

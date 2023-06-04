@@ -372,30 +372,6 @@ src/init/init_miniaudio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_miniaudio.c.s
 .PHONY : src/init/init_miniaudio.c.s
 
-src/init/init_ux.o: src/init/init_ux.c.o
-.PHONY : src/init/init_ux.o
-
-# target to build an object file
-src/init/init_ux.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_ux.c.o
-.PHONY : src/init/init_ux.c.o
-
-src/init/init_ux.i: src/init/init_ux.c.i
-.PHONY : src/init/init_ux.i
-
-# target to preprocess a source file
-src/init/init_ux.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_ux.c.i
-.PHONY : src/init/init_ux.c.i
-
-src/init/init_ux.s: src/init/init_ux.c.s
-.PHONY : src/init/init_ux.s
-
-# target to generate assembly for a file
-src/init/init_ux.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_ux.c.s
-.PHONY : src/init/init_ux.c.s
-
 src/libs/linenoise/ConvertUTF.o: src/libs/linenoise/ConvertUTF.cpp.o
 .PHONY : src/libs/linenoise/ConvertUTF.o
 
@@ -747,9 +723,6 @@ help:
 	@echo "... src/init/init_miniaudio.o"
 	@echo "... src/init/init_miniaudio.i"
 	@echo "... src/init/init_miniaudio.s"
-	@echo "... src/init/init_ux.o"
-	@echo "... src/init/init_ux.i"
-	@echo "... src/init/init_ux.s"
 	@echo "... src/libs/linenoise/ConvertUTF.o"
 	@echo "... src/libs/linenoise/ConvertUTF.i"
 	@echo "... src/libs/linenoise/ConvertUTF.s"

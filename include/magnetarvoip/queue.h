@@ -58,22 +58,20 @@ inline int isEmptyQueue(Queue *q)
 
 void enqueue_int(Queue* q, int data_);
 //void enqueue_float(Queue* q, float data_);
-#ifdef __cplusplus
-void enqueue_string(Queue* q, std::string data_);
-#endif
-#define enqueue(queue, data, type) enqueue_##type(queue, data)
+//#define enqueue(queue, data, type) enqueue_##type(queue, data)
 
 int dequeue_int(Queue *q);
 //float dequeue_float(Queue* q);
-#ifdef __cplusplus
-std::string dequeue_string(Queue* q);
-#endif
-#define dequeue(queue, type) dequeue_##type(queue)
+//#define dequeue(queue, type) dequeue_##type(queue)
 
 
 /********************************************/
 #ifdef __cplusplus
 }
+
+void enqueue_string(Queue* q, std::string data_);
+std::string dequeue_string(Queue* q);
+
 #endif
 
 #endif

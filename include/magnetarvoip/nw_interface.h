@@ -33,7 +33,7 @@ inline void packetReceivedHandler(const void* buffer, unsigned long size)
     {
         // Chatting Interface
         mutex_chat.lock();
-        enqueue(&chatPacketQueue, ((const NW_PACKET*)buffer)->data.str, string);
+        enqueue_string(&chatPacketQueue, ((const NW_PACKET*)buffer)->data.str);
         mutex_chat.unlock();
     }
     if (((const NW_PACKET*)buffer)->type == PACKETTYPE_AUDIO)

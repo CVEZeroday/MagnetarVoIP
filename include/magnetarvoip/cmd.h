@@ -17,7 +17,7 @@ extern "C" {
 
 #include <stdlib.h>
 
-int cmd_callback_chatting(int argn, char** args);
+int cmd_callback_chatting(char* input);
 int cmd_callback_nocommand(int argn, char** args);
 int cmd_callback_connect(int argn, char** args);
 int cmd_callback_disconnect(int argn, char** args);

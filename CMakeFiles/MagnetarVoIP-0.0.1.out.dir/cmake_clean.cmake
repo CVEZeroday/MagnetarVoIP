@@ -19,8 +19,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o.d"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_miniaudio.c.o"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_miniaudio.c.o.d"
-  "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_ux.c.o"
-  "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_ux.c.o.d"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/ConvertUTF.cpp.o"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/ConvertUTF.cpp.o.d"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/linenoise.cpp.o"

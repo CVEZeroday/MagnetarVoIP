@@ -12,7 +12,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/cvezeroday/MagnetarVoIP/src/audio/aio_playback.c" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/audio/aio_playback.c.o" "gcc" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/audio/aio_playback.c.o.d"
   "/home/cvezeroday/MagnetarVoIP/src/core/core.c" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core.c.o" "gcc" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core.c.o.d"
   "/home/cvezeroday/MagnetarVoIP/src/init/init_miniaudio.c" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_miniaudio.c.o" "gcc" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_miniaudio.c.o.d"
-  "/home/cvezeroday/MagnetarVoIP/src/init/init_ux.c" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_ux.c.o" "gcc" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_ux.c.o.d"
   "/home/cvezeroday/MagnetarVoIP/src/libs/miniaudio/miniaudio.c" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/miniaudio/miniaudio.c.o" "gcc" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/miniaudio/miniaudio.c.o.d"
   "/home/cvezeroday/MagnetarVoIP/src/ux/cli/cli_interface.c" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interface.c.o" "gcc" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interface.c.o.d"
   "/home/cvezeroday/MagnetarVoIP/src/ux/cli/cli_interpret.c" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interpret.c.o" "gcc" "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interpret.c.o.d"
