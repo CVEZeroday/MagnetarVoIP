@@ -14,18 +14,20 @@
 
 #include "cht.h"
 #include "macros.h"
+#include "settings.h"
 #include "queue.h"
 #include "nw_interface.h"
 #include "core_thread.h"
 
 int chat_main()
-{  
+{
+  while (ProgramStatus != WORKING);
   DEBUG_PRINTF("Entering Chat Main...\n");
 
   std::string dequeuedStr;
 
   // Main Loop
-  while(1)
+  while (ProgramStatus != KILL)
   {
     if (!isEmptyQueue(&chatPacketQueue))
     {

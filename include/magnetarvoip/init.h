@@ -16,6 +16,7 @@ extern "C" {
 /********************************************/
 
 void returnError(int);
+void init_externs();
 
 /********************************************/
 #ifdef __cplusplus

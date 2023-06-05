@@ -32,54 +32,57 @@ int cmd_callback_mute(int argn, char** args);
 int cmd_callback_help(int argn, char** args);
 int cmd_callback_info(int argn, char** args);
 int cmd_callback_history(int argn, char** args);
+int cmd_callback_exit(int argn, char** args);
 
 static const char* commands[][4] = {
-  {"/connect", "/c", "/con", NULL},
-  {"/disconnect", "/dc", "/dcon", NULL},
-  {"/setting", "/s", NULL},
-  {"/volumeup", "/vu", "/volup", NULL},
-  {"/volumedown", "/vd", "/voldown", NULL},
-  {"/volumesetting", "/vs", "/volset", NULL},
-  {"/inputup", "/iu", "/inup", NULL},
-  {"/inputdown", "/id", "/indown", NULL},
-  {"/inputsetting", "/is", "/inset", NULL},
-  {"/mute", "/m", NULL},
-  {"/help", "/h", "/?", NULL},
-  {"/info", "/i", NULL},
-  {"/history", "/hist", NULL},
-  NULL
+  {"/connect", "/c", "/con"},
+  {"/disconnect", "/dc", "/dcon"},
+  {"/setting", "/s"},
+  {"/volumeup", "/vu", "/volup"},
+  {"/volumedown", "/vd", "/voldown"},
+  {"/volumesetting", "/vs", "/volset"},
+  {"/inputup", "/iu", "/inup"},
+  {"/inputdown", "/id", "/indown"},
+  {"/inputsetting", "/is", "/inset"},
+  {"/mute", "/m"},
+  {"/help", "/h", "/?"},
+  {"/info", "/i"},
+  {"/history", "/hist"},
+  {"/exit", "/quit"}
 };
 
 static const char* description_en[] = {
-  "/connect, /c, /con : Connect to the server.",
-  "/disconnect, /dc, /dcon : Disconnect from the server.",
-  "/setting, /s : Change terminal to setting mode.",
-  "/volumeup, /vu, /volup : Increase the volume.\nusage: /volumeup <amount>, default is 1",
-  "/volumedown, /vd, /voldown : Decrease the volume.\nusage: /volumedown <amount>, default is 1",
-  "/volumesetting, /vs, /volset : Change terminal to volume setting mode.",
-  "/inputup, /iu, /inup : Increase the input volume of your microphone\nusage: /inputup <amount>, default is 1",
-  "/inputdown, /id, /indown : Decrease the input volume of your microphone.\nusage: /inputdown <amount>, default is 1",
-  "/inputsetting, /is, /inset : Change terminal to volume setting mode.",
-  "/mute, /m : Mute your microphone.",
-  "/help, /h : Print the list or description of the specific command.\nusage: /help <commands>",
-  "/info, /i : Print the information about MagnetarVoIP.",
-  "/history, /hist : Print your command history."
+  "/connect, /c, /con : Connect to the server.\n",
+  "/disconnect, /dc, /dcon : Disconnect from the server.\n",
+  "/setting, /s : Change terminal to setting mode.\n",
+  "/volumeup, /vu, /volup : Increase the volume.\nusage: /volumeup <amount>, default is 1\n",
+  "/volumedown, /vd, /voldown : Decrease the volume.\nusage: /volumedown <amount>, default is 1\n",
+  "/volumesetting, /vs, /volset : Change terminal to volume setting mode.\n",
+  "/inputup, /iu, /inup : Increase the input volume of your microphone\nusage: /inputup <amount>, default is 1\n",
+  "/inputdown, /id, /indown : Decrease the input volume of your microphone.\nusage: /inputdown <amount>, default is 1\n",
+  "/inputsetting, /is, /inset : Change terminal to volume setting mode.\n",
+  "/mute, /m : Mute your microphone.\n",
+  "/help, /h : Print the list or description of the specific command.\nusage: /help <commands>\n",
+  "/info, /i : Print the information about MagnetarVoIP.\n",
+  "/history, /hist : Print your command history.\n",
+  "/exit, /quit : Exit the program.\n"
 };
 
 static const char* description_ko[] = {
-  "/connect, /c, /con : 서버와 연결합니다.",
-  "/disconnect, /dc, /dcon : 서버와 연결을 종료합니다.",
-  "/setting, /s : 설정 모드에 진입합니다.",
-  "/volumeup, /vu, /volup : 사운드 볼륨을 높입니다.\n사용법: /volumeup <amount>, 기본값 1",
-  "/volumedown, /vd, /voldown : 사운드 볼륨을 낮춥니다.\n사용법: /volumedown <amount>, 기본값 1",
-  "/volumesetting, /vs, /volset : 볼륨 설정 모드에 진입합니다.",
-  "/inputup, /iu, /inup : 마이크 입력 볼륨을 높입니다.\n사용법: /inputup <amount>, 기본값 1",
-  "/inputdown, /id, /indown : 마이크 입력 볼륨을 낮춥니다.\n사용법: /inputdown <amount>, 기본값 1",
-  "/inputsetting, /is, /inset : 마이크 입력 설정 모드에 진입합니다.",
-  "/mute, /m : 마이크를 음소거합니다.",
-  "/help, /h : 명령어의 종류 혹은 특정 명령어에 대한 설명을 출력합니다.\n사용법: /help <commands>",
-  "/info, /i : MagnetarVoIP에 대한 정보를 출력합니다.",
-  "/history, /hist : 명령어 기록을 출력합니다."
+  "/connect, /c, /con : 서버와 연결합니다.\n",
+  "/disconnect, /dc, /dcon : 서버와 연결을 종료합니다.\n",
+  "/setting, /s : 설정 모드에 진입합니다.\n",
+  "/volumeup, /vu, /volup : 사운드 볼륨을 높입니다.\n사용법: /volumeup <amount>, 기본값 1\n",
+  "/volumedown, /vd, /voldown : 사운드 볼륨을 낮춥니다.\n사용법: /volumedown <amount>, 기본값 1\n",
+  "/volumesetting, /vs, /volset : 볼륨 설정 모드에 진입합니다.\n",
+  "/inputup, /iu, /inup : 마이크 입력 볼륨을 높입니다.\n사용법: /inputup <amount>, 기본값 1\n",
+  "/inputdown, /id, /indown : 마이크 입력 볼륨을 낮춥니다.\n사용법: /inputdown <amount>, 기본값 1\n",
+  "/inputsetting, /is, /inset : 마이크 입력 설정 모드에 진입합니다.\n",
+  "/mute, /m : 마이크를 음소거합니다.\n",
+  "/help, /h : 명령어의 종류 혹은 특정 명령어에 대한 설명을 출력합니다.\n사용법: /help <commands>\n",
+  "/info, /i : MagnetarVoIP에 대한 정보를 출력합니다.\n",
+  "/history, /hist : 명령어 기록을 출력합니다.\n",
+  "/exit, /quit : 프로그램을 종료합니다.\n"
 };
 
 static int (*commandsCallback[])(int argn, char** args) = {
@@ -95,7 +98,8 @@ static int (*commandsCallback[])(int argn, char** args) = {
   cmd_callback_mute,
   cmd_callback_help,
   cmd_callback_info,
-  cmd_callback_history
+  cmd_callback_history,
+  cmd_callback_exit
 };
 
 /********************************************/

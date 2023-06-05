@@ -55,7 +55,6 @@ inline int isEmptyQueue(Queue *q)
 {
   return q->count == 0;
 }
-
 void enqueue_int(Queue* q, int data_);
 //void enqueue_float(Queue* q, float data_);
 //#define enqueue(queue, data, type) enqueue_##type(queue, data)

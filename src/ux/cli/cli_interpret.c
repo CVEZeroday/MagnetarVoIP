@@ -96,6 +96,7 @@ int cmd_callback_mute(int argn, char** args)
 
 int cmd_callback_help(int argn, char** args)
 {
+
   return 0;
 }
 
@@ -107,20 +108,27 @@ int cmd_callback_info(int argn, char** args)
 
 int cmd_callback_history(int argn, char** args)
 {
+  DEBUG_PRINTF("History Callback\n");
   for (int i = 0; ; i++)
   {
     char* history = linenoiseHistoryLine(i);
     if (history == NULL) break;
-    printf("%4d: %s", i, history);
+    printf("%4d: %s\n", i, history);
     free(history);
   }
   return 0;
 }
 
-int cli_loop()
+int cmd_callback_exit(int argn, char** args)
+{
+  changeProgramStatus(KILL);
+  return 0;
+}
+
+inline int cli_loop()
 {
   DEBUG_PRINTF("Entering CLI Loop\n");
-  while(1)
+  while(ProgramStatus != KILL)
   {
     char* input = linenoise(prompt_prefix);
     if (input == NULL)
@@ -142,8 +150,9 @@ int cli_loop()
       {
         for (int j = 0; commands[i][j] != NULL; j++)
         {
-          if (!strncmp(input, commands[i][j], strlen(commands[i][j])))
+          if (strcmp(input, commands[i][j]) == 0)
           {
+            //DEBUG_PRINTF("%s, %d, %d\n", args[0], i, j);
             (*commandsCallback[i])(argn, args);
             flag = 1;
           }
@@ -168,9 +177,9 @@ int cli_loop()
 
 void completionHook(char const* prefix, linenoiseCompletions* lc)
 {
-  for (size_t i = 0; commands[i] != NULL; i++)
+  for (int i = 0; i < sizeof(commands) / sizeof(commands[0]); i++)
   {
-    for (size_t j = 0; commands[i][j] != NULL; j++)
+    for (int j = 0; commands[i][j] != NULL; j++)
     {
       if (strncmp(prefix, commands[i][j], strlen(prefix)) == 0)
       {

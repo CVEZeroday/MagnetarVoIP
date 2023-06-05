@@ -132,6 +132,30 @@ MagnetarVoIP-0.0.1.out/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build
 .PHONY : MagnetarVoIP-0.0.1.out/fast
 
+lib/libsrc/uuid.o: lib/libsrc/uuid.cpp.o
+.PHONY : lib/libsrc/uuid.o
+
+# target to build an object file
+lib/libsrc/uuid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o
+.PHONY : lib/libsrc/uuid.cpp.o
+
+lib/libsrc/uuid.i: lib/libsrc/uuid.cpp.i
+.PHONY : lib/libsrc/uuid.i
+
+# target to preprocess a source file
+lib/libsrc/uuid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.i
+.PHONY : lib/libsrc/uuid.cpp.i
+
+lib/libsrc/uuid.s: lib/libsrc/uuid.cpp.s
+.PHONY : lib/libsrc/uuid.s
+
+# target to generate assembly for a file
+lib/libsrc/uuid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.s
+.PHONY : lib/libsrc/uuid.cpp.s
+
 src/audio/aio_capture.o: src/audio/aio_capture.c.o
 .PHONY : src/audio/aio_capture.o
 
@@ -300,6 +324,30 @@ src/core/core_thread.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core_thread.cc.s
 .PHONY : src/core/core_thread.cc.s
 
+src/etc/queue.o: src/etc/queue.cc.o
+.PHONY : src/etc/queue.o
+
+# target to build an object file
+src/etc/queue.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/etc/queue.cc.o
+.PHONY : src/etc/queue.cc.o
+
+src/etc/queue.i: src/etc/queue.cc.i
+.PHONY : src/etc/queue.i
+
+# target to preprocess a source file
+src/etc/queue.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/etc/queue.cc.i
+.PHONY : src/etc/queue.cc.i
+
+src/etc/queue.s: src/etc/queue.cc.s
+.PHONY : src/etc/queue.s
+
+# target to generate assembly for a file
+src/etc/queue.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/etc/queue.cc.s
+.PHONY : src/etc/queue.cc.s
+
 src/init/init.o: src/init/init.cc.o
 .PHONY : src/init/init.o
 
@@ -347,6 +395,30 @@ src/init/init_cppserver.s: src/init/init_cppserver.cc.s
 src/init/init_cppserver.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.s
 .PHONY : src/init/init_cppserver.cc.s
+
+src/init/init_externs.o: src/init/init_externs.cc.o
+.PHONY : src/init/init_externs.o
+
+# target to build an object file
+src/init/init_externs.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_externs.cc.o
+.PHONY : src/init/init_externs.cc.o
+
+src/init/init_externs.i: src/init/init_externs.cc.i
+.PHONY : src/init/init_externs.i
+
+# target to preprocess a source file
+src/init/init_externs.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_externs.cc.i
+.PHONY : src/init/init_externs.cc.i
+
+src/init/init_externs.s: src/init/init_externs.cc.s
+.PHONY : src/init/init_externs.s
+
+# target to generate assembly for a file
+src/init/init_externs.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_externs.cc.s
+.PHONY : src/init/init_externs.cc.s
 
 src/init/init_miniaudio.o: src/init/init_miniaudio.c.o
 .PHONY : src/init/init_miniaudio.o
@@ -693,6 +765,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MagnetarVoIP-0.0.1.out"
+	@echo "... lib/libsrc/uuid.o"
+	@echo "... lib/libsrc/uuid.i"
+	@echo "... lib/libsrc/uuid.s"
 	@echo "... src/audio/aio_capture.o"
 	@echo "... src/audio/aio_capture.i"
 	@echo "... src/audio/aio_capture.s"
@@ -714,12 +789,18 @@ help:
 	@echo "... src/core/core_thread.o"
 	@echo "... src/core/core_thread.i"
 	@echo "... src/core/core_thread.s"
+	@echo "... src/etc/queue.o"
+	@echo "... src/etc/queue.i"
+	@echo "... src/etc/queue.s"
 	@echo "... src/init/init.o"
 	@echo "... src/init/init.i"
 	@echo "... src/init/init.s"
 	@echo "... src/init/init_cppserver.o"
 	@echo "... src/init/init_cppserver.i"
 	@echo "... src/init/init_cppserver.s"
+	@echo "... src/init/init_externs.o"
+	@echo "... src/init/init_externs.i"
+	@echo "... src/init/init_externs.s"
 	@echo "... src/init/init_miniaudio.o"
 	@echo "... src/init/init_miniaudio.i"
 	@echo "... src/init/init_miniaudio.s"

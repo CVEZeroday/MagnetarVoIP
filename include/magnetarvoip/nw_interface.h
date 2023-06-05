@@ -19,11 +19,11 @@
 
 // Packet Queues
 
-static Queue chatPacketQueue;
-static Queue audioPacketQueue;
+extern Queue chatPacketQueue;
+extern Queue audioPacketQueue;
 
-static std::mutex mutex_chat;
-static std::mutex mutex_aio;
+extern std::mutex mutex_chat;
+extern std::mutex mutex_aio;
 
 // inline functions
 

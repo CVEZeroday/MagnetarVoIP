@@ -11,6 +11,7 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+#include <stdio.h>
 #include <stdarg.h>
 
 #define VERSION "0.0.0.1"
@@ -34,7 +35,7 @@
 
 /* Initialization Flag */
 /*
-static int Initialized = 0b00000000; //core, network, chat, audio, ux, cli, tui, gui
+extern int Initialized = 0b00000000; //core, network, chat, audio, ux, cli, tui, gui
 #define CORE_FLAG		0b10000000
 #define NETWORK_FLAG	0b01000000
 #define CHAT_FLAG		0b00100000
@@ -46,7 +47,7 @@ static int Initialized = 0b00000000; //core, network, chat, audio, ux, cli, tui,
 */
 
 /* File Paths */
-#define CLI_HISTORY_FILE "./log/cli_history.txt"
+#define CLI_HISTORY_FILE "./cli_history.txt"
 
 /* Debug Macros */
 #define MAGNETARVOIP_DEBUG 1

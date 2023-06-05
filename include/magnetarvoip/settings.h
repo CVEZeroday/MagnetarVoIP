@@ -16,10 +16,25 @@ enum PROGRAM_MODE {
 	GUI_MODE,
 	TUI_MODE
 };
-static int ProgramMode = CLI_MODE;
-static char IsServer = 1;
+extern int ProgramMode;
+#define PROGRAMMODE_DEFAULT CLI_MODE
+extern char IsServer;
+#define ISSERVER_DEFAULT 1
 
-static char Address[0x10] = "127.0.0.1";
-static int Port = 30200;
+extern char Address[0x10];
+#define ADDRESS_DEFAULT "127.0.0.1"
+extern int Port;
+#define PORT_DEFAULT 30200
+
+extern int TestMode;
+#define TESTMODE_DEFAULT 0
+
+enum PROGRAM_STAT {
+  INIT,
+  WORKING,
+  KILL
+};
+extern int ProgramStatus;
+#define PROGRAMSTATUS_DEFAULT INIT
 
 #endif

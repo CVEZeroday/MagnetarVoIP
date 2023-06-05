@@ -18,14 +18,11 @@
 #pragma comment(lib, "windowsapp")
 #pragma comment(lib, "cppserver.lib")
 #else
-#ifdef __GNUC__
-// Linux and MacOS are not supported in the initial version of MagnetarVoIP
-#endif
 #endif
 
 #include "settings.h"
 #include "macros.h"
 
-static int error_type = -1;
+extern int error_type;
 
 #endif

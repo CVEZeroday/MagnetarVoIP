@@ -16,8 +16,10 @@
 
 int core_main()
 {
+  while (ProgramStatus != WORKING);
   DEBUG_PRINTF("Entering Core Main...\n");
-  while (1)
+  
+  while (ProgramStatus != KILL)
   {
 
   }

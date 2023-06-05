@@ -27,6 +27,8 @@ int init_threads()
   ux_thread = CppCommon::Thread::Start(ux_main);
   // nw_thread is managed by cppserver library
   // audio_thread is managed by miniaudio library
+  changeProgramStatus(WORKING);
+  DEBUG_PRINTF("Initialized Threads! ProgramStatus: %d\n", ProgramStatus);
 
   core_thread.join();
   chat_thread.join();
@@ -38,6 +40,13 @@ int init_threads()
 void packer_yield()
 {
   CppCommon::Thread::Yield();
+}
+
+void changeProgramStatus(int status)
+{
+  mutex_status.lock();
+  ProgramStatus = status;
+  mutex_status.unlock();
 }
 
 int close_threads()

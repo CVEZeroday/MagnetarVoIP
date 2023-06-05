@@ -15,6 +15,7 @@
 
 int ux_main()
 {
+  while (ProgramStatus != WORKING);
   DEBUG_PRINTF("Entering UX Main...\n");
 
   if (ProgramMode == GUI_MODE)
