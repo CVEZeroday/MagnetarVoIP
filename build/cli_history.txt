@@ -4,3 +4,5 @@ asdf
 /hist
 /history
 /exit
+hellp
+/exit

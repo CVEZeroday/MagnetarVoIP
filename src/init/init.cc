@@ -49,8 +49,6 @@
 
 int main(int argc, char** argv)
 {
-  init_externs();
-
   auto parser = optparse::OptionParser().version(VERSION);
 
   parser.add_option("-a", "--address").dest("address").set_default("127.0.0.1").help("Destination Address. Default: %default");

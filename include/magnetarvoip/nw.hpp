@@ -50,7 +50,7 @@ typedef struct _AUDIOPACKET
 {
   std::vector<int> pcm;
 
-  _AUDIOPACKET() {}
+  _AUDIOPACKET() {};
 } AUDIOPACKET;
 // 480 samples
 
@@ -59,7 +59,8 @@ typedef union _PACKETDATA
   CHATPACKET chat;
   AUDIOPACKET audio;
 
-  _PACKETDATA() {}
+  _PACKETDATA() {};
+  ~_PACKETDATA() {};
 } PACKETDATA;
 
 typedef struct _NW_PACKET
@@ -67,7 +68,7 @@ typedef struct _NW_PACKET
   PACKETTYPE type;
   PACKETDATA data;
 
-  _NW_PACKET() {}
+  _NW_PACKET() {};
  } NW_PACKET;
 // NW_PACKET struct
 // type : 1 Byte

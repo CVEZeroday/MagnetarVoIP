@@ -252,30 +252,6 @@ src/chat/cht_packing.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_packing.cc.s
 .PHONY : src/chat/cht_packing.cc.s
 
-src/chat/cht_unpacking.o: src/chat/cht_unpacking.cc.o
-.PHONY : src/chat/cht_unpacking.o
-
-# target to build an object file
-src/chat/cht_unpacking.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_unpacking.cc.o
-.PHONY : src/chat/cht_unpacking.cc.o
-
-src/chat/cht_unpacking.i: src/chat/cht_unpacking.cc.i
-.PHONY : src/chat/cht_unpacking.i
-
-# target to preprocess a source file
-src/chat/cht_unpacking.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_unpacking.cc.i
-.PHONY : src/chat/cht_unpacking.cc.i
-
-src/chat/cht_unpacking.s: src/chat/cht_unpacking.cc.s
-.PHONY : src/chat/cht_unpacking.s
-
-# target to generate assembly for a file
-src/chat/cht_unpacking.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_unpacking.cc.s
-.PHONY : src/chat/cht_unpacking.cc.s
-
 src/core/core.o: src/core/core.c.o
 .PHONY : src/core/core.o
 
@@ -323,30 +299,6 @@ src/core/core_thread.s: src/core/core_thread.cc.s
 src/core/core_thread.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core_thread.cc.s
 .PHONY : src/core/core_thread.cc.s
-
-src/etc/queue.o: src/etc/queue.cc.o
-.PHONY : src/etc/queue.o
-
-# target to build an object file
-src/etc/queue.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/etc/queue.cc.o
-.PHONY : src/etc/queue.cc.o
-
-src/etc/queue.i: src/etc/queue.cc.i
-.PHONY : src/etc/queue.i
-
-# target to preprocess a source file
-src/etc/queue.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/etc/queue.cc.i
-.PHONY : src/etc/queue.cc.i
-
-src/etc/queue.s: src/etc/queue.cc.s
-.PHONY : src/etc/queue.s
-
-# target to generate assembly for a file
-src/etc/queue.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/etc/queue.cc.s
-.PHONY : src/etc/queue.cc.s
 
 src/init/init.o: src/init/init.cc.o
 .PHONY : src/init/init.o
@@ -780,18 +732,12 @@ help:
 	@echo "... src/chat/cht_packing.o"
 	@echo "... src/chat/cht_packing.i"
 	@echo "... src/chat/cht_packing.s"
-	@echo "... src/chat/cht_unpacking.o"
-	@echo "... src/chat/cht_unpacking.i"
-	@echo "... src/chat/cht_unpacking.s"
 	@echo "... src/core/core.o"
 	@echo "... src/core/core.i"
 	@echo "... src/core/core.s"
 	@echo "... src/core/core_thread.o"
 	@echo "... src/core/core_thread.i"
 	@echo "... src/core/core_thread.s"
-	@echo "... src/etc/queue.o"
-	@echo "... src/etc/queue.i"
-	@echo "... src/etc/queue.s"
 	@echo "... src/init/init.o"
 	@echo "... src/init/init.i"
 	@echo "... src/init/init.s"

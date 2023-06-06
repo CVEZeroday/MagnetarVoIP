@@ -9,14 +9,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_main.cc.o.d"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_packing.cc.o"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_packing.cc.o.d"
-  "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_unpacking.cc.o"
-  "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_unpacking.cc.o.d"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core.c.o"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core.c.o.d"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core_thread.cc.o"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core_thread.cc.o.d"
-  "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/etc/queue.cc.o"
-  "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/etc/queue.cc.o.d"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o.d"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o"
@@ -51,8 +47,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_interface.c.o.d"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_main.c.o"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_main.c.o.d"
-  "build/MagnetarVoIP-0.0.1.out"
-  "build/MagnetarVoIP-0.0.1.out.pdb"
+  "build/linux/MagnetarVoIP-0.0.1.out"
+  "build/linux/MagnetarVoIP-0.0.1.out.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
