@@ -28,7 +28,6 @@ set(SRC_FILES
 
   ${CMAKE_SOURCE_DIR}/src/chat/cht_main.cc
   ${CMAKE_SOURCE_DIR}/src/chat/cht_packing.cc
-  ${CMAKE_SOURCE_DIR}/src/chat/cht_unpacking.cc
 
   ${CMAKE_SOURCE_DIR}/src/core/core.c
   ${CMAKE_SOURCE_DIR}/src/core/core_thread.cc
@@ -57,7 +56,7 @@ set(SRC_FILES
   ${CMAKE_SOURCE_DIR}/src/ux/tui/tui_interface.c
   ${CMAKE_SOURCE_DIR}/src/ux/tui/tui_interpret.c
 
-  ${CMAKE_SOURCE_DIR}/src/etc/queue.cc
+  #${CMAKE_SOURCE_DIR}/src/etc/queue.cc
 
   ${CMAKE_SOURCE_DIR}/lib/libsrc/uuid.cpp
   )

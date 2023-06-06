@@ -21,6 +21,8 @@
 // Function Definition
 
 int init_nwclient();
+int send_nwclient(const void* buffer, size_t size);
+int close_nwclient();
 
 // Class Definition
 

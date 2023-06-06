@@ -13,6 +13,7 @@
 
 #ifdef __cplusplus
 #include <string>
+#include "nw.hpp"
 using namespace std;
 extern "C" {
 #endif
@@ -23,7 +24,6 @@ typedef union DATA
 {
   int t_int;
 //  float t_float;
-
 #ifdef __cplusplus
   string t_string;
   DATA() { t_string = ""; }
@@ -70,6 +70,8 @@ int dequeue_int(Queue *q);
 
 void enqueue_string(Queue* q, std::string data_);
 std::string dequeue_string(Queue* q);
+void enqueue_NW_PACKET(Queue* q, NW_PACKET data_);
+NW_PACKET dequeue_NW_PACKET(Queue* q);
 
 #endif
 

@@ -9,4 +9,19 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+#include <string>
 
+#include "cht.h"
+#include "nw_interface.h"
+
+int send_chat(char *str)
+{
+  NW_PACKET _packet;
+  _packet.type = PACKETTYPE_CHAT;
+  _packet.data.chat.str = std::string(str);
+  _packet.data.chat.name = "temp_name";
+
+  send_nw(&_packet, sizeof(_packet));
+
+  return 0;
+}

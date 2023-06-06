@@ -64,39 +64,13 @@ void enqueue_string(Queue* q, std::string data_)
   q->count++;
 }
 
-int dequeue_int(Queue* q)
+NW_PACKET* dequeue(Queue* q)
 {
   Node* ptr;
-  int data_;
+  NW_PACKET* data_;
   ptr = q->front;
   q->front = ptr->next;
-  data_ = ptr->data.t_int;
-  free(ptr);
-  q->count--;
-  return data_;
-}
-
-/*
-float dequeue_float(Queue* q)
-{
-  Node* ptr;
-  float data_;
-  ptr = q->front;
-  q->front = ptr->next;
-  data_ = ptr->data.t_float;
-  free(ptr);
-  q->count--;
-  return data_;
-}
-*/
-
-std::string dequeue_string(Queue* q)
-{
-  Node* ptr;
-  std::string data_;
-  ptr = q->front;
-  q->front = ptr->next;
-  data_ = ptr->data.t_string;
+  data_ = ptr->data;
   free(ptr);
   q->count--;
   return data_;

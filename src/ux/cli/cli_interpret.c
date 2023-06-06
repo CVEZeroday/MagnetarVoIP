@@ -17,14 +17,17 @@
 #include "linenoise/linenoise.h"
 
 #include "cli.h"
+#include "cht.h"
 #include "cmd.h"
 #include "macros.h"
 #include "settings.h"
 #include "core_thread.h"
+#include "nw_interface.h"
 
 int cmd_callback_chatting(char* input)
 {
   DEBUG_PRINTF("Input: %s\n", input);
+  send_chat(input);
   return 0;
 }
 
