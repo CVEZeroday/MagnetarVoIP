@@ -20,7 +20,7 @@ set(OUTPUT_ELF
   "${CMAKE_PROJECT_NAME}-${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT_VERSION_PATCH}.out"
   )
 
-set(TARGET_ARCH "linux_arm")
+set(TARGET_ARCH "linux")
 
 set(SRC_FILES
   ${CMAKE_SOURCE_DIR}/src/audio/aio_capture.c
@@ -83,8 +83,8 @@ link_libraries(
   bfd
   dl
   rt
-  Catch2
-  Catch2Main
+  #Catch2
+  #Catch2Main
 )
 link_directories(
   ${CMAKE_SOURCE_DIR}/lib/${TARGET_ARCH}
@@ -110,7 +110,7 @@ link_directories(
 #  endif()
 #endif()
 
-set(OUTPUT_DIR ${CMAKE_SOURCE_DIR}/build)
+set(OUTPUT_DIR ${CMAKE_SOURCE_DIR}/build/${TARGET_ARCH})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${OUTPUT_DIR})
 
 add_executable(
