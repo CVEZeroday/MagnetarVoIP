@@ -32,6 +32,13 @@ int init_nwserver()
   return 0;
 }
 
+int send_nwserver(const void* buffer, size_t size)
+{
+  server->Multicast(buffer, size);
+
+  return 0;
+}
+
 int close_nwserver()
 {
   server->Stop();

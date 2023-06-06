@@ -13,12 +13,15 @@
 /* THIS FILE CANNOT BE INCLUDED IN .c FILES */
 
 #include "cppserver/asio/tcp_server.h"
+#include "nw_interface.h"
 #include "threads/thread.h"
 
 #include <atomic>
 
 // Function Definition
 int init_nwserver();
+int send_nwserver(const void* buffer, size_t size);
+int close_nwserver();
 
 // Class Definition
 
@@ -39,7 +42,9 @@ protected:
 
 	void onReceived(const void* buffer, size_t size) override
 	{
-		//onReceived
+		packetReceivedHandler(buffer, size);
+
+    server()->Multicast((const NW_PACKET*)buffer, size);
 	}
 
 	void onError(int error, const std::string& category, const std::string& message) override
@@ -65,5 +70,9 @@ protected:
 	}
 };
 
+// Global Variables Definition
+
+extern std::shared_ptr<CppServer::Asio::Service> service_server;
+extern std::shared_ptr<NetworkingServer> server;
 
 #endif

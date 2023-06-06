@@ -13,7 +13,6 @@
 #include "nw_server.hpp"
 #include "settings.h"
 #include "macros.h"
-#include "queue.h"
 
 #include "nw.hpp"
 #include "nw_client.hpp"
@@ -24,16 +23,15 @@
 
 int init_cppserver()
 {  
-  initQueue(&chatPacketQueue);
-  initQueue(&audioPacketQueue);
-
   if (IsServer)
   {
+    send_nw = send_nwserver;
     if (init_nwserver() == MAGNETARVOIP_ERROR)
       return MAGNETARVOIP_ERROR;
   }
   else
   {
+    send_nw = send_nwclient;
     if (init_nwclient() == MAGNETARVOIP_ERROR)
       return MAGNETARVOIP_ERROR;
   }

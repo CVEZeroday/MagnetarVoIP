@@ -10,11 +10,11 @@
 /********************************************/
 
 #include <mutex>
+#include <queue>
 #include "threads/thread.h"
 
 #include "magnetar.h"
 #include "init.h"
-#include "queue.h"
 #include "settings.h"
 #include "aio.h"
 #include "core_thread.h"
@@ -29,8 +29,10 @@ int Port = PORT_DEFAULT;
 int TestMode = TESTMODE_DEFAULT;
 int ProgramStatus = PROGRAMSTATUS_DEFAULT;
 
-Queue chatPacketQueue;
-Queue audioPacketQueue;
+std::queue<NW_PACKET> chatSendQueue;
+std::queue<const NW_PACKET*>chatRecvQueue;
+std::queue<int> audioSendQueue;
+std::queue<int> audioRecvQueue;
 
 std::mutex mutex_chat;
 std::mutex mutex_aio;
@@ -41,8 +43,6 @@ std::thread ux_thread;
 
 std::mutex mutex_status;
 
-void init_externs()
-{
-  initQueue(&chatPacketQueue);
-  initQueue(&audioPacketQueue);
+extern "C" {
+  int(*send_nw)(const void* buffer, size_t size);
 }

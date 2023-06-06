@@ -32,6 +32,13 @@ int init_nwclient()
   return 0;
 }
 
+int send_nwclient(const void* buffer, size_t size)
+{
+  client->SendAsync(buffer, size);
+
+  return 0;
+}
+
 int close_nwclient()
 {
   client->DisconnectAndStop();
