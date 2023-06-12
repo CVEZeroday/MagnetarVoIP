@@ -20,19 +20,19 @@
 #include "core_thread.h"
 #include "nw_interface.h"
 
-int error_type = -1; 
+int32_t error_type = -1; 
 
-int ProgramMode = PROGRAMMODE_DEFAULT;
-char IsServer = ISSERVER_DEFAULT;
+uint8_t ProgramMode = PROGRAMMODE_DEFAULT;
+uint8_t IsServer = ISSERVER_DEFAULT;
 char Address[0x10] = ADDRESS_DEFAULT;
-int Port = PORT_DEFAULT;
-int TestMode = TESTMODE_DEFAULT;
-int ProgramStatus = PROGRAMSTATUS_DEFAULT;
+uint16_t Port = PORT_DEFAULT;
+uint8_t TestMode = TESTMODE_DEFAULT;
+uint8_t ProgramStatus = PROGRAMSTATUS_DEFAULT;
 
 std::queue<NW_PACKET> chatSendQueue;
 std::queue<const NW_PACKET*>chatRecvQueue;
-std::queue<int> audioSendQueue;
-std::queue<int> audioRecvQueue;
+std::queue<int32_t> audioSendQueue;
+std::queue<int32_t> audioRecvQueue;
 
 std::mutex mutex_chat;
 std::mutex mutex_aio;
@@ -44,5 +44,5 @@ std::thread ux_thread;
 std::mutex mutex_status;
 
 extern "C" {
-  int(*send_nw)(const void* buffer, size_t size);
+  int32_t(*send_nw)(const void* buffer, size_t size);
 }

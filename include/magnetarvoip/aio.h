@@ -15,13 +15,15 @@
 extern "C" {
 #endif
 #include <miniaudio/miniaudio.h>
+
+#include "macros.h"
 /********************************************/
 
-int init_miniaudio_capture();
-int init_miniaudio_playback();
+int32_t init_miniaudio_capture();
+int32_t init_miniaudio_playback();
 
-int stop_miniaudio_capture();
-int stop_miniaudio_playback();
+int32_t stop_miniaudio_capture();
+int32_t stop_miniaudio_playback();
 
 /********************************************/
 #ifdef __cplusplus

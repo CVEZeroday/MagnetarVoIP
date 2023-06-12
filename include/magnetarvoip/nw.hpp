@@ -19,74 +19,26 @@
 #include <queue>
 #include <chrono>
 
-void returnError(int);
+#include "macros.h"
+#include "nw_interface.h"
 
-typedef enum : unsigned char {
-  PACKETTYPE_CHAT,
-  PACKETTYPE_AUDIO,
-  PACKETTYPE_NETWORK,
-  PACKETTYPE_INSTRUCTION,
-  PACKETTYPE_ERROR,
-  PACKETTYPE_ETC
-} PACKETTYPE;
-
-typedef struct _CHATPACKET
-{
-  unsigned long int header;
-  std::string name;
-  std::string str;
-  //unsigned long int time;
-  std::chrono::system_clock::time_point time;
-  _CHATPACKET()
-  {
-    header = 0;
-    name = "";
-    str = "";
-    time = std::chrono::system_clock::now();
-  }
-} CHATPACKET;
-
-typedef struct _AUDIOPACKET
-{
-  std::vector<int> pcm;
-
-  _AUDIOPACKET() {};
-} AUDIOPACKET;
-// 480 samples
-
-typedef union _PACKETDATA
-{
-  CHATPACKET chat;
-  AUDIOPACKET audio;
-
-  _PACKETDATA() {};
-  ~_PACKETDATA() {};
-} PACKETDATA;
-
-typedef struct _NW_PACKET
-{
-  PACKETTYPE type;
-  PACKETDATA data;
-
-  _NW_PACKET() {};
- } NW_PACKET;
-// NW_PACKET struct
-// type : 1 Byte
+void returnError(int32_t);
 
 extern std::queue<NW_PACKET> chatSendQueue;
 extern std::queue<const NW_PACKET*> chatRecvQueue;
-extern std::queue<int> audioSendQueue;
-extern std::queue<int> audioRecvQueue;
+extern std::queue<int32_t> audioSendQueue;
+extern std::queue<int32_t> audioRecvQueue;
 
 extern std::mutex mutex_chat;
 extern std::mutex mutex_aio;
 
 // inline functions
 
-inline void packetReceivedHandler(const void* buffer, unsigned long size)
+inline void packetReceivedHandler(const void* buffer, uint32_t size)
 {
     if (((const NW_PACKET*)buffer)->type == PACKETTYPE_CHAT)
     {
+        //DEBUG_PRINTF("packetReceivedHandler: recvd str: %s\n", ((const NW_PACKET*)buffer)->data.chat.str);
         // Chatting Interface
         mutex_chat.lock();
         chatRecvQueue.push((const NW_PACKET*)buffer);

@@ -352,52 +352,10 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interpret.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interpret.c.s"
 	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cvezeroday/MagnetarVoIP/src/ux/cli/cli_interpret.c -o CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interpret.c.s
 
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.o: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/flags.make
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.o: src/ux/tui/tui_update.c
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.o: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cvezeroday/MagnetarVoIP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.o"
-	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.o -MF CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.o.d -o CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.o -c /home/cvezeroday/MagnetarVoIP/src/ux/tui/tui_update.c
-
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.i"
-	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cvezeroday/MagnetarVoIP/src/ux/tui/tui_update.c > CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.i
-
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.s"
-	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cvezeroday/MagnetarVoIP/src/ux/tui/tui_update.c -o CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.s
-
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.o: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/flags.make
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.o: src/ux/tui/tui_interface.c
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.o: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cvezeroday/MagnetarVoIP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.o"
-	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.o -MF CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.o.d -o CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.o -c /home/cvezeroday/MagnetarVoIP/src/ux/tui/tui_interface.c
-
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.i"
-	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cvezeroday/MagnetarVoIP/src/ux/tui/tui_interface.c > CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.i
-
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.s"
-	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cvezeroday/MagnetarVoIP/src/ux/tui/tui_interface.c -o CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.s
-
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.o: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/flags.make
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.o: src/ux/tui/tui_interpret.c
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.o: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cvezeroday/MagnetarVoIP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.o"
-	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.o -MF CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.o.d -o CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.o -c /home/cvezeroday/MagnetarVoIP/src/ux/tui/tui_interpret.c
-
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.i"
-	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cvezeroday/MagnetarVoIP/src/ux/tui/tui_interpret.c > CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.i
-
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.s"
-	gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cvezeroday/MagnetarVoIP/src/ux/tui/tui_interpret.c -o CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.s
-
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/flags.make
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o: lib/libsrc/uuid.cpp
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cvezeroday/MagnetarVoIP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cvezeroday/MagnetarVoIP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o"
 	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o -MF CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o.d -o CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o -c /home/cvezeroday/MagnetarVoIP/lib/libsrc/uuid.cpp
 
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.i: cmake_force
@@ -430,45 +388,39 @@ MagnetarVoIP__0_0_1_out_OBJECTS = \
 "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_interface.c.o" \
 "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interface.c.o" \
 "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interpret.c.o" \
-"CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.o" \
-"CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.o" \
-"CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.o" \
 "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o"
 
 # External object files for target MagnetarVoIP-0.0.1.out
 MagnetarVoIP__0_0_1_out_EXTERNAL_OBJECTS =
 
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/audio/aio_capture.c.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/audio/aio_playback.c.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_main.cc.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_packing.cc.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core.c.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core_thread.cc.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_miniaudio.c.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_externs.cc.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/ConvertUTF.cpp.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/linenoise.cpp.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/wcwidth.cpp.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/miniaudio/miniaudio.c.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_main.c.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_interface.c.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interface.c.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interpret.c.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make
-build/linux/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cvezeroday/MagnetarVoIP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable build/linux/MagnetarVoIP-0.0.1.out"
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/audio/aio_capture.c.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/audio/aio_playback.c.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_main.cc.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_packing.cc.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core.c.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core_thread.cc.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_miniaudio.c.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_externs.cc.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/ConvertUTF.cpp.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/linenoise.cpp.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/wcwidth.cpp.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/miniaudio/miniaudio.c.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_main.c.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_interface.c.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interface.c.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interpret.c.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make
+build/linux_arm/MagnetarVoIP-0.0.1.out: CMakeFiles/MagnetarVoIP-0.0.1.out.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cvezeroday/MagnetarVoIP/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable build/linux_arm/MagnetarVoIP-0.0.1.out"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MagnetarVoIP-0.0.1.out.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build: build/linux/MagnetarVoIP-0.0.1.out
+CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build: build/linux_arm/MagnetarVoIP-0.0.1.out
 .PHONY : CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build
 
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/clean:

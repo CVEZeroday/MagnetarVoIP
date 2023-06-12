@@ -9,19 +9,22 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include <string>
+#include <string.h>
+#include <malloc.h>
 
 #include "cht.h"
 #include "nw_interface.h"
+#include "macros.h"
 
-int send_chat(char *str)
+int32_t send_chat(uint8_t *str)
 {
-  NW_PACKET _packet;
-  _packet.type = PACKETTYPE_CHAT;
-  _packet.data.chat.str = std::string(str);
-  _packet.data.chat.name = "temp_name";
+  NW_PACKET* _packet = (NW_PACKET*)malloc(2029);
+  _packet->type = PACKETTYPE_CHAT;
+  strncpy((char*)_packet->data.chat.str, (char*)str, 2000);
+  strncpy((char*)_packet->data.chat.name, "temp_name", 10);
 
-  send_nw(&_packet, sizeof(_packet));
+  send_nw(_packet, sizeof(*_packet));
+  free(_packet);
 
   return 0;
 }

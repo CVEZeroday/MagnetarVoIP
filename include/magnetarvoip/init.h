@@ -15,7 +15,9 @@ extern "C" {
 #endif
 /********************************************/
 
-void returnError(int);
+#include "macros.h"
+
+void returnError(int32_t err);
 void init_externs();
 
 /********************************************/

@@ -4,24 +4,26 @@
 /*     Copyrights (C) 2023 CVE_zeroday.     */
 /*          All rights reserved.            */
 /********************************************/
-/*           File Name: core.c              */
-/*   Created by CVE_zeroday on 01.04.2023   */
+/*         File Name: cli_layout.c          */
+/*   Created by CVE_zeroday on 08.06.2023   */
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include "core.h"
-#include "settings.h"
+#include <ncurses.h>
+
+#include "cli.h"
+#include "cht.h"
+#include "cmd.h"
 #include "macros.h"
+#include "settings.h"
 #include "core_thread.h"
+#include "nw_interface.h"
 
-int32_t core_main()
+int cli_init_()
 {
-  while (ProgramStatus != WORKING);
-  DEBUG_PRINTF("Entering Core Main...\n");
-  
-  while (ProgramStatus != KILL)
-  {
+//  initscr();
 
-  }
+
+
   return 0;
 }

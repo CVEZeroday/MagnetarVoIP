@@ -19,7 +19,7 @@
 #include "macros.h"
 #include "settings.h"
 
-int init_threads()
+int32_t init_threads()
 {
   DEBUG_PRINTF("Initializing Threads...\n");
   core_thread = CppCommon::Thread::Start(core_main);
@@ -42,14 +42,14 @@ void packer_yield()
   CppCommon::Thread::Yield();
 }
 
-void changeProgramStatus(int status)
+void changeProgramStatus(int32_t status)
 {
   mutex_status.lock();
   ProgramStatus = status;
   mutex_status.unlock();
 }
 
-int close_threads()
+int32_t close_threads()
 {
   return 0;
 }

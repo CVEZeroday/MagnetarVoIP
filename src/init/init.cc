@@ -47,7 +47,7 @@
 
 #include <optparse/OptionParser.h>
 
-int main(int argc, char** argv)
+int32_t main(int argc, char** argv)
 {
   auto parser = optparse::OptionParser().version(VERSION);
 
@@ -61,10 +61,10 @@ int main(int argc, char** argv)
 
   std::string _addr = (std::string)options.get("address");
   strncpy(Address, _addr.c_str(), 0x10);
-  Port = (int)options.get("port");
-  TestMode = (int)options.get("test"); 
-  IsServer = (int)options.get("server");
-  ProgramMode = (int)options.get("mode");
+  Port = (int32_t)options.get("port");
+  TestMode = (int32_t)options.get("test"); 
+  IsServer = (int32_t)options.get("server");
+  ProgramMode = (int32_t)options.get("mode");
 
   if (options.get("help"))
   {
@@ -94,7 +94,7 @@ int main(int argc, char** argv)
   return 0;
 }
 
-void returnError(int err)
+void returnError(int32_t err)
 {
   if (err == INIT_MINIAUDIO_ERROR)
   {

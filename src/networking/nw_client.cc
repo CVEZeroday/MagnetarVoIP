@@ -12,6 +12,7 @@
 #include "nw.hpp"
 #include "nw_client.hpp"
 #include "settings.h"
+#include "macros.h"
 
 #include <atomic>
 
@@ -20,7 +21,7 @@
 std::shared_ptr<CppServer::Asio::Service> service_client;
 std::shared_ptr<NetworkingClient> client;
 
-int init_nwclient()
+int32_t init_nwclient()
 {
   // NetworkingClient Class Instantiate
   service_client = std::make_shared<CppServer::Asio::Service>();
@@ -32,14 +33,15 @@ int init_nwclient()
   return 0;
 }
 
-int send_nwclient(const void* buffer, size_t size)
+int32_t send_nwclient(const void* buffer, size_t size)
 {
+  //DEBUG_PRINTF("sendnwclient: buffer: %s", ((const NW_PACKET*)buffer)->data.chat.str);
   client->SendAsync(buffer, size);
 
   return 0;
 }
 
-int close_nwclient()
+int32_t close_nwclient()
 {
   client->DisconnectAndStop();
   service_client->Stop();

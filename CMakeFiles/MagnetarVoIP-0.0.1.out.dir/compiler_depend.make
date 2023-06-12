@@ -7,17 +7,17 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o: lib/libsrc/uuid.cpp
   include/errors/exceptions.h \
   include/errors/system_error.h \
   /usr/include/c++/11/string \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/memoryfwd.h \
@@ -42,42 +42,42 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o: lib/libsrc/uuid.cpp
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/new \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
   /usr/include/c++/11/bits/stl_function.h \
@@ -86,36 +86,36 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o: lib/libsrc/uuid.cpp
   /usr/include/c++/11/initializer_list \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/bits/stl_construct.h \
@@ -126,33 +126,33 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o: lib/libsrc/uuid.cpp
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   include/system/source_location.h \
@@ -218,22 +218,22 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o: lib/libsrc/uuid.cpp
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/bits/locale_classes.tcc \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/streambuf.tcc \
   /usr/include/c++/11/limits \
   include/fmt/format.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/tr1/gamma.tcc \
   /usr/include/c++/11/tr1/special_function_util.h \
@@ -255,25 +255,25 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o: lib/libsrc/uuid.cpp
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   include/fmt/format.h \
   include/fmt/xchar.h \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
   /usr/include/c++/11/ctime \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
@@ -290,35 +290,40 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/lib/libsrc/uuid.cpp.o: lib/libsrc/uuid.cpp
   /usr/include/assert.h \
   include/memory/memory.inl \
   /usr/include/uuid/uuid.h \
-  /usr/include/x86_64-linux-gnu/sys/time.h
+  /usr/include/aarch64-linux-gnu/sys/time.h
 
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/audio/aio_capture.c.o: src/audio/aio_capture.c \
   /usr/include/stdc-predef.h \
   include/magnetarvoip/macros.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   include/magnetarvoip/magnetar.h \
   include/magnetarvoip/settings.h \
   include/magnetarvoip/macros.h \
@@ -326,62 +331,74 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/audio/aio_capture.c.o: src/audio/aio_c
   include/miniaudio/miniaudio.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdalign.h \
+  include/opus/opus_defines.h \
+  include/opus/opus_types.h \
+  include/magnetarvoip/settings.h \
+  include/magnetarvoip/nw_interface.h \
+  include/opus/opus.h \
+  include/opus/opus_defines.h \
+  /usr/include/malloc.h
 
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/audio/aio_playback.c.o: src/audio/aio_playback.c \
   /usr/include/stdc-predef.h \
   include/magnetarvoip/macros.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   include/magnetarvoip/magnetar.h \
   include/magnetarvoip/settings.h \
   include/magnetarvoip/macros.h \
@@ -389,57 +406,64 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/audio/aio_playback.c.o: src/audio/aio_
   include/miniaudio/miniaudio.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdalign.h \
+  include/opus/opus_defines.h \
+  include/opus/opus_types.h \
+  include/magnetarvoip/settings.h \
+  include/magnetarvoip/nw_interface.h \
+  include/opus/opus.h \
+  include/opus/opus_defines.h \
+  /usr/include/malloc.h
 
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_main.cc.o: src/chat/cht_main.cc \
   /usr/include/stdc-predef.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
   /usr/include/c++/11/bits/exception_defines.h \
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/new \
@@ -452,18 +476,18 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_main.cc.o: src/chat/cht_main.
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/tuple \
   /usr/include/c++/11/utility \
   /usr/include/c++/11/bits/stl_relops.h \
@@ -491,80 +515,80 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_main.cc.o: src/chat/cht_main.
   /usr/include/c++/11/bits/stl_function.h \
   /usr/include/c++/11/backward/binders.h \
   /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/ctime \
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/mutex \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/bits/stl_construct.h \
@@ -573,25 +597,25 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_main.cc.o: src/chat/cht_main.
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -610,8 +634,9 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_main.cc.o: src/chat/cht_main.
   include/magnetarvoip/cht.h \
   include/magnetarvoip/macros.h \
   include/magnetarvoip/settings.h \
-  include/magnetarvoip/nw_interface.h \
   include/magnetarvoip/nw.hpp \
+  include/magnetarvoip/macros.h \
+  include/magnetarvoip/nw_interface.h \
   include/magnetarvoip/core_thread.h \
   include/threads/thread.h \
   include/errors/exceptions_handler.h \
@@ -665,15 +690,15 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_main.cc.o: src/chat/cht_main.
   include/fmt/format.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/tr1/gamma.tcc \
   /usr/include/c++/11/tr1/special_function_util.h \
@@ -695,24 +720,24 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_main.cc.o: src/chat/cht_main.
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   include/fmt/format.h \
   include/fmt/xchar.h \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
@@ -740,196 +765,39 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_main.cc.o: src/chat/cht_main.
 
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/chat/cht_packing.cc.o: src/chat/cht_packing.cc \
   /usr/include/stdc-predef.h \
-  /usr/include/c++/11/string \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/string.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/c++/11/pstl/pstl_config.h \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/cwchar \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/c++/11/clocale \
-  /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/cctype \
-  /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/cstdio \
-  /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/c++/11/cerrno \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/strings.h \
   include/magnetarvoip/cht.h \
   include/magnetarvoip/nw_interface.h \
-  include/magnetarvoip/nw.hpp \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/mutex \
-  /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/bits/std_mutex.h \
-  /usr/include/c++/11/bits/unique_lock.h \
-  /usr/include/c++/11/queue \
-  /usr/include/c++/11/deque \
-  /usr/include/c++/11/bits/stl_deque.h \
-  /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_queue.h
+  include/magnetarvoip/macros.h \
+  /usr/include/stdio.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/malloc.h
 
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core.c.o: src/core/core.c \
   /usr/include/stdc-predef.h \
@@ -937,29 +805,29 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core.c.o: src/core/core.c \
   include/magnetarvoip/settings.h \
   include/magnetarvoip/macros.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
   include/magnetarvoip/core_thread.h
 
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core_thread.cc.o: src/core/core_thread.cc \
@@ -970,17 +838,17 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core_thread.cc.o: src/core/core_t
   include/errors/exceptions.h \
   include/errors/system_error.h \
   /usr/include/c++/11/string \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/memoryfwd.h \
@@ -1005,42 +873,42 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core_thread.cc.o: src/core/core_t
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/new \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
   /usr/include/c++/11/bits/stl_function.h \
@@ -1049,36 +917,36 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core_thread.cc.o: src/core/core_t
   /usr/include/c++/11/initializer_list \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/bits/stl_construct.h \
@@ -1089,33 +957,33 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core_thread.cc.o: src/core/core_t
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   include/system/source_location.h \
@@ -1181,22 +1049,22 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core_thread.cc.o: src/core/core_t
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/bits/locale_classes.tcc \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/streambuf.tcc \
   /usr/include/c++/11/limits \
   include/fmt/format.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/tr1/gamma.tcc \
   /usr/include/c++/11/tr1/special_function_util.h \
@@ -1218,25 +1086,25 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/core/core_thread.cc.o: src/core/core_t
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   include/fmt/format.h \
   include/fmt/xchar.h \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
   /usr/include/c++/11/ctime \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
@@ -1281,24 +1149,24 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o: src/init/init.cc \
   /usr/include/stdc-predef.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
   /usr/include/c++/11/bits/exception_defines.h \
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/new \
@@ -1311,18 +1179,18 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o: src/init/init.cc \
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/tuple \
   /usr/include/c++/11/utility \
   /usr/include/c++/11/bits/stl_relops.h \
@@ -1350,77 +1218,77 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o: src/init/init.cc \
   /usr/include/c++/11/bits/stl_function.h \
   /usr/include/c++/11/backward/binders.h \
   /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/ctime \
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/11/bits/ios_base.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
@@ -1433,30 +1301,30 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o: src/init/init.cc \
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/locale_classes.tcc \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/streambuf \
   /usr/include/c++/11/bits/streambuf.tcc \
@@ -1464,10 +1332,10 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o: src/init/init.cc \
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
@@ -1489,12 +1357,12 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o: src/init/init.cc \
   include/asio/detail/config.hpp \
   /usr/include/c++/11/version \
   /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+  /usr/include/aarch64-linux-gnu/bits/environments.h \
+  /usr/include/aarch64-linux-gnu/bits/confname.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/linux/version.h \
   include/asio/execution.hpp \
@@ -1573,18 +1441,18 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o: src/init/init.cc \
   include/asio/detail/recycling_allocator.hpp \
   include/asio/detail/thread_context.hpp \
   /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
   /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/uio_lim.h \
   include/asio/detail/call_stack.hpp \
   include/asio/detail/tss_ptr.hpp \
-  include/asio/detail/keyword_tss_ptr.hpp \
+  include/asio/detail/posix_tss_ptr.hpp \
   include/asio/detail/thread_info_base.hpp \
   include/asio/multiple_exceptions.hpp \
   include/asio/associated_allocator.hpp \
@@ -1724,87 +1592,95 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o: src/init/init.cc \
   include/asio/system_error.hpp \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/aarch64-linux-gnu/sys/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/aarch64-linux-gnu/bits/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/socket_type.h \
+  /usr/include/aarch64-linux-gnu/bits/sockaddr.h \
+  /usr/include/aarch64-linux-gnu/asm/socket.h \
   /usr/include/asm-generic/socket.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/aarch64-linux-gnu/asm/posix_types.h \
   /usr/include/asm-generic/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
   /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
+  /usr/include/aarch64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/aarch64-linux-gnu/bits/in.h \
   /usr/include/rpc/netdb.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/netdb.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/aarch64-linux-gnu/bits/netdb.h \
   include/asio/post.hpp \
   include/asio/detail/initiate_post.hpp \
   include/asio/socket_base.hpp \
   include/asio/detail/io_control.hpp \
   include/asio/detail/socket_types.hpp \
-  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
-  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
-  /usr/include/x86_64-linux-gnu/asm/ioctls.h \
+  /usr/include/aarch64-linux-gnu/sys/ioctl.h \
+  /usr/include/aarch64-linux-gnu/bits/ioctls.h \
+  /usr/include/aarch64-linux-gnu/asm/ioctls.h \
   /usr/include/asm-generic/ioctls.h \
   /usr/include/linux/ioctl.h \
-  /usr/include/x86_64-linux-gnu/asm/ioctl.h \
+  /usr/include/aarch64-linux-gnu/asm/ioctl.h \
   /usr/include/asm-generic/ioctl.h \
-  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
-  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+  /usr/include/aarch64-linux-gnu/bits/ioctl-types.h \
+  /usr/include/aarch64-linux-gnu/sys/ttydefaults.h \
   /usr/include/poll.h \
-  /usr/include/x86_64-linux-gnu/sys/poll.h \
-  /usr/include/x86_64-linux-gnu/bits/poll.h \
-  /usr/include/x86_64-linux-gnu/sys/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
-  /usr/include/x86_64-linux-gnu/bits/statx.h \
+  /usr/include/aarch64-linux-gnu/sys/poll.h \
+  /usr/include/aarch64-linux-gnu/bits/poll.h \
+  /usr/include/aarch64-linux-gnu/sys/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_stat.h \
+  /usr/include/aarch64-linux-gnu/bits/statx.h \
   /usr/include/linux/stat.h \
   /usr/include/linux/types.h \
-  /usr/include/x86_64-linux-gnu/asm/types.h \
+  /usr/include/aarch64-linux-gnu/asm/types.h \
   /usr/include/asm-generic/types.h \
   /usr/include/asm-generic/int-ll64.h \
-  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+  /usr/include/aarch64-linux-gnu/bits/statx-generic.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_statx_timestamp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_statx.h \
   /usr/include/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/linux/falloc.h \
-  /usr/include/x86_64-linux-gnu/sys/uio.h \
-  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
-  /usr/include/x86_64-linux-gnu/sys/un.h \
+  /usr/include/aarch64-linux-gnu/sys/uio.h \
+  /usr/include/aarch64-linux-gnu/bits/uio-ext.h \
+  /usr/include/aarch64-linux-gnu/sys/un.h \
   /usr/include/netinet/tcp.h \
   /usr/include/arpa/inet.h \
   /usr/include/net/if.h \
   /usr/include/signal.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/signum-generic.h \
+  /usr/include/aarch64-linux-gnu/bits/signum-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/aarch64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/aarch64-linux-gnu/bits/sigaction.h \
+  /usr/include/aarch64-linux-gnu/bits/sigcontext.h \
+  /usr/include/aarch64-linux-gnu/asm/sigcontext.h \
+  /usr/include/aarch64-linux-gnu/asm/sve_context.h \
+  /usr/include/aarch64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/aarch64-linux-gnu/sys/ucontext.h \
+  /usr/include/aarch64-linux-gnu/sys/procfs.h \
+  /usr/include/aarch64-linux-gnu/sys/time.h \
+  /usr/include/aarch64-linux-gnu/sys/user.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-id.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-prregset.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-extra.h \
+  /usr/include/aarch64-linux-gnu/bits/sigstack.h \
+  /usr/include/aarch64-linux-gnu/bits/sigstksz.h \
+  /usr/include/aarch64-linux-gnu/bits/ss_flags.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/aarch64-linux-gnu/bits/sigthread.h \
+  /usr/include/aarch64-linux-gnu/bits/signal_ext.h \
   include/asio/detail/socket_option.hpp \
   include/asio/detail/reactive_socket_service.hpp \
   include/asio/buffer.hpp \
@@ -1838,8 +1714,8 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o: src/init/init.cc \
   include/asio/detail/timer_queue_base.hpp \
   include/asio/detail/timer_queue_set.hpp \
   include/asio/detail/wait_op.hpp \
-  /usr/include/x86_64-linux-gnu/sys/timerfd.h \
-  /usr/include/x86_64-linux-gnu/bits/timerfd.h \
+  /usr/include/aarch64-linux-gnu/sys/timerfd.h \
+  /usr/include/aarch64-linux-gnu/bits/timerfd.h \
   include/asio/detail/impl/epoll_reactor.hpp \
   include/asio/basic_deadline_timer.hpp \
   include/asio/basic_file.hpp \
@@ -1857,16 +1733,16 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o: src/init/init.cc \
   include/asio/basic_serial_port.hpp \
   include/asio/serial_port_base.hpp \
   /usr/include/termios.h \
-  /usr/include/x86_64-linux-gnu/bits/termios.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-baud.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
+  /usr/include/aarch64-linux-gnu/bits/termios.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-struct.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_cc.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_iflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_oflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-baud.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_cflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_lflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-tcflow.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-misc.h \
   include/asio/impl/serial_port_base.hpp \
   include/asio/detail/posix_serial_port_service.hpp \
   include/asio/basic_signal_set.hpp \
@@ -2285,15 +2161,15 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o: src/init/init.cc \
   include/fmt/format.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/tr1/gamma.tcc \
   /usr/include/c++/11/tr1/special_function_util.h \
@@ -2310,15 +2186,15 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.o: src/init/init.cc \
   include/fmt/ostream.h \
   /usr/include/c++/11/fstream \
   /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   include/fmt/format.h \
   include/fmt/xchar.h \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
@@ -2370,17 +2246,17 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o: src/init/ini
   include/cppserver/asio/service.h \
   include/cppserver/asio/asio.h \
   /usr/include/c++/11/iostream \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -2390,19 +2266,19 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o: src/init/ini
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -2430,58 +2306,58 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o: src/init/ini
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
   /usr/include/c++/11/bits/ios_base.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
@@ -2499,38 +2375,38 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o: src/init/ini
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/locale_classes.tcc \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/streambuf \
   /usr/include/c++/11/bits/streambuf.tcc \
@@ -2538,10 +2414,10 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o: src/init/ini
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
@@ -2552,12 +2428,12 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o: src/init/ini
   include/asio/detail/config.hpp \
   /usr/include/c++/11/version \
   /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+  /usr/include/aarch64-linux-gnu/bits/environments.h \
+  /usr/include/aarch64-linux-gnu/bits/confname.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/linux/version.h \
   include/asio/execution.hpp \
@@ -2644,18 +2520,18 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o: src/init/ini
   include/asio/detail/recycling_allocator.hpp \
   include/asio/detail/thread_context.hpp \
   /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
   /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/uio_lim.h \
   include/asio/detail/call_stack.hpp \
   include/asio/detail/tss_ptr.hpp \
-  include/asio/detail/keyword_tss_ptr.hpp \
+  include/asio/detail/posix_tss_ptr.hpp \
   include/asio/detail/thread_info_base.hpp \
   include/asio/multiple_exceptions.hpp \
   include/asio/associated_allocator.hpp \
@@ -2800,87 +2676,95 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o: src/init/ini
   include/asio/system_error.hpp \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/aarch64-linux-gnu/sys/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/aarch64-linux-gnu/bits/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/socket_type.h \
+  /usr/include/aarch64-linux-gnu/bits/sockaddr.h \
+  /usr/include/aarch64-linux-gnu/asm/socket.h \
   /usr/include/asm-generic/socket.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/aarch64-linux-gnu/asm/posix_types.h \
   /usr/include/asm-generic/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
   /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
+  /usr/include/aarch64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/aarch64-linux-gnu/bits/in.h \
   /usr/include/rpc/netdb.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/netdb.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/aarch64-linux-gnu/bits/netdb.h \
   include/asio/post.hpp \
   include/asio/detail/initiate_post.hpp \
   include/asio/socket_base.hpp \
   include/asio/detail/io_control.hpp \
   include/asio/detail/socket_types.hpp \
-  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
-  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
-  /usr/include/x86_64-linux-gnu/asm/ioctls.h \
+  /usr/include/aarch64-linux-gnu/sys/ioctl.h \
+  /usr/include/aarch64-linux-gnu/bits/ioctls.h \
+  /usr/include/aarch64-linux-gnu/asm/ioctls.h \
   /usr/include/asm-generic/ioctls.h \
   /usr/include/linux/ioctl.h \
-  /usr/include/x86_64-linux-gnu/asm/ioctl.h \
+  /usr/include/aarch64-linux-gnu/asm/ioctl.h \
   /usr/include/asm-generic/ioctl.h \
-  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
-  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+  /usr/include/aarch64-linux-gnu/bits/ioctl-types.h \
+  /usr/include/aarch64-linux-gnu/sys/ttydefaults.h \
   /usr/include/poll.h \
-  /usr/include/x86_64-linux-gnu/sys/poll.h \
-  /usr/include/x86_64-linux-gnu/bits/poll.h \
-  /usr/include/x86_64-linux-gnu/sys/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
-  /usr/include/x86_64-linux-gnu/bits/statx.h \
+  /usr/include/aarch64-linux-gnu/sys/poll.h \
+  /usr/include/aarch64-linux-gnu/bits/poll.h \
+  /usr/include/aarch64-linux-gnu/sys/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_stat.h \
+  /usr/include/aarch64-linux-gnu/bits/statx.h \
   /usr/include/linux/stat.h \
   /usr/include/linux/types.h \
-  /usr/include/x86_64-linux-gnu/asm/types.h \
+  /usr/include/aarch64-linux-gnu/asm/types.h \
   /usr/include/asm-generic/types.h \
   /usr/include/asm-generic/int-ll64.h \
-  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+  /usr/include/aarch64-linux-gnu/bits/statx-generic.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_statx_timestamp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_statx.h \
   /usr/include/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/linux/falloc.h \
-  /usr/include/x86_64-linux-gnu/sys/uio.h \
-  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
-  /usr/include/x86_64-linux-gnu/sys/un.h \
+  /usr/include/aarch64-linux-gnu/sys/uio.h \
+  /usr/include/aarch64-linux-gnu/bits/uio-ext.h \
+  /usr/include/aarch64-linux-gnu/sys/un.h \
   /usr/include/netinet/tcp.h \
   /usr/include/arpa/inet.h \
   /usr/include/net/if.h \
   /usr/include/signal.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/signum-generic.h \
+  /usr/include/aarch64-linux-gnu/bits/signum-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/aarch64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/aarch64-linux-gnu/bits/sigaction.h \
+  /usr/include/aarch64-linux-gnu/bits/sigcontext.h \
+  /usr/include/aarch64-linux-gnu/asm/sigcontext.h \
+  /usr/include/aarch64-linux-gnu/asm/sve_context.h \
+  /usr/include/aarch64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/aarch64-linux-gnu/sys/ucontext.h \
+  /usr/include/aarch64-linux-gnu/sys/procfs.h \
+  /usr/include/aarch64-linux-gnu/sys/time.h \
+  /usr/include/aarch64-linux-gnu/sys/user.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-id.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-prregset.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-extra.h \
+  /usr/include/aarch64-linux-gnu/bits/sigstack.h \
+  /usr/include/aarch64-linux-gnu/bits/sigstksz.h \
+  /usr/include/aarch64-linux-gnu/bits/ss_flags.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/aarch64-linux-gnu/bits/sigthread.h \
+  /usr/include/aarch64-linux-gnu/bits/signal_ext.h \
   include/asio/detail/socket_option.hpp \
   include/asio/detail/reactive_socket_service.hpp \
   include/asio/buffer.hpp \
@@ -2914,8 +2798,8 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o: src/init/ini
   include/asio/detail/timer_queue_base.hpp \
   include/asio/detail/timer_queue_set.hpp \
   include/asio/detail/wait_op.hpp \
-  /usr/include/x86_64-linux-gnu/sys/timerfd.h \
-  /usr/include/x86_64-linux-gnu/bits/timerfd.h \
+  /usr/include/aarch64-linux-gnu/sys/timerfd.h \
+  /usr/include/aarch64-linux-gnu/bits/timerfd.h \
   include/asio/detail/impl/epoll_reactor.hpp \
   include/asio/basic_deadline_timer.hpp \
   include/asio/basic_file.hpp \
@@ -2933,16 +2817,16 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o: src/init/ini
   include/asio/basic_serial_port.hpp \
   include/asio/serial_port_base.hpp \
   /usr/include/termios.h \
-  /usr/include/x86_64-linux-gnu/bits/termios.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-baud.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
+  /usr/include/aarch64-linux-gnu/bits/termios.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-struct.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_cc.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_iflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_oflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-baud.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_cflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_lflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-tcflow.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-misc.h \
   include/asio/impl/serial_port_base.hpp \
   include/asio/detail/posix_serial_port_service.hpp \
   include/asio/basic_signal_set.hpp \
@@ -3362,15 +3246,15 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o: src/init/ini
   include/fmt/format.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/tr1/gamma.tcc \
   /usr/include/c++/11/tr1/special_function_util.h \
@@ -3387,15 +3271,15 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o: src/init/ini
   include/fmt/ostream.h \
   /usr/include/c++/11/fstream \
   /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   include/fmt/format.h \
   include/fmt/xchar.h \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
@@ -3422,13 +3306,14 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o: src/init/ini
   include/threads/thread.inl \
   include/system/uuid.h \
   include/system/uuid.inl \
-  include/magnetarvoip/nw_interface.h \
   include/magnetarvoip/nw.hpp \
   /usr/include/c++/11/queue \
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_queue.h \
+  include/magnetarvoip/macros.h \
+  include/magnetarvoip/nw_interface.h \
   include/magnetarvoip/nw_server.hpp \
   include/cppserver/asio/tcp_server.h \
   include/cppserver/asio/tcp_session.h \
@@ -3449,17 +3334,17 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_externs.cc.o: src/init/init_
   /usr/include/c++/11/mutex \
   /usr/include/c++/11/tuple \
   /usr/include/c++/11/utility \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/stl_relops.h \
   /usr/include/c++/11/bits/stl_pair.h \
@@ -3487,33 +3372,33 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_externs.cc.o: src/init/init_
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/ctime \
   /usr/include/time.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
@@ -3524,40 +3409,40 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_externs.cc.o: src/init/init_
   /usr/include/c++/11/new \
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/memoryfwd.h \
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/11/bits/ostream_insert.h \
@@ -3566,25 +3451,25 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_externs.cc.o: src/init/init_
   /usr/include/c++/11/backward/binders.h \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/bits/stl_construct.h \
@@ -3594,25 +3479,25 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_externs.cc.o: src/init/init_
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -3682,15 +3567,15 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_externs.cc.o: src/init/init_
   include/fmt/format.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/tr1/gamma.tcc \
   /usr/include/c++/11/tr1/special_function_util.h \
@@ -3712,24 +3597,24 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_externs.cc.o: src/init/init_
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   include/fmt/format.h \
   include/fmt/xchar.h \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
@@ -3765,35 +3650,34 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_externs.cc.o: src/init/init_
   include/magnetarvoip/aio.h \
   include/miniaudio/miniaudio.h \
   include/magnetarvoip/core_thread.h \
-  include/magnetarvoip/nw_interface.h \
-  include/magnetarvoip/nw.hpp
+  include/magnetarvoip/nw_interface.h
 
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_miniaudio.c.o: src/init/init_miniaudio.c \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
   include/magnetarvoip/magnetar.h \
   include/magnetarvoip/settings.h \
   include/magnetarvoip/macros.h \
@@ -3802,59 +3686,59 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_miniaudio.c.o: src/init/init
   include/miniaudio/miniaudio.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdalign.h
 
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/ConvertUTF.cpp.o: src/libs/linenoise/ConvertUTF.cpp \
   /usr/include/stdc-predef.h \
   include/linenoise/ConvertUTF.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/string \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/memoryfwd.h \
@@ -3879,33 +3763,33 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/ConvertUTF.cpp.o: src/l
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/new \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
   /usr/include/c++/11/bits/stl_function.h \
@@ -3914,36 +3798,36 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/ConvertUTF.cpp.o: src/l
   /usr/include/c++/11/initializer_list \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/bits/stl_construct.h \
@@ -3954,33 +3838,33 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/ConvertUTF.cpp.o: src/l
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc
 
@@ -3989,142 +3873,161 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/linenoise.cpp.o: src/li
   /usr/include/signal.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/signum-generic.h \
+  /usr/include/aarch64-linux-gnu/bits/signum-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/aarch64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/aarch64-linux-gnu/bits/sigaction.h \
+  /usr/include/aarch64-linux-gnu/bits/sigcontext.h \
+  /usr/include/aarch64-linux-gnu/asm/sigcontext.h \
+  /usr/include/linux/types.h \
+  /usr/include/aarch64-linux-gnu/asm/types.h \
+  /usr/include/asm-generic/types.h \
+  /usr/include/asm-generic/int-ll64.h \
+  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/aarch64-linux-gnu/asm/posix_types.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/aarch64-linux-gnu/asm/sve_context.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/include/aarch64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/aarch64-linux-gnu/sys/ucontext.h \
+  /usr/include/aarch64-linux-gnu/sys/procfs.h \
+  /usr/include/aarch64-linux-gnu/sys/time.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/sys/user.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-id.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-prregset.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-extra.h \
+  /usr/include/aarch64-linux-gnu/bits/sigstack.h \
+  /usr/include/aarch64-linux-gnu/bits/sigstksz.h \
   /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+  /usr/include/aarch64-linux-gnu/bits/environments.h \
+  /usr/include/aarch64-linux-gnu/bits/confname.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/ss_flags.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/aarch64-linux-gnu/bits/sigthread.h \
+  /usr/include/aarch64-linux-gnu/bits/signal_ext.h \
   /usr/include/termios.h \
-  /usr/include/x86_64-linux-gnu/bits/termios.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-baud.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
-  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+  /usr/include/aarch64-linux-gnu/bits/termios.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-struct.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_cc.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_iflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_oflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-baud.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_cflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_lflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-tcflow.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-misc.h \
+  /usr/include/aarch64-linux-gnu/sys/ttydefaults.h \
   /usr/include/c++/11/stdlib.h \
   /usr/include/c++/11/cstdlib \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
-  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
-  /usr/include/x86_64-linux-gnu/asm/ioctls.h \
+  /usr/include/aarch64-linux-gnu/sys/ioctl.h \
+  /usr/include/aarch64-linux-gnu/bits/ioctls.h \
+  /usr/include/aarch64-linux-gnu/asm/ioctls.h \
   /usr/include/asm-generic/ioctls.h \
   /usr/include/linux/ioctl.h \
-  /usr/include/x86_64-linux-gnu/asm/ioctl.h \
+  /usr/include/aarch64-linux-gnu/asm/ioctl.h \
   /usr/include/asm-generic/ioctl.h \
-  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
+  /usr/include/aarch64-linux-gnu/bits/ioctl-types.h \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/stdio.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/linux/falloc.h \
-  /usr/include/x86_64-linux-gnu/bits/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+  /usr/include/aarch64-linux-gnu/bits/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_stat.h \
   include/linenoise/linenoise.h \
   include/linenoise/ConvertUTF.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/memoryfwd.h \
@@ -4149,18 +4052,18 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/linenoise.cpp.o: src/li
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/new \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
@@ -4170,23 +4073,23 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/linenoise.cpp.o: src/li
   /usr/include/c++/11/initializer_list \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/bits/stl_construct.h \
@@ -4237,31 +4140,31 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/linenoise.cpp.o: src/li
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/wcwidth.cpp.o: src/libs/linenoise/wcwidth.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/string \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/memoryfwd.h \
@@ -4286,28 +4189,28 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/wcwidth.cpp.o: src/libs
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/new \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
   /usr/include/c++/11/bits/stl_function.h \
@@ -4316,36 +4219,36 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/wcwidth.cpp.o: src/libs
   /usr/include/c++/11/initializer_list \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/bits/stl_construct.h \
@@ -4356,33 +4259,33 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/wcwidth.cpp.o: src/libs
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/memory \
@@ -4419,143 +4322,142 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/linenoise/wcwidth.cpp.o: src/libs
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/libs/miniaudio/miniaudio.c.o: src/libs/miniaudio/miniaudio.c \
   /usr/include/stdc-predef.h \
   include/miniaudio/miniaudio.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
   /usr/include/pthread.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdalign.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
   /usr/include/assert.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
   /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/strings.h \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/string.h \
-  /usr/include/x86_64-linux-gnu/sys/time.h \
-  /usr/include/x86_64-linux-gnu/sys/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/aarch64-linux-gnu/sys/time.h \
+  /usr/include/aarch64-linux-gnu/sys/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_stat.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/arm_neon.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/arm_fp16.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/arm_bf16.h \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+  /usr/include/aarch64-linux-gnu/bits/environments.h \
+  /usr/include/aarch64-linux-gnu/bits/confname.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/dlfcn.h \
-  /usr/include/x86_64-linux-gnu/bits/dlfcn.h \
+  /usr/include/aarch64-linux-gnu/bits/dlfcn.h \
   /usr/include/poll.h \
-  /usr/include/x86_64-linux-gnu/sys/poll.h \
-  /usr/include/x86_64-linux-gnu/bits/poll.h \
-  /usr/include/x86_64-linux-gnu/sys/eventfd.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/eventfd.h
+  /usr/include/aarch64-linux-gnu/sys/poll.h \
+  /usr/include/aarch64-linux-gnu/bits/poll.h \
+  /usr/include/aarch64-linux-gnu/sys/eventfd.h \
+  /usr/include/aarch64-linux-gnu/bits/eventfd.h
 
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/networking/nw_client.cc \
   /usr/include/stdc-predef.h \
   include/magnetarvoip/nw.hpp \
   /usr/include/c++/11/string \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/memoryfwd.h \
@@ -4580,42 +4482,42 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/new \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
   /usr/include/c++/11/bits/stl_function.h \
@@ -4624,36 +4526,36 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   /usr/include/c++/11/initializer_list \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/bits/stl_construct.h \
@@ -4664,33 +4566,33 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/vector \
@@ -4721,7 +4623,7 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/mutex \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
@@ -4731,6 +4633,8 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/stl_queue.h \
+  include/magnetarvoip/macros.h \
+  include/magnetarvoip/nw_interface.h \
   include/magnetarvoip/nw_client.hpp \
   include/cppserver/asio/tcp_client.h \
   include/cppserver/asio/tcp_resolver.h \
@@ -4748,10 +4652,10 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
@@ -4762,12 +4666,12 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   include/asio/detail/config.hpp \
   /usr/include/c++/11/version \
   /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+  /usr/include/aarch64-linux-gnu/bits/environments.h \
+  /usr/include/aarch64-linux-gnu/bits/confname.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/linux/version.h \
   include/asio/execution.hpp \
@@ -4845,18 +4749,18 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   include/asio/detail/recycling_allocator.hpp \
   include/asio/detail/thread_context.hpp \
   /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
   /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/uio_lim.h \
   include/asio/detail/call_stack.hpp \
   include/asio/detail/tss_ptr.hpp \
-  include/asio/detail/keyword_tss_ptr.hpp \
+  include/asio/detail/posix_tss_ptr.hpp \
   include/asio/detail/thread_info_base.hpp \
   include/asio/multiple_exceptions.hpp \
   include/asio/associated_allocator.hpp \
@@ -4991,87 +4895,95 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   include/asio/system_error.hpp \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/aarch64-linux-gnu/sys/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/aarch64-linux-gnu/bits/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/socket_type.h \
+  /usr/include/aarch64-linux-gnu/bits/sockaddr.h \
+  /usr/include/aarch64-linux-gnu/asm/socket.h \
   /usr/include/asm-generic/socket.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/aarch64-linux-gnu/asm/posix_types.h \
   /usr/include/asm-generic/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
   /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
+  /usr/include/aarch64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/aarch64-linux-gnu/bits/in.h \
   /usr/include/rpc/netdb.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/netdb.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/aarch64-linux-gnu/bits/netdb.h \
   include/asio/post.hpp \
   include/asio/detail/initiate_post.hpp \
   include/asio/socket_base.hpp \
   include/asio/detail/io_control.hpp \
   include/asio/detail/socket_types.hpp \
-  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
-  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
-  /usr/include/x86_64-linux-gnu/asm/ioctls.h \
+  /usr/include/aarch64-linux-gnu/sys/ioctl.h \
+  /usr/include/aarch64-linux-gnu/bits/ioctls.h \
+  /usr/include/aarch64-linux-gnu/asm/ioctls.h \
   /usr/include/asm-generic/ioctls.h \
   /usr/include/linux/ioctl.h \
-  /usr/include/x86_64-linux-gnu/asm/ioctl.h \
+  /usr/include/aarch64-linux-gnu/asm/ioctl.h \
   /usr/include/asm-generic/ioctl.h \
-  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
-  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+  /usr/include/aarch64-linux-gnu/bits/ioctl-types.h \
+  /usr/include/aarch64-linux-gnu/sys/ttydefaults.h \
   /usr/include/poll.h \
-  /usr/include/x86_64-linux-gnu/sys/poll.h \
-  /usr/include/x86_64-linux-gnu/bits/poll.h \
-  /usr/include/x86_64-linux-gnu/sys/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
-  /usr/include/x86_64-linux-gnu/bits/statx.h \
+  /usr/include/aarch64-linux-gnu/sys/poll.h \
+  /usr/include/aarch64-linux-gnu/bits/poll.h \
+  /usr/include/aarch64-linux-gnu/sys/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_stat.h \
+  /usr/include/aarch64-linux-gnu/bits/statx.h \
   /usr/include/linux/stat.h \
   /usr/include/linux/types.h \
-  /usr/include/x86_64-linux-gnu/asm/types.h \
+  /usr/include/aarch64-linux-gnu/asm/types.h \
   /usr/include/asm-generic/types.h \
   /usr/include/asm-generic/int-ll64.h \
-  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+  /usr/include/aarch64-linux-gnu/bits/statx-generic.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_statx_timestamp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_statx.h \
   /usr/include/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/linux/falloc.h \
-  /usr/include/x86_64-linux-gnu/sys/uio.h \
-  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
-  /usr/include/x86_64-linux-gnu/sys/un.h \
+  /usr/include/aarch64-linux-gnu/sys/uio.h \
+  /usr/include/aarch64-linux-gnu/bits/uio-ext.h \
+  /usr/include/aarch64-linux-gnu/sys/un.h \
   /usr/include/netinet/tcp.h \
   /usr/include/arpa/inet.h \
   /usr/include/net/if.h \
   /usr/include/signal.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/signum-generic.h \
+  /usr/include/aarch64-linux-gnu/bits/signum-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/aarch64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/aarch64-linux-gnu/bits/sigaction.h \
+  /usr/include/aarch64-linux-gnu/bits/sigcontext.h \
+  /usr/include/aarch64-linux-gnu/asm/sigcontext.h \
+  /usr/include/aarch64-linux-gnu/asm/sve_context.h \
+  /usr/include/aarch64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/aarch64-linux-gnu/sys/ucontext.h \
+  /usr/include/aarch64-linux-gnu/sys/procfs.h \
+  /usr/include/aarch64-linux-gnu/sys/time.h \
+  /usr/include/aarch64-linux-gnu/sys/user.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-id.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-prregset.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-extra.h \
+  /usr/include/aarch64-linux-gnu/bits/sigstack.h \
+  /usr/include/aarch64-linux-gnu/bits/sigstksz.h \
+  /usr/include/aarch64-linux-gnu/bits/ss_flags.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/aarch64-linux-gnu/bits/sigthread.h \
+  /usr/include/aarch64-linux-gnu/bits/signal_ext.h \
   include/asio/detail/socket_option.hpp \
   include/asio/detail/reactive_socket_service.hpp \
   include/asio/buffer.hpp \
@@ -5105,8 +5017,8 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   include/asio/detail/timer_queue_base.hpp \
   include/asio/detail/timer_queue_set.hpp \
   include/asio/detail/wait_op.hpp \
-  /usr/include/x86_64-linux-gnu/sys/timerfd.h \
-  /usr/include/x86_64-linux-gnu/bits/timerfd.h \
+  /usr/include/aarch64-linux-gnu/sys/timerfd.h \
+  /usr/include/aarch64-linux-gnu/bits/timerfd.h \
   include/asio/detail/impl/epoll_reactor.hpp \
   include/asio/basic_deadline_timer.hpp \
   include/asio/basic_file.hpp \
@@ -5124,16 +5036,16 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   include/asio/basic_serial_port.hpp \
   include/asio/serial_port_base.hpp \
   /usr/include/termios.h \
-  /usr/include/x86_64-linux-gnu/bits/termios.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-baud.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
+  /usr/include/aarch64-linux-gnu/bits/termios.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-struct.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_cc.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_iflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_oflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-baud.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_cflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_lflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-tcflow.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-misc.h \
   include/asio/impl/serial_port_base.hpp \
   include/asio/detail/posix_serial_port_service.hpp \
   include/asio/basic_signal_set.hpp \
@@ -5549,15 +5461,15 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   include/fmt/format.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/tr1/gamma.tcc \
   /usr/include/c++/11/tr1/special_function_util.h \
@@ -5574,15 +5486,15 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   include/fmt/ostream.h \
   /usr/include/c++/11/fstream \
   /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   include/fmt/format.h \
   include/fmt/xchar.h \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
@@ -5607,25 +5519,25 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.o: src/network
   include/threads/thread.inl \
   include/system/uuid.h \
   include/system/uuid.inl \
-  include/magnetarvoip/nw_interface.h \
   include/magnetarvoip/nw.hpp \
-  include/magnetarvoip/settings.h
+  include/magnetarvoip/settings.h \
+  include/magnetarvoip/macros.h
 
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/networking/nw_server.cc \
   /usr/include/stdc-predef.h \
   include/magnetarvoip/nw.hpp \
   /usr/include/c++/11/string \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/memoryfwd.h \
@@ -5650,42 +5562,42 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/new \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
   /usr/include/c++/11/bits/stl_function.h \
@@ -5694,36 +5606,36 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   /usr/include/c++/11/initializer_list \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/bits/stl_construct.h \
@@ -5734,33 +5646,33 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/vector \
@@ -5791,7 +5703,7 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/mutex \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
@@ -5801,6 +5713,8 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/stl_queue.h \
+  include/magnetarvoip/macros.h \
+  include/magnetarvoip/nw_interface.h \
   include/magnetarvoip/nw_server.hpp \
   include/cppserver/asio/tcp_server.h \
   include/cppserver/asio/tcp_session.h \
@@ -5818,10 +5732,10 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
@@ -5832,12 +5746,12 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   include/asio/detail/config.hpp \
   /usr/include/c++/11/version \
   /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+  /usr/include/aarch64-linux-gnu/bits/environments.h \
+  /usr/include/aarch64-linux-gnu/bits/confname.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/linux/version.h \
   include/asio/execution.hpp \
@@ -5915,18 +5829,18 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   include/asio/detail/recycling_allocator.hpp \
   include/asio/detail/thread_context.hpp \
   /usr/include/c++/11/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/local_lim.h \
   /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/uio_lim.h \
   include/asio/detail/call_stack.hpp \
   include/asio/detail/tss_ptr.hpp \
-  include/asio/detail/keyword_tss_ptr.hpp \
+  include/asio/detail/posix_tss_ptr.hpp \
   include/asio/detail/thread_info_base.hpp \
   include/asio/multiple_exceptions.hpp \
   include/asio/associated_allocator.hpp \
@@ -6061,87 +5975,95 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   include/asio/system_error.hpp \
   /usr/include/netdb.h \
   /usr/include/netinet/in.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/aarch64-linux-gnu/sys/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/aarch64-linux-gnu/bits/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/socket_type.h \
+  /usr/include/aarch64-linux-gnu/bits/sockaddr.h \
+  /usr/include/aarch64-linux-gnu/asm/socket.h \
   /usr/include/asm-generic/socket.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/aarch64-linux-gnu/asm/posix_types.h \
   /usr/include/asm-generic/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
   /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
+  /usr/include/aarch64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/aarch64-linux-gnu/bits/in.h \
   /usr/include/rpc/netdb.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/netdb.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/aarch64-linux-gnu/bits/netdb.h \
   include/asio/post.hpp \
   include/asio/detail/initiate_post.hpp \
   include/asio/socket_base.hpp \
   include/asio/detail/io_control.hpp \
   include/asio/detail/socket_types.hpp \
-  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
-  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
-  /usr/include/x86_64-linux-gnu/asm/ioctls.h \
+  /usr/include/aarch64-linux-gnu/sys/ioctl.h \
+  /usr/include/aarch64-linux-gnu/bits/ioctls.h \
+  /usr/include/aarch64-linux-gnu/asm/ioctls.h \
   /usr/include/asm-generic/ioctls.h \
   /usr/include/linux/ioctl.h \
-  /usr/include/x86_64-linux-gnu/asm/ioctl.h \
+  /usr/include/aarch64-linux-gnu/asm/ioctl.h \
   /usr/include/asm-generic/ioctl.h \
-  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
-  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+  /usr/include/aarch64-linux-gnu/bits/ioctl-types.h \
+  /usr/include/aarch64-linux-gnu/sys/ttydefaults.h \
   /usr/include/poll.h \
-  /usr/include/x86_64-linux-gnu/sys/poll.h \
-  /usr/include/x86_64-linux-gnu/bits/poll.h \
-  /usr/include/x86_64-linux-gnu/sys/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
-  /usr/include/x86_64-linux-gnu/bits/statx.h \
+  /usr/include/aarch64-linux-gnu/sys/poll.h \
+  /usr/include/aarch64-linux-gnu/bits/poll.h \
+  /usr/include/aarch64-linux-gnu/sys/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_stat.h \
+  /usr/include/aarch64-linux-gnu/bits/statx.h \
   /usr/include/linux/stat.h \
   /usr/include/linux/types.h \
-  /usr/include/x86_64-linux-gnu/asm/types.h \
+  /usr/include/aarch64-linux-gnu/asm/types.h \
   /usr/include/asm-generic/types.h \
   /usr/include/asm-generic/int-ll64.h \
-  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+  /usr/include/aarch64-linux-gnu/bits/statx-generic.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_statx_timestamp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_statx.h \
   /usr/include/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/linux/falloc.h \
-  /usr/include/x86_64-linux-gnu/sys/uio.h \
-  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
-  /usr/include/x86_64-linux-gnu/sys/un.h \
+  /usr/include/aarch64-linux-gnu/sys/uio.h \
+  /usr/include/aarch64-linux-gnu/bits/uio-ext.h \
+  /usr/include/aarch64-linux-gnu/sys/un.h \
   /usr/include/netinet/tcp.h \
   /usr/include/arpa/inet.h \
   /usr/include/net/if.h \
   /usr/include/signal.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/signum-generic.h \
+  /usr/include/aarch64-linux-gnu/bits/signum-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/aarch64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/aarch64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/aarch64-linux-gnu/bits/sigaction.h \
+  /usr/include/aarch64-linux-gnu/bits/sigcontext.h \
+  /usr/include/aarch64-linux-gnu/asm/sigcontext.h \
+  /usr/include/aarch64-linux-gnu/asm/sve_context.h \
+  /usr/include/aarch64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/aarch64-linux-gnu/sys/ucontext.h \
+  /usr/include/aarch64-linux-gnu/sys/procfs.h \
+  /usr/include/aarch64-linux-gnu/sys/time.h \
+  /usr/include/aarch64-linux-gnu/sys/user.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-id.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-prregset.h \
+  /usr/include/aarch64-linux-gnu/bits/procfs-extra.h \
+  /usr/include/aarch64-linux-gnu/bits/sigstack.h \
+  /usr/include/aarch64-linux-gnu/bits/sigstksz.h \
+  /usr/include/aarch64-linux-gnu/bits/ss_flags.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/aarch64-linux-gnu/bits/sigthread.h \
+  /usr/include/aarch64-linux-gnu/bits/signal_ext.h \
   include/asio/detail/socket_option.hpp \
   include/asio/detail/reactive_socket_service.hpp \
   include/asio/buffer.hpp \
@@ -6175,8 +6097,8 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   include/asio/detail/timer_queue_base.hpp \
   include/asio/detail/timer_queue_set.hpp \
   include/asio/detail/wait_op.hpp \
-  /usr/include/x86_64-linux-gnu/sys/timerfd.h \
-  /usr/include/x86_64-linux-gnu/bits/timerfd.h \
+  /usr/include/aarch64-linux-gnu/sys/timerfd.h \
+  /usr/include/aarch64-linux-gnu/bits/timerfd.h \
   include/asio/detail/impl/epoll_reactor.hpp \
   include/asio/basic_deadline_timer.hpp \
   include/asio/basic_file.hpp \
@@ -6194,16 +6116,16 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   include/asio/basic_serial_port.hpp \
   include/asio/serial_port_base.hpp \
   /usr/include/termios.h \
-  /usr/include/x86_64-linux-gnu/bits/termios.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-baud.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
-  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
+  /usr/include/aarch64-linux-gnu/bits/termios.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-struct.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_cc.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_iflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_oflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-baud.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_cflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-c_lflag.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-tcflow.h \
+  /usr/include/aarch64-linux-gnu/bits/termios-misc.h \
   include/asio/impl/serial_port_base.hpp \
   include/asio/detail/posix_serial_port_service.hpp \
   include/asio/basic_signal_set.hpp \
@@ -6619,15 +6541,15 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   include/fmt/format.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+  /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+  /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/tr1/gamma.tcc \
   /usr/include/c++/11/tr1/special_function_util.h \
@@ -6644,15 +6566,15 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   include/fmt/ostream.h \
   /usr/include/c++/11/fstream \
   /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   include/fmt/format.h \
   include/fmt/xchar.h \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
@@ -6682,67 +6604,66 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_server.cc.o: src/network
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/shared_mutex \
-  include/magnetarvoip/nw_interface.h \
   include/magnetarvoip/nw.hpp \
   include/magnetarvoip/settings.h
 
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interface.c.o: src/ux/cli/cli_interface.c \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/string.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
   include/magnetarvoip/cli.h \
   include/linenoise/linenoise.h \
@@ -6751,60 +6672,60 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interface.c.o: src/ux/cli/c
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interpret.c.o: src/ux/cli/cli_interpret.c \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/string.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
   /usr/include/ctype.h \
   include/linenoise/linenoise.h \
@@ -6816,15 +6737,6 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interpret.c.o: src/ux/cli/c
   include/magnetarvoip/core_thread.h \
   include/magnetarvoip/nw_interface.h
 
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.o: src/ux/tui/tui_interface.c \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.o: src/ux/tui/tui_interpret.c \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.o: src/ux/tui/tui_update.c \
-  /usr/include/stdc-predef.h
-
 CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_interface.c.o: src/ux/ux_interface.c \
   /usr/include/stdc-predef.h
 
@@ -6833,47 +6745,43 @@ CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_main.c.o: src/ux/ux_main.c \
   include/magnetarvoip/ux.h \
   include/magnetarvoip/macros.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
   include/magnetarvoip/settings.h
 
 
-src/networking/nw_client.cc:
+include/magnetarvoip/cli.h:
 
-/usr/include/x86_64-linux-gnu/bits/eventfd.h:
+src/networking/nw_client.cc:
 
 /usr/include/dlfcn.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
+/usr/lib/gcc/aarch64-linux-gnu/11/include/arm_neon.h:
 
 include/linenoise/linenoise.h:
 
 src/libs/linenoise/linenoise.cpp:
-
-src/libs/linenoise/ConvertUTF.cpp:
 
 src/init/init_externs.cc:
 
@@ -6885,13 +6793,13 @@ include/optparse/OptionParser.h:
 
 /usr/include/c++/11/bits/stl_multimap.h:
 
+/usr/include/c++/11/bits/stl_map.h:
+
 /usr/include/c++/11/map:
 
 include/cppserver/asio/asio.inl:
 
 include/asio/ssl/detail/write_op.hpp:
-
-include/asio/ssl/detail/shutdown_op.hpp:
 
 include/asio/ssl/detail/io.hpp:
 
@@ -6903,29 +6811,29 @@ include/asio/ssl/rfc2818_verification.hpp:
 
 include/asio/ssl/verify_context.hpp:
 
+include/asio/ssl/detail/password_callback.hpp:
+
 include/asio/ssl/detail/openssl_init.hpp:
 
 include/openssl/ui.h:
 
-include/openssl/randerr.h:
-
 include/openssl/rand.h:
 
-include/openssl/tls1.h:
+include/openssl/dtls1.h:
 
 include/openssl/sslerr_legacy.h:
 
 include/openssl/sslerr.h:
 
+include/openssl/pem.h:
+
 include/openssl/http.h:
 
-include/openssl/pkcs7err.h:
+include/openssl/x509err.h:
 
 include/openssl/dh.h:
 
 include/openssl/dsa.h:
-
-include/openssl/rsa.h:
 
 include/openssl/asn1.h:
 
@@ -6936,6 +6844,8 @@ include/openssl/asn1err.h:
 include/openssl/bnerr.h:
 
 include/openssl/bn.h:
+
+include/openssl/params.h:
 
 include/openssl/buffererr.h:
 
@@ -6949,21 +6859,25 @@ include/openssl/comperr.h:
 
 include/openssl/ssl.h:
 
+include/openssl/conftypes.h:
+
 include/openssl/lhash.h:
+
+include/openssl/bioerr.h:
 
 include/openssl/cryptoerr.h:
 
-include/openssl/types.h:
-
 include/openssl/stack.h:
+
+include/openssl/e_os2.h:
 
 include/openssl/opensslv.h:
 
 include/openssl/configuration.h:
 
-include/asio/ssl/context_base.hpp:
+include/openssl/conf.h:
 
-include/asio/ssl.hpp:
+include/asio/ssl/context_base.hpp:
 
 /usr/include/c++/11/stdlib.h:
 
@@ -6971,17 +6885,15 @@ include/asio/impl/write_at.hpp:
 
 include/asio/writable_pipe.hpp:
 
-src/networking/nw_server.cc:
+include/asio/windows/stream_handle.hpp:
 
-include/asio/windows/basic_object_handle.hpp:
+include/asio/windows/overlapped_handle.hpp:
 
 include/asio/version.hpp:
 
-include/asio/impl/use_future.hpp:
+include/asio/use_future.hpp:
 
 include/asio/use_awaitable.hpp:
-
-include/asio/this_coro.hpp:
 
 include/asio/streambuf.hpp:
 
@@ -6991,15 +6903,13 @@ include/asio/detail/strand_executor_service.hpp:
 
 include/asio/strand.hpp:
 
-include/asio/detail/bulk_executor_op.hpp:
-
 include/asio/impl/thread_pool.hpp:
 
 include/asio/signal_set.hpp:
 
 include/asio/serial_port.hpp:
 
-include/asio/require_concept.hpp:
+include/asio/traits/static_require_concept.hpp:
 
 include/asio/impl/read_until.hpp:
 
@@ -7011,6 +6921,8 @@ include/asio/impl/read_at.hpp:
 
 include/asio/read_at.hpp:
 
+include/asio/impl/read.hpp:
+
 include/asio/random_access_file.hpp:
 
 include/asio/impl/prepend.hpp:
@@ -7021,11 +6933,15 @@ include/asio/posix/stream_descriptor.hpp:
 
 include/asio/posix/descriptor.hpp:
 
-include/asio/posix/basic_stream_descriptor.hpp:
+include/openssl/opensslconf.h:
+
+include/asio/posix/basic_descriptor.hpp:
 
 include/asio/detail/posix_static_mutex.hpp:
 
 include/asio/placeholders.hpp:
+
+/usr/include/c++/11/condition_variable:
 
 include/asio/detail/future.hpp:
 
@@ -7041,8 +6957,6 @@ include/openssl/err.h:
 
 include/asio/ip/v6_only.hpp:
 
-include/asio/ip/tcp.hpp:
-
 include/asio/ip/detail/socket_option.hpp:
 
 include/cppserver/asio/memory.inl:
@@ -7055,9 +6969,11 @@ include/asio/ip/host_name.hpp:
 
 include/asio/detail/resolver_service_base.hpp:
 
-include/asio/detail/resolve_query_op.hpp:
+/usr/include/aarch64-linux-gnu/sys/eventfd.h:
 
 include/asio/detail/resolve_endpoint_op.hpp:
+
+include/asio/detail/resolver_service.hpp:
 
 include/openssl/engineerr.h:
 
@@ -7069,15 +6985,17 @@ include/asio/ip/resolver_base.hpp:
 
 include/asio/ip/basic_resolver_query.hpp:
 
-include/asio/ip/impl/basic_endpoint.hpp:
+include/asio/ip/basic_resolver.hpp:
+
+/usr/include/c++/11/set:
+
+include/asio/is_write_buffered.hpp:
+
+include/asio/ip/detail/endpoint.hpp:
 
 include/asio/ip/basic_endpoint.hpp:
 
-include/asio/ip/impl/network_v6.hpp:
-
 include/asio/ip/network_v6.hpp:
-
-include/asio/ip/impl/network_v4.hpp:
 
 include/asio/ip/network_v4.hpp:
 
@@ -7086,6 +7004,8 @@ include/asio/readable_pipe.hpp:
 include/asio/ip/address_v6_range.hpp:
 
 include/asio/ip/address_v4_range.hpp:
+
+include/asio/ip/bad_address_cast.hpp:
 
 include/asio/ip/impl/address_v4.hpp:
 
@@ -7097,10 +7017,6 @@ include/asio/io_context_strand.hpp:
 
 include/asio/high_resolution_timer.hpp:
 
-include/asio/generic/stream_protocol.hpp:
-
-include/asio/generic/raw_protocol.hpp:
-
 include/magnetarvoip/nw_server.hpp:
 
 include/asio/generic/datagram_protocol.hpp:
@@ -7110,6 +7026,8 @@ include/asio/generic/detail/endpoint.hpp:
 include/openssl/core_dispatch.h:
 
 include/asio/generic/basic_endpoint.hpp:
+
+include/asio/executor.hpp:
 
 include/openssl/cryptoerr_legacy.h:
 
@@ -7123,7 +7041,7 @@ include/openssl/comp.h:
 
 include/asio/impl/deferred.hpp:
 
-include/asio/deferred.hpp:
+include/asio/defer.hpp:
 
 include/asio/impl/consign.hpp:
 
@@ -7135,8 +7053,6 @@ include/asio/connect_pipe.hpp:
 
 include/asio/impl/connect.hpp:
 
-include/asio/detail/composed_work.hpp:
-
 include/asio/compose.hpp:
 
 include/asio/impl/buffered_write_stream.hpp:
@@ -7145,13 +7061,17 @@ include/asio/detail/consuming_buffers.hpp:
 
 include/asio/detail/base_from_cancellation_state.hpp:
 
-include/asio/completion_condition.hpp:
+include/openssl/safestack.h:
 
-include/asio/buffered_write_stream_fwd.hpp:
+include/asio/write.hpp:
+
+include/asio/completion_condition.hpp:
 
 include/asio/impl/buffered_read_stream.hpp:
 
-include/asio/detail/buffered_stream_storage.hpp:
+include/asio/redirect_error.hpp:
+
+include/asio/buffered_read_stream_fwd.hpp:
 
 include/asio/detail/static_mutex.hpp:
 
@@ -7163,15 +7083,9 @@ include/asio/ip/address_v4.hpp:
 
 include/asio/uses_executor.hpp:
 
-include/asio/bind_executor.hpp:
-
 include/asio/bind_cancellation_slot.hpp:
 
 include/asio/basic_stream_file.hpp:
-
-include/openssl/pkcs7.h:
-
-include/asio/wait_traits.hpp:
 
 include/asio/detail/wait_handler.hpp:
 
@@ -7181,7 +7095,11 @@ include/asio/detail/timer_queue_ptime.hpp:
 
 include/asio/detail/date_time_fwd.hpp:
 
-include/asio/basic_waitable_timer.hpp:
+include/openssl/symhacks.h:
+
+include/asio/detail/timer_queue.hpp:
+
+/usr/lib/gcc/aarch64-linux-gnu/11/include/arm_fp16.h:
 
 include/asio/basic_stream_socket.hpp:
 
@@ -7197,27 +7115,27 @@ include/asio/detail/posix_serial_port_service.hpp:
 
 include/asio/impl/serial_port_base.hpp:
 
-include/asio/read.hpp:
+include/asio/detail/buffered_stream_storage.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/termios-misc.h:
+/usr/include/aarch64-linux-gnu/bits/termios-c_lflag.h:
 
-include/openssl/symhacks.h:
+/usr/include/aarch64-linux-gnu/bits/termios-c_cflag.h:
 
-include/asio/detail/timer_queue.hpp:
+/usr/include/aarch64-linux-gnu/bits/termios-baud.h:
 
-/usr/include/x86_64-linux-gnu/bits/termios-tcflow.h:
+/usr/include/aarch64-linux-gnu/bits/termios-c_cc.h:
 
-/usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h:
+include/openssl/types.h:
 
-include/asio/traits/static_require_concept.hpp:
+/usr/include/aarch64-linux-gnu/bits/termios-struct.h:
 
-/usr/include/x86_64-linux-gnu/bits/termios-c_cc.h:
+include/openssl/randerr.h:
 
-include/asio/defer.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/termios-struct.h:
+/usr/include/aarch64-linux-gnu/bits/termios.h:
 
 /usr/include/termios.h:
+
+include/asio/basic_serial_port.hpp:
 
 include/asio/posix/descriptor_base.hpp:
 
@@ -7225,33 +7143,33 @@ include/asio/detail/descriptor_read_op.hpp:
 
 include/asio/detail/descriptor_ops.hpp:
 
-include/asio/basic_io_object.hpp:
+include/asio/basic_readable_pipe.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/timerfd.h:
+include/asio/basic_raw_socket.hpp:
+
+include/asio/basic_io_object.hpp:
 
 include/asio/detail/timer_queue_set.hpp:
 
-include/asio/detail/object_pool.hpp:
-
 include/asio/detail/epoll_reactor.hpp:
 
-include/cppserver/asio/tcp_resolver.h:
+/usr/include/c++/11/bits/list.tcc:
 
-include/asio/ssl/detail/read_op.hpp:
+include/openssl/dherr.h:
 
-include/asio/impl/write.hpp:
+include/asio/packaged_task.hpp:
 
-include/asio/detail/reactor.hpp:
+include/asio/detail/reactive_socket_recv_op.hpp:
 
-include/asio/detail/reactive_socket_send_op.hpp:
+include/asio/connect.hpp:
+
+include/asio/detail/reactive_socket_service_base.hpp:
 
 include/asio/detail/reactive_socket_recvfrom_op.hpp:
 
-include/asio/detail/reactive_socket_connect_op.hpp:
+include/asio/detail/socket_ops.hpp:
 
 include/asio/detail/reactive_socket_accept_op.hpp:
-
-include/asio/detail/reactor_op.hpp:
 
 include/openssl/objects.h:
 
@@ -7271,93 +7189,119 @@ include/asio/detail/string_view.hpp:
 
 include/asio/buffer.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+include/asio/detail/reactive_socket_service.hpp:
 
-include/openssl/opensslconf.h:
+/usr/include/aarch64-linux-gnu/bits/signal_ext.h:
 
-include/asio/posix/basic_descriptor.hpp:
+/usr/include/aarch64-linux-gnu/bits/sigthread.h:
 
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+/usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h:
 
-/usr/include/c++/11/condition_variable:
+include/asio/basic_waitable_timer.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+/usr/include/aarch64-linux-gnu/bits/ss_flags.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+/usr/include/aarch64-linux-gnu/bits/sigstack.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+include/asio/ip/tcp.hpp:
 
-include/openssl/conferr.h:
+/usr/include/aarch64-linux-gnu/bits/procfs-extra.h:
 
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+/usr/include/aarch64-linux-gnu/bits/procfs-id.h:
 
-/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+/usr/include/aarch64-linux-gnu/bits/procfs.h:
 
-include/asio/connect.hpp:
+/usr/include/aarch64-linux-gnu/sys/user.h:
 
-include/asio/detail/reactive_socket_service_base.hpp:
+/usr/include/aarch64-linux-gnu/sys/ucontext.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+/usr/include/aarch64-linux-gnu/bits/types/stack_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+/usr/include/aarch64-linux-gnu/asm/sigcontext.h:
 
-include/asio/basic_raw_socket.hpp:
+/usr/include/aarch64-linux-gnu/bits/sigcontext.h:
 
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+/usr/include/aarch64-linux-gnu/bits/sigaction.h:
+
+/usr/include/aarch64-linux-gnu/bits/sigevent-consts.h:
+
+include/asio/generic/stream_protocol.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/siginfo-consts-arch.h:
+
+/usr/include/aarch64-linux-gnu/bits/siginfo-consts.h:
+
+include/asio/local/datagram_protocol.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/siginfo_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/signum-generic.h:
+
+include/asio/detail/socket_holder.hpp:
+
+/usr/include/signal.h:
 
 include/asio/ssl/detail/buffered_handshake_op.hpp:
 
 include/asio/basic_random_access_file.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
 /usr/include/arpa/inet.h:
 
-/usr/include/c++/11/bits/stl_map.h:
+/usr/include/aarch64-linux-gnu/bits/uio-ext.h:
 
-/usr/include/x86_64-linux-gnu/sys/un.h:
+/usr/include/aarch64-linux-gnu/sys/uio.h:
 
-/usr/include/x86_64-linux-gnu/sys/uio.h:
+include/asio/basic_file.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
+/usr/include/linux/falloc.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/x86_64-linux-gnu/asm/types.h:
-
-/usr/include/linux/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/statx.h:
-
-include/asio/detail/resolver_service.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/poll.h:
+/usr/include/aarch64-linux-gnu/bits/fcntl.h:
 
 include/asio/detail/deadline_timer_service.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/uio-ext.h:
-
 /usr/include/fcntl.h:
 
-/usr/include/x86_64-linux-gnu/sys/poll.h:
+/usr/include/aarch64-linux-gnu/bits/types/struct_statx.h:
 
-/usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
+/usr/include/aarch64-linux-gnu/bits/types/struct_statx_timestamp.h:
+
+/usr/include/aarch64-linux-gnu/bits/statx-generic.h:
+
+/usr/include/asm-generic/types.h:
+
+include/openssl/bio.h:
+
+/usr/include/aarch64-linux-gnu/asm/types.h:
+
+/usr/include/linux/types.h:
+
+src/ux/ux_main.c:
+
+/usr/include/aarch64-linux-gnu/bits/statx.h:
+
+/usr/include/aarch64-linux-gnu/bits/struct_stat.h:
+
+/usr/include/aarch64-linux-gnu/bits/stat.h:
+
+/usr/include/aarch64-linux-gnu/sys/stat.h:
+
+/usr/include/poll.h:
+
+/usr/include/aarch64-linux-gnu/sys/ttydefaults.h:
+
+include/asio/detail/bulk_executor_op.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/ioctl-types.h:
 
 /usr/include/asm-generic/ioctl.h:
 
-include/openssl/params.h:
-
-/usr/include/x86_64-linux-gnu/asm/ioctl.h:
+/usr/include/aarch64-linux-gnu/asm/ioctl.h:
 
 /usr/include/linux/ioctl.h:
 
 /usr/include/asm-generic/ioctls.h:
 
-/usr/include/x86_64-linux-gnu/asm/ioctls.h:
+/usr/include/aarch64-linux-gnu/bits/ioctls.h:
 
 include/asio/detail/initiate_post.hpp:
 
@@ -7365,31 +7309,35 @@ include/asio/buffered_stream_fwd.hpp:
 
 include/asio/post.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/netdb.h:
+/usr/include/aarch64-linux-gnu/bits/netdb.h:
 
-include/asio/ip/basic_resolver.hpp:
+/usr/include/aarch64-linux-gnu/bits/types/__sigval_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
-
-include/asio/ip/bad_address_cast.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+/usr/include/aarch64-linux-gnu/bits/types/sigevent_t.h:
 
 /usr/include/rpc/netdb.h:
 
+include/asio/generic/raw_protocol.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/in.h:
+
+include/asio/detail/reactive_socket_connect_op.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h:
+
+/usr/include/aarch64-linux-gnu/asm/sockios.h:
+
 /usr/include/asm-generic/bitsperlong.h:
 
-/usr/include/x86_64-linux-gnu/sys/ioctl.h:
+/usr/include/aarch64-linux-gnu/bits/termios-tcflow.h:
+
+/usr/include/aarch64-linux-gnu/asm/bitsperlong.h:
+
+/usr/include/aarch64-linux-gnu/bits/eventfd.h:
 
 /usr/include/asm-generic/posix_types.h:
 
-include/asio/detail/reactive_socket_service.hpp:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
-
-include/asio/ssl/detail/password_callback.hpp:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+/usr/include/aarch64-linux-gnu/asm/posix_types.h:
 
 include/linenoise/ConvertUTF.h:
 
@@ -7399,29 +7347,51 @@ include/asio/basic_streambuf_fwd.hpp:
 
 /usr/include/linux/posix_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+include/asio/detail/chrono_time_traits.hpp:
 
-include/asio/windows/overlapped_handle.hpp:
+/usr/include/asm-generic/socket.h:
 
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+/usr/include/aarch64-linux-gnu/asm/socket.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
+include/asio/detail/reactive_socket_send_op.hpp:
 
-/usr/include/x86_64-linux-gnu/sys/socket.h:
+/usr/include/aarch64-linux-gnu/bits/sockaddr.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+/usr/include/aarch64-linux-gnu/bits/socket.h:
+
+/usr/include/aarch64-linux-gnu/sys/socket.h:
+
+include/asio/system_error.hpp:
+
+include/asio/error.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+include/asio/detail/bind_handler.hpp:
+
+include/openssl/tls1.h:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h:
+
+/usr/include/linux/errno.h:
+
+include/asio/system_timer.hpp:
+
+/usr/include/c++/11/functional:
 
 include/asio/serial_port_base.hpp:
 
 /usr/include/c++/11/cwctype:
 
-include/asio/detail/cstddef.hpp:
+/usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h:
+
+/usr/include/c++/11/bits/basic_ios.h:
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
-/usr/include/c++/11/istream:
+/usr/include/c++/11/ios:
 
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
+/usr/include/c++/11/istream:
 
 include/asio/traits/require_concept_free.hpp:
 
@@ -7433,33 +7403,15 @@ include/asio/ssl/detail/verify_callback.hpp:
 
 /usr/include/c++/11/tr1/legendre_function.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/c++/11/tr1/beta_function.tcc:
-
-include/asio/ssl/verify_mode.hpp:
-
-include/asio/detail/eventfd_select_interrupter.hpp:
-
-/usr/include/c++/11/array:
-
 include/asio/detail/scoped_lock.hpp:
 
-/usr/include/c++/11/bits/postypes.h:
+include/time/timespan.h:
 
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
+include/asio/detail/resolve_query_op.hpp:
 
-include/asio/execution/receiver_invocation_error.hpp:
+/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
 
-include/asio/use_future.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-include/time/timestamp.inl:
-
-/usr/include/c++/11/string_view:
+/usr/include/locale.h:
 
 /usr/include/c++/11/bits/atomic_futex.h:
 
@@ -7473,9 +7425,13 @@ include/asio/traits/require_member.hpp:
 
 include/asio/impl/io_context.hpp:
 
-include/fmt/format.h:
+/usr/include/c++/11/cmath:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+include/asio/detail/io_control.hpp:
+
+/usr/include/c++/11/bits/allocator.h:
+
+include/fmt/format.h:
 
 include/asio.hpp:
 
@@ -7483,123 +7439,79 @@ include/asio/detail/recycling_allocator.hpp:
 
 include/asio/detail/thread_info_base.hpp:
 
-/usr/include/c++/11/ios:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
 /usr/include/c++/11/tr1/gamma.tcc:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+include/opus/opus_defines.h:
+
+/usr/include/aarch64-linux-gnu/sys/procfs.h:
 
 /usr/include/c++/11/bits/locale_classes.h:
-
-include/asio/windows/stream_handle.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 include/asio/detail/initiate_defer.hpp:
 
 /usr/include/c++/11/bits/ios_base.h:
 
+/usr/include/aarch64-linux-gnu/bits/pthread_stack_min.h:
+
 include/asio/detail/strand_service.hpp:
 
 include/asio/any_completion_handler.hpp:
 
-include/asio/error.hpp:
-
 /usr/include/string.h:
-
-src/ux/tui/tui_interface.c:
 
 /usr/include/c++/11/stdexcept:
 
 include/asio/impl/redirect_error.hpp:
 
+/usr/include/aarch64-linux-gnu/bits/types/sigval_t.h:
+
 /usr/include/c++/11/pstl/glue_algorithm_defs.h:
-
-include/fmt/core.h:
-
-include/openssl/conftypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
 
 include/asio/deadline_timer.hpp:
 
 include/asio/detail/initiate_dispatch.hpp:
 
-/usr/include/c++/11/tr1/bessel_function.tcc:
+src/init/init_cppserver.cc:
 
-include/cppserver/asio/tcp_client.h:
-
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+/usr/include/c++/11/pstl/execution_defs.h:
 
 /usr/include/c++/11/queue:
 
-/usr/include/c++/11/exception:
+/usr/include/c++/11/ext/concurrence.h:
 
 /usr/include/c++/11/iterator:
 
-include/asio/ip/address_v6.hpp:
+/usr/include/c++/11/bits/range_access.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
+/usr/include/linux/version.h:
 
 /usr/include/c++/11/any:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
-include/asio/traits/static_query.hpp:
-
-include/asio/detail/noncopyable.hpp:
 
 include/asio/detail/wait_op.hpp:
 
 /usr/include/c++/11/memory:
 
-src/init/init_cppserver.cc:
-
-/usr/include/c++/11/pstl/execution_defs.h:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-include/openssl/prov_ssl.h:
-
-/usr/include/c++/11/bits/vector.tcc:
+/usr/include/c++/11/bits/std_function.h:
 
 /usr/include/c++/11/bits/stl_bvector.h:
 
-include/openssl/safestack.h:
-
-include/asio/write.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/c++/11/cstddef:
-
-include/asio/detail/array_fwd.hpp:
-
-include/asio/traits/bulk_execute_member.hpp:
-
 include/openssl/x509v3err.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+/usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/c++/11/backward/auto_ptr.h:
 
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
-
 include/asio/detail/posix_thread.hpp:
-
-/usr/include/c++/11/bits/align.h:
 
 /usr/include/c++/11/vector:
 
 include/asio/impl/system_executor.hpp:
 
-/usr/include/c++/11/bits/erase_if.h:
+include/asio/detail/impl/strand_service.hpp:
 
-/usr/include/c++/11/bits/ptr_traits.h:
+/usr/include/c++/11/bits/unordered_map.h:
 
-/usr/include/stdint.h:
+/usr/include/c++/11/iostream:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
@@ -7613,9 +7525,9 @@ include/asio/detail/variadic_templates.hpp:
 
 include/asio/awaitable.hpp:
 
-/usr/include/c++/11/bits/hashtable.h:
-
 /usr/include/c++/11/bits/refwrap.h:
+
+/usr/include/c++/11/bits/invoke.h:
 
 /usr/include/c++/11/bits/uses_allocator.h:
 
@@ -7623,87 +7535,109 @@ include/asio/awaitable.hpp:
 
 include/fmt/ostream.h:
 
-/usr/include/c++/11/bits/stl_relops.h:
+include/asio/detail/object_pool.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h:
+
+include/openssl/pkcs7.h:
+
+include/asio/wait_traits.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/environments.h:
 
 /usr/include/c++/11/bits/stl_multiset.h:
 
 /usr/include/uuid/uuid.h:
 
+/usr/include/c++/11/bits/align.h:
+
+/usr/include/aarch64-linux-gnu/sys/time.h:
+
 include/asio/ssl/stream_base.hpp:
 
 /usr/include/limits.h:
 
-include/asio/ssl/impl/context.hpp:
-
-include/fmt/args.h:
-
-include/magnetarvoip/init_miniaudio.h:
-
 /usr/include/c++/11/bits/basic_string.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/poll.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-include/magnetarvoip/init.h:
-
-include/asio/traits/set_error_free.hpp:
-
-include/asio/detail/buffer_resize_guard.hpp:
-
-include/asio/traits/schedule_member.hpp:
 
 include/asio/ssl/error.hpp:
 
 /usr/include/asm-generic/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
 include/openssl/ct.h:
 
 include/asio/traits/start_member.hpp:
 
-/usr/include/c++/11/cerrno:
+/usr/include/aarch64-linux-gnu/bits/types/error_t.h:
 
-include/asio/impl/read.hpp:
+include/asio/ssl/impl/context.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+include/fmt/args.h:
 
-include/openssl/hmac.h:
+/usr/include/aarch64-linux-gnu/bits/wctype-wchar.h:
 
-src/core/core.c:
+/usr/include/time.h:
 
-include/asio/execution/detail/void_receiver.hpp:
+/usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h:
 
-/usr/include/stdio.h:
+/usr/include/c++/11/tr1/bessel_function.tcc:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
+include/cppserver/asio/tcp_client.h:
 
-/usr/include/c++/11/list:
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
-include/asio/cancellation_type.hpp:
+/usr/include/aarch64-linux-gnu/bits/typesizes.h:
 
-/usr/include/c++/11/cstdio:
-
-include/asio/require.hpp:
+/usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h:
 
 include/asio/local/stream_protocol.hpp:
 
 /usr/include/c++/11/bits/std_abs.h:
 
+/usr/include/aarch64-linux-gnu/bits/long-double.h:
+
 /usr/include/c++/11/bits/stl_heap.h:
 
-include/asio/detail/socket_types.hpp:
+/usr/include/aarch64-linux-gnu/bits/posix1_lim.h:
 
-/usr/include/alloca.h:
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
-include/asio/associated_cancellation_slot.hpp:
+include/asio/traits/static_query.hpp:
 
-/usr/include/c++/11/iostream:
+include/asio/detail/noncopyable.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+/usr/lib/gcc/aarch64-linux-gnu/11/include/arm_bf16.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
+
+include/openssl/ecerr.h:
+
+/usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/usr/include/aarch64-linux-gnu/sys/select.h:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+include/asio/impl/append.hpp:
+
+include/system/source_location.h:
+
+include/openssl/prov_ssl.h:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/stdint.h:
+
+/usr/include/aarch64-linux-gnu/bits/termios-c_oflag.h:
+
+/usr/include/aarch64-linux-gnu/asm/ioctls.h:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/c++/11/bits/erase_if.h:
 
 /usr/include/c++/11/bits/shared_ptr.h:
 
@@ -7711,67 +7645,23 @@ include/asio/steady_timer.hpp:
 
 include/magnetarvoip/nw_interface.h:
 
-src/ux/tui/tui_interpret.c:
+/usr/include/aarch64-linux-gnu/sys/types.h:
 
-include/asio/associated_executor.hpp:
+include/asio/traits/query_member.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+/usr/include/aarch64-linux-gnu/bits/select.h:
 
-/usr/include/c++/11/bits/stl_construct.h:
+/usr/include/net/if.h:
 
-include/asio/detail/handler_tracking.hpp:
+/usr/include/c++/11/tuple:
 
-/usr/include/c++/11/bits/locale_classes.tcc:
+include/asio/ip/impl/basic_endpoint.hpp:
 
-/usr/include/c++/11/ext/aligned_buffer.h:
+/usr/include/aarch64-linux-gnu/bits/timesize.h:
 
-include/asio/detail/chrono_time_traits.hpp:
+/usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
-/usr/include/asm-generic/socket.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-include/asio/impl/append.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-include/asio/basic_file.hpp:
-
-/usr/include/linux/falloc.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-include/asio/detail/socket_holder.hpp:
-
-/usr/include/signal.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-src/ux/ux_main.c:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-include/asio/stream_file.hpp:
-
-/usr/include/c++/11/clocale:
-
-include/asio/detail/thread.hpp:
-
-/usr/include/c++/11/new:
-
-/usr/include/c++/11/bits/sstream.tcc:
-
-/usr/include/c++/11/climits:
-
-include/asio/detail/concurrency_hint.hpp:
-
-/usr/include/x86_64-linux-gnu/sys/eventfd.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+include/asio/traits/execute_member.hpp:
 
 include/asio/detail/reactive_socket_recvmsg_op.hpp:
 
@@ -7779,25 +7669,163 @@ include/asio/detail/socket_option.hpp:
 
 /usr/include/c++/11/bits/concept_check.h:
 
+include/asio/this_coro.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
+
+include/system/stack_trace.h:
+
+include/asio/detail/composed_work.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/floatn-common.h:
+
+src/networking/nw_server.cc:
+
+include/asio/windows/basic_object_handle.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/locale.h:
+
+include/asio/execution/receiver_invocation_error.hpp:
+
+include/asio/ip/address_v6.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/c++/11/list:
+
+include/asio/cancellation_type.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+include/asio/as_tuple.hpp:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
+
+/usr/include/c++/11/bits/basic_string.h:
+
+/usr/include/aarch64-linux-gnu/bits/wchar.h:
+
+/usr/include/aarch64-linux-gnu/bits/waitflags.h:
+
+include/fmt/core.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h:
+
+/usr/include/linux/stat.h:
+
+include/asio/detail/throw_exception.hpp:
+
+/usr/include/c++/11/pstl/glue_memory_defs.h:
+
+include/asio/ssl/context.hpp:
+
+/usr/include/c++/11/ext/type_traits.h:
+
+include/asio/detail/scheduler.hpp:
+
+include/asio/ip/impl/network_v4.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/11/exception:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/c++/11/debug/assertions.h:
+
+include/asio/detail/non_const_lvalue.hpp:
+
 /usr/include/c++/11/cstdint:
 
-include/openssl/bioerr.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/c++/11/ext/alloc_traits.h:
-
-include/asio/detail/impl/strand_service.hpp:
-
-/usr/include/c++/11/bits/unordered_map.h:
-
-/usr/include/endian.h:
-
-include/magnetarvoip/cht.h:
-
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
 /usr/include/c++/11/bits/std_thread.h:
+
+include/asio/thread_pool.hpp:
+
+/usr/include/c++/11/ext/new_allocator.h:
+
+include/asio/ip/basic_resolver_entry.hpp:
+
+/usr/include/c++/11/tr1/special_function_util.h:
+
+/usr/include/c++/11/bits/postypes.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
+include/asio/windows/overlapped_ptr.hpp:
+
+include/asio/buffers_iterator.hpp:
+
+include/asio/detail/wrapped_handler.hpp:
+
+/usr/include/c++/11/ext/string_conversions.h:
+
+include/asio/ip/impl/address_v6.hpp:
+
+/usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/c++/11/bits/specfun.h:
+
+include/asio/execution/sender.hpp:
+
+/usr/include/c++/11/debug/debug.h:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+include/asio/thread.hpp:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/features.h:
+
+include/asio/execution/bulk_execute.hpp:
+
+include/asio/detail/cstddef.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/c++/11/typeinfo:
+
+include/system/uuid.h:
+
+/usr/include/aarch64-linux-gnu/bits/fp-logb.h:
+
+include/asio/require_concept.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
+
+include/asio/posix/basic_stream_descriptor.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h:
+
+include/string/format.h:
+
+include/errors/exceptions.h:
+
+include/miniaudio/miniaudio.h:
+
+include/magnetarvoip/ux.h:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+include/asio/detail/limits.hpp:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/usr/include/aarch64-linux-gnu/bits/errno.h:
+
+include/asio/execution/occupancy.hpp:
 
 include/openssl/cterr.h:
 
@@ -7815,145 +7843,41 @@ include/asio/detail/thread_group.hpp:
 
 include/asio/detail/config.hpp:
 
-include/asio/basic_serial_port.hpp:
+/usr/include/c++/11/string:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/c++/11/ext/atomicity.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/c++/11/bits/stl_iterator.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/c++/11/bits/stl_queue.h:
-
-include/openssl/x509err.h:
-
-/usr/include/x86_64-linux-gnu/bits/ioctls.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-include/common/flags.inl:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-include/asio/detail/scoped_ptr.hpp:
-
-/usr/include/c++/11/debug/assertions.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h:
-
-include/asio/detail/non_const_lvalue.hpp:
-
-include/asio/detail/socket_ops.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/c++/11/bits/invoke.h:
-
-include/openssl/ssl3.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-include/asio/basic_readable_pipe.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-include/asio/execution/detail/as_operation.hpp:
-
-include/asio/windows/overlapped_ptr.hpp:
-
-include/asio/buffers_iterator.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/in.h:
-
-include/asio/detail/wrapped_handler.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/c++/11/ext/string_conversions.h:
-
-include/asio/ip/impl/address_v6.hpp:
-
-/usr/include/c++/11/bits/specfun.h:
-
-include/asio/execution/sender.hpp:
-
-/usr/include/c++/11/system_error:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/c++/11/debug/debug.h:
-
-/usr/include/linux/version.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-include/asio/system_timer.hpp:
-
-/usr/include/c++/11/functional:
-
-include/openssl/conf.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/11/limits:
-
-include/asio/execution/set_done.hpp:
-
-/usr/include/features.h:
-
-include/asio/execution/bulk_execute.hpp:
-
-/usr/include/c++/11/bits/atomic_base.h:
-
-include/asio/thread.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/c++/11/ext/numeric_traits.h:
-
-include/errors/exceptions.h:
-
-include/string/format.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/asm/socket.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-include/asio/detail/work_dispatcher.hpp:
-
-include/asio/detail/blocking_executor_op.hpp:
-
-/usr/include/c++/11/bits/ostream_insert.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/c++/11/typeinfo:
-
-include/system/uuid.h:
+/usr/include/stdc-predef.h:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+/usr/include/c++/11/fstream:
 
-include/asio/detail/io_object_impl.hpp:
+include/cppserver/asio/service.h:
+
+include/asio/impl/use_future.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/timex.h:
+
+/usr/include/c++/11/type_traits:
+
+include/asio/handler_continuation_hook.hpp:
+
+/usr/include/c++/11/bits/hash_bytes.h:
+
+include/openssl/x509v3.h:
+
+/usr/include/aarch64-linux-gnu/bits/timerfd.h:
+
+/usr/include/c++/11/bits/move.h:
 
 /usr/include/wctype.h:
 
-/usr/include/x86_64-linux-gnu/bits/errno.h:
+include/asio/ssl/stream.hpp:
+
+/usr/include/netdb.h:
+
+/usr/include/sched.h:
 
 include/filesystem/exceptions.h:
 
@@ -7961,101 +7885,17 @@ include/filesystem/exceptions.h:
 
 include/asio/execution/receiver.hpp:
 
-include/openssl/dtls1.h:
+/usr/include/c++/11/cstdio:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/endian.h:
 
-include/openssl/ssl2.h:
+/usr/include/c++/11/bits/cpp_type_traits.h:
 
-include/asio/ip/udp.hpp:
+include/magnetarvoip/cht.h:
 
-include/asio/detail/operation.hpp:
+include/asio/require.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
-
-/usr/include/c++/11/string:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/usr/include/net/if.h:
-
-/usr/include/c++/11/tuple:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-include/openssl/x509v3.h:
-
-/usr/include/c++/11/bits/move.h:
-
-/usr/include/c++/11/bits/hash_bytes.h:
-
-/usr/include/stdc-predef.h:
-
-include/magnetarvoip/cli.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
-include/asio/detail/limits.hpp:
-
-/usr/include/c++/11/bits/stl_function.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-src/ux/ux_interface.c:
-
-/usr/include/asm-generic/errno-base.h:
-
-include/asio/detail/io_control.hpp:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/c++/11/cmath:
-
-include/cppserver/asio/memory.h:
-
-/usr/include/c++/11/pstl/pstl_config.h:
-
-include/asio/redirect_error.hpp:
-
-include/asio/buffered_read_stream_fwd.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
-include/asio/ssl/host_name_verification.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/socket_type.h:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-include/asio/ssl/context.hpp:
-
-/usr/include/c++/11/ext/type_traits.h:
-
-/usr/include/c++/11/bits/streambuf_iterator.h:
-
-include/asio/detail/posix_global.hpp:
-
-include/asio/detail/scheduler.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
-include/asio/windows/basic_random_access_handle.hpp:
-
-include/asio/traits/equality_comparable.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h:
+/usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/c++/11/cwchar:
 
@@ -8069,185 +7909,291 @@ include/asio/execution/schedule.hpp:
 
 include/asio/execution/bad_executor.hpp:
 
-include/asio/basic_signal_set.hpp:
+include/asio/ssl/detail/shutdown_op.hpp:
 
-/usr/include/c++/11/initializer_list:
+/usr/include/aarch64-linux-gnu/sys/single_threaded.h:
 
-include/asio/ip/impl/address.hpp:
+/usr/include/aarch64-linux-gnu/bits/math-vector.h:
 
-/usr/include/c++/11/iosfwd:
+/usr/include/aarch64-linux-gnu/gnu/stubs.h:
 
-include/asio/static_thread_pool.hpp:
+/usr/include/c++/11/tr1/ell_integral.tcc:
 
-/usr/include/c++/11/streambuf:
+include/asio/async_result.hpp:
 
-/usr/include/c++/11/bits/list.tcc:
+include/magnetarvoip/magnetar.h:
 
-include/openssl/dherr.h:
+/usr/include/aarch64-linux-gnu/bits/termios-misc.h:
 
-include/asio/packaged_task.hpp:
+/usr/include/aarch64-linux-gnu/bits/procfs-prregset.h:
 
-include/asio/detail/reactive_socket_recv_op.hpp:
+/usr/include/features-time64.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+/usr/include/c++/11/system_error:
 
-include/asio/ip/basic_resolver_entry.hpp:
+include/asio/traits/prefer_free.hpp:
 
-/usr/include/c++/11/tr1/special_function_util.h:
+include/asio/detail/posix_tss_ptr.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
+/usr/include/c++/11/cstddef:
 
-/usr/include/x86_64-linux-gnu/bits/time64.h:
+include/asio/detail/array_fwd.hpp:
 
-include/openssl/sha.h:
+include/asio/traits/bulk_execute_member.hpp:
 
-include/asio/execution.hpp:
+src/ux/ux_interface.c:
 
-/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+/usr/include/asm-generic/errno-base.h:
 
-include/system/source_location.h:
+/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
+/usr/include/aarch64-linux-gnu/bits/wordsize.h:
 
-/usr/include/c++/11/bits/range_access.h:
+/usr/include/c++/11/cassert:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+include/asio/ssl/host_name_verification.hpp:
 
-include/openssl/srtp.h:
+/usr/include/aarch64-linux-gnu/bits/fp-fast.h:
 
-/usr/include/c++/11/unordered_map:
+/usr/include/c++/11/bits/exception_defines.h:
 
-include/asio/detail/descriptor_write_op.hpp:
+/usr/include/aarch64-linux-gnu/bits/sigstksz.h:
 
-/usr/include/c++/11/cctype:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/math.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/11/bits/charconv.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-include/openssl/ecerr.h:
-
-/usr/include/c++/11/tr1/hypergeometric.tcc:
-
-include/asio/io_context.hpp:
-
-/usr/include/c++/11/bits/localefwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/locale.h:
-
-include/asio/traits/start_free.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/c++/11/set:
-
-include/asio/is_write_buffered.hpp:
-
-include/asio/ip/detail/endpoint.hpp:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/c++/11/bits/stl_deque.h:
-
-include/openssl/pem.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/c++/11/bits/basic_string.h:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/usr/include/c++/11/ext/concurrence.h:
-
-/usr/include/x86_64-linux-gnu/bits/dlfcn.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/bits/termios-baud.h:
-
-include/asio/execution/detail/as_invocable.hpp:
-
-include/asio/detail/executor_function.hpp:
-
-include/cppserver/asio/asio.h:
-
-/usr/include/pthread.h:
+/usr/include/c++/11/string_view:
 
 /usr/include/c++/11/bits/stl_pair.h:
 
 include/asio/detail/call_stack.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+include/asio/detail/socket_types.hpp:
 
-/usr/include/time.h:
+/usr/include/alloca.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+include/asio/associated_cancellation_slot.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/usr/include/aarch64-linux-gnu/sys/timerfd.h:
 
-/usr/include/linux/stat.h:
+/usr/include/aarch64-linux-gnu/bits/time64.h:
 
-/usr/include/c++/11/pstl/glue_memory_defs.h:
+include/asio/static_thread_pool.hpp:
 
-include/asio/detail/throw_exception.hpp:
+/usr/include/c++/11/streambuf:
 
-/usr/include/c++/11/ext/atomicity.h:
+/usr/include/aarch64-linux-gnu/sys/ioctl.h:
 
-src/libs/linenoise/wcwidth.cpp:
+/usr/include/c++/11/bits/functexcept.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+include/asio/ssl.hpp:
 
-include/asio/thread_pool.hpp:
+/usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
 
-/usr/include/c++/11/ext/new_allocator.h:
+/usr/include/aarch64-linux-gnu/bits/time.h:
 
-include/asio/bind_immediate_executor.hpp:
+include/asio/ip/impl/address.hpp:
 
-include/filesystem/path.h:
+/usr/include/c++/11/iosfwd:
 
-include/asio/detail/mutex.hpp:
+include/asio/basic_signal_set.hpp:
 
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
+/usr/include/c++/11/initializer_list:
 
-include/openssl/engine.h:
+/usr/include/c++/11/ctime:
 
-/usr/include/c++/11/bits/std_mutex.h:
+include/time/timestamp.h:
 
-/usr/include/c++/11/cstdlib:
+/usr/include/errno.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
+
+src/core/core_thread.cc:
+
+/usr/include/aarch64-linux-gnu/bits/types/sig_atomic_t.h:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/aarch64-linux-gnu/bits/byteswap.h:
+
+/usr/include/c++/11/version:
+
+include/asio/detail/is_executor.hpp:
+
+include/asio/ssl/verify_mode.hpp:
+
+include/asio/detail/eventfd_select_interrupter.hpp:
+
+/usr/include/c++/11/array:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h:
+
+include/asio/stream_file.hpp:
+
+/usr/include/c++/11/clocale:
+
+include/asio/detail/thread.hpp:
+
+/usr/include/c++/11/bits/stl_iterator.h:
+
+/usr/include/c++/11/new:
+
+/usr/include/aarch64-linux-gnu/bits/endianness.h:
+
+/usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/aarch64-linux-gnu/bits/poll.h:
+
+/usr/include/c++/11/climits:
+
+include/asio/detail/concurrency_hint.hpp:
 
 /usr/include/strings.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+/usr/include/aarch64-linux-gnu/bits/sched.h:
 
-include/asio/windows/object_handle.hpp:
+include/openssl/asyncerr.h:
 
-include/asio/detail/reactive_wait_op.hpp:
+/usr/include/c++/11/bits/istream.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+/usr/include/aarch64-linux-gnu/bits/struct_rwlock.h:
 
-include/cppserver/asio/service.h:
+include/cppserver/asio/memory.h:
 
-/usr/include/c++/11/fstream:
+/usr/include/c++/11/pstl/pstl_config.h:
+
+/usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+include/asio/io_context.hpp:
+
+/usr/include/c++/11/bits/localefwd.h:
+
+/usr/include/c++/11/cerrno:
+
+include/openssl/hmac.h:
+
+src/core/core.c:
+
+include/asio/execution/detail/void_receiver.hpp:
+
+include/asio/ip/impl/network_v6.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h:
+
+include/asio/detail/posix_global.hpp:
+
+/usr/include/c++/11/bits/streambuf_iterator.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/time_t.h:
+
+include/openssl/srtp.h:
+
+/usr/include/c++/11/unordered_map:
+
+/usr/include/aarch64-linux-gnu/asm/errno.h:
+
+include/asio/detail/descriptor_write_op.hpp:
+
+/usr/include/c++/11/cctype:
+
+/usr/include/aarch64-linux-gnu/bits/endian.h:
+
+include/asio/detail/handler_cont_helpers.hpp:
+
+include/asio/detail/blocking_executor_op.hpp:
+
+/usr/include/c++/11/bits/ostream_insert.h:
+
+/usr/include/pthread.h:
+
+include/cppserver/asio/asio.h:
+
+/usr/include/aarch64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/aarch64-linux-gnu/bits/floatn.h:
 
 /usr/include/c++/11/bits/algorithmfwd.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
-/usr/include/c++/11/tr1/exp_integral.tcc:
+/usr/include/c++/11/backward/binders.h:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h:
+
+include/asio/deferred.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h:
+
+include/asio/detail/reactor_op.hpp:
+
+/usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h:
+
+include/system/uuid.inl:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
+
+include/asio/ip/resolver_query_base.hpp:
+
+/usr/include/c++/11/sstream:
+
+/usr/include/stdio.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/clockid_t.h:
+
+include/openssl/ssl3.h:
+
+/usr/include/aarch64-linux-gnu/asm/sve_context.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
+
+include/cppserver/asio/tcp_resolver.h:
+
+include/asio/ssl/detail/read_op.hpp:
+
+include/asio/impl/write.hpp:
+
+include/asio/detail/reactor.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
+
+include/asio/ip/unicast.hpp:
+
+include/asio/basic_seq_packet_socket.hpp:
+
+/usr/include/wchar.h:
+
+include/asio/detail/cstdint.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/aarch64-linux-gnu/bits/siginfo-arch.h:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+/usr/include/aarch64-linux-gnu/bits/types.h:
+
+include/time/timestamp.inl:
+
+/usr/include/aarch64-linux-gnu/bits/setjmp.h:
+
+include/errors/exceptions_handler.h:
+
+include/asio/read.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
+
+src/libs/linenoise/ConvertUTF.cpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+include/asio/execution/execute.hpp:
+
+include/asio/recycling_allocator.hpp:
+
+/usr/include/c++/11/ext/alloc_traits.h:
 
 include/asio/detail/signal_set_service.hpp:
 
@@ -8255,25 +8201,45 @@ include/asio/detail/signal_set_service.hpp:
 
 include/asio/associated_immediate_executor.hpp:
 
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+include/openssl/engine.h:
+
+/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/11/bits/std_mutex.h:
+
+include/system/stack_trace.inl:
+
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/11/cstdlib:
+
 /usr/include/stdlib.h:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/11/tr1/beta_function.tcc:
+
+/usr/include/aarch64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/aarch64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
 
 /usr/include/c++/11/ostream:
 
-include/asio/handler_invoke_hook.hpp:
+src/libs/linenoise/wcwidth.cpp:
 
-/usr/include/c++/11/bits/ostream.tcc:
+/usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h:
 
-include/openssl/asyncerr.h:
+/usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h:
 
-/usr/include/c++/11/bits/istream.tcc:
+include/asio/file_base.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
-
-include/openssl/e_os2.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
-
-include/asio/detail/atomic_count.hpp:
+include/asio/execution/invocable_archetype.hpp:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
@@ -8287,37 +8253,13 @@ include/asio/basic_writable_pipe.hpp:
 
 include/magnetarvoip/core.h:
 
-/usr/include/c++/11/ctime:
+include/asio/detail/winsock_init.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+include/asio/detail/timer_scheduler_fwd.hpp:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-include/time/timestamp.h:
-
-/usr/include/errno.h:
-
-/usr/include/c++/11/bits/alloc_traits.h:
-
-src/core/core_thread.cc:
-
-/usr/include/x86_64-linux-gnu/bits/termios.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
-
-/usr/include/c++/11/bits/basic_ios.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
-
-include/openssl/x509_vfy.h:
-
-include/asio/dispatch.hpp:
-
-include/cppserver/asio/tcp_server.h:
+include/utility/singleton.h:
 
 /usr/include/c++/11/bits/char_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/libintl.h:
 
@@ -8325,15 +8267,15 @@ include/cppserver/asio/tcp_server.h:
 
 /usr/include/c++/11/bits/locale_conv.h:
 
+/usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/posix_opt.h:
+
 src/libs/miniaudio/miniaudio.c:
 
 include/asio/windows/random_access_handle.hpp:
 
 include/string/format.inl:
-
-include/asio/ip/resolver_query_base.hpp:
-
-/usr/include/c++/11/sstream:
 
 include/asio/basic_deadline_timer.hpp:
 
@@ -8345,11 +8287,11 @@ src/ux/cli/cli_interpret.c:
 
 include/asio/multiple_exceptions.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+/usr/include/aarch64-linux-gnu/bits/termios-c_iflag.h:
+
+/usr/include/aarch64-linux-gnu/sys/poll.h:
 
 include/errors/exceptions.inl:
-
-include/system/uuid.inl:
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
 
@@ -8359,14 +8301,6 @@ include/memory/memory.h:
 
 include/asio/detail/handler_invoke_helpers.hpp:
 
-/usr/include/c++/11/cassert:
-
-/usr/include/c++/11/bits/std_function.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h:
-
 /usr/include/c++/11/bits/allocated_ptr.h:
 
 /usr/include/assert.h:
@@ -8374,8 +8308,6 @@ include/asio/detail/handler_invoke_helpers.hpp:
 include/asio/basic_streambuf.hpp:
 
 include/asio/detail/utility.hpp:
-
-src/ux/tui/tui_update.c:
 
 include/memory/memory.inl:
 
@@ -8385,31 +8317,19 @@ include/openssl/pemerr.h:
 
 include/asio/detail/throw_error.hpp:
 
-/usr/include/x86_64-linux-gnu/sys/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-include/asio/traits/set_value_member.hpp:
-
-/usr/include/c++/11/chrono:
-
-include/asio/associator.hpp:
+/usr/include/aarch64-linux-gnu/bits/dlfcn.h:
 
 include/openssl/objectserr.h:
+
+/usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/11/bits/enable_special_members.h:
 
 include/magnetarvoip/macros.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/tr1/ell_integral.tcc:
-
-include/asio/async_result.hpp:
-
-include/magnetarvoip/magnetar.h:
-
 include/asio/ssl/detail/stream_core.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h:
 
 include/magnetarvoip/settings.h:
 
@@ -8419,13 +8339,23 @@ include/magnetarvoip/settings.h:
 
 include/magnetarvoip/aio.h:
 
-include/miniaudio/miniaudio.h:
+/usr/include/aarch64-linux-gnu/sys/un.h:
 
-include/magnetarvoip/ux.h:
+/usr/lib/gcc/aarch64-linux-gnu/11/include/stdalign.h:
 
-/usr/include/c++/11/bits/locale_facets.tcc:
+include/openssl/evperr.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
+include/asio/execution/detail/as_receiver.hpp:
+
+include/asio/execution/detail/as_operation.hpp:
+
+include/opus/opus_types.h:
+
+include/magnetarvoip/init_miniaudio.h:
+
+include/opus/opus.h:
+
+/usr/include/malloc.h:
 
 src/chat/cht_main.cc:
 
@@ -8439,8 +8369,6 @@ include/asio/windows/basic_stream_handle.hpp:
 
 /usr/include/c++/11/mutex:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
-
 /usr/include/c++/11/bits/predefined_ops.h:
 
 include/time/timespan.inl:
@@ -8451,7 +8379,11 @@ include/asio/impl/as_tuple.hpp:
 
 /usr/include/c++/11/deque:
 
+/usr/include/c++/11/bits/stl_deque.h:
+
 /usr/include/c++/11/bits/deque.tcc:
+
+/usr/include/c++/11/bits/stl_queue.h:
 
 include/magnetarvoip/nw.hpp:
 
@@ -8459,41 +8391,33 @@ include/asio/windows/basic_overlapped_handle.hpp:
 
 include/threads/thread.h:
 
-include/errors/exceptions_handler.h:
+include/asio/bind_immediate_executor.hpp:
+
+include/filesystem/path.h:
+
+include/asio/detail/mutex.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/c++/11/bitset:
+
+include/common/flags.inl:
 
 include/string/encoding.h:
 
 include/asio/execution/any_executor.hpp:
 
-include/asio/ssl/stream.hpp:
-
-/usr/include/sched.h:
-
-/usr/include/netdb.h:
-
-include/time/timespan.h:
+/usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
 
 include/filesystem/path.inl:
 
-include/system/stack_trace.h:
+/usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
-
-include/system/stack_trace.inl:
-
-include/asio/detail/winsock_init.hpp:
-
-include/asio/detail/timer_scheduler_fwd.hpp:
-
-include/utility/singleton.h:
+/usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 include/threads/thread.inl:
 
 include/asio/detail/dependent_type.hpp:
-
-/usr/include/x86_64-linux-gnu/asm/sockios.h:
 
 include/asio/associated_allocator.hpp:
 
@@ -8511,9 +8435,13 @@ include/asio/traits/require_concept_member.hpp:
 
 include/asio/detail/conditionally_enabled_mutex.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
 include/magnetarvoip/init_cppserver.hpp:
+
+include/openssl/x509_vfy.h:
+
+include/asio/dispatch.hpp:
+
+include/cppserver/asio/tcp_server.h:
 
 include/asio/buffered_stream.hpp:
 
@@ -8523,27 +8451,31 @@ include/cppserver/asio/tcp_session.h:
 
 include/asio/any_completion_executor.hpp:
 
-/usr/include/c++/11/version:
+include/openssl/rsa.h:
 
-include/asio/detail/is_executor.hpp:
+/usr/include/aarch64-linux-gnu/bits/confname.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+/usr/include/c++/11/bits/stl_relops.h:
 
-/usr/include/x86_64-linux-gnu/bits/confname.h:
+/usr/include/aarch64-linux-gnu/bits/getopt_posix.h:
 
-/usr/include/c++/11/bits/functexcept.h:
+/usr/include/aarch64-linux-gnu/bits/getopt_core.h:
 
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+include/openssl/pkcs7err.h:
 
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-include/asio/execution/set_value.hpp:
+/usr/include/aarch64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/linux/close_range.h:
+
+include/openssl/sha.h:
+
+include/asio/execution.hpp:
 
 include/asio/buffered_write_stream.hpp:
 
 include/asio/execution/allocator.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h:
 
 include/asio/detail/handler_work.hpp:
 
@@ -8553,45 +8485,37 @@ include/asio/detail/posix_mutex.hpp:
 
 include/asio/detail/type_traits.hpp:
 
-include/asio/detail/scheduler_operation.hpp:
-
-include/errors/system_error.h:
-
-include/asio/system_context.hpp:
-
-include/asio/execution/executor.hpp:
-
 include/asio/detail/timer_queue_base.hpp:
 
-include/asio/traits/query_static_constexpr_member.hpp:
+/usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/linux/limits.h:
 
+include/asio/traits/query_static_constexpr_member.hpp:
+
 include/asio/detail/push_options.hpp:
-
-include/asio/file_base.hpp:
-
-include/asio/execution/invocable_archetype.hpp:
 
 src/audio/aio_playback.c:
 
 include/asio/detail/pop_options.hpp:
 
-include/asio/traits/execute_member.hpp:
+include/asio/windows/basic_random_access_handle.hpp:
 
-include/asio/execution/execute.hpp:
+/usr/include/aarch64-linux-gnu/bits/signum-arch.h:
 
-/usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h:
+include/asio/traits/equality_comparable.hpp:
 
-include/asio/recycling_allocator.hpp:
+include/asio/execution/detail/as_invocable.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h:
+
+include/asio/detail/executor_function.hpp:
+
+include/asio/detail/atomic_count.hpp:
 
 /usr/include/asm-generic/int-ll64.h:
 
 /usr/include/c++/11/atomic:
-
-/usr/include/x86_64-linux-gnu/bits/stat.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 include/asio/detail/handler_alloc_helpers.hpp:
 
@@ -8603,21 +8527,11 @@ include/asio/bind_allocator.hpp:
 
 include/asio/traits/set_done_member.hpp:
 
-include/asio/ip/unicast.hpp:
+/usr/include/c++/11/limits:
 
-include/asio/basic_seq_packet_socket.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/statx-generic.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/wchar.h:
-
-include/asio/detail/cstdint.hpp:
+include/asio/execution/set_done.hpp:
 
 include/asio/traits/set_done_free.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 include/magnetarvoip/init_ux.h:
 
@@ -8631,19 +8545,37 @@ include/asio/detail/resolve_op.hpp:
 
 include/asio/detail/impl/service_registry.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
 include/asio/traits/set_error_member.hpp:
 
 include/asio/is_read_buffered.hpp:
 
 include/asio/detail/null_event.hpp:
 
+include/magnetarvoip/init.h:
+
+include/asio/traits/set_error_free.hpp:
+
+include/asio/detail/buffer_resize_guard.hpp:
+
+include/asio/traits/schedule_member.hpp:
+
+include/asio/windows/object_handle.hpp:
+
+include/asio/detail/reactive_wait_op.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/xopen_lim.h:
+
+include/asio/execution/set_value.hpp:
+
+include/asio/detail/scheduler_operation.hpp:
+
+include/errors/system_error.h:
+
+include/asio/execution/executor.hpp:
+
+include/asio/system_context.hpp:
+
 include/asio/traits/set_value_free.hpp:
-
-include/openssl/evperr.h:
-
-include/asio/execution/detail/as_receiver.hpp:
 
 include/magnetarvoip/nw_client.hpp:
 
@@ -8675,11 +8607,9 @@ include/asio/execution/operation_state.hpp:
 
 include/asio/coroutine.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/socket.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
 include/asio/execution/start.hpp:
+
+include/asio/traits/start_free.hpp:
 
 /usr/include/c++/11/bits/node_handle.h:
 
@@ -8687,51 +8617,53 @@ include/asio/traits/connect_member.hpp:
 
 /usr/include/netinet/tcp.h:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
 include/asio/traits/connect_free.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
 
 include/asio/traits/prefer_member.hpp:
 
 include/asio/detail/thread_context.hpp:
 
-include/asio/local/datagram_protocol.hpp:
+include/asio/buffered_write_stream_fwd.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+/usr/lib/gcc/aarch64-linux-gnu/11/include/limits.h:
 
-include/openssl/bio.h:
+/usr/include/aarch64-linux-gnu/sys/cdefs.h:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
+/usr/lib/gcc/aarch64-linux-gnu/11/include/syslimits.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+include/openssl/conferr.h:
 
-/usr/include/x86_64-linux-gnu/sys/timerfd.h:
+/usr/include/aarch64-linux-gnu/bits/local_lim.h:
 
-include/asio/execution/detail/submit_receiver.hpp:
+include/asio/bind_executor.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/usr/include/aarch64-linux-gnu/bits/posix2_lim.h:
 
-include/asio/executor.hpp:
+include/asio/detail/scoped_ptr.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+/usr/include/aarch64-linux-gnu/bits/uio_lim.h:
 
 include/asio/socket_base.hpp:
 
 include/magnetarvoip/core_thread.h:
 
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
 include/asio/detail/tss_ptr.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+include/asio/traits/set_value_member.hpp:
 
-include/asio/traits/prefer_free.hpp:
+/usr/include/c++/11/chrono:
 
-include/asio/detail/keyword_tss_ptr.hpp:
+include/asio/associator.hpp:
 
 include/asio/detail/assert.hpp:
 
 include/asio/handler_alloc_hook.hpp:
+
+/usr/include/c++/11/bits/ostream.tcc:
+
+include/asio/handler_invoke_hook.hpp:
 
 include/asio/execution/blocking.hpp:
 
@@ -8745,23 +8677,23 @@ include/openssl/crypto.h:
 
 include/asio/prefer.hpp:
 
+/usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h:
+
 /usr/include/c++/11/bits/stl_vector.h:
 
 include/asio/traits/require_free.hpp:
 
 include/asio/traits/static_require.hpp:
 
-/usr/include/x86_64-linux-gnu/sys/ttydefaults.h:
+include/asio/execution/prefer_only.hpp:
 
-include/asio/traits/query_member.hpp:
+include/asio/detail/executor_op.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+include/asio/query.hpp:
 
 include/asio/traits/query_free.hpp:
 
 include/asio/time_traits.hpp:
-
-/usr/include/x86_64-linux-gnu/sys/stat.h:
 
 include/asio/execution/blocking_adaptation.hpp:
 
@@ -8789,8 +8721,6 @@ include/openssl/dsaerr.h:
 
 include/asio/execution/mapping.hpp:
 
-include/asio/execution/occupancy.hpp:
-
 include/asio/detail/select_interrupter.hpp:
 
 /usr/include/c++/11/bits/stringfwd.h:
@@ -8799,17 +8729,15 @@ src/audio/aio_capture.c:
 
 include/asio/execution/outstanding_work.hpp:
 
-include/asio/detail/handler_cont_helpers.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
 include/asio/execution/relationship.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/socket_type.h:
 
 include/asio/execution/submit.hpp:
 
-include/openssl/rsaerr.h:
+include/asio/execution/detail/submit_receiver.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+include/openssl/rsaerr.h:
 
 include/asio/detail/functional.hpp:
 
@@ -8825,6 +8753,12 @@ lib/libsrc/uuid.cpp:
 
 include/asio/cancellation_signal.hpp:
 
+include/asio/associated_executor.hpp:
+
+/usr/include/c++/11/bits/stl_construct.h:
+
+include/asio/detail/handler_tracking.hpp:
+
 include/asio/detail/reactive_socket_sendto_op.hpp:
 
 include/asio/is_executor.hpp:
@@ -8832,12 +8766,6 @@ include/asio/is_executor.hpp:
 include/asio/is_contiguous_iterator.hpp:
 
 include/asio/system_executor.hpp:
-
-include/asio/query.hpp:
-
-include/asio/execution/prefer_only.hpp:
-
-include/asio/detail/executor_op.hpp:
 
 include/asio/detail/fenced_block.hpp:
 
@@ -8859,8 +8787,6 @@ include/asio/detail/service_registry.hpp:
 
 include/openssl/core.h:
 
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
 include/asio/detail/conditionally_enabled_event.hpp:
 
 include/asio/buffered_read_stream.hpp:
@@ -8869,28 +8795,28 @@ include/asio/cancellation_state.hpp:
 
 include/asio/detail/base_from_completion_cond.hpp:
 
+/usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
 include/asio/append.hpp:
-
-/usr/include/c++/11/type_traits:
-
-include/asio/handler_continuation_hook.hpp:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-include/asio/as_tuple.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
 
 include/asio/basic_datagram_socket.hpp:
 
 include/asio/basic_socket.hpp:
 
-include/asio/detail/bind_handler.hpp:
+/usr/include/aarch64-linux-gnu/bits/fcntl-linux.h:
+
+include/asio/detail/io_object_impl.hpp:
 
 include/asio/generic/seq_packet_protocol.hpp:
 
 include/asio/detail/completion_handler.hpp:
 
+include/asio/detail/work_dispatcher.hpp:
+
 include/asio/executor_work_guard.hpp:
 
-include/asio/system_error.hpp:
+include/openssl/ssl2.h:
+
+include/asio/ip/udp.hpp:
+
+include/asio/detail/operation.hpp:

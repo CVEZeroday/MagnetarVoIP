@@ -21,7 +21,7 @@
 
 #include "init_cppserver.hpp"
 
-int init_cppserver()
+int32_t init_cppserver()
 {  
   if (IsServer)
   {

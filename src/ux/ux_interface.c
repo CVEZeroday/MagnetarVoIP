@@ -9,7 +9,9 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-int chat_handler()
+#include "macros.h"
+
+int32_t chat_handler()
 {
 
   return 0;

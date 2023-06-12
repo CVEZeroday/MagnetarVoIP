@@ -12,18 +12,27 @@
 #include "macros.h"
 #include "magnetar.h"
 #include "aio.h"
+#include "opus/opus_defines.h"
+#include "settings.h"
+#include "nw_interface.h"
 
 #include <miniaudio/miniaudio.h>
+#include <opus/opus.h>
+#include <malloc.h>
+#include <stdio.h>
 
 ma_device playback_device;
 ma_device_config playback_config;
+OpusDecoder* opus_decoder;
 
-void playback_data_callback(ma_device* pDevice, void* pOutput, const void* pInput, ma_uint32 frameCount)
+void playback_data_callback(ma_device* pDevice, void* pOutput, const void* pInput, uint32_t frameCount)
 {
 	// data_callback
+  ma_decoder* pDecoder = (ma_decoder*)pDevice->pUserData;
+
 }
 
-int init_miniaudio_playback()
+int32_t init_miniaudio_playback()
 {
 	playback_config = ma_device_config_init(ma_device_type_playback);
 
@@ -31,6 +40,16 @@ int init_miniaudio_playback()
 	playback_config.playback.channels = 2;
 	playback_config.wasapi.noAutoConvertSRC = MA_TRUE;
 	playback_config.dataCallback = playback_data_callback;
+
+  int32_t opus_decoder_err;
+  opus_decoder = opus_decoder_create(SAMPLE_RATE, CHANNELS, &opus_decoder_err);
+  if (opus_decoder_err < 0)
+  {
+    error_type = FAILED_TO_CREATE_OPUS_DECODER;
+    return MAGNETARVOIP_ERROR;
+  }
+
+  playback_config.pUserData = opus_decoder;
 
 	if (ma_device_init(NULL, &playback_config, &playback_device) != MA_SUCCESS)
 	{
@@ -48,8 +67,9 @@ int init_miniaudio_playback()
 	return 0;
 }
 
-int stop_miniaudio_playback()
+int32_t stop_miniaudio_playback()
 {
 	ma_device_uninit(&playback_device);
+  opus_decoder_destroy(opus_decoder);
 	return 0;
 }

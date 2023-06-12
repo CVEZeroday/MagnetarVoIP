@@ -588,78 +588,6 @@ src/ux/cli/cli_interpret.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interpret.c.s
 .PHONY : src/ux/cli/cli_interpret.c.s
 
-src/ux/tui/tui_interface.o: src/ux/tui/tui_interface.c.o
-.PHONY : src/ux/tui/tui_interface.o
-
-# target to build an object file
-src/ux/tui/tui_interface.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.o
-.PHONY : src/ux/tui/tui_interface.c.o
-
-src/ux/tui/tui_interface.i: src/ux/tui/tui_interface.c.i
-.PHONY : src/ux/tui/tui_interface.i
-
-# target to preprocess a source file
-src/ux/tui/tui_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.i
-.PHONY : src/ux/tui/tui_interface.c.i
-
-src/ux/tui/tui_interface.s: src/ux/tui/tui_interface.c.s
-.PHONY : src/ux/tui/tui_interface.s
-
-# target to generate assembly for a file
-src/ux/tui/tui_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.s
-.PHONY : src/ux/tui/tui_interface.c.s
-
-src/ux/tui/tui_interpret.o: src/ux/tui/tui_interpret.c.o
-.PHONY : src/ux/tui/tui_interpret.o
-
-# target to build an object file
-src/ux/tui/tui_interpret.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.o
-.PHONY : src/ux/tui/tui_interpret.c.o
-
-src/ux/tui/tui_interpret.i: src/ux/tui/tui_interpret.c.i
-.PHONY : src/ux/tui/tui_interpret.i
-
-# target to preprocess a source file
-src/ux/tui/tui_interpret.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.i
-.PHONY : src/ux/tui/tui_interpret.c.i
-
-src/ux/tui/tui_interpret.s: src/ux/tui/tui_interpret.c.s
-.PHONY : src/ux/tui/tui_interpret.s
-
-# target to generate assembly for a file
-src/ux/tui/tui_interpret.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.s
-.PHONY : src/ux/tui/tui_interpret.c.s
-
-src/ux/tui/tui_update.o: src/ux/tui/tui_update.c.o
-.PHONY : src/ux/tui/tui_update.o
-
-# target to build an object file
-src/ux/tui/tui_update.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.o
-.PHONY : src/ux/tui/tui_update.c.o
-
-src/ux/tui/tui_update.i: src/ux/tui/tui_update.c.i
-.PHONY : src/ux/tui/tui_update.i
-
-# target to preprocess a source file
-src/ux/tui/tui_update.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.i
-.PHONY : src/ux/tui/tui_update.c.i
-
-src/ux/tui/tui_update.s: src/ux/tui/tui_update.c.s
-.PHONY : src/ux/tui/tui_update.s
-
-# target to generate assembly for a file
-src/ux/tui/tui_update.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.s
-.PHONY : src/ux/tui/tui_update.c.s
-
 src/ux/ux_interface.o: src/ux/ux_interface.c.o
 .PHONY : src/ux/ux_interface.o
 
@@ -774,15 +702,6 @@ help:
 	@echo "... src/ux/cli/cli_interpret.o"
 	@echo "... src/ux/cli/cli_interpret.i"
 	@echo "... src/ux/cli/cli_interpret.s"
-	@echo "... src/ux/tui/tui_interface.o"
-	@echo "... src/ux/tui/tui_interface.i"
-	@echo "... src/ux/tui/tui_interface.s"
-	@echo "... src/ux/tui/tui_interpret.o"
-	@echo "... src/ux/tui/tui_interpret.i"
-	@echo "... src/ux/tui/tui_interpret.s"
-	@echo "... src/ux/tui/tui_update.o"
-	@echo "... src/ux/tui/tui_update.i"
-	@echo "... src/ux/tui/tui_update.s"
 	@echo "... src/ux/ux_interface.o"
 	@echo "... src/ux/ux_interface.i"
 	@echo "... src/ux/ux_interface.s"

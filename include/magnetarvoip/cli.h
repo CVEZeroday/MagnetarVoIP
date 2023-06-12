@@ -21,13 +21,13 @@ extern "C" {
 
 // Function Prototypes
 
-int cli_loop();
-void completionHook(char const* prefix, linenoiseCompletions* lc);
+int32_t cli_loop();
+void completionHook(const char* prefix, linenoiseCompletions* lc);
 
-int printDescription(int id);
-char** parse(char* input, int* count);
+int32_t printDescription(int32_t id);
+char** parse(char* input, int32_t* count);
 
-static char const* prompt_prefix = "\x1b[1;32mMagnetar\x1b[0m> ";
+static const char* prompt_prefix = "\x1b[1;32mMagnetar\x1b[0m> ";
 
 /********************************************/
 #ifdef __cplusplus

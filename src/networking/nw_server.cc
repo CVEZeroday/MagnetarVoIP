@@ -20,7 +20,7 @@
 std::shared_ptr<CppServer::Asio::Service> service_server;
 std::shared_ptr<NetworkingServer> server;
 
-int init_nwserver()
+int32_t init_nwserver()
 {
   // NetworkingServer Class instantiate
   service_server = std::make_shared<CppServer::Asio::Service>();
@@ -32,14 +32,14 @@ int init_nwserver()
   return 0;
 }
 
-int send_nwserver(const void* buffer, size_t size)
+int32_t send_nwserver(const void* buffer, size_t size)
 {
   server->Multicast(buffer, size);
 
   return 0;
 }
 
-int close_nwserver()
+int32_t close_nwserver()
 {
   server->Stop();
   service_server->Stop();

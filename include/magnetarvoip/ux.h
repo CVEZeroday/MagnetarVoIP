@@ -15,11 +15,13 @@ extern "C" {
 #endif
 /********************************************/
 
-int ux_main();
+#include "macros.h"
 
-//int gui_init();
-//int tui_init();
-int cli_init();
+int32_t ux_main();
+
+//int32_t gui_init();
+//int32_t tui_init();
+int32_t cli_init();
 
 /********************************************/
 #ifdef __cplusplus

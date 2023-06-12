@@ -20,6 +20,8 @@ extern "C" {
 #include "threads/thread.h"
 #include <mutex>
 
+#include "macros.h"
+
 extern std::thread core_thread;
 extern std::thread chat_thread;
 extern std::thread ux_thread;
@@ -29,8 +31,8 @@ extern std::mutex mutex_status;
 extern "C" {
 #endif
 
-int init_threads();
-void changeProgramStatus(int status);
+int32_t init_threads();
+void changeProgramStatus(int32_t status);
 void packer_yield();
 
 /********************************************/

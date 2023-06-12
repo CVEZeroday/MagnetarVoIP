@@ -20,7 +20,7 @@ set(OUTPUT_ELF
   "${CMAKE_PROJECT_NAME}-${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT_VERSION_PATCH}.out"
   )
 
-set(TARGET_ARCH "linux")
+set(TARGET_ARCH "linux_arm")
 
 set(SRC_FILES
   ${CMAKE_SOURCE_DIR}/src/audio/aio_capture.c
@@ -52,10 +52,6 @@ set(SRC_FILES
   ${CMAKE_SOURCE_DIR}/src/ux/cli/cli_interface.c
   ${CMAKE_SOURCE_DIR}/src/ux/cli/cli_interpret.c
 
-  ${CMAKE_SOURCE_DIR}/src/ux/tui/tui_update.c
-  ${CMAKE_SOURCE_DIR}/src/ux/tui/tui_interface.c
-  ${CMAKE_SOURCE_DIR}/src/ux/tui/tui_interpret.c
-
   #${CMAKE_SOURCE_DIR}/src/etc/queue.cc
 
   ${CMAKE_SOURCE_DIR}/lib/libsrc/uuid.cpp
@@ -82,6 +78,8 @@ link_libraries(
   bfd
   dl
   rt
+  ncursesw
+  opus
   #Catch2
   #Catch2Main
 )

@@ -17,7 +17,7 @@
 
 #include <miniaudio/miniaudio.h>
 
-int init_miniaudio()
+int32_t init_miniaudio()
 {
 	DEBUG_PRINTF("Initializing miniaudio capture module...\n");
 	if (init_miniaudio_capture() == MAGNETARVOIP_ERROR)

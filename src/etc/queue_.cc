@@ -9,7 +9,7 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include "queue.h"
+#include "queue_.h"
 
 void enqueue_int(Queue* q, int data_)
 {

@@ -16,7 +16,9 @@ extern "C" {
 #endif
 /********************************************/
 
-int init_miniaudio();
+#include "macros.h"
+
+int32_t init_miniaudio();
 
 /********************************************/
 #ifdef __cplusplus

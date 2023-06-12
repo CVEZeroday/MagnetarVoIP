@@ -14,22 +14,22 @@
 #include "cppserver/asio/tcp_client.h"
 #include "threads/thread.h"
 
-#include "nw_interface.h"
+#include "nw.hpp"
 
 #include <atomic>
 
 // Function Definition
 
-int init_nwclient();
-int send_nwclient(const void* buffer, size_t size);
-int close_nwclient();
+int32_t init_nwclient();
+int32_t send_nwclient(const void* buffer, size_t size);
+int32_t close_nwclient();
 
 // Class Definition
 
 class NetworkingClient : public CppServer::Asio::TCPClient
 {
 public:
-	NetworkingClient(std::shared_ptr<CppServer::Asio::Service> service, const std::string& address, int port)
+	NetworkingClient(std::shared_ptr<CppServer::Asio::Service> service, const std::string& address, uint32_t port)
 		: CppServer::Asio::TCPClient(service, address, port)
 	{
 		_stop = false;
@@ -63,7 +63,7 @@ protected:
 		packetReceivedHandler(buffer, size);
 	}
 
-	void onError(int error, const std::string& category, const std::string& message) override
+	void onError(int32_t error, const std::string& category, const std::string& message) override
 	{
 		printf("Error ocurred: error code %d, %s: %s\n", error, category.c_str(), message.c_str());
 	}

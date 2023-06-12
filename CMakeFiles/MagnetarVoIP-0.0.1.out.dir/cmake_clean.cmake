@@ -37,18 +37,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interface.c.o.d"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interpret.c.o"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/cli/cli_interpret.c.o.d"
-  "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.o"
-  "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interface.c.o.d"
-  "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.o"
-  "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_interpret.c.o.d"
-  "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.o"
-  "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/tui/tui_update.c.o.d"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_interface.c.o"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_interface.c.o.d"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_main.c.o"
   "CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/ux/ux_main.c.o.d"
-  "build/linux/MagnetarVoIP-0.0.1.out"
-  "build/linux/MagnetarVoIP-0.0.1.out.pdb"
+  "build/linux_arm/MagnetarVoIP-0.0.1.out"
+  "build/linux_arm/MagnetarVoIP-0.0.1.out.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

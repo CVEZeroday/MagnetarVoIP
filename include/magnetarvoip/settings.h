@@ -11,22 +11,24 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+#include "macros.h"
+
 enum PROGRAM_MODE {
 	CLI_MODE,
 	GUI_MODE,
 	TUI_MODE
 };
-extern int ProgramMode;
+extern uint8_t ProgramMode;
 #define PROGRAMMODE_DEFAULT CLI_MODE
-extern char IsServer;
+extern uint8_t IsServer;
 #define ISSERVER_DEFAULT 1
 
 extern char Address[0x10];
 #define ADDRESS_DEFAULT "127.0.0.1"
-extern int Port;
+extern uint16_t Port;
 #define PORT_DEFAULT 30200
 
-extern int TestMode;
+extern uint8_t TestMode;
 #define TESTMODE_DEFAULT 0
 
 enum PROGRAM_STAT {
@@ -34,7 +36,8 @@ enum PROGRAM_STAT {
   WORKING,
   KILL
 };
-extern int ProgramStatus;
+extern uint8_t ProgramStatus;
 #define PROGRAMSTATUS_DEFAULT INIT
+
 
 #endif

@@ -26,8 +26,9 @@
 
 int cmd_callback_chatting(char* input)
 {
-  DEBUG_PRINTF("Input: %s\n", input);
   send_chat(input);
+  //DEBUG_PRINTF("Input: %s\n", input);
+
   return 0;
 }
 
@@ -143,6 +144,12 @@ inline int cli_loop()
       free(input);
       continue;
     }
+    if (*input != '/' || *input == '\\')
+    {
+      cmd_callback_chatting(input);
+      free(input);
+      continue;
+    }
 
     int argn, flag = 0;
     char** args = parse(input, &argn);
@@ -155,8 +162,8 @@ inline int cli_loop()
         {
           if (strcmp(input, commands[i][j]) == 0)
           {
-            //DEBUG_PRINTF("%s, %d, %d\n", args[0], i, j);
             (*commandsCallback[i])(argn, args);
+            DEBUG_PRINTF("%s, %d, %d\n", args[0], i, j);
             flag = 1;
           }
           if (flag) break;
@@ -164,10 +171,6 @@ inline int cli_loop()
         if (flag) break;
       }
       if(!flag) cmd_callback_nocommand(argn, args);
-    }
-    else
-    {
-      cmd_callback_chatting(input);
     }
 
     linenoiseHistoryAdd(input);

@@ -23,6 +23,6 @@
 #include "settings.h"
 #include "macros.h"
 
-extern int error_type;
+extern int32_t error_type;
 
 #endif

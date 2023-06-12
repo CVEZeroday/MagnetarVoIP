@@ -15,7 +15,9 @@ extern "C" {
 #endif
 /********************************************/
 
-int core_main();
+#include "macros.h"
+
+int32_t core_main();
 
 /********************************************/
 #ifdef __cplusplus

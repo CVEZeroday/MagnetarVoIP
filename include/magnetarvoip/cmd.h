@@ -17,22 +17,24 @@ extern "C" {
 
 #include <stdlib.h>
 
-int cmd_callback_chatting(char* input);
-int cmd_callback_nocommand(int argn, char** args);
-int cmd_callback_connect(int argn, char** args);
-int cmd_callback_disconnect(int argn, char** args);
-int cmd_callback_setting(int argn, char** args);
-int cmd_callback_volumeup(int argn, char** args);
-int cmd_callback_volumedown(int argn, char** args);
-int cmd_callback_volumesetting(int argn, char** args);
-int cmd_callback_inputup(int argn, char** args);
-int cmd_callback_inputdown(int argn, char** args);
-int cmd_callback_inputsetting(int argn, char** args);
-int cmd_callback_mute(int argn, char** args);
-int cmd_callback_help(int argn, char** args);
-int cmd_callback_info(int argn, char** args);
-int cmd_callback_history(int argn, char** args);
-int cmd_callback_exit(int argn, char** args);
+#include "macros.h"
+
+int32_t cmd_callback_chatting(char* input);
+int32_t cmd_callback_nocommand(int32_t argn, char** args);
+int32_t cmd_callback_connect(int32_t argn, char** args);
+int32_t cmd_callback_disconnect(int32_t argn, char** args);
+int32_t cmd_callback_setting(int32_t argn, char** args);
+int32_t cmd_callback_volumeup(int32_t argn, char** args);
+int32_t cmd_callback_volumedown(int32_t argn, char** args);
+int32_t cmd_callback_volumesetting(int32_t argn, char** args);
+int32_t cmd_callback_inputup(int32_t argn, char** args);
+int32_t cmd_callback_inputdown(int32_t argn, char** args);
+int32_t cmd_callback_inputsetting(int32_t argn, char** args);
+int32_t cmd_callback_mute(int32_t argn, char** args);
+int32_t cmd_callback_help(int32_t argn, char** args);
+int32_t cmd_callback_info(int32_t argn, char** args);
+int32_t cmd_callback_history(int32_t argn, char** args);
+int32_t cmd_callback_exit(int32_t argn, char** args);
 
 static const char* commands[][4] = {
   {"/connect", "/c", "/con"},
@@ -62,9 +64,9 @@ static const char* description_en[] = {
   "/inputdown, /id, /indown : Decrease the input volume of your microphone.\nusage: /inputdown <amount>, default is 1\n",
   "/inputsetting, /is, /inset : Change terminal to volume setting mode.\n",
   "/mute, /m : Mute your microphone.\n",
-  "/help, /h : Print the list or description of the specific command.\nusage: /help <commands>\n",
-  "/info, /i : Print the information about MagnetarVoIP.\n",
-  "/history, /hist : Print your command history.\n",
+  "/help, /h : Print32_t the list or description of the specific command.\nusage: /help <commands>\n",
+  "/info, /i : Print32_t the information about MagnetarVoIP.\n",
+  "/history, /hist : Print32_t your command history.\n",
   "/exit, /quit : Exit the program.\n"
 };
 
@@ -85,7 +87,7 @@ static const char* description_ko[] = {
   "/exit, /quit : 프로그램을 종료합니다.\n"
 };
 
-static int (*commandsCallback[])(int argn, char** args) = {
+static int32_t (*commandsCallback[])(int32_t argn, char** args) = {
   cmd_callback_connect,
   cmd_callback_disconnect,
   cmd_callback_setting,

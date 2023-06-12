@@ -13,7 +13,7 @@
 #include "macros.h"
 #include "settings.h"
 
-int ux_main()
+int32_t ux_main()
 {
   while (ProgramStatus != WORKING);
   DEBUG_PRINTF("Entering UX Main...\n");
