@@ -18,7 +18,6 @@ extern "C" {
 #include "macros.h"
 
 void returnError(int32_t err);
-void init_externs();
 
 /********************************************/
 #ifdef __cplusplus

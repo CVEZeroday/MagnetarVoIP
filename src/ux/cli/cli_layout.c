@@ -9,7 +9,7 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include <ncurses.h>
+//#include <ncurses.h>
 
 #include "cli.h"
 #include "cht.h"

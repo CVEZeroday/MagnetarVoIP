@@ -1,5 +1,2 @@
-﻿  cli_interpret.c
-D:\MagnetarVoIP\include\magnetarvoip\cmd.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-D:\MagnetarVoIP\src\ux\cli\cli_interpret.c(25,33): warning C4028: formal parameter 1 different from declaration
-D:\MagnetarVoIP\src\ux\cli\cli_interpret.c(26,1): warning C4029: declared formal parameter list different from definition
+﻿  aio_capture.c
   MagnetarVoIP.vcxproj -> D:\MagnetarVoIP\x64\Debug\MagnetarVoIP.exe

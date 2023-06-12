@@ -19,12 +19,15 @@ extern "C" {
 
 #include <stdlib.h>
 
+#include "macros.h"
+#include "settings.h"
+
 // Function Prototypes
 
 int32_t cli_loop();
 void completionHook(const char* prefix, linenoiseCompletions* lc);
 
-int32_t printDescription(int32_t id);
+//int32_t printDescription(int32_t id);
 char** parse(char* input, int32_t* count);
 
 static const char* prompt_prefix = "\x1b[1;32mMagnetar\x1b[0m> ";

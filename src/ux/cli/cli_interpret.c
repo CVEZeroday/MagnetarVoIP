@@ -211,7 +211,7 @@ int cli_init()
   return 0;
 }
 
-char** parse(char* input, int* count)
+char** parse(char* input, int32_t* count)
 {
   int length;
   char** args = NULL;

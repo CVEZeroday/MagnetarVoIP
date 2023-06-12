@@ -19,13 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\asio.hpp" />
+    <ClInclude Include="include\linenoise\ConvertUTF.h" />
+    <ClInclude Include="include\linenoise\linenoise.h" />
     <ClInclude Include="include\magnetarvoip\aio.h" />
     <ClInclude Include="include\magnetarvoip\cht.h" />
     <ClInclude Include="include\magnetarvoip\cli.h" />
     <ClInclude Include="include\magnetarvoip\cmd.h" />
     <ClInclude Include="include\magnetarvoip\core.h" />
     <ClInclude Include="include\magnetarvoip\core_thread.h" />
-    <ClInclude Include="include\magnetarvoip\include_all.h" />
     <ClInclude Include="include\magnetarvoip\init.h" />
     <ClInclude Include="include\magnetarvoip\init_cppserver.hpp" />
     <ClInclude Include="include\magnetarvoip\init_miniaudio.h" />
@@ -36,21 +38,28 @@
     <ClInclude Include="include\magnetarvoip\nw_client.hpp" />
     <ClInclude Include="include\magnetarvoip\nw_interface.h" />
     <ClInclude Include="include\magnetarvoip\nw_server.hpp" />
-    <ClInclude Include="include\magnetarvoip\queue.h" />
+    <ClInclude Include="include\magnetarvoip\queue_.h" />
     <ClInclude Include="include\magnetarvoip\settings.h" />
     <ClInclude Include="include\magnetarvoip\ux.h" />
+    <ClInclude Include="include\miniaudio\miniaudio.h" />
+    <ClInclude Include="include\optparse\OptionParser.h" />
+    <ClInclude Include="include\opus\opus.h" />
+    <ClInclude Include="include\opus\opus_custom.h" />
+    <ClInclude Include="include\opus\opus_defines.h" />
+    <ClInclude Include="include\opus\opus_multistream.h" />
+    <ClInclude Include="include\opus\opus_projection.h" />
+    <ClInclude Include="include\opus\opus_types.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\audio\aio_capture.c" />
     <ClCompile Include="src\audio\aio_playback.c" />
     <ClCompile Include="src\chat\cht_main.cc" />
     <ClCompile Include="src\chat\cht_packing.cc" />
-    <ClCompile Include="src\chat\cht_unpacking.cc" />
     <ClCompile Include="src\core\core.c" />
     <ClCompile Include="src\core\core_thread.cc" />
-    <ClCompile Include="src\etc\queue.cc" />
     <ClCompile Include="src\init\init.cc" />
     <ClCompile Include="src\init\init_cppserver.cc" />
+    <ClCompile Include="src\init\init_externs.cc" />
     <ClCompile Include="src\init\init_miniaudio.c" />
     <ClCompile Include="src\libs\linenoise\ConvertUTF.cpp" />
     <ClCompile Include="src\libs\linenoise\linenoise.cpp" />
@@ -60,9 +69,7 @@
     <ClCompile Include="src\networking\nw_server.cc" />
     <ClCompile Include="src\ux\cli\cli_interface.c" />
     <ClCompile Include="src\ux\cli\cli_interpret.c" />
-    <ClCompile Include="src\ux\tui\tui_interface.c" />
-    <ClCompile Include="src\ux\tui\tui_interpret.c" />
-    <ClCompile Include="src\ux\tui\tui_update.c" />
+    <ClCompile Include="src\ux\cli\cli_layout.c" />
     <ClCompile Include="src\ux\ux_interface.c" />
     <ClCompile Include="src\ux\ux_main.c" />
   </ItemGroup>

@@ -17,12 +17,11 @@
 #pragma comment(lib, "cpp-optparse.lib")
 #pragma comment(lib, "windowsapp")
 #pragma comment(lib, "cppserver.lib")
+#pragma comment(lib, "opus.lib")
 #else
 #endif
 
 #include "settings.h"
 #include "macros.h"
-
-extern int32_t error_type;
 
 #endif

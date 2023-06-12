@@ -15,6 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\magnetarvoip\cht.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magnetarvoip\cli.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magnetarvoip\cmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magnetarvoip\core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magnetarvoip\core_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magnetarvoip\init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="include\magnetarvoip\init_cppserver.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -42,7 +60,7 @@
     <ClInclude Include="include\magnetarvoip\nw_server.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\queue.h">
+    <ClInclude Include="include\magnetarvoip\queue_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\magnetarvoip\settings.h">
@@ -54,33 +72,45 @@
     <ClInclude Include="include\magnetarvoip\aio.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\cht.h">
+    <ClInclude Include="include\asio.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\cli.h">
+    <ClInclude Include="include\miniaudio\miniaudio.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\cmd.h">
+    <ClInclude Include="include\optparse\OptionParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\core.h">
+    <ClInclude Include="include\opus\opus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\core_thread.h">
+    <ClInclude Include="include\opus\opus_custom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\include_all.h">
+    <ClInclude Include="include\opus\opus_defines.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\magnetarvoip\init.h">
+    <ClInclude Include="include\opus\opus_multistream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\opus\opus_projection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\opus\opus_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\linenoise\ConvertUTF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\linenoise\linenoise.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\audio\aio_playback.c">
+    <ClCompile Include="src\audio\aio_capture.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\audio\aio_capture.c">
+    <ClCompile Include="src\audio\aio_playback.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\chat\cht_main.cc">
@@ -89,22 +119,22 @@
     <ClCompile Include="src\chat\cht_packing.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\chat\cht_unpacking.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\core_thread.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\core.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\init\init_miniaudio.c">
+    <ClCompile Include="src\core\core_thread.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\init\init.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\init\init_cppserver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init\init_externs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\init\init_miniaudio.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\libs\linenoise\ConvertUTF.cpp">
@@ -137,16 +167,7 @@
     <ClCompile Include="src\ux\cli\cli_interpret.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\ux\tui\tui_interface.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ux\tui\tui_interpret.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ux\tui\tui_update.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\etc\queue.cc">
+    <ClCompile Include="src\ux\cli\cli_layout.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

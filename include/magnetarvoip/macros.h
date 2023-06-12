@@ -67,4 +67,8 @@ extern uint32_t Initialized = 0b00000000; //core, network, chat, audio, ux, cli,
 #define CHANNELS 2
 #define FRAME_SIZE 480
 
+/* Error Type */
+
+extern int32_t error_type;
+
 #endif

@@ -15,6 +15,7 @@
 
 #include "magnetar.h"
 #include "init.h"
+#include "macros.h"
 #include "settings.h"
 #include "aio.h"
 #include "core_thread.h"
