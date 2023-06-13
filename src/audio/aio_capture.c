@@ -9,17 +9,18 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+#include <malloc.h>
+#include <stdio.h>
+
+#include <miniaudio/miniaudio.h>
+#include <opus/opus.h>
+
 #include "macros.h"
 #include "magnetar.h"
 #include "aio.h"
 #include "opus/opus_defines.h"
 #include "settings.h"
 #include "nw_interface.h"
-
-#include <miniaudio/miniaudio.h>
-#include <opus/opus.h>
-#include <malloc.h>
-#include <stdio.h>
 
 ma_device capture_device;
 ma_device_config capture_config;

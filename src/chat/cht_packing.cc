@@ -16,11 +16,11 @@
 #include "nw_interface.h"
 #include "macros.h"
 
-int32_t send_chat(uint8_t *str)
+int32_t send_chat(char* str)
 {
   NW_PACKET* _packet = (NW_PACKET*)malloc(2029);
   _packet->type = PACKETTYPE_CHAT;
-  strncpy((char*)_packet->data.chat.str, (char*)str, 2000);
+  strncpy((char*)_packet->data.chat.str, str, 2000);
   strncpy((char*)_packet->data.chat.name, "temp_name", 10);
 
   send_nw(_packet, sizeof(*_packet));

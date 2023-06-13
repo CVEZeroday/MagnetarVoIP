@@ -17,7 +17,7 @@ extern "C" {
 #include "macros.h"
 
 int32_t chat_main();
-int32_t send_chat(uint8_t* str);
+int32_t send_chat(char* str);
 
 /********************************************/
 #ifdef __cplusplus
