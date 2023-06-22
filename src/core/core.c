@@ -13,6 +13,8 @@
 #include "settings.h"
 #include "macros.h"
 #include "core_thread.h"
+#include "nw_interface.h"
+#include "aio.h"
 
 int32_t core_main()
 {
@@ -23,5 +25,17 @@ int32_t core_main()
   {
 
   }
+
+  finalizeProgram();
   return 0;
+}
+
+void finalizeProgram()
+{
+  stop_miniaudio_playback();
+  stop_miniaudio_capture();
+  close_send_rtp();
+  close_recv_rtp();
+  close_nwserver();
+  close_nwclient();
 }

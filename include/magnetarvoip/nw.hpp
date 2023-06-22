@@ -36,18 +36,22 @@ extern std::mutex mutex_aio;
 
 inline void packetReceivedHandler(const void* buffer, uint32_t size)
 {
-    if (((const NW_PACKET*)buffer)->type == PACKETTYPE_CHAT)
-    {
-        //DEBUG_PRINTF("packetReceivedHandler: recvd str: %s\n", ((const NW_PACKET*)buffer)->data.chat.str);
-        // Chatting Interface
-        mutex_chat.lock();
-        chatRecvQueue.push((const NW_PACKET*)buffer);
-        mutex_chat.unlock();
-    }
-    if (((const NW_PACKET*)buffer)->type == PACKETTYPE_AUDIO)
-    {
-       // Miniaudio Interface, have to pcm data to audiobuf 
-    }
+  if (((const NW_PACKET*)buffer)->type == PACKETTYPE_CHAT)
+  {
+    //DEBUG_PRINTF("packetReceivedHandler: recvd str: %s\n", ((const NW_PACKET*)buffer)->data.chat.str);
+    // Chatting Interface
+    mutex_chat.lock();
+    chatRecvQueue.push((const NW_PACKET*)buffer);
+    mutex_chat.unlock();
+  }
+  /*
+  if (((const NW_PACKET*)buffer)->type == PACKETTYPE_AUDIO)
+  {
+    // Miniaudio Interface, have to pcm data to audiobuf 
+
+    DEBUG_PRINTF("audio recvd: %d\n", ((const NW_PACKET*)buffer)->data.audio.pcm[0]);
+  }
+  */
 }
 
 /********************************************/

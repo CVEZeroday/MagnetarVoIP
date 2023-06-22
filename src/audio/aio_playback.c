@@ -28,8 +28,31 @@ OpusDecoder* opus_decoder;
 void playback_data_callback(ma_device* pDevice, void* pOutput, const void* pInput, uint32_t frameCount)
 {
 	// data_callback
-  ma_decoder* pDecoder = (ma_decoder*)pDevice->pUserData;
+  if (jitter_buffer == NULL) return;
 
+  int8_t* buffer = (int8_t*)g_async_queue_try_pop(jitter_buffer);
+  if (buffer == NULL) 
+  {
+    DEBUG_PRINTF("No data from jitter buffer.\n");
+    return;
+  }
+
+  int32_t samplesToDecode = frameCount * pDevice->playback.channels * pDevice->sampleRate / 1000;
+  int16_t pcmBuffer[samplesToDecode];
+  int32_t samplesDecoded = opus_decode(opus_decoder, (const uint8_t*)buffer, 480, pcmBuffer, samplesToDecode, 0);
+
+  if (samplesDecoded < 0)
+  {
+    fprintf(stderr, "Decoding Error: %d\n", samplesDecoded);
+    return;
+  }
+
+  for (size_t i = 0; i < samplesDecoded; i++)
+  {
+    ((int32_t*)pOutput)[i] = ((int32_t)pcmBuffer[i]) << 16;
+  }
+
+  free(buffer);
 }
 
 int32_t init_miniaudio_playback()

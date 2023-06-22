@@ -10,6 +10,9 @@
 /*   Created by CVE_zeroday on 12.03.2023   */
 /*               (T.Y.Kim)                  */
 /********************************************/
+
+#include <gst/gst.h>
+
 #ifdef __cplusplus
 
 extern "C" {
@@ -19,6 +22,17 @@ extern "C" {
 #include "macros.h"
 
 extern int32_t(*send_nw)(const void* buffer, size_t size);
+
+uint8_t send_rtp(const uint8_t* data, size_t size);
+uint8_t init_send_rtp();
+uint8_t init_recv_rtp();
+void close_send_rtp();
+void close_recv_rtp();
+
+extern GAsyncQueue* jitter_buffer;
+
+int32_t close_nwserver();
+int32_t close_nwclient();
 
 typedef enum {
   PACKETTYPE_CHAT,
@@ -38,16 +52,17 @@ typedef struct _CHATPACKET
   //std::chrono::system_clock::time_point time;
 } CHATPACKET;
 
+/*
 typedef struct _AUDIOPACKET
 {
   uint8_t pcm[480];
 } AUDIOPACKET;
-// 480 samples -> 1920 Bytes
+*/
 
 typedef union _PACKETDATA
 {
   CHATPACKET chat;
-  AUDIOPACKET audio;
+  //AUDIOPACKET audio;
 } PACKETDATA;
 
 typedef struct _NW_PACKET

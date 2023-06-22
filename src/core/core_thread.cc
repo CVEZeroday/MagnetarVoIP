@@ -18,6 +18,7 @@
 #include "ux.h"
 #include "macros.h"
 #include "settings.h"
+#include "nw_interface.h"
 
 int32_t init_threads()
 {

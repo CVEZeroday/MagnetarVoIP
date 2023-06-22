@@ -34,7 +34,7 @@ set(SRC_FILES
 
   ${CMAKE_SOURCE_DIR}/src/init/init.cc
   ${CMAKE_SOURCE_DIR}/src/init/init_miniaudio.c
-  ${CMAKE_SOURCE_DIR}/src/init/init_cppserver.cc
+  ${CMAKE_SOURCE_DIR}/src/init/init_network.cc
   ${CMAKE_SOURCE_DIR}/src/init/init_externs.cc
 
   ${CMAKE_SOURCE_DIR}/src/libs/linenoise/ConvertUTF.cpp
@@ -45,6 +45,8 @@ set(SRC_FILES
 
   ${CMAKE_SOURCE_DIR}/src/networking/nw_client.cc
   ${CMAKE_SOURCE_DIR}/src/networking/nw_server.cc
+  ${CMAKE_SOURCE_DIR}/src/networking/nw_send_rtp.c
+  ${CMAKE_SOURCE_DIR}/src/networking/nw_recv_rtp.c
 
   ${CMAKE_SOURCE_DIR}/src/ux/ux_main.c
   ${CMAKE_SOURCE_DIR}/src/ux/ux_interface.c
@@ -57,9 +59,15 @@ set(SRC_FILES
   ${CMAKE_SOURCE_DIR}/lib/libsrc/uuid.cpp
   )
 
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(GST REQUIRED gstreamer-1.0)
+pkg_check_modules(GST_RTP REQUIRED gstreamer-plugins-base-1.0)
+
 include_directories(
   include ${CMAKE_SOURCE_DIR}/include
   include ${CMAKE_SOURCE_DIR}/include/magnetarvoip
+  ${GST_INCLUDE_DIRS}
+  ${GST_RTP_INCLUDE_DIRS}
   )
 
 add_compile_options( -Wall )
@@ -80,11 +88,14 @@ link_libraries(
   rt
   ncursesw
   opus
+  gstrtp-1.0
   #Catch2
   #Catch2Main
 )
 link_directories(
   ${CMAKE_SOURCE_DIR}/lib/${TARGET_ARCH}
+  ${GST_LIBRARY_DIRS}
+  ${GST_RTP_LIBRARY_DIRS}
 )
 
 #if(${CMAKE_SYSTEM_PROCESSOR} MATCHES "x86_64" OR ${CMAKE_SYSTEM_PROCESSOR} MATCHES "i386")
@@ -115,3 +126,8 @@ add_executable(
   ${SRC_FILES}
   )
 
+target_link_libraries(
+  ${OUTPUT_ELF}
+  ${GST_LIBRARIES}
+  ${GST_RTP_LIBRARIES}
+)

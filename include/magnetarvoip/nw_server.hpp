@@ -21,7 +21,6 @@
 // Function Definition
 int32_t init_nwserver();
 int32_t send_nwserver(const void* buffer, size_t size);
-int32_t close_nwserver();
 
 // Class Definition
 

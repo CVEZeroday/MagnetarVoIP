@@ -39,7 +39,7 @@
 #include "init.h"
 #include "init_ux.h"
 #include "init_miniaudio.h"
-#include "init_cppserver.hpp"
+#include "init_network.hpp"
 #include "macros.h"
 #include "settings.h"
 #include "aio.h"
@@ -87,9 +87,11 @@ int32_t main(int argc, char** argv)
     returnError(error_type);
     return 1;
   }
-
-  stop_miniaudio_playback();
-  stop_miniaudio_capture();
+  if (init_rtp() == 1)
+  {
+    returnError(error_type);
+    return 1;
+  }
 
   return 0;
 }

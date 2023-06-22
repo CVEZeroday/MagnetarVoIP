@@ -4,7 +4,7 @@
 /*     Copyrights (C) 2023 CVE_zeroday.     */
 /*          All rights reserved.            */
 /********************************************/
-/*      File Name: init_cppserver.cc        */
+/*       File Name: init_network.cc         */
 /*   Created by CVE_zeroday on 09.03.2023   */
 /*               (T.Y.Kim)                  */
 /********************************************/
@@ -19,7 +19,7 @@
 #include "nw_server.hpp"
 #include "nw_interface.h"
 
-#include "init_cppserver.hpp"
+#include "init_network.hpp"
 
 int32_t init_cppserver()
 {  
@@ -37,4 +37,9 @@ int32_t init_cppserver()
   }
 
   return 0;
+}
+
+uint8_t init_rtp()
+{
+  return init_send_rtp() | init_recv_rtp();
 }

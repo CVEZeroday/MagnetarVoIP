@@ -1,8 +1,0 @@
-/help
-asdf
-/exit
-/hist
-/history
-/exit
-hellp
-/exit

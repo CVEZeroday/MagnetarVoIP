@@ -63,9 +63,15 @@ extern uint32_t Initialized = 0b00000000; //core, network, chat, audio, ux, cli,
 
 /* Audio Settings */
 
+#define APPLICATION OPUS_APPLICATION_VOIP
 #define SAMPLE_RATE 48000
+#define BITRATE 16000
 #define CHANNELS 2
-#define FRAME_SIZE 480
+#define FRAME_SIZE 480 // 10ms
+
+/* RTP Settings */
+
+#define RTP_PAYLOAD_TYPE 96
 
 /* Error Type */
 

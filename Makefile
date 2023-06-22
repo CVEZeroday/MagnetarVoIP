@@ -324,30 +324,6 @@ src/init/init.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init.cc.s
 .PHONY : src/init/init.cc.s
 
-src/init/init_cppserver.o: src/init/init_cppserver.cc.o
-.PHONY : src/init/init_cppserver.o
-
-# target to build an object file
-src/init/init_cppserver.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.o
-.PHONY : src/init/init_cppserver.cc.o
-
-src/init/init_cppserver.i: src/init/init_cppserver.cc.i
-.PHONY : src/init/init_cppserver.i
-
-# target to preprocess a source file
-src/init/init_cppserver.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.i
-.PHONY : src/init/init_cppserver.cc.i
-
-src/init/init_cppserver.s: src/init/init_cppserver.cc.s
-.PHONY : src/init/init_cppserver.s
-
-# target to generate assembly for a file
-src/init/init_cppserver.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_cppserver.cc.s
-.PHONY : src/init/init_cppserver.cc.s
-
 src/init/init_externs.o: src/init/init_externs.cc.o
 .PHONY : src/init/init_externs.o
 
@@ -395,6 +371,30 @@ src/init/init_miniaudio.s: src/init/init_miniaudio.c.s
 src/init/init_miniaudio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_miniaudio.c.s
 .PHONY : src/init/init_miniaudio.c.s
+
+src/init/init_network.o: src/init/init_network.cc.o
+.PHONY : src/init/init_network.o
+
+# target to build an object file
+src/init/init_network.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_network.cc.o
+.PHONY : src/init/init_network.cc.o
+
+src/init/init_network.i: src/init/init_network.cc.i
+.PHONY : src/init/init_network.i
+
+# target to preprocess a source file
+src/init/init_network.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_network.cc.i
+.PHONY : src/init/init_network.cc.i
+
+src/init/init_network.s: src/init/init_network.cc.s
+.PHONY : src/init/init_network.s
+
+# target to generate assembly for a file
+src/init/init_network.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/init/init_network.cc.s
+.PHONY : src/init/init_network.cc.s
 
 src/libs/linenoise/ConvertUTF.o: src/libs/linenoise/ConvertUTF.cpp.o
 .PHONY : src/libs/linenoise/ConvertUTF.o
@@ -515,6 +515,54 @@ src/networking/nw_client.s: src/networking/nw_client.cc.s
 src/networking/nw_client.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_client.cc.s
 .PHONY : src/networking/nw_client.cc.s
+
+src/networking/nw_recv_rtp.o: src/networking/nw_recv_rtp.c.o
+.PHONY : src/networking/nw_recv_rtp.o
+
+# target to build an object file
+src/networking/nw_recv_rtp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_recv_rtp.c.o
+.PHONY : src/networking/nw_recv_rtp.c.o
+
+src/networking/nw_recv_rtp.i: src/networking/nw_recv_rtp.c.i
+.PHONY : src/networking/nw_recv_rtp.i
+
+# target to preprocess a source file
+src/networking/nw_recv_rtp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_recv_rtp.c.i
+.PHONY : src/networking/nw_recv_rtp.c.i
+
+src/networking/nw_recv_rtp.s: src/networking/nw_recv_rtp.c.s
+.PHONY : src/networking/nw_recv_rtp.s
+
+# target to generate assembly for a file
+src/networking/nw_recv_rtp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_recv_rtp.c.s
+.PHONY : src/networking/nw_recv_rtp.c.s
+
+src/networking/nw_send_rtp.o: src/networking/nw_send_rtp.c.o
+.PHONY : src/networking/nw_send_rtp.o
+
+# target to build an object file
+src/networking/nw_send_rtp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_send_rtp.c.o
+.PHONY : src/networking/nw_send_rtp.c.o
+
+src/networking/nw_send_rtp.i: src/networking/nw_send_rtp.c.i
+.PHONY : src/networking/nw_send_rtp.i
+
+# target to preprocess a source file
+src/networking/nw_send_rtp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_send_rtp.c.i
+.PHONY : src/networking/nw_send_rtp.c.i
+
+src/networking/nw_send_rtp.s: src/networking/nw_send_rtp.c.s
+.PHONY : src/networking/nw_send_rtp.s
+
+# target to generate assembly for a file
+src/networking/nw_send_rtp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MagnetarVoIP-0.0.1.out.dir/build.make CMakeFiles/MagnetarVoIP-0.0.1.out.dir/src/networking/nw_send_rtp.c.s
+.PHONY : src/networking/nw_send_rtp.c.s
 
 src/networking/nw_server.o: src/networking/nw_server.cc.o
 .PHONY : src/networking/nw_server.o
@@ -669,15 +717,15 @@ help:
 	@echo "... src/init/init.o"
 	@echo "... src/init/init.i"
 	@echo "... src/init/init.s"
-	@echo "... src/init/init_cppserver.o"
-	@echo "... src/init/init_cppserver.i"
-	@echo "... src/init/init_cppserver.s"
 	@echo "... src/init/init_externs.o"
 	@echo "... src/init/init_externs.i"
 	@echo "... src/init/init_externs.s"
 	@echo "... src/init/init_miniaudio.o"
 	@echo "... src/init/init_miniaudio.i"
 	@echo "... src/init/init_miniaudio.s"
+	@echo "... src/init/init_network.o"
+	@echo "... src/init/init_network.i"
+	@echo "... src/init/init_network.s"
 	@echo "... src/libs/linenoise/ConvertUTF.o"
 	@echo "... src/libs/linenoise/ConvertUTF.i"
 	@echo "... src/libs/linenoise/ConvertUTF.s"
@@ -693,6 +741,12 @@ help:
 	@echo "... src/networking/nw_client.o"
 	@echo "... src/networking/nw_client.i"
 	@echo "... src/networking/nw_client.s"
+	@echo "... src/networking/nw_recv_rtp.o"
+	@echo "... src/networking/nw_recv_rtp.i"
+	@echo "... src/networking/nw_recv_rtp.s"
+	@echo "... src/networking/nw_send_rtp.o"
+	@echo "... src/networking/nw_send_rtp.i"
+	@echo "... src/networking/nw_send_rtp.s"
 	@echo "... src/networking/nw_server.o"
 	@echo "... src/networking/nw_server.i"
 	@echo "... src/networking/nw_server.s"

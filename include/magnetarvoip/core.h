@@ -18,6 +18,7 @@ extern "C" {
 #include "macros.h"
 
 int32_t core_main();
+void finalizeProgram();
 
 /********************************************/
 #ifdef __cplusplus

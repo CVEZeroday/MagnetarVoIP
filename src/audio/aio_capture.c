@@ -29,35 +29,43 @@ OpusEncoder* opus_encoder;
 void capture_data_callback(ma_device* pDevice, void* pOutput, const void* pInput, uint32_t frameCount)
 {
 	//data callback
-  DEBUG_PRINTF("%d\n", *((int*)pInput));
-  NW_PACKET* audio_input_packet = (NW_PACKET*)malloc(1921);
-  OpusEncoder* encoder = (OpusEncoder*)pDevice->pUserData;
+  uint8_t* audio_input_packet_data = (uint8_t*)malloc(FRAME_SIZE);
   int32_t audio_input_packet_size;
   int32_t err;
-  audio_input_packet_size = opus_encode(encoder, (const int16_t*)pInput, frameCount, audio_input_packet->data.audio.pcm, 480);
-  audio_input_packet->type = PACKETTYPE_AUDIO;
 
-  send_nw(audio_input_packet, audio_input_packet_size+1);
+  audio_input_packet_size = opus_encode(opus_encoder, (const int16_t*)pInput, frameCount, audio_input_packet_data, 480);
+  if (audio_input_packet_size < 0)
+  {
+    DEBUG_PRINTF("Err: %s\n", opus_strerror(audio_input_packet_size));
+    return;
+  }
+
+  send_rtp(audio_input_packet_data, FRAME_SIZE);
+  DEBUG_PRINTF("%d\n", audio_input_packet_data[0]);
 }
 
 int32_t init_miniaudio_capture()
 {
 	capture_config = ma_device_config_init(ma_device_type_capture);
 
-	capture_config.capture.format = ma_format_s32;
-	capture_config.capture.channels = 2;
+	capture_config.capture.format = ma_format_s16;
+	capture_config.capture.channels = 1;
+  capture_config.sampleRate = BITRATE;
 	capture_config.wasapi.noAutoConvertSRC = MA_TRUE;
 	capture_config.dataCallback = capture_data_callback;
+
+  capture_config.periods = 2;
+  capture_config.periodSizeInFrames = 160;
   
   int32_t opus_encoder_err;
-  opus_encoder = opus_encoder_create(SAMPLE_RATE, CHANNELS, OPUS_APPLICATION_AUDIO, &opus_encoder_err);
+  opus_encoder = opus_encoder_create(SAMPLE_RATE, CHANNELS, APPLICATION, &opus_encoder_err);
   if (opus_encoder_err < 0)
   {
     error_type = FAILED_TO_CREATE_OPUS_ENCODER;
     return MAGNETARVOIP_ERROR;
   }
-
-  capture_config.pUserData = opus_encoder;
+  opus_encoder_ctl(opus_encoder, OPUS_SET_BITRATE(BITRATE));
+  opus_encoder_ctl(opus_encoder, OPUS_SET_COMPLEXITY(0));
 
 	if (ma_device_init(NULL, &capture_config, &capture_device) != MA_SUCCESS)
 	{

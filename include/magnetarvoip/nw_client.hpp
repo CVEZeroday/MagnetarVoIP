@@ -22,7 +22,6 @@
 
 int32_t init_nwclient();
 int32_t send_nwclient(const void* buffer, size_t size);
-int32_t close_nwclient();
 
 // Class Definition
 

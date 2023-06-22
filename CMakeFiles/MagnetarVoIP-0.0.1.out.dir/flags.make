@@ -5,13 +5,13 @@
 # compile CXX with g++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/cvezeroday/MagnetarVoIP/include -I/home/cvezeroday/MagnetarVoIP/include/magnetarvoip
+C_INCLUDES = -I/home/cvezeroday/MagnetarVoIP/include -I/home/cvezeroday/MagnetarVoIP/include/magnetarvoip -I/usr/include/gstreamer-1.0 -I/usr/include/aarch64-linux-gnu -I/usr/include/glib-2.0 -I/usr/lib/aarch64-linux-gnu/glib-2.0/include
 
 C_FLAGS = -g -Wall -std=gnu11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/cvezeroday/MagnetarVoIP/include -I/home/cvezeroday/MagnetarVoIP/include/magnetarvoip
+CXX_INCLUDES = -I/home/cvezeroday/MagnetarVoIP/include -I/home/cvezeroday/MagnetarVoIP/include/magnetarvoip -I/usr/include/gstreamer-1.0 -I/usr/include/aarch64-linux-gnu -I/usr/include/glib-2.0 -I/usr/lib/aarch64-linux-gnu/glib-2.0/include
 
 CXX_FLAGS = -g -Wall -std=c++17
 
