@@ -72,6 +72,11 @@ int32_t main(int argc, char** argv)
     return 0;
   }
 
+  if (init_rtp() == 1)
+  {
+    returnError(error_type);
+    return 1;
+  }
   if (init_miniaudio() == MAGNETARVOIP_ERROR)
   {
     returnError(error_type);
@@ -83,11 +88,6 @@ int32_t main(int argc, char** argv)
     return 1;
   }
   if (init_threads() == MAGNETARVOIP_ERROR)
-  {
-    returnError(error_type);
-    return 1;
-  }
-  if (init_rtp() == 1)
   {
     returnError(error_type);
     return 1;

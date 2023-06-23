@@ -28,6 +28,7 @@ OpusEncoder* opus_encoder;
 
 void capture_data_callback(ma_device* pDevice, void* pOutput, const void* pInput, uint32_t frameCount)
 {
+  DEBUG_PRINTF("Miniaudio capture frameCount: %d\n", frameCount);
 	//data callback
   uint8_t* audio_input_packet_data = (uint8_t*)malloc(FRAME_SIZE);
   int32_t audio_input_packet_size;
@@ -36,7 +37,7 @@ void capture_data_callback(ma_device* pDevice, void* pOutput, const void* pInput
   audio_input_packet_size = opus_encode(opus_encoder, (const int16_t*)pInput, frameCount, audio_input_packet_data, 480);
   if (audio_input_packet_size < 0)
   {
-    DEBUG_PRINTF("Err: %s\n", opus_strerror(audio_input_packet_size));
+    DEBUG_PRINTF("Opus Err: %s\n", opus_strerror(audio_input_packet_size));
     return;
   }
 
@@ -50,12 +51,12 @@ int32_t init_miniaudio_capture()
 
 	capture_config.capture.format = ma_format_s16;
 	capture_config.capture.channels = 1;
-  capture_config.sampleRate = BITRATE;
+  capture_config.sampleRate = SAMPLE_RATE;
 	capture_config.wasapi.noAutoConvertSRC = MA_TRUE;
 	capture_config.dataCallback = capture_data_callback;
 
-  capture_config.periods = 2;
-  capture_config.periodSizeInFrames = 160;
+  capture_config.periods = 1;
+  capture_config.periodSizeInFrames = 480;
   
   int32_t opus_encoder_err;
   opus_encoder = opus_encoder_create(SAMPLE_RATE, CHANNELS, APPLICATION, &opus_encoder_err);

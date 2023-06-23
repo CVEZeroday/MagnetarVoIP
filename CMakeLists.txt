@@ -37,11 +37,11 @@ set(SRC_FILES
   ${CMAKE_SOURCE_DIR}/src/init/init_network.cc
   ${CMAKE_SOURCE_DIR}/src/init/init_externs.cc
 
-  ${CMAKE_SOURCE_DIR}/src/libs/linenoise/ConvertUTF.cpp
-  ${CMAKE_SOURCE_DIR}/src/libs/linenoise/linenoise.cpp
-  ${CMAKE_SOURCE_DIR}/src/libs/linenoise/wcwidth.cpp
+  ${CMAKE_SOURCE_DIR}/src/lib/linenoise/ConvertUTF.cpp
+  ${CMAKE_SOURCE_DIR}/src/lib/linenoise/linenoise.cpp
+  ${CMAKE_SOURCE_DIR}/src/lib/linenoise/wcwidth.cpp
 
-  ${CMAKE_SOURCE_DIR}/src/libs/miniaudio/miniaudio.c
+  ${CMAKE_SOURCE_DIR}/src/lib/miniaudio/miniaudio.c
 
   ${CMAKE_SOURCE_DIR}/src/networking/nw_client.cc
   ${CMAKE_SOURCE_DIR}/src/networking/nw_server.cc
@@ -64,7 +64,7 @@ pkg_check_modules(GST REQUIRED gstreamer-1.0)
 pkg_check_modules(GST_RTP REQUIRED gstreamer-plugins-base-1.0)
 
 include_directories(
-  include ${CMAKE_SOURCE_DIR}/include
+  include ${CMAKE_SOURCE_DIR}/include/lib
   include ${CMAKE_SOURCE_DIR}/include/magnetarvoip
   ${GST_INCLUDE_DIRS}
   ${GST_RTP_INCLUDE_DIRS}

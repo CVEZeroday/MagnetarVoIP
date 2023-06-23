@@ -9,6 +9,8 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+#include <gst/gst.h>
+
 #include "nw_client.hpp"
 #include "nw_server.hpp"
 #include "settings.h"
@@ -41,5 +43,7 @@ int32_t init_cppserver()
 
 uint8_t init_rtp()
 {
+  gst_init(NULL, NULL);
+  DEBUG_PRINTF("Initiating Gstreamer pipelines...\n");
   return init_send_rtp() | init_recv_rtp();
 }

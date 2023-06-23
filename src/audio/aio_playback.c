@@ -59,10 +59,14 @@ int32_t init_miniaudio_playback()
 {
 	playback_config = ma_device_config_init(ma_device_type_playback);
 
-	playback_config.playback.format = ma_format_s32;
-	playback_config.playback.channels = 2;
+	playback_config.playback.format = ma_format_s16;
+	playback_config.playback.channels = 1;
+  playback_config.sampleRate = SAMPLE_RATE;
 	playback_config.wasapi.noAutoConvertSRC = MA_TRUE;
 	playback_config.dataCallback = playback_data_callback;
+
+  playback_config.periods = 1;
+  playback_config.periodSizeInFrames = 480;
 
   int32_t opus_decoder_err;
   opus_decoder = opus_decoder_create(SAMPLE_RATE, CHANNELS, &opus_decoder_err);
@@ -71,8 +75,6 @@ int32_t init_miniaudio_playback()
     error_type = FAILED_TO_CREATE_OPUS_DECODER;
     return MAGNETARVOIP_ERROR;
   }
-
-  playback_config.pUserData = opus_decoder;
 
 	if (ma_device_init(NULL, &playback_config, &playback_device) != MA_SUCCESS)
 	{

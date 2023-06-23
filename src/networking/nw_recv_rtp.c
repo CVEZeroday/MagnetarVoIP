@@ -28,21 +28,49 @@ uint8_t init_recv_rtp()
 {
   gchar pipeline_recv_str[256] = { 0 };
   g_snprintf(pipeline_recv_str, sizeof(pipeline_recv_str),
-             "udpsrc name=udpsrc_rtp, port=%d "
+             "udpsrc name=udpsrc_recv port=%d "
              "caps=\"application/x-rtp, media=audio, payload=%d, clock-rate=%d, encoding-name=OPUS\" !"
              "rtpjitterbuffer latency=0 ! rtpopusdepay !"
-             "appsink name=appsink_rtp emit-signals=trye sync=false qos=false async=false", Port, RTP_PAYLOAD_TYPE, SAMPLE_RATE);
+             "appsink name=appsink_recv emit-signals=trye sync=false qos=false async=false", Port, RTP_PAYLOAD_TYPE, SAMPLE_RATE);
   GError* gst_error = NULL;
   pipeline_recv = gst_parse_launch(pipeline_recv_str, &gst_error);
 
-  GstElement* udpsrc = gst_bin_get_by_name(GST_BIN(pipeline_recv), "udpsrc_rtp");
-  appsink = gst_bin_get_by_name(GST_BIN(pipeline_recv), "appsink_rtp");
+  if (pipeline_recv == NULL) 
+  {
+    g_printerr("Failed to launch pipeline_recv: %s\n", gst_error->message);
+    g_clear_error(&gst_error);
+    return 1;
+  }
+  GstElement* udpsrc = gst_bin_get_by_name(GST_BIN(pipeline_recv), "udpsrc_recv");
+  if (udpsrc == NULL)
+  {
+    g_printerr("Failed to find udpsrc element in GStreamer pipeline_recv\n");
+    gst_object_unref(pipeline_recv);
+    return 1;
+  }
+
+  appsink = gst_bin_get_by_name(GST_BIN(pipeline_recv), "appsink_recv");
+  if (appsink == NULL)
+  {
+    g_printerr("Failed to find appsink element in GStreamer pipeline_recv\n");
+    gst_object_unref(pipeline_recv);
+    return 1;
+  }
 
   jitter_buffer = g_async_queue_new();
 
   g_signal_connect(udpsrc, "pad-added", G_CALLBACK(on_rtp_packet_recieved), jitter_buffer);
 
-  gst_element_set_state(pipeline_recv, GST_STATE_PLAYING);
+  GstStateChangeReturn sret = gst_element_set_state(pipeline_recv, GST_STATE_PLAYING);
+  if (sret == GST_STATE_CHANGE_FAILURE)
+  {
+    g_printerr("Failed to start pipeline_send\n");
+    gst_object_unref(pipeline_recv);
+    return 1;
+  }
+
+  DEBUG_PRINTF("Gstreamer receive pipeline initiated.\n");
+
   return 0;
 }
 

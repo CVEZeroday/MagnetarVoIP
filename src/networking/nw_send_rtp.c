@@ -39,7 +39,7 @@ uint8_t init_send_rtp()
 {
   gchar pipeline_send_str[256] = { 0 };
   g_snprintf(pipeline_send_str, sizeof(pipeline_send_str),
-             "appsrc name=appsrc_rtp format=GST_FORMAT_TIME "
+             "appsrc name=appsrc_send format=GST_FORMAT_TIME "
              "caps=\"application/x-rtp, media=audio, payload=%d, encoding-name=OPUS\" !" 
              "udpsink host=%s port=%d", RTP_PAYLOAD_TYPE, Address, Port);
   GError* gst_error = NULL;
@@ -52,10 +52,10 @@ uint8_t init_send_rtp()
     return 1;
   }
 
-  appsrc = gst_bin_get_by_name(GST_BIN(pipeline_send), "appsrc_rtp");
+  appsrc = gst_bin_get_by_name(GST_BIN(pipeline_send), "appsrc_send");
   if (appsrc == NULL)
   {
-    g_printerr("Failed to find appsrc element in GStreamer pipeline_send\n");
+    g_printerr("Failed to find appsrc_send element in GStreamer pipeline_send\n");
     gst_object_unref(pipeline_send);
     return 1;
   }
@@ -68,6 +68,7 @@ uint8_t init_send_rtp()
     return 1;
   }
 
+  DEBUG_PRINTF("Gstreamer sendation pipeline initiated.\n");
   return 0;
 }
 
