@@ -28,7 +28,7 @@ OpusEncoder* opus_encoder;
 
 void capture_data_callback(ma_device* pDevice, void* pOutput, const void* pInput, uint32_t frameCount)
 {
-  DEBUG_PRINTF("Miniaudio capture frameCount: %d\n", frameCount);
+  //DEBUG_PRINTF("Miniaudio capture frameCount: %d\n", frameCount);
 	//data callback
   uint8_t* audio_input_packet_data = (uint8_t*)malloc(FRAME_SIZE);
   int32_t audio_input_packet_size;
@@ -42,7 +42,7 @@ void capture_data_callback(ma_device* pDevice, void* pOutput, const void* pInput
   }
 
   send_rtp(audio_input_packet_data, FRAME_SIZE);
-  DEBUG_PRINTF("%d\n", audio_input_packet_data[0]);
+  //DEBUG_PRINTF("capture_data_callback: %d\n", audio_input_packet_data[0]);
 }
 
 int32_t init_miniaudio_capture()

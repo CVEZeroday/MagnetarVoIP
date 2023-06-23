@@ -76,6 +76,7 @@ uint8_t init_recv_rtp()
 
 gboolean on_rtp_packet_recieved(GstElement* element, GstBuffer* buffer, gpointer user_data)
 {
+  DEBUG_PRINTF("on_rtp_packet_recieved: recvd\n");
   GstRTPBuffer buf = GST_RTP_BUFFER_INIT;
   GstMapInfo map_info;
   GstBuffer* payload;
@@ -84,6 +85,7 @@ gboolean on_rtp_packet_recieved(GstElement* element, GstBuffer* buffer, gpointer
   {
     guint8* payload_data = gst_rtp_buffer_get_payload(&buf);
     guint payload_size = gst_rtp_buffer_get_payload_len(&buf);
+    DEBUG_PRINTF("on_rtp_packet_recieved: %d\n", payload_data[0]);
 
     payload = gst_buffer_copy_region(buffer, GST_BUFFER_COPY_MEMORY, (payload_data-map_info.data), payload_size);
     

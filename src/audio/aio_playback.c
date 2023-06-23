@@ -33,7 +33,7 @@ void playback_data_callback(ma_device* pDevice, void* pOutput, const void* pInpu
   int8_t* buffer = (int8_t*)g_async_queue_try_pop(jitter_buffer);
   if (buffer == NULL) 
   {
-    DEBUG_PRINTF("No data from jitter buffer.\n");
+//    DEBUG_PRINTF("No data from jitter buffer.\n");
     return;
   }
 

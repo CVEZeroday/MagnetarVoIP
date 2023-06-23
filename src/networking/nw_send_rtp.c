@@ -26,6 +26,7 @@ uint8_t send_rtp(const uint8_t* data, size_t size)
 
   GstFlowReturn flow_return;
   g_signal_emit_by_name(appsrc, "push-buffer", buffer, &flow_return);
+  DEBUG_PRINTF("send_rtp: signal emited: %d\n", data[0]);
   gst_buffer_unref(buffer);
 
   if (flow_return != GST_FLOW_OK) {
