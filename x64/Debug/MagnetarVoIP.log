@@ -1,2 +1,12 @@
-﻿  aio_capture.c
+﻿  nw_recv_rtp.c
+D:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\gmacros.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+D:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\gmacros.h(825,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+D:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\gatomic.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+D:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\gfileutils.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+D:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\gmain.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+D:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\gtestutils.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+D:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\guri.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+D:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\glib\glib-autocleanups.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+D:\gstreamer\1.0\msvc_x86_64\include\glib-2.0\gobject\gobject.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+D:\MagnetarVoIP\src\networking\nw_recv_rtp.c(90): warning C4700: uninitialized local variable 'map_info' used
   MagnetarVoIP.vcxproj -> D:\MagnetarVoIP\x64\Debug\MagnetarVoIP.exe

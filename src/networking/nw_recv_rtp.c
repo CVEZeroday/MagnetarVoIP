@@ -31,7 +31,7 @@ uint8_t init_recv_rtp()
              "udpsrc name=udpsrc_recv port=%d "
              "caps=\"application/x-rtp, media=audio, payload=%d, clock-rate=%d, encoding-name=OPUS\" !"
              "rtpjitterbuffer latency=0 ! rtpopusdepay !"
-             "appsink name=appsink_recv emit-signals=trye sync=false qos=false async=false", Port, RTP_PAYLOAD_TYPE, SAMPLE_RATE);
+             "appsink name=appsink_recv emit-signals=true sync=false qos=false async=false", Port, RTP_PAYLOAD_TYPE, SAMPLE_RATE);
   GError* gst_error = NULL;
   pipeline_recv = gst_parse_launch(pipeline_recv_str, &gst_error);
 
@@ -59,12 +59,12 @@ uint8_t init_recv_rtp()
 
   jitter_buffer = g_async_queue_new();
 
-  g_signal_connect(udpsrc, "pad-added", G_CALLBACK(on_rtp_packet_recieved), jitter_buffer);
+  g_signal_connect(appsink, "new-sample", G_CALLBACK(on_rtp_packet_recieved), jitter_buffer);
 
   GstStateChangeReturn sret = gst_element_set_state(pipeline_recv, GST_STATE_PLAYING);
   if (sret == GST_STATE_CHANGE_FAILURE)
   {
-    g_printerr("Failed to start pipeline_send\n");
+    g_printerr("Failed to start pipeline_recv\n");
     gst_object_unref(pipeline_recv);
     return 1;
   }
@@ -74,7 +74,7 @@ uint8_t init_recv_rtp()
   return 0;
 }
 
-gboolean on_rtp_packet_recieved(GstElement* element, GstBuffer* buffer, gpointer user_data)
+static GstFlowReturn on_rtp_packet_recieved(GstElement* element, GstBuffer* buffer, gpointer user_data)
 {
   DEBUG_PRINTF("on_rtp_packet_recieved: recvd\n");
   GstRTPBuffer buf = GST_RTP_BUFFER_INIT;

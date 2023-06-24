@@ -15,7 +15,15 @@
 #include <stdarg.h>
 #include <stdint.h>
 
-#define VERSION "0.0.0.1"
+#define MAJOR 0
+#define MINOR 0
+#define PATCH 1
+#define VERSION_STRINGIFY(x) #x
+#define MAKE_VERSION_STRING(major, minor, patch) VERSION_STRINGIFY(major) "." VERSION_STRINGIFY(minor) "." VERSION_STRINGIFY(patch)
+#define VERSION MAKE_VERSION_STRING(MAJOR, MINOR, PATCH)
+
+#define LOWEST_DELAY_SETTING 1
+#define MAGNETARVOIP_DEBUG 1
 
 #define MAGNETARVOIP_ERROR -1
 
@@ -53,7 +61,6 @@ extern uint32_t Initialized = 0b00000000; //core, network, chat, audio, ux, cli,
 #define CLI_HISTORY_FILE "./cli_history.txt"
 
 /* Debug Macros */
-#define MAGNETARVOIP_DEBUG 1
 
 #if MAGNETARVOIP_DEBUG
 #define DEBUG_PRINTF(...) printf(__VA_ARGS__);
@@ -63,7 +70,12 @@ extern uint32_t Initialized = 0b00000000; //core, network, chat, audio, ux, cli,
 
 /* Audio Settings */
 
+#if LOWEST_DELAY_SETTING
+#define APPLICATION OPUS_APPLICATION_RESTRICTED_LOWDELAY
+#else
 #define APPLICATION OPUS_APPLICATION_VOIP
+#endif
+
 #define SAMPLE_RATE 48000
 #define BITRATE 16000
 #define CHANNELS 1

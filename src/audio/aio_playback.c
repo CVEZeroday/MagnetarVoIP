@@ -38,7 +38,7 @@ void playback_data_callback(ma_device* pDevice, void* pOutput, const void* pInpu
   }
 
   int32_t samplesToDecode = frameCount * pDevice->playback.channels * pDevice->sampleRate / 1000;
-  int16_t pcmBuffer[samplesToDecode];
+  int16_t* pcmBuffer = (int16_t*)malloc(samplesToDecode);
   int32_t samplesDecoded = opus_decode(opus_decoder, (const uint8_t*)buffer, 480, pcmBuffer, samplesToDecode, 0);
 
   if (samplesDecoded < 0)
@@ -52,6 +52,7 @@ void playback_data_callback(ma_device* pDevice, void* pOutput, const void* pInpu
     ((int32_t*)pOutput)[i] = ((int32_t)pcmBuffer[i]) << 16;
   }
 
+  free(pcmBuffer);
   free(buffer);
 }
 
