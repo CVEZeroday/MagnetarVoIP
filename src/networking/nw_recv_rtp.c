@@ -22,7 +22,7 @@ GAsyncQueue* jitter_buffer;
 GstElement* appsink;
 GstElement* pipeline_recv;
 
-gboolean on_rtp_packet_recieved(GstElement* element, GstBuffer* buffer, gpointer user_data);
+static GstFlowReturn on_rtp_packet_recieved(GstElement* element, GstBuffer* buffer, gpointer user_data);
 
 uint8_t init_recv_rtp()
 {
