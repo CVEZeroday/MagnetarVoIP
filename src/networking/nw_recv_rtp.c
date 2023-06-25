@@ -30,7 +30,8 @@ uint8_t init_recv_rtp()
   g_snprintf(pipeline_recv_str, sizeof(pipeline_recv_str),
              "udpsrc name=udpsrc_recv port=%d "
              "caps=\"application/x-rtp, media=audio, payload=%d, clock-rate=%d, encoding-name=OPUS\" !"
-             "rtpjitterbuffer latency=0 ! rtpopusdepay !"
+             "rtpjitterbuffer !"
+             "rtpopusdepay !"
              "appsink name=appsink_recv emit-signals=true sync=false qos=false async=false", Port, RTP_PAYLOAD_TYPE, SAMPLE_RATE);
   GError* gst_error = NULL;
   pipeline_recv = gst_parse_launch(pipeline_recv_str, &gst_error);
