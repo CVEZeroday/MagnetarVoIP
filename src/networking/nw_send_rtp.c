@@ -42,6 +42,7 @@ uint8_t init_send_rtp()
   g_snprintf(pipeline_send_str, sizeof(pipeline_send_str),
              "appsrc name=appsrc_send format=GST_FORMAT_TIME "
              "caps=\"application/x-rtp, media=audio, payload=%d, encoding-name=OPUS\" !" 
+             //"rtpopuspay !"
              "udpsink host=%s port=%d", RTP_PAYLOAD_TYPE, Address, Port);
   GError* gst_error = NULL;
   pipeline_send = gst_parse_launch(pipeline_send_str, &gst_error);
