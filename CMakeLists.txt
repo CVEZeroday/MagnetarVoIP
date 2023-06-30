@@ -60,6 +60,7 @@ set(SRC_FILES
   )
 
 find_package(PkgConfig REQUIRED)
+find_package(libre CONFIG REQUIRED)
 pkg_check_modules(GST REQUIRED gstreamer-1.0)
 pkg_check_modules(GST_RTP REQUIRED gstreamer-plugins-base-1.0)
 
