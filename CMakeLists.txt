@@ -20,7 +20,7 @@ set(OUTPUT_ELF
   "${CMAKE_PROJECT_NAME}-${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT_VERSION_PATCH}.out"
   )
 
-set(TARGET_ARCH "linux_arm")
+set(TARGET_ARCH "linux")
 
 set(SRC_FILES
   ${CMAKE_SOURCE_DIR}/src/audio/aio_capture.c
