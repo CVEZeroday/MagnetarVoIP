@@ -11,7 +11,7 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include <gst/gst.h>
+#include <re/re.h>
 
 #ifdef __cplusplus
 
@@ -23,13 +23,12 @@ extern "C" {
 
 extern int32_t(*send_nw)(const void* buffer, size_t size);
 
-uint8_t send_rtp(const uint8_t* data, size_t size);
+uint8_t send_rtp(const uint8_t* data, size_t size, uint32_t timestamp);
+void rtp_recv_handler(const struct sa *src, const struct rtp_header* header, struct mbuf* mbuffer, void* arg);
 uint8_t init_send_rtp();
 uint8_t init_recv_rtp();
 void close_send_rtp();
 void close_recv_rtp();
-
-extern GAsyncQueue* jitter_buffer;
 
 int32_t close_nwserver();
 int32_t close_nwclient();

@@ -9,98 +9,63 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include <gst/gst.h>
-#include <gst/rtp/gstrtpbuffer.h>
-#include <gst/rtp/gstrtppayloads.h>
+#include <stdint.h>
 #include <string.h>
+
+#include <re/re.h>
+#include <re/rem.h>
 
 #include "nw_interface.h"
 #include "macros.h"
 #include "settings.h"
 
-GAsyncQueue* jitter_buffer;
-GstElement* appsink;
-GstElement* pipeline_recv;
+struct rtp_sock *recv_rtp_sock = NULL;
+struct sa recv_rtp_addr;
 
-static GstFlowReturn on_rtp_packet_recieved(GstElement* element, GstBuffer* buffer, gpointer user_data);
+struct rtcp_stats recv_stats;
+extern uint32_t ssrc;
+
+void rtp_recv_handler(const struct sa *src, const struct rtp_header* header, struct mbuf* mbuffer, void* arg)
+{
+  DEBUG_PRINTF("rtp recvd!\n");
+
+}
 
 uint8_t init_recv_rtp()
 {
-  gchar pipeline_recv_str[256] = { 0 };
-  g_snprintf(pipeline_recv_str, sizeof(pipeline_recv_str),
-             "udpsrc name=udpsrc_recv port=%d "
-             "caps=\"application/x-rtp, media=audio, payload=%d, clock-rate=%d, encoding-name=OPUS\" !"
-             "rtpjitterbuffer !"
-             "rtpopusdepay !"
-             "appsink name=appsink_recv emit-signals=true sync=false qos=false async=false", Port, RTP_PAYLOAD_TYPE, SAMPLE_RATE);
-  GError* gst_error = NULL;
-  pipeline_recv = gst_parse_launch(pipeline_recv_str, &gst_error);
+  int err;
 
-  if (pipeline_recv == NULL) 
+  ssrc = 1;
+
+  memset(&recv_rtp_addr, 0, sizeof(recv_rtp_addr));
+  memset(&recv_stats, 0, sizeof(recv_stats));
+
+  err = sa_set_str(&recv_rtp_addr, Address, Port+1);
+  if (err)
   {
-    g_printerr("Failed to launch pipeline_recv: %s\n", gst_error->message);
-    g_clear_error(&gst_error);
-    return 1;
-  }
-  GstElement* udpsrc = gst_bin_get_by_name(GST_BIN(pipeline_recv), "udpsrc_recv");
-  if (udpsrc == NULL)
-  {
-    g_printerr("Failed to find udpsrc element in GStreamer pipeline_recv\n");
-    gst_object_unref(pipeline_recv);
+    mem_deref(recv_rtp_sock);
     return 1;
   }
 
-  appsink = gst_bin_get_by_name(GST_BIN(pipeline_recv), "appsink_recv");
-  if (appsink == NULL)
+  err = rtp_listen(&recv_rtp_sock, IPPROTO_UDP, &recv_rtp_addr, RTP_MIN_PORT, RTP_MAX_PORT, true, rtp_recv_handler, NULL, NULL);
+  if (err)
   {
-    g_printerr("Failed to find appsink element in GStreamer pipeline_recv\n");
-    gst_object_unref(pipeline_recv);
+    mem_deref(recv_rtp_sock);
     return 1;
   }
 
-  jitter_buffer = g_async_queue_new();
-
-  g_signal_connect(appsink, "new-sample", G_CALLBACK(on_rtp_packet_recieved), jitter_buffer);
-
-  GstStateChangeReturn sret = gst_element_set_state(pipeline_recv, GST_STATE_PLAYING);
-  if (sret == GST_STATE_CHANGE_FAILURE)
+  err = udp_local_get(rtp_sock(recv_rtp_sock), &recv_rtp_addr);
+  if (err)
   {
-    g_printerr("Failed to start pipeline_recv\n");
-    gst_object_unref(pipeline_recv);
+    mem_deref(recv_rtp_sock);
     return 1;
   }
 
-  DEBUG_PRINTF("Gstreamer receive pipeline initiated.\n");
-
+  DEBUG_PRINTF("Recv_rtp initiated!\n");
   return 0;
-}
-
-static GstFlowReturn on_rtp_packet_recieved(GstElement* element, GstBuffer* buffer, gpointer user_data)
-{
-  DEBUG_PRINTF("on_rtp_packet_recieved: recvd\n");
-  GstRTPBuffer buf = GST_RTP_BUFFER_INIT;
-  GstMapInfo map_info;
-  GstBuffer* payload;
-
-  if (gst_rtp_buffer_map(buffer, GST_MAP_READ, &buf))
-  {
-    guint8* payload_data = gst_rtp_buffer_get_payload(&buf);
-    guint payload_size = gst_rtp_buffer_get_payload_len(&buf);
-    DEBUG_PRINTF("on_rtp_packet_recieved: %d\n", payload_data[0]);
-
-    payload = gst_buffer_copy_region(buffer, GST_BUFFER_COPY_MEMORY, (payload_data-map_info.data), payload_size);
-    
-    g_async_queue_push(jitter_buffer, payload);
-
-    gst_rtp_buffer_unmap(&buf);
-  }
-  return GST_FLOW_OK;
 }
 
 void close_recv_rtp()
 {
-  gst_element_set_state(pipeline_recv, GST_STATE_NULL);
-  gst_object_unref(pipeline_recv);
-  g_async_queue_unref(jitter_buffer);
+  mem_deref(recv_rtp_sock);
 }
-

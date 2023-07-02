@@ -26,6 +26,8 @@ ma_device capture_device;
 ma_device_config capture_config;
 OpusEncoder* opus_encoder;
 
+uint32_t timestamp;
+
 void capture_data_callback(ma_device* pDevice, void* pOutput, const void* pInput, uint32_t frameCount)
 {
 	//data callback
@@ -41,11 +43,14 @@ void capture_data_callback(ma_device* pDevice, void* pOutput, const void* pInput
     return;
   }
 
-  send_rtp(audio_input_packet_data, audio_input_packet_size);
+  timestamp++;
+  send_rtp(audio_input_packet_data, audio_input_packet_size, timestamp);
 }
 
 int32_t init_miniaudio_capture()
 {
+  timestamp = 0;
+
 	capture_config = ma_device_config_init(ma_device_type_capture);
 
 	capture_config.capture.format = ma_format_s16;

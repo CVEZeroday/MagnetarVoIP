@@ -9,8 +9,6 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include <gst/gst.h>
-
 #include "nw_client.hpp"
 #include "nw_server.hpp"
 #include "settings.h"
@@ -43,7 +41,16 @@ int32_t init_cppserver()
 
 uint8_t init_rtp()
 {
-  gst_init(NULL, NULL);
-  DEBUG_PRINTF("Initiating Gstreamer pipelines...\n");
+  libre_exception_btrace(true);
+  int err = libre_init();
+  if (err)
+  {
+    DEBUG_PRINTF("libre initiation err: %d\n", err);
+    re_thread_async_close();
+    libre_close();
+    return 1;
+  }
+  DEBUG_PRINTF("Libre initiated!\n");
+
   return init_send_rtp() | init_recv_rtp();
 }

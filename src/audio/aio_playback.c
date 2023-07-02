@@ -28,6 +28,7 @@ OpusDecoder* opus_decoder;
 void playback_data_callback(ma_device* pDevice, void* pOutput, const void* pInput, uint32_t frameCount)
 {
 	// data_callback
+  /*
   if (jitter_buffer == NULL) return;
 
   int8_t* buffer = (int8_t*)g_async_queue_try_pop(jitter_buffer);
@@ -53,7 +54,7 @@ void playback_data_callback(ma_device* pDevice, void* pOutput, const void* pInpu
   }
 
   free(pcmBuffer);
-  free(buffer);
+  free(buffer);*/
 }
 
 int32_t init_miniaudio_playback()

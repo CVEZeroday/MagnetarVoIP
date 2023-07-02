@@ -20,7 +20,7 @@ set(OUTPUT_ELF
   "${CMAKE_PROJECT_NAME}-${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT_VERSION_PATCH}.out"
   )
 
-set(TARGET_ARCH "linux")
+set(TARGET_ARCH "linux_arm")
 
 set(SRC_FILES
   ${CMAKE_SOURCE_DIR}/src/audio/aio_capture.c
@@ -59,16 +59,17 @@ set(SRC_FILES
   ${CMAKE_SOURCE_DIR}/lib/libsrc/uuid.cpp
   )
 
-find_package(PkgConfig REQUIRED)
+#find_package(PkgConfig REQUIRED)
 find_package(libre CONFIG REQUIRED)
-pkg_check_modules(GST REQUIRED gstreamer-1.0)
-pkg_check_modules(GST_RTP REQUIRED gstreamer-plugins-base-1.0)
+#pkg_check_modules(GST REQUIRED gstreamer-1.0)
+#pkg_check_modules(GST_RTP REQUIRED gstreamer-plugins-base-1.0)
 
 include_directories(
   include ${CMAKE_SOURCE_DIR}/include/lib
+  include ${CMAKE_SOURCE_DIR}/include/lib/re
   include ${CMAKE_SOURCE_DIR}/include/magnetarvoip
-  ${GST_INCLUDE_DIRS}
-  ${GST_RTP_INCLUDE_DIRS}
+  #  ${GST_INCLUDE_DIRS}
+  #  ${GST_RTP_INCLUDE_DIRS}
   )
 
 add_compile_options( -Wall )
@@ -89,14 +90,15 @@ link_libraries(
   rt
   ncursesw
   opus
-  gstrtp-1.0
+  re
+  #  gstrtp-1.0
   #Catch2
   #Catch2Main
 )
 link_directories(
   ${CMAKE_SOURCE_DIR}/lib/${TARGET_ARCH}
-  ${GST_LIBRARY_DIRS}
-  ${GST_RTP_LIBRARY_DIRS}
+  #${GST_LIBRARY_DIRS}
+  #${GST_RTP_LIBRARY_DIRS}
 )
 
 #if(${CMAKE_SYSTEM_PROCESSOR} MATCHES "x86_64" OR ${CMAKE_SYSTEM_PROCESSOR} MATCHES "i386")
@@ -129,6 +131,6 @@ add_executable(
 
 target_link_libraries(
   ${OUTPUT_ELF}
-  ${GST_LIBRARIES}
-  ${GST_RTP_LIBRARIES}
+  #${GST_LIBRARIES}
+  #${GST_RTP_LIBRARIES}
 )
