@@ -9,7 +9,7 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include <threads/thread.h>
+#include <re/re.h>
 
 #include "core_thread.h"
 
@@ -20,34 +20,51 @@
 #include "settings.h"
 #include "nw_interface.h"
 
-int32_t init_threads()
+
+static int _core_main(void* arg)
 {
+  return core_main();
+}
+
+static int _chat_main(void* arg)
+{
+  return chat_main();
+}
+
+static int _ux_main(void* arg)
+{
+  return ux_main();
+}
+
+int32_t init_threads(void* arg)
+{
+  int32_t err;
   DEBUG_PRINTF("Initializing Threads...\n");
-  core_thread = CppCommon::Thread::Start(core_main);
-  chat_thread = CppCommon::Thread::Start(chat_main);
-  ux_thread = CppCommon::Thread::Start(ux_main);
+
+  err = thread_create_name(&core_thread, "core_thread", _core_main, NULL);
+  err = thread_create_name(&chat_thread, "chat_thread", _chat_main, NULL);
+  err = thread_create_name(&ux_thread, "ux_thread", _ux_main, NULL);
   // nw_thread is managed by cppserver library
   // audio_thread is managed by miniaudio library
+  
+  mtx_init(&mutex_status, mtx_plain);
+
   changeProgramStatus(WORKING);
+
   DEBUG_PRINTF("Initialized Threads! ProgramStatus: %d\n", ProgramStatus);
 
-  core_thread.join();
-  chat_thread.join();
-  ux_thread.join();
+  thrd_join(core_thread, &err);
+  thrd_join(chat_thread, &err);
+  thrd_join(ux_thread, &err);
 
   return 0;
 }
 
-void packer_yield()
-{
-  CppCommon::Thread::Yield();
-}
-
 void changeProgramStatus(int32_t status)
 {
-  mutex_status.lock();
+  mtx_lock(&mutex_status);
   ProgramStatus = status;
-  mutex_status.unlock();
+  mtx_unlock(&mutex_status);
 }
 
 int32_t close_threads()

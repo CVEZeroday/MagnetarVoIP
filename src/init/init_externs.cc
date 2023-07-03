@@ -11,7 +11,7 @@
 
 #include <mutex>
 #include <queue>
-#include "threads/thread.h"
+#include <re/re.h>
 
 #include "magnetar.h"
 #include "init.h"
@@ -35,14 +35,14 @@ std::queue<const NW_PACKET*>chatRecvQueue;
 std::queue<int32_t> audioSendQueue;
 std::queue<int32_t> audioRecvQueue;
 
-std::mutex mutex_chat;
-std::mutex mutex_aio;
+mtx_t mutex_chat;
+mtx_t mutex_aio;
 
-std::thread core_thread;
-std::thread chat_thread;
-std::thread ux_thread;
+thrd_t core_thread;
+thrd_t chat_thread;
+thrd_t ux_thread;
 
-std::mutex mutex_status;
+mtx_t mutex_status;
 
 extern "C" {
   int32_t(*send_nw)(const void* buffer, size_t size);

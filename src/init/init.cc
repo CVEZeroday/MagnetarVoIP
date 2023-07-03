@@ -100,7 +100,7 @@ void returnError(int32_t err)
 {
   if (err == INIT_MINIAUDIO_ERROR)
   {
-    printf("audiograph error occured: initiating");
+    printf("miniaudio error occured: initiating");
     return;
   }
 }

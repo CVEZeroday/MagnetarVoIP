@@ -14,6 +14,8 @@
 #include <queue>
 #include <chrono>
 
+#include <string.h>
+
 #include "cht.h"
 #include "macros.h"
 #include "settings.h"
@@ -25,8 +27,8 @@ int32_t chat_main()
   while (ProgramStatus != WORKING);
   DEBUG_PRINTF("Entering Chat Main...\n");
 
-  std::string _name;
-  std::string _str;
+  char _name[20];
+  char _str[2000];
   uint32_t _time;
   uint32_t _header;
 
@@ -36,14 +38,14 @@ int32_t chat_main()
     if (!chatRecvQueue.empty())
     {
       mutex_chat.lock();
-      _name = (char*)chatRecvQueue.front()->data.chat.name;
-      _str = (char*)chatRecvQueue.front()->data.chat.str;
+      strncpy(_name, (const char*)chatRecvQueue.front()->data.chat.name, 20);
+      strncpy(_str, (const char*)chatRecvQueue.front()->data.chat.str, 2000);
       _time = chatRecvQueue.front()->data.chat.time;
       _header = chatRecvQueue.front()->data.chat.header;
       chatRecvQueue.pop();
       mutex_chat.unlock();
 
-      DEBUG_PRINTF("\n%s: %s\n", _name.c_str(), _str.c_str());
+      DEBUG_PRINTF("\n%s: %s\n", _name, _str);
     }
   }
 

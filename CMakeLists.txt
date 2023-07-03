@@ -27,10 +27,10 @@ set(SRC_FILES
   ${CMAKE_SOURCE_DIR}/src/audio/aio_playback.c
 
   ${CMAKE_SOURCE_DIR}/src/chat/cht_main.cc
-  ${CMAKE_SOURCE_DIR}/src/chat/cht_packing.cc
+  ${CMAKE_SOURCE_DIR}/src/chat/cht_packing.c
 
   ${CMAKE_SOURCE_DIR}/src/core/core.c
-  ${CMAKE_SOURCE_DIR}/src/core/core_thread.cc
+  ${CMAKE_SOURCE_DIR}/src/core/core_thread.c
 
   ${CMAKE_SOURCE_DIR}/src/init/init.cc
   ${CMAKE_SOURCE_DIR}/src/init/init_miniaudio.c

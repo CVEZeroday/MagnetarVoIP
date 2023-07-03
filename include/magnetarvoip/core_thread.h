@@ -15,25 +15,18 @@ extern "C" {
 #endif
 /********************************************/
 
-#ifdef __cplusplus
-}
-#include "threads/thread.h"
-#include <mutex>
+#include <re/re.h>
 
 #include "macros.h"
 
-extern std::thread core_thread;
-extern std::thread chat_thread;
-extern std::thread ux_thread;
+extern thrd_t core_thread;
+extern thrd_t chat_thread;
+extern thrd_t ux_thread;
 
-extern std::mutex mutex_status;
-
-extern "C" {
-#endif
+extern mtx_t mutex_status;
 
 int32_t init_threads();
 void changeProgramStatus(int32_t status);
-void packer_yield();
 
 /********************************************/
 #ifdef __cplusplus
