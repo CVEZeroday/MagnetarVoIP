@@ -21,7 +21,7 @@
 
 #include "init_network.hpp"
 
-int32_t init_cppserver()
+int32_t init_tcp()
 {  
   if (IsServer)
   {

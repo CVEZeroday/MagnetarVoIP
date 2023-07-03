@@ -9,42 +9,111 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+#include <re/re.h>
+
 #include "nw.hpp"
 #include "nw_client.hpp"
 #include "settings.h"
 #include "macros.h"
 
-#include <atomic>
-
 // Variable Definition
+struct tcp_sock* tcp_sock_clnt;
+struct tcp_conn* tcp_conn_clnt_recvr;
+struct tcp_conn* tcp_conn_clnt_sendr;
 
-std::shared_ptr<CppServer::Asio::Service> service_client;
-std::shared_ptr<NetworkingClient> client;
+void tcp_client_recvr_recv_handler(struct mbuf *mb, void *arg)
+{
+
+}
+
+
+void tcp_client_recvr_close_handler(int err, void *arg)
+{
+
+}
+
+
+void tcp_client_recvr_conn_handler(const struct sa *peer, void *arg)
+{
+	int err;
+
+	(void)peer;
+
+	err = tcp_accept(&tcp_conn_clnt_recvr, tcp_sock_clnt, NULL, tcp_client_recvr_recv_handler, tcp_client_recvr_close_handler, NULL);
+	if (err) {
+		return;
+	}
+}
+
+
+void tcp_client_sendr_estab_handler(void *arg)
+{
+
+}
+
+void tcp_client_sendr_recv_handler(struct mbuf* mb, void *arg)
+{
+
+}
+
+void tcp_client_sendr_close_handler(int err, void *arg)
+{
+}
 
 int32_t init_nwclient()
 {
-  // NetworkingClient Class Instantiate
-  service_client = std::make_shared<CppServer::Asio::Service>();
-  service_client->Start();
+  int32_t err;
+  struct sa sa_clnt_send, sa_clnt_recv;
 
-  client = std::make_shared<NetworkingClient>(service_client, Address, Port);
-  client->ConnectAsync();
+  err = sa_set_str(&sa_clnt_send, Address, TCP_CHAT_PORT);
+  if (err)
+  {
+    mem_deref(tcp_sock_clnt);
+    mem_deref(tcp_conn_clnt_recvr);
+    mem_deref(tcp_conn_clnt_sendr);
+    return 1;
+  }
+
+  err = tcp_listen(&tcp_sock_clnt, &sa_clnt_recv, tcp_client_recvr_conn_handler, NULL);
+  if (err)
+  {
+    mem_deref(tcp_sock_clnt);
+    mem_deref(tcp_conn_clnt_recvr);
+    mem_deref(tcp_conn_clnt_sendr);
+    return 1;
+  }
+
+  err = tcp_local_get(tcp_sock_clnt, &sa_clnt_send);
+  if (err)
+  {
+    mem_deref(tcp_sock_clnt);
+    mem_deref(tcp_conn_clnt_recvr);
+    mem_deref(tcp_conn_clnt_sendr);
+    return 1;
+  }
+
+  err = tcp_connect(&tcp_sock_clnt, &sa_clnt_send, tcp_client_sendr_estab_handler, tcp_client_sendr_recv_handler, tcp_client_sendr_close_handler, NULL);
+  if (err)
+  {
+    mem_deref(tcp_sock_clnt);
+    mem_deref(tcp_conn_clnt_recvr);
+    mem_deref(tcp_conn_clnt_sendr);
+    return 1;
+  }
 
   return 0;
 }
 
 int32_t send_nwclient(const void* buffer, size_t size)
 {
-  //DEBUG_PRINTF("sendnwclient: buffer: %s", ((const NW_PACKET*)buffer)->data.chat.str);
-  client->SendAsync(buffer, size);
 
   return 0;
 }
 
 int32_t close_nwclient()
 {
-  client->DisconnectAndStop();
-  service_client->Stop();
-
+  mem_deref(tcp_sock_clnt);
+  mem_deref(tcp_conn_clnt_recvr);
+  mem_deref(tcp_conn_clnt_sendr);
   return 0;
 }

@@ -16,7 +16,7 @@
 
 #include "macros.h"
 
-int32_t init_cppserver();
+int32_t init_tcp();
 //int init_networkingServer(std::shared_ptr<CppServer::Asio::Service> service);
 //int init_networkingClient(std::shared_ptr<CppServer::Asio::Service> service);
 uint8_t init_rtp();

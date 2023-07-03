@@ -15,12 +15,14 @@
 #include <string>
 #include <vector>
 #include <thread>
-#include <mutex>
 #include <queue>
 #include <chrono>
 
+#include <re/re.h>
+
 #include "macros.h"
 #include "nw_interface.h"
+#include "re_thread.h"
 
 void returnError(int32_t);
 
@@ -29,8 +31,8 @@ extern std::queue<const NW_PACKET*> chatRecvQueue;
 extern std::queue<int32_t> audioSendQueue;
 extern std::queue<int32_t> audioRecvQueue;
 
-extern std::mutex mutex_chat;
-extern std::mutex mutex_aio;
+extern mtx_t mutex_chat;
+extern mtx_t mutex_aio;
 
 // inline functions
 
@@ -40,9 +42,9 @@ inline void packetReceivedHandler(const void* buffer, uint32_t size)
   {
     //DEBUG_PRINTF("packetReceivedHandler: recvd str: %s\n", ((const NW_PACKET*)buffer)->data.chat.str);
     // Chatting Interface
-    mutex_chat.lock();
+    mtx_lock(&mutex_chat);
     chatRecvQueue.push((const NW_PACKET*)buffer);
-    mutex_chat.unlock();
+    mtx_unlock(&mutex_chat);
   }
   /*
   if (((const NW_PACKET*)buffer)->type == PACKETTYPE_AUDIO)

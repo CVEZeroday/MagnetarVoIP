@@ -12,66 +12,10 @@
 /********************************************/
 /* THIS FILE CANNOT BE INCLUDED IN .c FILES */
 
-#include "cppserver/asio/tcp_server.h"
 #include "nw.hpp"
-#include "threads/thread.h"
-
-#include <atomic>
 
 // Function Definition
 int32_t init_nwserver();
 int32_t send_nwserver(const void* buffer, size_t size);
-
-// Class Definition
-
-class NetworkingSession : public CppServer::Asio::TCPSession
-{
-public:
-	using CppServer::Asio::TCPSession::TCPSession;
-protected:
-	void onConnected() override
-	{
-		//onConnected
-	}
-	
-	void onDisconnected() override
-	{
-		//onDisconnected
-	}
-
-	void onReceived(const void* buffer, size_t size) override
-	{
-		packetReceivedHandler(buffer, size);
-
-    server()->Multicast((const NW_PACKET*)buffer, size);
-	}
-
-	void onError(int32_t error, const std::string& category, const std::string& message) override
-	{
-		printf("Error ocurred: error code %d, %s: %s\n", error, category.c_str(), message.c_str());
-	}
-};
-
-class NetworkingServer : public CppServer::Asio::TCPServer
-{
-public:
-	using CppServer::Asio::TCPServer::TCPServer;
-
-protected:
-	std::shared_ptr<CppServer::Asio::TCPSession> CreateSession(const std::shared_ptr<CppServer::Asio::TCPServer>& server) override
-	{
-		return std::make_shared<NetworkingSession>(server);
-	}
-
-	void onError(int32_t error, const std::string& category, const std::string& message) override
-	{
-		printf("Error ocurred: error code %d, %s: %s\n", error, category.c_str(), message.c_str());
-	}
-};
-
-// Global Variables Definition
-
-extern std::shared_ptr<CppServer::Asio::Service> service_server;
-extern std::shared_ptr<NetworkingServer> server;
 
 #endif

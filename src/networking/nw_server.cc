@@ -9,40 +9,28 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
+#include <re/re.h>
+
 #include "nw.hpp"
 #include "nw_server.hpp"
 #include "settings.h"
-
-#include <atomic>
+#include "macros.h"
 
 // Variable Definition 
 
-std::shared_ptr<CppServer::Asio::Service> service_server;
-std::shared_ptr<NetworkingServer> server;
-
 int32_t init_nwserver()
 {
-  // NetworkingServer Class instantiate
-  service_server = std::make_shared<CppServer::Asio::Service>();
-  service_server->Start();
-
-  server = std::make_shared<NetworkingServer>(service_server, Port);
-  server->Start();
 
   return 0;
 }
 
 int32_t send_nwserver(const void* buffer, size_t size)
 {
-  server->Multicast(buffer, size);
 
   return 0;
 }
 
 int32_t close_nwserver()
 {
-  server->Stop();
-  service_server->Stop();
-
   return 0;
 }
