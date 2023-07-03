@@ -20,7 +20,7 @@
 #include "settings.h"
 
 struct mbuf* mbuffer = NULL;
-struct rtp_sock *send_rtp_sock = NULL;
+struct rtp_sock* send_rtp_sock = NULL;
 struct sa send_rtp_addr;
 
 uint16_t seq;
@@ -30,33 +30,19 @@ uint32_t ssrc;
 
 uint8_t send_rtp(const uint8_t* data, size_t size, uint32_t timestamp)
 {
-  struct rtp_header header;
   int32_t err;
 
-  memset(&header, 0, sizeof(header));
-  header.ver = RTP_VERSION;
-  header.seq = seq++;
-  header.ts = timestamp;
-  header.ssrc = ssrc;
-
-  err = rtp_hdr_encode(mbuffer, &header);
+  mbuffer->pos = mbuffer->end = RTP_HEADER_SIZE;
+  err = mbuf_write_mem(mbuffer, data, size);
   if (err)
-  {
-    mbuf_reset(mbuffer);
     return 1;
-  }
-  mbuf_write_mem(mbuffer, data, size);
-  mbuffer->pos = 0;
 
-  err = udp_send(rtp_sock(send_rtp_sock), &send_rtp_addr, mbuffer);
+  mbuffer->pos = RTP_HEADER_SIZE;
+  err = rtp_send(send_rtp_sock, &send_rtp_addr, false, true, RTP_PAYLOAD_TYPE, timestamp, tmr_jiffies_rt_usec(), mbuffer);
   if (err)
-  {
-    mbuf_reset(mbuffer);
     return 1;
-  }
   DEBUG_PRINTF("rtp packet sent!\n");
 
-  mbuf_reset(mbuffer);
   return 0;
 }
 
@@ -70,10 +56,13 @@ uint8_t init_send_rtp()
   memset(&send_rtp_addr, 0, sizeof(send_rtp_addr));
   memset(&send_stats, 0, sizeof(send_stats));
 
+  sa_init(&send_rtp_addr, AF_INET);
+
   err = sa_set_str(&send_rtp_addr, Address, Port);
   if (err)
   {
     mem_deref(send_rtp_sock);
+    DEBUG_PRINTF("sa_set_str err: %d\n", err);
     return 1;
   }
 
@@ -81,6 +70,7 @@ uint8_t init_send_rtp()
   if (err)
   {
     mem_deref(send_rtp_sock);
+    DEBUG_PRINTF("rtp_listen err: %d\n", err);
     return 1;
   }
 
@@ -88,6 +78,7 @@ uint8_t init_send_rtp()
   if (err)
   {
     mem_deref(send_rtp_sock);
+    DEBUG_PRINTF("udp_local_get err: %d\n", err);
     return 1;
   }
 
@@ -95,6 +86,7 @@ uint8_t init_send_rtp()
   if (!mbuffer)
   {
     mem_deref(send_rtp_sock);
+    DEBUG_PRINTF("mbuf alloc err: %d\n", err);
     return 1;
   }
 

@@ -86,6 +86,14 @@ extern uint32_t Initialized = 0b00000000; //core, network, chat, audio, ux, cli,
 #define RTP_PAYLOAD_TYPE 96
 #define RTP_SSRC_MAIN 1
 
+/*
+#define RTP_ERR(err) \
+  if ((err)) { \
+    DEBUG_PRINTF("Rtp Error: %d", (err)); \
+    return 1; \
+  }
+*/
+
 /* Error Type */
 
 extern int32_t error_type;

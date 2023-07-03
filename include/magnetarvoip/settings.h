@@ -31,8 +31,8 @@ extern "C" {
 #define ADDRESS_DEFAULT "127.0.0.1"
   extern uint16_t Port;
 #define PORT_DEFAULT 30200
-#define RTP_MIN_PORT 30200
-#define RTP_MAX_PORT 40210
+#define RTP_MIN_PORT 1024
+#define RTP_MAX_PORT 49152
 
   extern uint8_t TestMode;
 #define TESTMODE_DEFAULT 0

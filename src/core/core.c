@@ -32,10 +32,10 @@ int32_t core_main()
 
 void finalizeProgram()
 {
-  stop_miniaudio_playback();
-  stop_miniaudio_capture();
   close_send_rtp();
   close_recv_rtp();
+  stop_miniaudio_playback();
+  stop_miniaudio_capture();
   close_nwserver();
   close_nwclient();
 }

@@ -40,10 +40,11 @@ uint8_t init_recv_rtp()
   memset(&recv_rtp_addr, 0, sizeof(recv_rtp_addr));
   memset(&recv_stats, 0, sizeof(recv_stats));
 
-  err = sa_set_str(&recv_rtp_addr, Address, Port+1);
+  err = sa_set_str(&recv_rtp_addr, Address, Port+2);
   if (err)
   {
     mem_deref(recv_rtp_sock);
+    DEBUG_PRINTF("sa_set_str err: %d\n", err);
     return 1;
   }
 
@@ -51,6 +52,7 @@ uint8_t init_recv_rtp()
   if (err)
   {
     mem_deref(recv_rtp_sock);
+    DEBUG_PRINTF("rtp_listen err: %d\n", err);
     return 1;
   }
 
@@ -58,6 +60,7 @@ uint8_t init_recv_rtp()
   if (err)
   {
     mem_deref(recv_rtp_sock);
+    DEBUG_PRINTF("udp_local_get err: %d\n", err);
     return 1;
   }
 
