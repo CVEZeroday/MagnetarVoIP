@@ -19,7 +19,7 @@
 #include "cht.h"
 #include "macros.h"
 #include "settings.h"
-#include "nw.hpp"
+#include "nw.h"
 #include "core_thread.h"
 
 int32_t chat_main()
@@ -37,13 +37,13 @@ int32_t chat_main()
   {
     if (!chatRecvQueue.empty())
     {
-      mutex_chat.lock();
+      mtx_lock(&mutex_chat);
       strncpy(_name, (const char*)chatRecvQueue.front()->data.chat.name, 20);
       strncpy(_str, (const char*)chatRecvQueue.front()->data.chat.str, 2000);
       _time = chatRecvQueue.front()->data.chat.time;
       _header = chatRecvQueue.front()->data.chat.header;
       chatRecvQueue.pop();
-      mutex_chat.unlock();
+      mtx_unlock(&mutex_chat);
 
       DEBUG_PRINTF("\n%s: %s\n", _name, _str);
     }

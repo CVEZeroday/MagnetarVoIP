@@ -12,6 +12,8 @@
 #include <string.h>
 #include <malloc.h>
 
+#include "nw.h"
+
 #include "cht.h"
 #include "nw_interface.h"
 #include "macros.h"

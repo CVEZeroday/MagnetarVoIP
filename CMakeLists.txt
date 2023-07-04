@@ -43,10 +43,13 @@ set(SRC_FILES
 
   ${CMAKE_SOURCE_DIR}/src/lib/miniaudio/miniaudio.c
 
-  ${CMAKE_SOURCE_DIR}/src/networking/nw_client.cc
-  ${CMAKE_SOURCE_DIR}/src/networking/nw_server.cc
+  ${CMAKE_SOURCE_DIR}/src/networking/nw_packer.cc
+  ${CMAKE_SOURCE_DIR}/src/networking/nw_client.c
+  ${CMAKE_SOURCE_DIR}/src/networking/nw_server.c
   ${CMAKE_SOURCE_DIR}/src/networking/nw_send_rtp.c
   ${CMAKE_SOURCE_DIR}/src/networking/nw_recv_rtp.c
+  ${CMAKE_SOURCE_DIR}/src/networking/nw_tcp.c
+  ${CMAKE_SOURCE_DIR}/src/networking/nw_rertcp.c
 
   ${CMAKE_SOURCE_DIR}/src/ux/ux_main.c
   ${CMAKE_SOURCE_DIR}/src/ux/ux_interface.c

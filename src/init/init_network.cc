@@ -9,15 +9,12 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include "nw_client.hpp"
-#include "nw_server.hpp"
+#include "nw.h"
+#include "nw_client.h"
+#include "nw_server.h"
+#include "nw_interface.h"
 #include "settings.h"
 #include "macros.h"
-
-#include "nw.hpp"
-#include "nw_client.hpp"
-#include "nw_server.hpp"
-#include "nw_interface.h"
 
 #include "init_network.hpp"
 

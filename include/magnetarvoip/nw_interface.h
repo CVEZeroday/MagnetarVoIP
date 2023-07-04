@@ -50,6 +50,7 @@ typedef struct _CHATPACKET
   uint32_t time;
   //std::chrono::system_clock::time_point time;
 } CHATPACKET;
+// 4 + 20 + 2000 + 4 = 2028
 
 /*
 typedef struct _AUDIOPACKET

@@ -10,13 +10,6 @@
 /*   Created by CVE_zeroday on 25.03.2023   */
 /*               (T.Y.Kim)                  */
 /********************************************/
-/* THIS FILE CANNOT BE INCLUDED IN .c FILES */
-
-#include <string>
-#include <vector>
-#include <thread>
-#include <queue>
-#include <chrono>
 
 #include <re/re.h>
 
@@ -24,37 +17,62 @@
 #include "nw_interface.h"
 #include "re_thread.h"
 
-void returnError(int32_t);
+#ifdef __cplusplus
+
+#include <string>
+#include <vector>
+#include <thread>
+#include <queue>
+#include <chrono>
 
 extern std::queue<NW_PACKET> chatSendQueue;
 extern std::queue<const NW_PACKET*> chatRecvQueue;
 extern std::queue<int32_t> audioSendQueue;
 extern std::queue<int32_t> audioRecvQueue;
 
+#endif
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 extern mtx_t mutex_chat;
 extern mtx_t mutex_aio;
 
-// inline functions
+/* Structure Definition */
 
-inline void packetReceivedHandler(const void* buffer, uint32_t size)
-{
-  if (((const NW_PACKET*)buffer)->type == PACKETTYPE_CHAT)
-  {
-    //DEBUG_PRINTF("packetReceivedHandler: recvd str: %s\n", ((const NW_PACKET*)buffer)->data.chat.str);
-    // Chatting Interface
-    mtx_lock(&mutex_chat);
-    chatRecvQueue.push((const NW_PACKET*)buffer);
-    mtx_unlock(&mutex_chat);
-  }
-  /*
-  if (((const NW_PACKET*)buffer)->type == PACKETTYPE_AUDIO)
-  {
-    // Miniaudio Interface, have to pcm data to audiobuf 
+typedef struct tcp {
+  struct tcp_conn* tcp_conn;
+  char address[0x10];
+  uint16_t port;
+  uint8_t type;
+} tcp;
 
-    DEBUG_PRINTF("audio recvd: %d\n", ((const NW_PACKET*)buffer)->data.audio.pcm[0]);
-  }
-  */
-}
+typedef struct udp {
+  struct udp_conn* udp_conn;
+  char address[0x10];
+  uint16_t port;
+  uint8_t type;
+} udp;
+
+typedef struct rtp {
+  struct rtp_conn* rtp_conn;
+  char address[0x10];
+  uint16_t port;
+  uint8_t type;
+} rtp;
+
+void returnError(int32_t);
+void packetReceivedHandler(const void* buffer, uint32_t size);
+int32_t send_tcp(const void* buffer, size_t size, tcp* tcp);
+
+/* rertcp */
+
+int32_t init_rertcp();
 
 /********************************************/
+#ifdef __cplusplus
+}
+#endif
+
 #endif
