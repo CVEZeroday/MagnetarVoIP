@@ -18,7 +18,7 @@
 
 #include "init_network.hpp"
 
-int32_t init_tcp()
+int32_t init_network()
 {  
   if (IsServer)
   {
@@ -32,6 +32,8 @@ int32_t init_tcp()
     if (init_nwclient() == MAGNETARVOIP_ERROR)
       return MAGNETARVOIP_ERROR;
   }
+
+  init_nw_tcp();
 
   return 0;
 }

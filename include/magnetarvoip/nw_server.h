@@ -10,7 +10,6 @@
 /*   Created by CVE_zeroday on 15.04.2023   */
 /*               (T.Y.Kim)                  */
 /********************************************/
-/* THIS FILE CANNOT BE INCLUDED IN .c FILES */
 
 #include "nw.h"
 

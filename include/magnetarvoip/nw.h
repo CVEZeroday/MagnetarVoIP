@@ -43,32 +43,39 @@ extern mtx_t mutex_aio;
 
 typedef struct tcp {
   struct tcp_conn* tcp_conn;
-  char address[0x10];
-  uint16_t port;
+  struct sa sa;
   uint8_t type;
-} tcp;
+  uint8_t id;
+} tcp_t;
 
 typedef struct udp {
   struct udp_conn* udp_conn;
-  char address[0x10];
-  uint16_t port;
+  struct sa sa;
   uint8_t type;
-} udp;
+  uint8_t id;
+} udp_t;
 
 typedef struct rtp {
   struct rtp_conn* rtp_conn;
-  char address[0x10];
-  uint16_t port;
+  struct sa sa;
   uint8_t type;
-} rtp;
+  uint8_t id;
+} rtp_t;
 
 void returnError(int32_t);
 void packetReceivedHandler(const void* buffer, uint32_t size);
-int32_t send_tcp(const void* buffer, size_t size, tcp* tcp);
+int32_t send_tcp(const void* buffer, size_t size, tcp_t* tcp);
+
+int32_t init_nw_tcp();
 
 /* rertcp */
 
 int32_t init_rertcp();
+void close_rertcp();
+
+void new_tcp_conn(tcp_t* tcp);
+void delete_tcp_conn(tcp_t* tcp);
+int32_t get_tcp_conn(uint16_t id, tcp_t* tcp);
 
 /********************************************/
 #ifdef __cplusplus

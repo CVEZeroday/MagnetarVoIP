@@ -82,7 +82,7 @@ int32_t main(int argc, char** argv)
     returnError(error_type);
     return 1;
   }
-  if (init_tcp() == MAGNETARVOIP_ERROR)
+  if (init_network() == MAGNETARVOIP_ERROR)
   {
     returnError(error_type);
     return 1;

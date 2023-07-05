@@ -58,8 +58,6 @@ set(SRC_FILES
   ${CMAKE_SOURCE_DIR}/src/ux/cli/cli_interpret.c
 
   #${CMAKE_SOURCE_DIR}/src/etc/queue.cc
-
-  ${CMAKE_SOURCE_DIR}/lib/libsrc/uuid.cpp
   )
 
 #find_package(PkgConfig REQUIRED)
@@ -70,6 +68,7 @@ find_package(libre CONFIG REQUIRED)
 include_directories(
   include ${CMAKE_SOURCE_DIR}/include/lib
   include ${CMAKE_SOURCE_DIR}/include/lib/re
+  include ${CMAKE_SOURCE_DIR}/include/lib/klib
   include ${CMAKE_SOURCE_DIR}/include/magnetarvoip
   #  ${GST_INCLUDE_DIRS}
   #  ${GST_RTP_INCLUDE_DIRS}

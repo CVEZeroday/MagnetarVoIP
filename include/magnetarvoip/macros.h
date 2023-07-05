@@ -100,6 +100,9 @@ extern uint32_t Initialized = 0b00000000; //core, network, chat, audio, ux, cli,
   }
 */
 
+/* RERTCP Settings */
+
+
 /* Error Type */
 
 extern int32_t error_type;

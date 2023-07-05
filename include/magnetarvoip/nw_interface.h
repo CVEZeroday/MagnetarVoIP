@@ -35,11 +35,8 @@ int32_t close_nwclient();
 
 typedef enum {
   PACKETTYPE_CHAT,
-  PACKETTYPE_AUDIO,
-  PACKETTYPE_NETWORK,
   PACKETTYPE_INSTRUCTION,
-  PACKETTYPE_ERROR,
-  PACKETTYPE_ETC
+  PACKETTYPE_ERROR
 } PACKETTYPE;
 
 typedef struct _CHATPACKET
@@ -62,6 +59,7 @@ typedef struct _AUDIOPACKET
 typedef union _PACKETDATA
 {
   CHATPACKET chat;
+  uint32_t instruction;
   //AUDIOPACKET audio;
 } PACKETDATA;
 
