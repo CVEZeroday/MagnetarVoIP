@@ -39,7 +39,7 @@
 #include "init.h"
 #include "init_ux.h"
 #include "init_miniaudio.h"
-#include "init_network.hpp"
+#include "init_network.h"
 #include "macros.h"
 #include "settings.h"
 #include "aio.h"

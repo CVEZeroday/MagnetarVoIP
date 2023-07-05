@@ -16,7 +16,7 @@
 #include "settings.h"
 #include "macros.h"
 
-#include "init_network.hpp"
+#include "init_network.h"
 
 int32_t init_network()
 {  
