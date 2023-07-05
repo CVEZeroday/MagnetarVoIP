@@ -38,14 +38,18 @@ static int _ux_main(void* arg)
 
 int32_t init_threads(void* arg)
 {
-  int32_t err;
+  int32_t err = 0;
   DEBUG_PRINTF("Initializing Threads...\n");
 
-  err = thread_create_name(&core_thread, "core_thread", _core_main, NULL);
-  err = thread_create_name(&chat_thread, "chat_thread", _chat_main, NULL);
-  err = thread_create_name(&ux_thread, "ux_thread", _ux_main, NULL);
-  // nw_thread is managed by cppserver library
-  // audio_thread is managed by miniaudio library
+  err |= thread_create_name(&core_thread, "core_thread", _core_main, NULL);
+  err |= thread_create_name(&chat_thread, "chat_thread", _chat_main, NULL);
+  err |= thread_create_name(&ux_thread, "ux_thread", _ux_main, NULL);
+  if (err)
+  {
+    DEBUG_PRINTF("Thread Initialization failed!\n");
+    return 1;
+  }
+  
   
   mtx_init(&mutex_status, mtx_plain);
 

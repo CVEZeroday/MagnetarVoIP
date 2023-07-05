@@ -20,13 +20,15 @@
 
 int32_t init_nwserver()
 {
-  
+  init_nw_tcp();
 
   return 0;
 }
 
 int32_t send_nwserver(const void* buffer, size_t size)
 {
+//  DEBUG_PRINTF("send_nwserver called\n");
+  tcp_multicast(buffer, size);
 
   return 0;
 }

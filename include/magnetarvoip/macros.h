@@ -15,12 +15,13 @@
 #include <stdarg.h>
 #include <stdint.h>
 
-#define MAJOR 0
-#define MINOR 0
-#define PATCH 1
+#define M_MAJOR 0
+#define M_MINOR 0
+#define M_PATCH 1
 #define VERSION_STRINGIFY(x) #x
 #define MAKE_VERSION_STRING(major, minor, patch) VERSION_STRINGIFY(major) "." VERSION_STRINGIFY(minor) "." VERSION_STRINGIFY(patch)
-#define VERSION MAKE_VERSION_STRING(MAJOR, MINOR, PATCH)
+#define M_VERSION MAKE_VERSION_STRING(M_MAJOR, M_MINOR, M_PATCH)
+#define MAGNETARVOIP_VERSION M_VERSION
 
 #define RTP_CONN_COUNT 5
 

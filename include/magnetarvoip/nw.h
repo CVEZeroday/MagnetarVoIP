@@ -1,12 +1,12 @@
-#ifndef __NW_HPP__
-#define __NW_HPP__
+#ifndef __NW_H__
+#define __NW_H__
 /********************************************/
 /* This source code is part of MagnetarVoIP */
 /********************************************/
 /*     Copyrights (C) 2023 CVE_zeroday.     */
 /*          All rights reserved.            */
 /********************************************/
-/*            File Name: nw.hpp             */
+/*             File Name: nw.h              */
 /*   Created by CVE_zeroday on 25.03.2023   */
 /*               (T.Y.Kim)                  */
 /********************************************/
@@ -73,9 +73,14 @@ int32_t init_nw_tcp();
 int32_t init_rertcp();
 void close_rertcp();
 
+void new_rtp_conn(rtp_t* rtp);
+void delete_rtp_conn(rtp_t* rtp);
+int32_t get_rtp_conn(uint16_t id, rtp_t* rtp);
+
 void new_tcp_conn(tcp_t* tcp);
 void delete_tcp_conn(tcp_t* tcp);
 int32_t get_tcp_conn(uint16_t id, tcp_t* tcp);
+void tcp_multicast(const void* buffer, size_t size);
 
 /********************************************/
 #ifdef __cplusplus

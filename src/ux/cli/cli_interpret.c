@@ -34,7 +34,7 @@ int cmd_callback_chatting(char* input)
 
 int cmd_callback_nocommand(int argn, char** args)
 {
-  DEBUG_PRINTF("No Command: %s\n", args[0]);
+  DEBUG_PRINTF("Command Not Found: %s\n", args[0]);
   return 0;
 }
 

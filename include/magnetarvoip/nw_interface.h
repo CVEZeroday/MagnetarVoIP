@@ -41,12 +41,11 @@ typedef enum {
 typedef struct _CHATPACKET
 {
   uint32_t header;
-  int8_t name[20];
-  int8_t str[2000];
   uint32_t time;
-  //std::chrono::system_clock::time_point time;
+  int8_t name[32];
+  int32_t len;
+  uint8_t str[];
 } CHATPACKET;
-// 4 + 20 + 2000 + 4 = 2028
 
 /*
 typedef struct _AUDIOPACKET
@@ -69,10 +68,7 @@ typedef struct _NW_PACKET
  } NW_PACKET;
 // NW_PACKET struct
 // type : 1 Byte
-// data : 1920 bytes if audiopacket
-// data : 2028 bytes if chatpacket
-// sum : 1921 bytes if audiopacket
-// sum : 2029 bytes if chatpacket
+// data : flexible (40 + a)
 
 /********************************************/
 #ifdef __cplusplus

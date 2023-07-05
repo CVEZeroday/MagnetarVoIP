@@ -62,6 +62,7 @@ set(SRC_FILES
 
 #find_package(PkgConfig REQUIRED)
 find_package(libre CONFIG REQUIRED)
+find_package(OpenSSL REQUIRED)
 #pkg_check_modules(GST REQUIRED gstreamer-1.0)
 #pkg_check_modules(GST_RTP REQUIRED gstreamer-plugins-base-1.0)
 
@@ -77,25 +78,12 @@ include_directories(
 add_compile_options( -Wall )
 
 link_libraries(
-  asio
-  cpp-optparse
-  cppbenchmark
-  cppcommon
-  cppserver
   crypto
-  proto
   ssl
-  fmt
-  uuid
-  bfd
-  dl
-  rt
-  ncursesw
-  opus
   re
-  #  gstrtp-1.0
-  #Catch2
-  #Catch2Main
+  opus
+  ncursesw
+  cpp-optparse
 )
 link_directories(
   ${CMAKE_SOURCE_DIR}/lib/${TARGET_ARCH}
@@ -133,6 +121,7 @@ add_executable(
 
 target_link_libraries(
   ${OUTPUT_ELF}
+  OpenSSL::SSL
   #${GST_LIBRARIES}
   #${GST_RTP_LIBRARIES}
 )

@@ -41,7 +41,7 @@ uint8_t send_rtp(const uint8_t* data, size_t size, uint32_t timestamp)
   err = rtp_send(send_rtp_sock, &send_rtp_addr, false, true, RTP_PAYLOAD_TYPE, timestamp, tmr_jiffies_rt_usec(), mbuffer);
   if (err)
     return 1;
-  DEBUG_PRINTF("rtp packet sent!\n");
+  //DEBUG_PRINTF("rtp packet sent!\n");
 
   return 0;
 }

@@ -27,6 +27,7 @@ extern "C" {
   extern uint8_t IsServer;
 #define ISSERVER_DEFAULT 1
 
+/* ip addr of initial admin */
   extern char Address[0x10];
 #define ADDRESS_DEFAULT "127.0.0.1"
   extern uint16_t Port;

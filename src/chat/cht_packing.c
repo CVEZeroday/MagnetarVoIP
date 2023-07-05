@@ -20,10 +20,12 @@
 
 int32_t send_chat(char* str)
 {
-  NW_PACKET* _packet = (NW_PACKET*)malloc(2029);
+  int32_t len = strlen(str);
+  NW_PACKET* _packet = (NW_PACKET*)malloc(sizeof(NW_PACKET) + len + 1);
+  _packet->data.chat.len = len;
   _packet->type = PACKETTYPE_CHAT;
-  strncpy((char*)_packet->data.chat.str, str, 2000);
-  strncpy((char*)_packet->data.chat.name, "temp_name", 10);
+  strncpy((char*)_packet->data.chat.str, str, len);
+  strncpy((char*)_packet->data.chat.name, "temp_name", 32);
 
   send_nw(_packet, sizeof(*_packet));
   free(_packet);

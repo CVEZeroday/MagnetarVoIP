@@ -20,7 +20,6 @@
 /* Variable Definition */
 
 struct tcp_sock* tcp_sock;
-struct sa sa_clnt;
 
 mtx_t mutex_tcp_count;
 uint32_t tcp_count;
@@ -28,25 +27,44 @@ uint32_t tcp_count;
 
 void tcp_estab_handler(void* arg)
 {
+  DEBUG_PRINTF("tcp_estab_handler: tcp conn established\n");
   new_tcp_conn((tcp_t*)arg);
 }
 
 void tcp_recv_handler(struct mbuf *mbuffer, void *arg)
 {
-  NW_PACKET* packet = (NW_PACKET*)malloc(2029);
+  NW_PACKET* packet = (NW_PACKET*)malloc(sizeof(NW_PACKET));
   mbuf_read_mem(mbuffer, (uint8_t*)packet, sizeof(NW_PACKET));
+  /* get packet data except for str */
+  int len = packet->data.chat.len;
   
+  NW_PACKET* tmp = packet;
+  packet = realloc(packet, sizeof(NW_PACKET) + len + 1);
+  if (packet == NULL)
+  {
+    free(tmp);
+    DEBUG_PRINTF("tcp_recv_handler: realloc failed.\n");
+    return;
+  }
+  tmp = 0;
+
+  mbuf_read_mem(mbuffer, packet->data.chat.str, len);
+
   packetReceivedHandler(packet, sizeof(*packet));
+  free(packet);
 }
 
 
 void tcp_close_handler(int err, void *arg)
 {
+  DEBUG_PRINTF("tcp_close_handler: tcp conn closed\n");
   delete_tcp_conn((tcp_t*)arg);
+  free((tcp_t*)arg);
 }
 
 void tcp_conn_handler(const struct sa *peer, void *arg)
 {
+  DEBUG_PRINTF("tcp_conn_handler: new tcp conn accepting...\n");
 	int err;
   
   tcp_t* _tcp = (tcp_t*)malloc(sizeof(tcp_t));
@@ -65,9 +83,10 @@ void tcp_conn_handler(const struct sa *peer, void *arg)
 int32_t init_nw_tcp()
 {
   int32_t err;
+  struct sa sa_clnt;
   tcp_count = 0;
 
-  err = sa_set_str(&sa_clnt, Address, TCP_CHAT_PORT);
+  err = sa_set_str(&sa_clnt, "0.0.0.0", TCP_CHAT_PORT);
   if (err)
   {
     mem_deref(tcp_sock);
@@ -81,6 +100,7 @@ int32_t init_nw_tcp()
     return 1;
   }
 
+  DEBUG_PRINTF("init_nw_tcp: listening tcp\n");
   return 0;
 }
 
@@ -101,6 +121,7 @@ int32_t new_tcp_init(tcp_t* tcp, bool admin)
   else tcp->id = ++tcp_count;
   mtx_unlock(&mutex_tcp_count);
 
+  DEBUG_PRINTF("new_tcp_init: new tcp connecting...\n");
   err = tcp_connect(&tcp->tcp_conn, &tcp->sa, tcp_estab_handler, tcp_recv_handler, tcp_close_handler, tcp);
   if (err)
   {
@@ -130,8 +151,10 @@ int32_t send_tcp(const void* buffer, size_t size, tcp_t* tcp)
   if (err)
   {
     mbuf_reset(&mbuffer);
+    DEBUG_PRINTF("send_tcp: tcp_send err: %d\n", err);
     return 1;
   }
+  DEBUG_PRINTF("send_tcp: data sent!\n");
 
   return 0;
 }
