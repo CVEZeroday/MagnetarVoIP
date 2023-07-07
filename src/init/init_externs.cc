@@ -45,5 +45,6 @@ thrd_t ux_thread;
 mtx_t mutex_status;
 
 extern "C" {
-  int32_t(*send_nw)(const void* buffer, size_t size);
+  int32_t(*send_nw_tcp)(const void* buffer, size_t size);
+  int32_t(*send_nw_rtp)(const uint8_t* buffer, size_t size, uint32_t timestamp);
 }

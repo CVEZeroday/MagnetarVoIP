@@ -21,7 +21,8 @@ extern "C" {
 // Function Definition
 
 int32_t init_nwclient();
-int32_t send_nwclient(const void* buffer, size_t size);
+int32_t send_tcp_client(const void* buffer, size_t size);
+int32_t send_rtp_client(const uint8_t* data, size_t size, uint32_t timestamp);
 
 /********************************************/
 #ifdef __cplusplus

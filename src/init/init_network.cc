@@ -22,18 +22,21 @@ int32_t init_network()
 {  
   if (IsServer)
   {
-    send_nw = send_nwserver;
+    send_nw_tcp = send_tcp_server;
+    send_nw_rtp = send_rtp_server;
     if (init_nwserver() == MAGNETARVOIP_ERROR)
       return MAGNETARVOIP_ERROR;
   }
   else
   {
-    send_nw = send_nwclient;
+    send_nw_tcp = send_tcp_client;
+    send_nw_rtp = send_rtp_client;
     if (init_nwclient() == MAGNETARVOIP_ERROR)
       return MAGNETARVOIP_ERROR;
   }
 
   init_nw_tcp();
+  init_rescp();
 
   return 0;
 }
@@ -51,5 +54,5 @@ uint8_t init_rtp()
   }
   DEBUG_PRINTF("Libre initiated!\n");
 
-  return init_send_rtp() | init_recv_rtp();
+  return init_nw_rtp();
 }

@@ -12,22 +12,16 @@
 /********************************************/
 
 #include <re/re.h>
+#include <stddef.h>
+#include "macros.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 /********************************************/
-#include <stddef.h>
-#include "macros.h"
 
-extern int32_t(*send_nw)(const void* buffer, size_t size);
-
-uint8_t send_rtp(const uint8_t* data, size_t size, uint32_t timestamp);
-void rtp_recv_handler(const struct sa *src, const struct rtp_header* header, struct mbuf* mbuffer, void* arg);
-uint8_t init_send_rtp();
-uint8_t init_recv_rtp();
-void close_send_rtp();
-void close_recv_rtp();
+extern int32_t(*send_nw_tcp)(const void* buffer, size_t size);
+extern int32_t(*send_nw_rtp)(const uint8_t* buffer, size_t size, uint32_t timestamp);
 
 int32_t close_nwserver();
 int32_t close_nwclient();

@@ -65,7 +65,7 @@ extern uint32_t Initialized = 0b00000000; //core, network, chat, audio, ux, cli,
 */
 
 /* File Paths */
-#define CLI_HISTORY_FILE "./cli_history.txt"
+#define CLI_HISTORY_FILE "cli_history.txt"
 
 /* Debug Macros */
 

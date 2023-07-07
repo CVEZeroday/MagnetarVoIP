@@ -18,6 +18,9 @@
 #include "nw_interface.h"
 #include "macros.h"
 
+extern int32_t(*send_nw_tcp)(const void* buffer, size_t size);
+extern int32_t(*send_nw_rtp)(const uint8_t* buffer, size_t size, uint32_t timestamp);
+
 int32_t send_chat(char* str)
 {
   int32_t len = strlen(str);
@@ -27,7 +30,7 @@ int32_t send_chat(char* str)
   strncpy((char*)_packet->data.chat.str, str, len);
   strncpy((char*)_packet->data.chat.name, "temp_name", 32);
 
-  send_nw(_packet, sizeof(*_packet));
+  send_nw_tcp(_packet, sizeof(*_packet));
   free(_packet);
 
   return 0;

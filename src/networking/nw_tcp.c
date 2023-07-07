@@ -19,7 +19,8 @@
 
 /* Variable Definition */
 
-struct tcp_sock* tcp_sock;
+struct tcp_sock* tcp_socket = NULL;
+struct mbuf* tcp_mbuffer = NULL;
 
 mtx_t mutex_tcp_count;
 uint32_t tcp_count;
@@ -31,10 +32,10 @@ void tcp_estab_handler(void* arg)
   new_tcp_conn((tcp_t*)arg);
 }
 
-void tcp_recv_handler(struct mbuf *mbuffer, void *arg)
+void tcp_recv_handler(struct mbuf *tcp_mbuffer, void *arg)
 {
   NW_PACKET* packet = (NW_PACKET*)malloc(sizeof(NW_PACKET));
-  mbuf_read_mem(mbuffer, (uint8_t*)packet, sizeof(NW_PACKET));
+  mbuf_read_mem(tcp_mbuffer, (uint8_t*)packet, sizeof(NW_PACKET));
   /* get packet data except for str */
   int len = packet->data.chat.len;
   
@@ -48,7 +49,7 @@ void tcp_recv_handler(struct mbuf *mbuffer, void *arg)
   }
   tmp = 0;
 
-  mbuf_read_mem(mbuffer, packet->data.chat.str, len);
+  mbuf_read_mem(tcp_mbuffer, packet->data.chat.str, len);
 
   packetReceivedHandler(packet, sizeof(*packet));
   free(packet);
@@ -74,7 +75,7 @@ void tcp_conn_handler(const struct sa *peer, void *arg)
   _tcp->id = ++tcp_count;
   mtx_unlock(&mutex_tcp_count);
 
-	err = tcp_accept(&_tcp->tcp_conn, tcp_sock, tcp_estab_handler, tcp_recv_handler, tcp_close_handler, _tcp);
+	err = tcp_accept(&_tcp->tcp_conn, tcp_socket, tcp_estab_handler, tcp_recv_handler, tcp_close_handler, _tcp);
 	if (err) {
 		return;
 	}
@@ -86,17 +87,19 @@ int32_t init_nw_tcp()
   struct sa sa_clnt;
   tcp_count = 0;
 
+  mbuf_init(tcp_mbuffer);
+
   err = sa_set_str(&sa_clnt, "0.0.0.0", TCP_CHAT_PORT);
   if (err)
   {
-    mem_deref(tcp_sock);
+    mem_deref(tcp_socket);
     return 1;
   }
 
-  err = tcp_listen(&tcp_sock, &sa_clnt, tcp_conn_handler, NULL);
+  err = tcp_listen(&tcp_socket, &sa_clnt, tcp_conn_handler, NULL);
   if (err)
   {
-    mem_deref(tcp_sock);
+    mem_deref(tcp_socket);
     return 1;
   }
 
@@ -104,13 +107,13 @@ int32_t init_nw_tcp()
   return 0;
 }
 
-int32_t close_nw_tcp()
+void close_nw_tcp()
 {
-  mem_deref(tcp_sock);
-  return 0;
+  mem_deref(tcp_socket);
+  mem_deref(tcp_mbuffer);
 }
 
-// TCP Client Sender
+// TCP Sender
 
 int32_t new_tcp_init(tcp_t* tcp, bool admin)
 {
@@ -125,7 +128,7 @@ int32_t new_tcp_init(tcp_t* tcp, bool admin)
   err = tcp_connect(&tcp->tcp_conn, &tcp->sa, tcp_estab_handler, tcp_recv_handler, tcp_close_handler, tcp);
   if (err)
   {
-    mem_deref(tcp_sock);
+    mem_deref(tcp_socket);
     return 1;
   }
 
@@ -134,23 +137,20 @@ int32_t new_tcp_init(tcp_t* tcp, bool admin)
 
 int32_t send_tcp(const void* buffer, size_t size, tcp_t* tcp)
 {
-  struct mbuf mbuffer;
   int err;
 
-  mbuf_init(&mbuffer);
-
-  err = mbuf_write_mem(&mbuffer, (const uint8_t*)buffer, size);
+  err = mbuf_write_mem(tcp_mbuffer, (const uint8_t*)buffer, size);
   if (err)
   {
-    mbuf_reset(&mbuffer);
+    mbuf_reset(tcp_mbuffer);
     return 1;
   }
-  mbuffer.pos = 0;
 
-  err = tcp_send(tcp->tcp_conn, &mbuffer);
+  tcp_mbuffer->pos = 0;
+  err = tcp_send(tcp->tcp_conn, tcp_mbuffer);
   if (err)
   {
-    mbuf_reset(&mbuffer);
+    mbuf_reset(tcp_mbuffer);
     DEBUG_PRINTF("send_tcp: tcp_send err: %d\n", err);
     return 1;
   }

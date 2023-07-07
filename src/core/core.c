@@ -32,8 +32,6 @@ int32_t core_main()
 
 void finalizeProgram()
 {
-  close_send_rtp();
-  close_recv_rtp();
   stop_miniaudio_playback();
   stop_miniaudio_capture();
   close_nwserver();

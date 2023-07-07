@@ -20,7 +20,8 @@ extern "C" {
 
 // Function Definition
 int32_t init_nwserver();
-int32_t send_nwserver(const void* buffer, size_t size);
+int32_t send_tcp_server(const void* buffer, size_t size);
+int32_t send_rtp_server(const uint8_t* data, size_t size, uint32_t timestamp);
 
 /********************************************/
 #ifdef __cplusplus

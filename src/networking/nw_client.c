@@ -17,6 +17,7 @@
 #include "macros.h"
 
 tcp_t tcp_admin;
+rtp_t rtp_admin;
 
 int32_t init_nwclient()
 {
@@ -28,7 +29,7 @@ int32_t init_nwclient()
   return 0;
 }
 
-int32_t send_nwclient(const void* buffer, size_t size)
+int32_t send_tcp_client(const void* buffer, size_t size)
 { 
 //  DEBUG_PRINTF("send_nwclient called\n");
   send_tcp(buffer, size, &tcp_admin);
@@ -36,8 +37,16 @@ int32_t send_nwclient(const void* buffer, size_t size)
   return 0;
 }
 
+int32_t send_rtp_client(const uint8_t* data, size_t size, uint32_t timestamp)
+{
+  send_rtp(data, size, timestamp, &rtp_admin);
+
+  return 0;
+}
+
 int32_t close_nwclient()
 {
-
+  close_nw_tcp();
+  close_nw_rtp();
   return 0;
 }

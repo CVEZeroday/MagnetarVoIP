@@ -44,7 +44,7 @@ void capture_data_callback(ma_device* pDevice, void* pOutput, const void* pInput
   }
 
   timestamp++;
-  send_rtp(audio_input_packet_data, audio_input_packet_size, timestamp);
+  send_nw_rtp(audio_input_packet_data, audio_input_packet_size, timestamp);
 }
 
 int32_t init_miniaudio_capture()

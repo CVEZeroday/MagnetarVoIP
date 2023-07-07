@@ -49,14 +49,12 @@ typedef struct tcp {
 } tcp_t;
 
 typedef struct udp {
-  struct udp_conn* udp_conn;
   struct sa sa;
   uint8_t type;
   uint8_t id;
 } udp_t;
 
 typedef struct rtp {
-  struct rtp_conn* rtp_conn;
   struct sa sa;
   uint8_t type;
   uint8_t id;
@@ -65,17 +63,22 @@ typedef struct rtp {
 void returnError(int32_t);
 void packetReceivedHandler(const void* buffer, uint32_t size);
 int32_t send_tcp(const void* buffer, size_t size, tcp_t* tcp);
-
 int32_t init_nw_tcp();
+void close_nw_tcp();
+
+int32_t send_rtp(const uint8_t* data, size_t size, uint32_t timestamp, rtp_t* rtp);
+int32_t init_nw_rtp();
+void close_nw_rtp();
 
 /* rertcp */
 
-int32_t init_rertcp();
-void close_rertcp();
+int32_t init_rescp();
+void close_rescp();
 
 void new_rtp_conn(rtp_t* rtp);
 void delete_rtp_conn(rtp_t* rtp);
 int32_t get_rtp_conn(uint16_t id, rtp_t* rtp);
+void rtp_multicast(const void* buffer, size_t size, uint32_t timestamp);
 
 void new_tcp_conn(tcp_t* tcp);
 void delete_tcp_conn(tcp_t* tcp);

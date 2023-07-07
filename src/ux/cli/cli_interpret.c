@@ -203,6 +203,7 @@ int cli_init()
 
   linenoiseHistoryLoad(file);
   linenoiseSetCompletionCallback(completionHook);
+  linenoiseHistorySetMaxLen(10);
 
   cli_loop();
   

@@ -4,7 +4,7 @@
 /*     Copyrights (C) 2023 CVE_zeroday.     */
 /*          All rights reserved.            */
 /********************************************/
-/*         File Name: nw_rertcp.c           */
+/*          File Name: nw_rescp.c           */
 /*   Created by CVE_zeroday on 04.07.2023   */
 /*               (T.Y.Kim)                  */
 /********************************************/
@@ -50,6 +50,15 @@ int32_t get_rtp_conn(uint16_t id, rtp_t* rtp)
   return 0;
 }
 
+void rtp_multicast(const void* data, size_t size, uint32_t timestamp)
+{
+  khint_t k;
+  for (k = kh_begin(rtp_conn_hash); k != kh_end(rtp_conn_hash); k++)
+  {
+    send_rtp(data, size, timestamp, kh_value(rtp_conn_hash, k));
+  }
+}
+
 /* tcp hashmap wrapper */
 
 void new_tcp_conn(tcp_t* tcp)
@@ -87,7 +96,7 @@ void tcp_multicast(const void* data, size_t size)
   }
 }
 
-int32_t init_rertcp()
+int32_t init_rescp()
 {
   tcp_conn_hash = kh_init(tcp_hashmap);
   rtp_conn_hash = kh_init(rtp_hashmap);
@@ -95,7 +104,7 @@ int32_t init_rertcp()
   return 0;
 }
 
-void close_rertcp()
+void close_rescp()
 {
   kh_destroy(tcp_hashmap, tcp_conn_hash);
   kh_destroy(rtp_hashmap, rtp_conn_hash);
