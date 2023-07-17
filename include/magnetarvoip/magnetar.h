@@ -12,12 +12,14 @@
 /********************************************/
 
 #ifdef _MSC_VER
-#pragma comment(lib, "asio.lib")
-#pragma comment(lib, "cppbenchmark.lib")
+#pragma comment(lib, "Dbghelp.lib")
+#pragma comment(lib, "Qwave.lib")
 #pragma comment(lib, "cpp-optparse.lib")
-#pragma comment(lib, "windowsapp")
-#pragma comment(lib, "cppserver.lib")
+#pragma comment(lib, "WindowsApp.lib")
 #pragma comment(lib, "opus.lib")
+#pragma comment(lib, "libssl.lib")
+#pragma comment(lib, "libcrypto.lib")
+#pragma comment(lib, "re-static.lib")
 #else
 #endif
 

@@ -39,6 +39,7 @@ extern "C" {
 
 extern mtx_t mutex_chat;
 extern mtx_t mutex_aio;
+extern mtx_t mutex_tcp_count;
 
 /* Structure Definition */
 

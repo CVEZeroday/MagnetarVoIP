@@ -33,7 +33,6 @@ int32_t cmd_callback_inputsetting(int32_t argn, char** args);
 int32_t cmd_callback_mute(int32_t argn, char** args);
 int32_t cmd_callback_help(int32_t argn, char** args);
 int32_t cmd_callback_info(int32_t argn, char** args);
-int32_t cmd_callback_history(int32_t argn, char** args);
 int32_t cmd_callback_exit(int32_t argn, char** args);
 
 static const char* commands[][4] = {
@@ -49,7 +48,6 @@ static const char* commands[][4] = {
   {"/mute", "/m"},
   {"/help", "/h", "/?"},
   {"/info", "/i"},
-  {"/history", "/hist"},
   {"/exit", "/quit"}
 };
 
@@ -66,7 +64,6 @@ static const char* description_en[] = {
   "/mute, /m : Mute your microphone.\n",
   "/help, /h : Print32_t the list or description of the specific command.\nusage: /help <commands>\n",
   "/info, /i : Print32_t the information about MagnetarVoIP.\n",
-  "/history, /hist : Print32_t your command history.\n",
   "/exit, /quit : Exit the program.\n"
 };
 
@@ -83,7 +80,6 @@ static const char* description_ko[] = {
   "/mute, /m : 마이크를 음소거합니다.\n",
   "/help, /h : 명령어의 종류 혹은 특정 명령어에 대한 설명을 출력합니다.\n사용법: /help <commands>\n",
   "/info, /i : MagnetarVoIP에 대한 정보를 출력합니다.\n",
-  "/history, /hist : 명령어 기록을 출력합니다.\n",
   "/exit, /quit : 프로그램을 종료합니다.\n"
 };
 
@@ -100,7 +96,6 @@ static int32_t (*commandsCallback[])(int32_t argn, char** args) = {
   cmd_callback_mute,
   cmd_callback_help,
   cmd_callback_info,
-  cmd_callback_history,
   cmd_callback_exit
 };
 

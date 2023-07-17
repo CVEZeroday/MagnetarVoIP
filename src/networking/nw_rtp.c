@@ -9,7 +9,6 @@
 /*               (T.Y.Kim)                  */
 /********************************************/
 
-#include <netinet/in.h>
 #include <stdint.h>
 #include <string.h>
 
@@ -46,6 +45,7 @@ int32_t init_nw_rtp()
   seq = 0;
   ssrc = RTP_SSRC_MAIN;
 
+  rtp_mbuffer = (struct mbuf*)malloc(sizeof(struct mbuf));
   mbuf_init(rtp_mbuffer);
   memset(&recv_stats, 0, sizeof(recv_stats));
   memset(&send_stats, 0, sizeof(send_stats));
@@ -78,7 +78,7 @@ void close_nw_rtp()
 // RTP Sender
 
 int32_t send_rtp(const uint8_t* data, size_t size, uint32_t timestamp, rtp_t* rtp)
-{
+{/*
   int32_t err;
 
   rtp_mbuffer->pos = rtp_mbuffer->end = RTP_HEADER_SIZE;
@@ -97,6 +97,6 @@ int32_t send_rtp(const uint8_t* data, size_t size, uint32_t timestamp, rtp_t* rt
     return 1;
   }
   //DEBUG_PRINTF("rtp packet sent!\n");
-
+  */
   return 0;
 }

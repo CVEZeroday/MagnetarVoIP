@@ -14,8 +14,6 @@
 #include <string.h>
 #include <ctype.h>
 
-#include "linenoise/linenoise.h"
-
 #include "cli.h"
 #include "cht.h"
 #include "cmd.h"
@@ -110,19 +108,6 @@ int cmd_callback_info(int argn, char** args)
   return 0;
 }
 
-int cmd_callback_history(int argn, char** args)
-{
-  DEBUG_PRINTF("History Callback\n");
-  for (int i = 0; ; i++)
-  {
-    char* history = linenoiseHistoryLine(i);
-    if (history == NULL) break;
-    printf("%4d: %s\n", i, history);
-    free(history);
-  }
-  return 0;
-}
-
 int cmd_callback_exit(int argn, char** args)
 {
   changeProgramStatus(KILL);
@@ -134,7 +119,7 @@ inline int cli_loop()
   DEBUG_PRINTF("Entering CLI Loop\n");
   while(ProgramStatus != KILL)
   {
-    char* input = linenoise(prompt_prefix);
+    char* input = draw_cli(prompt_prefix);
     if (input == NULL)
     {
       break;
@@ -173,7 +158,6 @@ inline int cli_loop()
       if(!flag) cmd_callback_nocommand(argn, args);
     }
 
-    linenoiseHistoryAdd(input);
     free(args);
     free(input);
   }
@@ -181,34 +165,10 @@ inline int cli_loop()
   return 0;
 }
 
-void completionHook(char const* prefix, linenoiseCompletions* lc)
-{
-  for (int i = 0; i < sizeof(commands) / sizeof(commands[0]); i++)
-  {
-    for (int j = 0; commands[i][j] != NULL; j++)
-    {
-      if (strncmp(prefix, commands[i][j], strlen(prefix)) == 0)
-      {
-        linenoiseAddCompletion(lc, commands[i][j]);
-      }
-    }
-  }
-}
-
 int cli_init()
 {
-  linenoiseInstallWindowChangeHandler();
-
-  const char* file = CLI_HISTORY_FILE;
-
-  linenoiseHistoryLoad(file);
-  linenoiseSetCompletionCallback(completionHook);
-  linenoiseHistorySetMaxLen(10);
-
   cli_loop();
   
-  linenoiseHistorySave(file);
-  linenoiseHistoryFree();
   return 0;
 }
 

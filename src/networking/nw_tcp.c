@@ -87,6 +87,7 @@ int32_t init_nw_tcp()
   struct sa sa_clnt;
   tcp_count = 0;
 
+  tcp_mbuffer = (struct mbuf*)malloc(sizeof(struct mbuf));
   mbuf_init(tcp_mbuffer);
 
   err = sa_set_str(&sa_clnt, "0.0.0.0", TCP_CHAT_PORT);

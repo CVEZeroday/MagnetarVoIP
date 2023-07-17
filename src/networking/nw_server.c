@@ -20,7 +20,6 @@
 
 int32_t init_nwserver()
 {
-  init_nw_tcp();
 
   return 0;
 }

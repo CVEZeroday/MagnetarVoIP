@@ -50,7 +50,6 @@ int32_t init_threads(void* arg)
     return 1;
   }
   
-  
   mtx_init(&mutex_status, mtx_plain);
 
   changeProgramStatus(WORKING);

@@ -35,8 +35,6 @@ std::queue<const NW_PACKET*>chatRecvQueue;
 std::queue<int32_t> audioSendQueue;
 std::queue<int32_t> audioRecvQueue;
 
-mtx_t mutex_chat;
-mtx_t mutex_aio;
 
 thrd_t core_thread;
 thrd_t chat_thread;
@@ -45,6 +43,9 @@ thrd_t ux_thread;
 mtx_t mutex_status;
 
 extern "C" {
+  mtx_t mutex_chat;
+  mtx_t mutex_aio;
+  
   int32_t(*send_nw_tcp)(const void* buffer, size_t size);
   int32_t(*send_nw_rtp)(const uint8_t* buffer, size_t size, uint32_t timestamp);
 }

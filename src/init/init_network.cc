@@ -20,6 +20,10 @@
 
 int32_t init_network()
 {  
+  mtx_init(&mutex_tcp_count, mtx_plain);
+  mtx_init(&mutex_aio, mtx_plain);
+  mtx_init(&mutex_chat, mtx_plain);
+
   if (IsServer)
   {
     send_nw_tcp = send_tcp_server;

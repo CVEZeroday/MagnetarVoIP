@@ -1,4 +1,4 @@
-#ifndef __MACROS_H__
+﻿#ifndef __MACROS_H__
 #define __MACROS_H__
 /********************************************/
 /* This source code is part of MagnetarVoIP */
@@ -92,6 +92,29 @@ extern uint32_t Initialized = 0b00000000; //core, network, chat, audio, ux, cli,
 
 #define RTP_PAYLOAD_TYPE 96
 #define RTP_SSRC_MAIN 1
+
+/* CLI Macros */
+
+#define GOTOXY(x, y) printf("\x1b[%d;%dH", x, y);
+// ╭────────────────────────────────────────────────────────────────╮
+// ├─ UserName                                                     │
+// ╰────────────────────────────────────────────────────────────────╯
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+
 
 /*
 #define RTP_ERR(err) \

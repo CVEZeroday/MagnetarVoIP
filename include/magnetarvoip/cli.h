@@ -15,8 +15,6 @@ extern "C" {
 #endif
 /********************************************/
 
-#include "linenoise/linenoise.h"
-
 #include <stdlib.h>
 
 #include "macros.h"
@@ -25,12 +23,13 @@ extern "C" {
 // Function Prototypes
 
 int32_t cli_loop();
-void completionHook(const char* prefix, linenoiseCompletions* lc);
+char* draw_cli(const char* prefix);
 
 //int32_t printDescription(int32_t id);
 char** parse(char* input, int32_t* count);
 
-static const char* prompt_prefix = "\x1b[1;32mMagnetar\x1b[0m> ";
+static const char* prompt_prefix = "\x1b[1;30;47m  Magnetar  \x1b[0;37;40m\uE0B0 ";
+//
 
 /********************************************/
 #ifdef __cplusplus

@@ -19,11 +19,10 @@
 #include "core_thread.h"
 #include "nw_interface.h"
 
-int cli_init_()
+char* draw_cli(const char* prefix)
 {
-//  initscr();
-
-
-
-  return 0;
+  char* tmp = malloc(100);
+  printf(prompt_prefix);
+  scanf("%s", tmp);
+  return tmp;
 }

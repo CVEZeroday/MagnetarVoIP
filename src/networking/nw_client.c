@@ -21,10 +21,9 @@ rtp_t rtp_admin;
 
 int32_t init_nwclient()
 {
-  init_nw_tcp();
-
   tcp_admin.id = 0;
   sa_set_str(&tcp_admin.sa, Address, TCP_CHAT_PORT);
+  new_tcp_init(&tcp_admin, true);
 
   return 0;
 }

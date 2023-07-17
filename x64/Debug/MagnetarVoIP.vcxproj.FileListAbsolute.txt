@@ -1,1 +1,4 @@
 D:\MagnetarVoIP\x64\Debug\MagnetarVoIP.exe
+D:\MagnetarVoIP\x64\Debug\MagnetarVoIP.vcxproj.CopyComplete
+D:\MagnetarVoIP\x64\Debug\libcrypto-3-x64.dll
+D:\MagnetarVoIP\x64\Debug\libssl-3-x64.dll
