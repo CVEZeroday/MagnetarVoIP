@@ -12,6 +12,7 @@
 /********************************************/
 
 #include <re/re.h>
+#include <stdint.h>
 
 #include "macros.h"
 #include "nw_interface.h"
@@ -72,8 +73,41 @@ void close_nw_rtp();
 
 /* rertcp */
 
+/* Initiate rescp */
 int32_t init_rescp();
+/* Finalize rescp */
 void close_rescp();
+/* Rescp main loop */
+void rescp_loop();
+
+/* Rescp handshake function (admin only) */
+int32_t rescp_handshake_a();
+/* Rescp handshake function (non-admin only) */
+int32_t rescp_handshake_na();
+
+/* Send delay check packet */
+void rescp_delaychk_send();
+/* Called if received delay check packet */
+void rescp_delaychk_recv_handler();
+/* Send delay data to admin (non-admin only) */
+int32_t rescp_delaychk_sendto_admin();
+/* Called if received delay check summary packet (admin only) */
+int32_t rescp_delaychk_recv_admin();
+
+/* Make connection map with prim's algorithm (admin only) */
+int32_t rescp_make_connmap();
+/* Appoint subadmin by sending appointment packet via tcp (admin only) */
+int32_t rescp_appoint_subadmin();
+
+/* Called if received subadmin appointment packet (non-admin only) */
+int32_t rescp_appoint_handler();
+/* Route packets */
+void rescp_route_packet();
+
+/* Called if one of the subadmin closed connection */
+int32_t new_subadmin_handler();
+/* Called if admin closed connection */
+int32_t new_admin_handler();
 
 void new_rtp_conn(rtp_t* rtp);
 void delete_rtp_conn(rtp_t* rtp);
